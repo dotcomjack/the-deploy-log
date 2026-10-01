@@ -32,4 +32,3 @@ Both are copied daily from https://deployedbyai.com/log/data.csv and https://dep
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution: The Deploy Log, deployedbyai, https://deployedbyai.com/log/, licensed CC BY 4.0
-
