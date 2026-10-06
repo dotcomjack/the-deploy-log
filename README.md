@@ -2,7 +2,7 @@
 
 Every deployment deployedbyai has carried. Every item sourced to the publisher's own page.
 
-1133 rows from 93 companies, 2025-09-17 to 2026-10-05. Every row carries
+1155 rows from 99 companies, 2025-09-17 to 2026-10-06. Every row carries
 `source_url`, the publisher's own page, and `record_url`, its page in the record at
 https://deployedbyai.com/log/
 
