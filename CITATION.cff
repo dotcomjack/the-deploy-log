@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "The Deploy Log"
+abstract: "Every deployment deployedbyai has carried. Every item sourced to the publisher's own page."
+authors:
+  - name: "deployedbyai"
+    website: "https://deployedbyai.com/"
+license: CC-BY-4.0
+url: "https://deployedbyai.com/log/"
+repository-code: "https://github.com/dotcomjack/the-deploy-log"

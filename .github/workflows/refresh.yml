@@ -15,7 +15,7 @@ jobs:
       - run: python3 build.py
       - name: commit if changed
         run: |
-          git add data.csv data.json README.md
+          git add data.csv data.json README.md CITATION.cff
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
           git -c user.name="deployedbyai" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
             commit -q -m "data: refresh from deployedbyai.com/log/"
