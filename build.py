@@ -270,7 +270,7 @@ def readme(d, locs, lanes, companies):
             "Each field, in the order of `data.csv`'s header, with the number of rows where it is not empty.", "",
             "| Field | Rows with a value | What it holds |", "|---|---:|---|"]
     for e in d["dictionary"]:
-        filled = sum(1 for r in rows if r.get(e["name"]) not in (None, ""))
+        filled = sum(1 for r in rows if r.get(e["name"]) not in (None, "", []))
         out.append(f"| `{e['name']}` | {num(filled)} | {cell(e['description'])} |")
     lic = d["license"]
     out += ["", "## Cite this", "",
