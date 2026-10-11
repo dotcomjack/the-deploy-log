@@ -4,11 +4,11 @@ Every deployment deployedbyai has carried. Every item sourced to the publisher's
 
 ## [What shipped in AI, week of October 5, 2026](https://deployedbyai.com/log/week/2026-W41/)
 
-265 rows are listed for October 5 to 11, 2026 in The Deploy Log, from 62 companies. OpenAI shipped the most, 27 rows, then Amazon Web Services with 24. 245 carry a publisher's date and 20 are placed by their edition. The week runs to Sunday, October 11, 2026, and was still in progress when this file was built on October 10, 2026 (ET).
+271 rows are listed for October 5 to 11, 2026 in The Deploy Log, from 65 companies. OpenAI shipped the most, 27 rows, then Amazon Web Services with 25. 251 carry a publisher's date and 20 are placed by their edition. The week runs to Sunday, October 11, 2026, and was still in progress when this file was built on October 11, 2026 (ET).
 
 ## The record
 
-The record holds 1,374 rows, 855 with a publisher's date, 519 placed by their edition, from 109 companies. Rows are listed from September 17, 2025 to October 10, 2026, each by its publisher's date or, where the record carries none, its edition's date. The newest row entered the record on October 10, 2026 (ET). Every row carries `source_url`, the publisher's own page, and `record_url`, its page in the record at https://deployedbyai.com/log/
+The record holds 1,380 rows, 861 with a publisher's date, 519 placed by their edition, from 109 companies. Rows are listed from September 17, 2025 to October 11, 2026, each by its publisher's date or, where the record carries none, its edition's date. The newest row entered the record on October 11, 2026 (ET). Every row carries `source_url`, the publisher's own page, and `record_url`, its page in the record at https://deployedbyai.com/log/
 
 ## Indexes
 
@@ -25,13 +25,13 @@ Each row is filed in one of 5 lanes, except an edition's lead, which is filed in
 
 | Lane | Rows | With a publisher's date | Placed by their edition |
 |---|---:|---:|---:|
-| [Tools and products](https://deployedbyai.com/log/lane/tools_products/) | 892 | 671 | 221 |
+| [Tools and products](https://deployedbyai.com/log/lane/tools_products/) | 898 | 677 | 221 |
 | [Models and APIs](https://deployedbyai.com/log/lane/models_apis/) | 274 | 136 | 138 |
 | [Breakthroughs](https://deployedbyai.com/log/lane/breakthroughs/) | 43 | 22 | 21 |
 | [Robotics, hardware and chips](https://deployedbyai.com/log/lane/robotics_hardware_chips/) | 31 | 20 | 11 |
 | [Funding and acquisitions](https://deployedbyai.com/log/lane/funding_acquisitions/) | 6 | 6 | 0 |
 | Leads (filed in no lane) | 128 | 0 | 128 |
-| Total | 1,374 | 855 | 519 |
+| Total | 1,380 | 861 | 519 |
 
 ## The 15 companies with the most rows
 
@@ -43,7 +43,7 @@ Ordered by rows, then by name. First and latest are the earliest and newest publ
 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | 182 | 78 | 2025-09-25 | 2026-10-10 |
 | [Anthropic](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/) | 96 | 53 | 2025-10-16 | 2026-10-09 |
 | [Hugging Face](https://deployedbyai.com/log/company/45f89a539985/hugging-face/) | 82 | 33 | 2025-09-17 | 2026-10-08 |
-| [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | 78 | 74 | 2026-09-16 | 2026-10-09 |
+| [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | 79 | 75 | 2026-09-16 | 2026-10-11 |
 | [GitHub](https://deployedbyai.com/log/company/057e2e5f0d0b/github/) | 57 | 51 | 2026-09-17 | 2026-10-10 |
 | [Google DeepMind](https://deployedbyai.com/log/company/c98c3052b742/google-deepmind/) | 33 | 7 | 2025-10-25 | 2026-10-05 |
 | [Google Research](https://deployedbyai.com/log/company/de1f4bdca32b/google-research/) | 33 | 20 | 2025-10-16 | 2026-07-09 |
@@ -61,7 +61,7 @@ A row counts in the Monday to Sunday week of its listed date: its publisher's da
 
 | Week | Monday to Sunday | Rows | With a publisher's date | Placed by their edition |
 |---|---|---:|---:|---:|
-| [2026-W41](https://deployedbyai.com/log/week/2026-W41/) (in progress) | 2026-10-05 to 2026-10-11 | 265 | 245 | 20 |
+| [2026-W41](https://deployedbyai.com/log/week/2026-W41/) (in progress) | 2026-10-05 to 2026-10-11 | 271 | 251 | 20 |
 | [2026-W40](https://deployedbyai.com/log/week/2026-W40/) | 2026-09-28 to 2026-10-04 | 308 | 290 | 18 |
 | [2026-W39](https://deployedbyai.com/log/week/2026-W39/) | 2026-09-21 to 2026-09-27 | 134 | 123 | 11 |
 | [2026-W38](https://deployedbyai.com/log/week/2026-W38/) | 2026-09-14 to 2026-09-20 | 39 | 19 | 20 |
@@ -76,7 +76,7 @@ A row counts in the month of its listed date, as above.
 
 | Month | Rows | With a publisher's date | Placed by their edition |
 |---|---:|---:|---:|
-| [October 2026](https://deployedbyai.com/log/month/2026-10/) | 397 | 359 | 38 |
+| [October 2026](https://deployedbyai.com/log/month/2026-10/) | 403 | 365 | 38 |
 | [September 2026](https://deployedbyai.com/log/month/2026-09/) | 370 | 322 | 48 |
 | [August 2026](https://deployedbyai.com/log/month/2026-08/) | 59 | 18 | 41 |
 | [July 2026](https://deployedbyai.com/log/month/2026-07/) | 55 | 14 | 41 |
@@ -90,7 +90,7 @@ A row counts in the month of its listed date, as above.
 | [November 2025](https://deployedbyai.com/log/month/2025-11/) | 68 | 14 | 54 |
 | [October 2025](https://deployedbyai.com/log/month/2025-10/) | 49 | 19 | 30 |
 | [September 2025](https://deployedbyai.com/log/month/2025-09/) | 21 | 8 | 13 |
-| Total | 1,374 | 855 | 519 |
+| Total | 1,380 | 861 | 519 |
 
 ## The 10 rows added most recently
 
@@ -98,16 +98,16 @@ Added is the day the row entered the record, on Eastern Time, not the day the th
 
 | Added (ET) | Company | Row | Source |
 |---|---|---|---|
+| 2026-10-11 | [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | [AWS Open Data Registry](https://deployedbyai.com/log/08a20b16533e/aws-open-data-registry/?k=data) | [Amazon Web Services, AWS Open Data Registry](https://aws.amazon.com/blogs/publicsector/46-new-datasets-available-on-the-registry-of-open-data-on-aws/) |
+| 2026-10-11 | [Qwen](https://deployedbyai.com/log/company/abb905e81511/qwen/) | [Qwen Code Desktop v0.25.1](https://deployedbyai.com/log/18a36478c605/qwen-code-desktop-v0-25-1/?k=data) | [Qwen, Qwen Code Desktop v0.25.1](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.25.1) |
+| 2026-10-11 | [LiteLLM](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/) | [LiteLLM v1.105.0](https://deployedbyai.com/log/90c1a742d962/litellm-v1-105-0/?k=data) | [LiteLLM, LiteLLM v1.105.0](https://github.com/BerriAI/litellm/releases/tag/v1.105.0) |
+| 2026-10-10 | [RunPod](https://deployedbyai.com/log/company/3cc5d9cb66ef/runpod/) | [RunPod REST API](https://deployedbyai.com/log/32741786802d/runpod-rest-api/?k=data) | [RunPod, RunPod REST API](https://www.runpod.io/blog/runpod-rest-api-gpu-management) |
+| 2026-10-10 | Open WebUI | [Open WebUI v0.12.0](https://deployedbyai.com/log/c52215a2c18a/open-webui-v0-12-0/?k=data) | [Open WebUI, Open WebUI v0.12.0](https://github.com/open-webui/open-webui/releases/tag/v0.12.0) |
+| 2026-10-10 | [llama.cpp](https://deployedbyai.com/log/company/5b11e1c65bdb/llama-cpp/) | [llama.cpp b11551](https://deployedbyai.com/log/5c9456ab4513/llama-cpp-b11551/?k=data) | [llama.cpp, llama.cpp b11551](https://github.com/ggml-org/llama.cpp/releases/tag/b11551) |
 | 2026-10-10 | [Google Cloud](https://deployedbyai.com/log/company/0cea73712411/google-cloud/) | [BigQuery Data Engineering Agent](https://deployedbyai.com/log/4e0f41edca8f/bigquery-data-engineering-agent/?k=data) | [Google Cloud, BigQuery Data Engineering Agent](https://docs.cloud.google.com/bigquery/docs/release-notes#October_09_2026) |
 | 2026-10-10 | [Google](https://deployedbyai.com/log/company/4b181d6cc893/google/) | [SynthID Detector](https://deployedbyai.com/log/d8050993c1eb/synthid-detector/?k=data) | [Google, We're making it easier to identify AI-generated content globally](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/) |
 | 2026-10-10 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | [Sophos Daybreak](https://deployedbyai.com/log/a39ecb05d31a/sophos-daybreak/?k=data) | [OpenAI, Sophos cuts threat investigation time by 96% with OpenAI Daybreak](https://openai.com/index/sophos) |
 | 2026-10-10 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | [Codex rust-v0.162.1](https://deployedbyai.com/log/8fdd6db7900b/codex-rust-v0-162-1/?k=data) | [OpenAI, Codex rust-v0.162.1 release notes](https://github.com/openai/codex/releases/tag/rust-v0.162.1) |
-| 2026-10-10 | [Google Workspace](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/) | [Workspace Studio October release](https://deployedbyai.com/log/7ffca416cb8b/workspace-studio-october-release/?k=data) | [Google Workspace, New logic and search steps in Workspace Studio help expand automation capabilities](https://workspaceupdates.googleblog.com/2026/10/new-logic-and-search-steps-in-workspace-Studio-help-expand-automation-capabilities.html) |
-| 2026-10-10 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | [Asana browser agent](https://deployedbyai.com/log/7e300333bcf9/asana-browser-agent/?k=data) | [OpenAI, Asana cuts model costs 76x in browser tests with GPT-6.1 Sol](https://openai.com/index/asana-browser-agent) |
-| 2026-10-10 | [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | [Claude Haiku 5.5](https://deployedbyai.com/log/74ff861dba59/claude-haiku-5-5/?k=data) | [Amazon Web Services, Introducing Claude Haiku 5.5 on AWS](https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/) |
-| 2026-10-10 | [Microsoft](https://deployedbyai.com/log/company/28257922d62c/microsoft/) | [MAI Code 1.1 Flash](https://deployedbyai.com/log/6f13dfbfa75a/mai-code-1-1-flash/?k=data) | [Microsoft, Bringing local models and sandboxed tools to Windows and GitHub Copilot](https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/) |
-| 2026-10-10 | [Ollama](https://deployedbyai.com/log/company/f5b7c084312d/ollama/) | [Ollama v0.40.2](https://deployedbyai.com/log/4f1ad0a8c115/ollama-v0-40-2/?k=data) | [Ollama, Ollama v0.40.2 release notes](https://github.com/ollama/ollama/releases/tag/v0.40.2) |
-| 2026-10-10 | [Google Workspace](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/) | [Google Voice Carrier Link](https://deployedbyai.com/log/294e6fc679ed/google-voice-carrier-link/?k=data) | [Google Workspace, Carrier Link for Google Voice available in 14 additional countries](https://workspaceupdates.googleblog.com/2026/10/carrier-link-for-google-voice-available-in-14-additional-countries.html) |
 
 ## Files
 
@@ -123,22 +123,22 @@ Each field, in the order of `data.csv`'s header, with the number of rows where i
 
 | Field | Rows with a value | What it holds |
 |---|---:|---|
-| `row_key` | 1,374 | The row's key: 12 lowercase hexadecimal characters, drawn at random when the row enters the record and kept for the life of the row. |
-| `company` | 1,374 | The name of the company the row is filed under, as its company page names it. |
-| `subject` | 1,374 | What the row is about, in a few words: the heading of the row's own page. |
-| `what_shipped` | 1,374 | The row's one sentence on what shipped, as its own page prints it. |
-| `lane` | 1,246 | The lane the row is filed in: Models and APIs; Tools and products; Robotics, hardware and chips; Breakthroughs; Funding and acquisitions. Null for an edition's lead, which is filed in no lane. |
+| `row_key` | 1,380 | The row's key: 12 lowercase hexadecimal characters, drawn at random when the row enters the record and kept for the life of the row. |
+| `company` | 1,380 | The name of the company the row is filed under, as its company page names it. |
+| `subject` | 1,380 | What the row is about, in a few words: the heading of the row's own page. |
+| `what_shipped` | 1,380 | The row's one sentence on what shipped, as its own page prints it. |
+| `lane` | 1,252 | The lane the row is filed in: Models and APIs; Tools and products; Robotics, hardware and chips; Breakthroughs; Funding and acquisitions. Null for an edition's lead, which is filed in no lane. |
 | `edition_n` | 519 | The number of the edition that carried the row. Null for a row no edition has carried. |
 | `edition_date` | 519 | The date of the edition that carried the row, as YYYY-MM-DD. Null for a row no edition has carried. |
-| `published_date` | 855 | The date the publisher's own page gives, as YYYY-MM-DD, on a row no edition carries. Null on a row an edition carries, which is dated by its edition. |
-| `date_label` | 1,374 | The row's date in words: Published and the publisher's date where the row has one; otherwise Edition, the edition's number, a comma and the edition's date. |
-| `source` | 1,374 | The source the row cites, in words: the publisher and its page, as the row's source line prints it. |
-| `source_url` | 1,374 | The URL of the publisher's own page the row is sourced to. |
-| `record_url` | 1,374 | The row's own page on The Deploy Log, with ?k=data, the key that marks a visit as coming from this file. |
-| `added_at` | 1,374 | When the row entered the record, an ISO 8601 timestamp in UTC. It is not the day the thing shipped. |
+| `published_date` | 861 | The date the publisher's own page gives, as YYYY-MM-DD, on a row no edition carries. Null on a row an edition carries, which is dated by its edition. |
+| `date_label` | 1,380 | The row's date in words: Published and the publisher's date where the row has one; otherwise Edition, the edition's number, a comma and the edition's date. |
+| `source` | 1,380 | The source the row cites, in words: the publisher and its page, as the row's source line prints it. |
+| `source_url` | 1,380 | The URL of the publisher's own page the row is sourced to. |
+| `record_url` | 1,380 | The row's own page on The Deploy Log, with ?k=data, the key that marks a visit as coming from this file. |
+| `added_at` | 1,380 | When the row entered the record, an ISO 8601 timestamp in UTC. It is not the day the thing shipped. |
 | `models` | 141 | The ids of the AI models the row's subject names, read by the matcher the model pages use, in the order the subject names them: each is the 12 lowercase hexadecimal characters of the model's page, the page at /log/model/ followed by that id. A model has a page only when rows from 2 or more companies name it; one below that still carries its id here, and the week and month pages count it among the models seen for the first time. Empty when the subject names none. In the CSV, the ids joined by semicolons. |
 | `platforms` | 154 | The ids of the platforms the row's subject or what_shipped names, read by the matcher the platform pages use, in the order of the record's list of platforms: each is the 12 lowercase hexadecimal characters of the platform's page, the page at /log/platform/ followed by that id. A platform has a page only when 10 or more rows from 2 or more companies name it, 10 or more of them from companies other than its owners; one below that still carries its id here. A row that names a platform did not necessarily ship on it. Empty when the row names none. In the CSV, the ids joined by semicolons. |
-| `updated` | 1,374 | When the row was last written, an ISO 8601 timestamp in UTC: the instant it entered the record, or the instant it was last written again, as when an edition that carries it enters the record. Null where the record holds only a day for it. Each page that lists rows gives, as the day it last changed, New York's day of the newest of these among its rows; a row's own page gives that day or the day the row is dated, whichever is later. It is not the day the thing shipped. |
+| `updated` | 1,380 | When the row was last written, an ISO 8601 timestamp in UTC: the instant it entered the record, or the instant it was last written again, as when an edition that carries it enters the record. Null where the record holds only a day for it. Each page that lists rows gives, as the day it last changed, New York's day of the newest of these among its rows; a row's own page gives that day or the day the row is dated, whichever is later. It is not the day the thing shipped. |
 
 ## Cite this
 
