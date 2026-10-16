@@ -72,7 +72,9 @@ def added_et(r):
 
 
 def cell(text):
-    return text.replace("\\", "\\\\").replace("|", "\\|").replace("[", "\\[").replace("]", "\\]")
+    text = re.sub(r"\s+", " ", text).strip()  # a newline in a cell would end its table row
+    return (text.replace("\\", "\\\\").replace("|", "\\|").replace("[", "\\[").replace("]", "\\]")
+            .replace("`", "\\`").replace("<", "&lt;"))
 
 
 def link(text, url):
@@ -110,6 +112,72 @@ def hubs():
     return locs, lanes, companies
 
 
+def mcp_tools():
+    """The record's MCP server and its tools as the server itself lists them, so the README never types a tool name."""
+    body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/list"}).encode("utf-8")
+    req = urllib.request.Request(BASE + "mcp", data=body, method="POST", headers={
+        "User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json, text/event-stream"})
+    for attempt in (1, 2):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                raw = r.read()
+            break
+        except (urllib.error.URLError, ConnectionError, TimeoutError) as e:
+            # One retry, as fetch() does; a second failure stops the run before any file is written.
+            if attempt == 2:
+                sys.exit(f"mcp tools/list: {e}")
+    try:
+        tools = json.loads(raw.decode("utf-8"))["result"]["tools"]
+    except (ValueError, KeyError, TypeError) as e:
+        sys.exit(f"mcp tools/list: no tools in the answer ({e!r})")
+    check_tools(tools)
+    fetch("mcp/")  # the server's own page, linked below with ?k=mcp, which this daily robot must not count as a visit
+    return tools
+
+
+def default_ua_refused():
+    """True when deployedbyai.com refuses Python's default User-Agent on data.csv, False when it serves it, None unread."""
+    # A GET of one byte, the method pandas uses, not a HEAD, which a site may answer differently.
+    req = urllib.request.Request(BASE + "data.csv", headers={
+        "User-Agent": f"Python-urllib/{sys.version_info[0]}.{sys.version_info[1]}", "Range": "bytes=0-0"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.status not in (200, 206)
+    except urllib.error.HTTPError as e:
+        return e.code == 403 or None
+    except (urllib.error.URLError, ConnectionError, TimeoutError):
+        return None
+
+
+def check_tools(tools):
+    names = [t.get("name") for t in tools]
+    if len(tools) < 3 or not all(names) or not all(t.get("description") for t in tools):
+        sys.exit(f"mcp tools/list returned {len(tools)} tool(s), or one without a name or description")
+    if "search_deployments" not in names:
+        sys.exit("mcp tools/list has no search_deployments, the tool the README's example calls")
+
+
+def latest_release():
+    """The newest dated release of this repository and the names of its files, or None when GitHub does not answer
+    (the line is then left out)."""
+    req = urllib.request.Request("https://api.github.com/repos/dotcomjack/the-deploy-log/releases/latest",
+                                 headers={"User-Agent": UA, "Accept": "application/vnd.github+json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            rel = json.loads(r.read().decode("utf-8"))
+        return rel["tag_name"], rel["html_url"], {a["name"] for a in rel.get("assets") or []}
+    except (urllib.error.URLError, ConnectionError, TimeoutError, KeyError, TypeError, ValueError):
+        return None
+
+
+def arguments(tool):
+    """A tool's arguments in words, from its own input schema: each name, marked where it is required."""
+    schema = tool.get("inputSchema") or {}
+    need = set(schema.get("required") or [])
+    return ", ".join(f"`{k}`" + (" (required)" if k in need else "")
+                     for k in (schema.get("properties") or {})) or "none"
+
+
 def validate(d):
     rows = d["rows"]
     if len(rows) != d["count"]:
@@ -143,8 +211,9 @@ def validate(d):
         sys.exit(f"license {d['license']['name']!r} has no SPDX id here")
 
 
-def readme(d, locs, lanes, companies):
+def readme(d, locs, lanes, companies, tools, release, refused):
     validate(d)
+    check_tools(tools)
     rows = d["rows"]
     total = d["count"]
     url = d["url"]
@@ -179,14 +248,47 @@ def readme(d, locs, lanes, companies):
            f"{num(len(wc))} {'company' if len(wc) == 1 else 'companies'}. {most}. {num(week_pub)} carry a "
            f"publisher's date and {num(len(week_rows) - week_pub)} are placed by their edition."
            + (f" The week runs to Sunday, {long_date(sunday)}, and was still in progress when this file was "
-              f"built on {long_date(today)} (ET)." if open_week else ""), "",
-           "## The record", "",
+              f"built on {long_date(today)} (ET)." if open_week else ""), ""]
+    record = ["## The record", "",
            f"The record holds {num(total)} rows, {num(len(pub))} with a publisher's date, "
            f"{num(total - len(pub))} placed by their edition, from {num(len(by_company))} companies. "
            f"Rows are listed from {long_date(days[0])} to {long_date(days[-1])}, each by its publisher's date "
            f"or, where the record carries none, its edition's date. The newest row entered the record on "
            f"{long_date(max(added_et(r) for r in rows).date())} (ET). Every row carries `source_url`, the "
            f"publisher's own page, and `record_url`, its page in the record at {url}", ""]
+
+    raw = REPO.replace("https://github.com/", "https://raw.githubusercontent.com/") + "/main/data.csv"
+    # Measured at build time (default_ua_refused): only while the site refuses Python's default User-Agent does
+    # the pandas line read this repository's copy and say why; unread, it reads the copy and says nothing.
+    out += ["## Load it", ""]
+    if refused:
+        out += [f"deployedbyai.com refuses a request that carries Python's default User-Agent, which "
+                f"`pandas.read_csv` sends by default, so the Python example reads this repository's copy, "
+                f"refreshed daily.", ""]
+    out += ["```sh", f"curl -sO {url}data.csv", "```", "",
+            "```python", "import pandas as pd", "",
+            f'rows = pd.read_csv("{url + "data.csv" if refused is False else raw}")', "```", ""]
+    if release and {"data.csv", "data.json"} <= release[2]:
+        out += [f"The newest dated release, [{release[0]}]({release[1]}), carries `data.csv` and `data.json` as "
+                f"files; every release is at {REPO}/releases", ""]
+
+    # The example asks for this week's leading company, a name the record holds, never one typed here.
+    ask = next((c for c in sorted(wc, key=lambda c: (-wc[c], c.casefold(), c))
+                if re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9 .-]{1,79}", c)), "AI")
+    call = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/call",
+                       "params": {"name": "search_deployments", "arguments": {"query": ask, "limit": 3}}})
+    out += ["## Ask it from an agent", "",
+            f"The record answers over the Model Context Protocol at `{url}mcp`: "
+            + ("read only, " if all((t.get("annotations") or {}).get("readOnlyHint") is True for t in tools) else "")
+            + f"over Streamable HTTP (POST), with no key. Its tools, as the server lists them "
+            f"([the server's page]({url}mcp/?k=mcp) also names the protocol versions it speaks):", "",
+            "| Tool | What it returns | Arguments |", "|---|---|---|"]
+    for t in tools:
+        out.append(f"| `{t['name']}` | {cell(t['description'])} | {arguments(t)} |")
+    out += ["", "One call, without a client:", "",
+            "```sh", f"curl -s {url}mcp -H 'content-type: application/json' \\",
+            "  -H 'accept: application/json, text/event-stream' \\", f"  -d '{call}'", "```", ""]
+    out += record
 
     idx = [(BASE + p, label) for p, label in INDEXES if BASE + p in locs]
     if idx:
@@ -317,7 +419,7 @@ def snapshot(site):
 
 
 def main():
-    site = hubs()
+    site = hubs() + (mcp_tools(), latest_release(), default_ua_refused())
     # A row can land between the two fetches; one fresh pair settles it.
     try:
         d, raw_json, raw_csv, text = snapshot(site)
