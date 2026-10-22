@@ -17,10 +17,11 @@ import zoneinfo
 from collections import Counter
 
 BASE = "https://deployedbyai.com/log/"
-UA = "the-deploy-log-refresh (+https://github.com/dotcomjack/the-deploy-log)"
-# The record counts every MCP tools/call, and files an agent that names deployedbyai as one of the brand's own tools,
-# not a reader (dcj-newsletter src/publisher/log.ts, ROBOT). The README's example call is made daily, so it names itself.
-MCP_UA = "deployedbyai " + UA
+# The record counts the requests it serves, page and data file reads and every MCP tools/call, and files a client that
+# names deployedbyai as one of the brand's own tools, not a reader (dcj-newsletter src/publisher/log.ts, ROBOT). This
+# build reads /log/, the hub indexes, both data files and the MCP server daily, so every request it sends names itself.
+UA = "deployedbyai the-deploy-log-refresh (+https://github.com/dotcomjack/the-deploy-log)"
+MCP_UA = UA
 REPO ="https://github.com/dotcomjack/the-deploy-log"
 INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models"),
            ("platform/", "Platforms"), ("week/", "Week by week"), ("month/", "Month by month"))
