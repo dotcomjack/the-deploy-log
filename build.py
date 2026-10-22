@@ -24,20 +24,30 @@ INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
 ET = zoneinfo.ZoneInfo("America/New_York")
 TOP = 15
+# The API section's CORS line, and the CORS column of any API directory that lists the record, say this; a data file
+# answered with any other access-control-allow-origin stops the build.
+CORS = "*"
+MEDIA = {"data.json": "application/json", "data.csv": "text/csv"}
+CLIP = 160  # the example row cuts a prose string longer than this, and says so
 
 
-def fetch(name):
+def get(name):
+    """One GET's body, headers and final URL, so a claim about a response is read off the response the file came from."""
     req = urllib.request.Request(BASE + name, headers={"User-Agent": UA})
     for attempt in (1, 2):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 if r.status != 200:
                     sys.exit(f"{name}: HTTP {r.status}")
-                return r.read()
+                return r.read(), r.headers, r.geturl()
         except (urllib.error.URLError, ConnectionError):
             # One retry: a reset handshake was measured on 2026-10-06; a second failure stops the run.
             if attempt == 2:
                 raise
+
+
+def fetch(name):
+    return get(name)[0]
 
 
 def num(n):
@@ -178,6 +188,71 @@ def arguments(tool):
                      for k in (schema.get("properties") or {})) or "none"
 
 
+def json_type(v):
+    return ("boolean" if isinstance(v, bool) else "number" if isinstance(v, (int, float)) else
+            "string" if isinstance(v, str) else "array" if isinstance(v, list) else
+            "object" if isinstance(v, dict) else "null")
+
+
+def api(d, served, refused, today):
+    """The API section. Each header it prints is read off the response the data files were copied from, and each
+    sentence holds only while its check here, in validate() or in check_csv() passes."""
+    for name, media in MEDIA.items():
+        headers, final = served[name]
+        if not final.startswith("https://"):
+            sys.exit(f"{name}: answered from {final}, not over HTTPS")
+        if (headers.get("Content-Type") or "").split(";")[0].strip().lower() != media:
+            sys.exit(f"{name}: Content-Type {headers.get('Content-Type')!r}, not {media}")
+        if headers.get("Access-Control-Allow-Origin") != CORS:
+            sys.exit(f"{name}: access-control-allow-origin {headers.get('Access-Control-Allow-Origin')!r}, "
+                     f"the README says {CORS!r}")
+    rows = d["rows"]
+    if not all(list(r) == d["fields"] for r in rows):
+        sys.exit("a row in data.json is not keyed by exactly its fields, in their order")
+    url, total = d["url"], d["count"]
+    ctype = {n: served[n][0]["Content-Type"] for n in MEDIA}
+    out = ["## API", "",
+           "Two GET endpoints return the whole record, every row in one response. A row's fields are described in "
+           "the [Data dictionary](#data-dictionary). The record also answers over the Model Context Protocol: see "
+           "[Ask it from an agent](#ask-it-from-an-agent).", "",
+           "| Method | URL | Content-Type | Returns |", "|---|---|---|---|",
+           f"| GET | {url}data.json | `{ctype['data.json']}` | One JSON object, with the keys below |",
+           f"| GET | {url}data.csv | `{ctype['data.csv']}` | The {num(total)} rows as CSV, under a header line of "
+           f"the field names |", "",
+           "- Auth: none. A GET that carries no key, token or cookie answers 200.",
+           "- HTTPS: yes.",
+           f"- CORS: both answer with `access-control-allow-origin: {CORS}`."]
+    if refused:
+        out.append("- User-Agent: send your own. deployedbyai.com refuses Python's default one "
+                   "([Load it](#load-it)).")
+    # Meanings checked: fields against data.csv's header (check_csv), dictionary and count (validate), rows above.
+    said = {"fields": f"The {num(len(d['fields']))} field names, in the order of `data.csv`'s header",
+            "dictionary": f"{num(len(d['dictionary']))} objects, a `name` and a `description` per field: the "
+                          f"[Data dictionary](#data-dictionary)",
+            "count": f"{num(total)}, the number of objects in `rows`",
+            "rows": f"{num(len(rows))} objects, one per row, each keyed by the names in `fields`, in that order"}
+
+    def holds(k, v):
+        if k in said:
+            return said[k]
+        if isinstance(v, str):
+            return cell(v)
+        if isinstance(v, dict):
+            return "Keys " + ", ".join(f"`{x}`" for x in v)
+        return f"{num(len(v))} items" if isinstance(v, list) else cell(json.dumps(v))
+
+    out += ["", "`data.json` holds these keys, in this order:", "",
+            "| Key | Type | Holds |", "|---|---|---|"]
+    out += [f"| `{k}` | {json_type(v)} | {holds(k, v)} |" for k, v in d.items()]
+    first = {k: v[:CLIP].rsplit(" ", 1)[0] + "..." if isinstance(v, str) and len(v) > CLIP and " " in v[:CLIP] else v
+             for k, v in rows[0].items()}
+    out += ["", f"Example: the first object in `rows`, as `data.json` served it when this file was built on "
+                f"{long_date(today)} (ET)"
+            + (f". A string longer than {CLIP} characters is cut here and ends in `...`:" if first != rows[0] else ":"),
+            "", "```json", json.dumps(first, indent=2, ensure_ascii=False), "```", ""]
+    return out
+
+
 def validate(d):
     rows = d["rows"]
     if len(rows) != d["count"]:
@@ -211,7 +286,7 @@ def validate(d):
         sys.exit(f"license {d['license']['name']!r} has no SPDX id here")
 
 
-def readme(d, locs, lanes, companies, tools, release, refused):
+def readme(d, served, locs, lanes, companies, tools, release, refused):
     validate(d)
     check_tools(tools)
     rows = d["rows"]
@@ -271,6 +346,7 @@ def readme(d, locs, lanes, companies, tools, release, refused):
     if release and {"data.csv", "data.json"} <= release[2]:
         out += [f"The newest dated release, [{release[0]}]({release[1]}), carries `data.csv` and `data.json` as "
                 f"files; every release is at {REPO}/releases", ""]
+    out += api(d, served, refused, today)
 
     # The example asks for this week's leading company, a name the record holds, never one typed here.
     ask = next((c for c in sorted(wc, key=lambda c: (-wc[c], c.casefold(), c))
@@ -379,7 +455,16 @@ def readme(d, locs, lanes, companies, tools, release, refused):
             "`CITATION.cff` in this repository gives the record's title, author, license and URL.", "",
             "## License", "",
             f"[{lic['name']}]({lic['url']}). Attribution: {lic['attribution']}", ""]
-    return "\n".join(out)
+    text = "\n".join(out)
+    # Every #anchor the README links must be one of its own plain headings, slugged the way GitHub slugs them.
+    slugs = {re.sub(r"[^\w\- ]", "", h.strip().lower()).replace(" ", "-")
+             for h in re.findall(r"^#+ ([^\[\n]+)$", text, flags=re.M)}
+    missing = sorted(set(re.findall(r"\]\(#([^)]+)\)", text)) - slugs)
+    if missing:
+        sys.exit(f"README links #{', #'.join(missing)}, a heading it does not have")
+    if "\u2014" in text or "\u2013" in text:
+        sys.exit("README would carry an em dash or an en dash")
+    return text
 
 
 def citation(d):
@@ -410,10 +495,10 @@ def check_csv(raw, d):
 
 
 def snapshot(site):
-    raw_json = fetch("data.json")
-    raw_csv = fetch("data.csv")
+    raw_json, h_json, u_json = get("data.json")
+    raw_csv, h_csv, u_csv = get("data.csv")
     d = json.loads(raw_json.decode("utf-8"))
-    text = readme(d, *site).encode("utf-8")
+    text = readme(d, {"data.json": (h_json, u_json), "data.csv": (h_csv, u_csv)}, *site).encode("utf-8")
     check_csv(raw_csv, d)
     return d, raw_json, raw_csv, text
 

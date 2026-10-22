@@ -22,6 +22,58 @@ rows = pd.read_csv("https://raw.githubusercontent.com/dotcomjack/the-deploy-log/
 
 The newest dated release, [2026-10-21](https://github.com/dotcomjack/the-deploy-log/releases/tag/2026-10-21), carries `data.csv` and `data.json` as files; every release is at https://github.com/dotcomjack/the-deploy-log/releases
 
+## API
+
+Two GET endpoints return the whole record, every row in one response. A row's fields are described in the [Data dictionary](#data-dictionary). The record also answers over the Model Context Protocol: see [Ask it from an agent](#ask-it-from-an-agent).
+
+| Method | URL | Content-Type | Returns |
+|---|---|---|---|
+| GET | https://deployedbyai.com/log/data.json | `application/json; charset=utf-8` | One JSON object, with the keys below |
+| GET | https://deployedbyai.com/log/data.csv | `text/csv; charset=utf-8` | The 1,865 rows as CSV, under a header line of the field names |
+
+- Auth: none. A GET that carries no key, token or cookie answers 200.
+- HTTPS: yes.
+- CORS: both answer with `access-control-allow-origin: *`.
+- User-Agent: send your own. deployedbyai.com refuses Python's default one ([Load it](#load-it)).
+
+`data.json` holds these keys, in this order:
+
+| Key | Type | Holds |
+|---|---|---|
+| `name` | string | The Deploy Log |
+| `publisher` | string | deployedbyai |
+| `url` | string | https://deployedbyai.com/log/ |
+| `description` | string | Every deployment deployedbyai has carried. Every item sourced to the publisher's own page. |
+| `license` | object | Keys `name`, `url`, `attribution` |
+| `fields` | array | The 17 field names, in the order of `data.csv`'s header |
+| `dictionary` | array | 17 objects, a `name` and a `description` per field: the [Data dictionary](#data-dictionary) |
+| `count` | number | 1,865, the number of objects in `rows` |
+| `rows` | array | 1,865 objects, one per row, each keyed by the names in `fields`, in that order |
+
+Example: the first object in `rows`, as `data.json` served it when this file was built on October 22, 2026 (ET):
+
+```json
+{
+  "row_key": "944ae5713603",
+  "company": "Anthropic",
+  "subject": "Claude Agent SDK Python v0.2.172",
+  "what_shipped": "Claude Agent SDK Python v0.2.172 bundles Claude CLI 2.1.308 and is on PyPI.",
+  "lane": "Tools and products",
+  "edition_n": null,
+  "edition_date": null,
+  "published_date": "2026-10-22",
+  "date_label": "Published Thursday 22 Oct 2026",
+  "source": "Anthropic, Claude Agent SDK Python v0.2.172",
+  "source_url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.172",
+  "record_url": "https://deployedbyai.com/log/944ae5713603/claude-agent-sdk-python-v0-2-172/?k=data",
+  "added_at": "2026-10-22T06:10:50.739Z",
+  "models": [],
+  "platforms": [],
+  "updated": "2026-10-22T06:10:50.739Z",
+  "kind": "backfill"
+}
+```
+
 ## Ask it from an agent
 
 The record answers over the Model Context Protocol at `https://deployedbyai.com/log/mcp`: read only, over Streamable HTTP (POST), with no key. Its tools, as the server lists them ([the server's page](https://deployedbyai.com/log/mcp/?k=mcp) also names the protocol versions it speaks):
