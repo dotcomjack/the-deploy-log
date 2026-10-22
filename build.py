@@ -18,7 +18,10 @@ from collections import Counter
 
 BASE = "https://deployedbyai.com/log/"
 UA = "the-deploy-log-refresh (+https://github.com/dotcomjack/the-deploy-log)"
-REPO = "https://github.com/dotcomjack/the-deploy-log"
+# The record counts every MCP tools/call, and files an agent that names deployedbyai as one of the brand's own tools,
+# not a reader (dcj-newsletter src/publisher/log.ts, ROBOT). The README's example call is made daily, so it names itself.
+MCP_UA = "deployedbyai " + UA
+REPO ="https://github.com/dotcomjack/the-deploy-log"
 INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models"),
            ("platform/", "Platforms"), ("week/", "Week by week"), ("month/", "Month by month"))
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
@@ -122,11 +125,10 @@ def hubs():
     return locs, lanes, companies
 
 
-def mcp_tools():
-    """The record's MCP server and its tools as the server itself lists them, so the README never types a tool name."""
-    body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/list"}).encode("utf-8")
+def mcp_post(body, what):
+    """One JSON-RPC body POSTed to the record's MCP server, and its answer parsed."""
     req = urllib.request.Request(BASE + "mcp", data=body, method="POST", headers={
-        "User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json, text/event-stream"})
+        "User-Agent": MCP_UA, "Content-Type": "application/json", "Accept": "application/json, text/event-stream"})
     for attempt in (1, 2):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
@@ -135,10 +137,19 @@ def mcp_tools():
         except (urllib.error.URLError, ConnectionError, TimeoutError) as e:
             # One retry, as fetch() does; a second failure stops the run before any file is written.
             if attempt == 2:
-                sys.exit(f"mcp tools/list: {e}")
+                sys.exit(f"mcp {what}: {e}")
     try:
-        tools = json.loads(raw.decode("utf-8"))["result"]["tools"]
-    except (ValueError, KeyError, TypeError) as e:
+        return json.loads(raw.decode("utf-8"))
+    except ValueError as e:
+        sys.exit(f"mcp {what}: the answer is not JSON ({e!r})")
+
+
+def mcp_tools():
+    """The record's MCP server and its tools as the server itself lists them, so the README never types a tool name."""
+    answer = mcp_post(json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/list"}).encode("utf-8"), "tools/list")
+    try:
+        tools = answer["result"]["tools"]
+    except (KeyError, TypeError) as e:
         sys.exit(f"mcp tools/list: no tools in the answer ({e!r})")
     check_tools(tools)
     fetch("mcp/")  # the server's own page, linked below with ?k=mcp, which this daily robot must not count as a visit
@@ -165,6 +176,37 @@ def check_tools(tools):
         sys.exit(f"mcp tools/list returned {len(tools)} tool(s), or one without a name or description")
     if "search_deployments" not in names:
         sys.exit("mcp tools/list has no search_deployments, the tool the README's example calls")
+
+
+def example_answer(call, args, tools, rows):
+    """The README's tools/call, made with the very body it prints, and the answer cut to its first row. Returns the
+    answer to print and how many objects and lines were cut. Refuses an argument the tool's own schema does not list,
+    an error, no row, more rows than asked, a row without its URLs, or rows that data.json does not hold."""
+    schema = next(t for t in tools if t["name"] == "search_deployments").get("inputSchema") or {}
+    known, need = set(schema.get("properties") or {}), set(schema.get("required") or [])
+    if not set(args) <= known or not need <= set(args):
+        sys.exit(f"search_deployments lists arguments {sorted(known)}, {sorted(need)} required; the README's call "
+                 f"sends {sorted(args)}")
+    answer = mcp_post(call.encode("utf-8"), "tools/call")
+    if "error" in answer or (answer.get("result") or {}).get("isError"):
+        sys.exit(f"mcp tools/call answered an error: {json.dumps(answer)[:300]}")
+    try:
+        items = answer["result"]["structuredContent"]["items"]
+        lines = answer["result"]["content"][0]["text"].split("\n")
+    except (KeyError, IndexError, TypeError, AttributeError) as e:
+        sys.exit(f"mcp tools/call: no rows in the answer ({e!r})")
+    if not 1 <= len(items) <= args["limit"]:
+        sys.exit(f"mcp tools/call answered {len(items)} row(s) to {json.dumps(args)}")
+    if not all(i.get("id") and i.get("source_url") and i.get("record_url") for i in items):
+        sys.exit("mcp tools/call answered a row without its id, source_url or record_url")
+    if not {i["id"] for i in items} & {r["row_key"] for r in rows}:
+        sys.exit("mcp tools/call answered no row that data.json holds")
+    # The text carries one line per row after a count line; keep it to the line that names the first row's record_url.
+    kept = next((n + 1 for n, line in enumerate(lines) if items[0]["record_url"] in line), len(lines))
+    shown = json.loads(json.dumps(answer))
+    shown["result"]["structuredContent"]["items"] = items[:1]
+    shown["result"]["content"][0]["text"] = "\n".join(lines[:kept])
+    return shown, len(items) - 1, len(lines) - kept
 
 
 def latest_release():
@@ -351,8 +393,11 @@ def readme(d, served, locs, lanes, companies, tools, release, refused):
     # The example asks for this week's leading company, a name the record holds, never one typed here.
     ask = next((c for c in sorted(wc, key=lambda c: (-wc[c], c.casefold(), c))
                 if re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9 .-]{1,79}", c)), "AI")
+    args = {"query": ask, "limit": 3}
     call = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "tools/call",
-                       "params": {"name": "search_deployments", "arguments": {"query": ask, "limit": 3}}})
+                       "params": {"name": "search_deployments", "arguments": args}})
+    shown, cut_items, cut_lines = example_answer(call, args, tools, rows)
+    many = lambda n, one, more: f"{num(n)} {one if n == 1 else more}"
     out += ["## Ask it from an agent", "",
             f"The record answers over the Model Context Protocol at `{url}mcp`: "
             + ("read only, " if all((t.get("annotations") or {}).get("readOnlyHint") is True for t in tools) else "")
@@ -363,7 +408,12 @@ def readme(d, served, locs, lanes, companies, tools, release, refused):
         out.append(f"| `{t['name']}` | {cell(t['description'])} | {arguments(t)} |")
     out += ["", "One call, without a client:", "",
             "```sh", f"curl -s {url}mcp -H 'content-type: application/json' \\",
-            "  -H 'accept: application/json, text/event-stream' \\", f"  -d '{call}'", "```", ""]
+            "  -H 'accept: application/json, text/event-stream' \\", f"  -d '{call}'", "```", "",
+            f"The response, as the server answered it when this file was built on {long_date(today)} (ET)"
+            + (f", cut to its first row: left out are {many(cut_items, 'more object', 'more objects')} in "
+               f"`structuredContent.items` and {many(cut_lines, 'more line', 'more lines')} of `content[0].text`:"
+               if cut_items or cut_lines else ":"),
+            "", "```json", json.dumps(shown, indent=2, ensure_ascii=False), "```", ""]
     out += record
 
     idx = [(BASE + p, label) for p, label in INDEXES if BASE + p in locs]

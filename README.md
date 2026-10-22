@@ -92,6 +92,39 @@ curl -s https://deployedbyai.com/log/mcp -H 'content-type: application/json' \
   -d '{"jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": {"name": "search_deployments", "arguments": {"query": "Anthropic", "limit": 3}}}'
 ```
 
+The response, as the server answered it when this file was built on October 22, 2026 (ET), cut to its first row: left out are 2 more objects in `structuredContent.items` and 2 more lines of `content[0].text`:
+
+```json
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": {
+    "resultType": "complete",
+    "content": [
+      {
+        "type": "text",
+        "text": "3 row(s) matching the words given.\nAnthropic: Claude Agent SDK Python v0.2.172. Claude Agent SDK Python v0.2.172 bundles Claude CLI 2.1.308 and is on PyPI. Published Thursday 22 Oct 2026. Source: https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.172 Record: https://deployedbyai.com/log/944ae5713603/claude-agent-sdk-python-v0-2-172/?k=mcp"
+      }
+    ],
+    "structuredContent": {
+      "items": [
+        {
+          "id": "944ae5713603",
+          "company": "Anthropic",
+          "subject": "Claude Agent SDK Python v0.2.172",
+          "what_shipped": "Claude Agent SDK Python v0.2.172 bundles Claude CLI 2.1.308 and is on PyPI.",
+          "shipped": "Published Thursday 22 Oct 2026",
+          "lane": "Tools and products",
+          "source": "Anthropic, Claude Agent SDK Python v0.2.172",
+          "source_url": "https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.172",
+          "record_url": "https://deployedbyai.com/log/944ae5713603/claude-agent-sdk-python-v0-2-172/?k=mcp"
+        }
+      ]
+    }
+  }
+}
+```
+
 ## The record
 
 The record holds 1,865 rows, 1,334 with a publisher's date, 531 placed by their edition, from 128 companies. Rows are listed from September 17, 2025 to October 22, 2026, each by its publisher's date or, where the record carries none, its edition's date. The newest row entered the record on October 22, 2026 (ET). Every row carries `source_url`, the publisher's own page, and `record_url`, its page in the record at https://deployedbyai.com/log/
