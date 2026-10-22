@@ -22,7 +22,7 @@ BASE = "https://deployedbyai.com/log/"
 # build reads /log/, the hub indexes, both data files and the MCP server daily, so every request it sends names itself.
 UA = "deployedbyai the-deploy-log-refresh (+https://github.com/dotcomjack/the-deploy-log)"
 MCP_UA = UA
-REPO ="https://github.com/dotcomjack/the-deploy-log"
+REPO = "https://github.com/dotcomjack/the-deploy-log"
 INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models"),
            ("platform/", "Platforms"), ("week/", "Week by week"), ("month/", "Month by month"))
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
