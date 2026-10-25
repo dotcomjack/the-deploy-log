@@ -306,8 +306,10 @@ def validate(d):
         sys.exit("a row has no ISO date")
     if not all(r.get("source_url") and r.get("record_url") for r in rows):
         sys.exit("a row has no source_url or record_url")
-    if any(r.get("published_date") and r.get("edition_date") for r in rows):
-        sys.exit("a row carries both a publisher's date and an edition's date")
+    # An edition that carries a wire row keeps the publisher's date on it (8 rows in edition 57, 2026-10-24); it is
+    # listed by that date, as the record's own openings list it. Both dates on a row no edition carried is refused.
+    if any(r.get("published_date") and r.get("edition_date") and not r.get("edition_n") for r in rows):
+        sys.exit("a row carries both a publisher's date and an edition's date but no edition number")
     if not all(re.fullmatch(r"\d{4}-\d{2}-\d{2}T.+Z", r.get("added_at") or "") for r in rows):
         sys.exit("a row has no UTC added_at")
     if not all(r.get("company") and r.get("subject") for r in rows):
@@ -316,7 +318,7 @@ def validate(d):
         sys.exit("a row in no lane was carried by no edition")
     if not all(re.fullmatch(r"[0-9a-f]{12}", r.get("row_key") or "") for r in rows):
         sys.exit("a row_key is not 12 lowercase hexadecimal characters")
-    if not all(r["date_label"].startswith("Published " if r.get("published_date") else f"Edition {r.get('edition_n')}, ")
+    if not all(r["date_label"].startswith(f"Edition {r['edition_n']}, " if r.get("edition_n") else "Published ")
                for r in rows):
         sys.exit("a date_label does not match the row's date")
     names = [e.get("name") for e in d.get("dictionary") or []]
