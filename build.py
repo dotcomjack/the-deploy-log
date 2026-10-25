@@ -310,6 +310,8 @@ def validate(d):
     # listed by that date, as the record's own openings list it. Both dates on a row no edition carried is refused.
     if any(r.get("published_date") and r.get("edition_date") and not r.get("edition_n") for r in rows):
         sys.exit("a row carries both a publisher's date and an edition's date but no edition number")
+    if any(bool(r.get("edition_n")) != bool(r.get("edition_date")) for r in rows):
+        sys.exit("a row carries an edition number without its edition's date, or the reverse")
     if not all(re.fullmatch(r"\d{4}-\d{2}-\d{2}T.+Z", r.get("added_at") or "") for r in rows):
         sys.exit("a row has no UTC added_at")
     if not all(r.get("company") and r.get("subject") for r in rows):
