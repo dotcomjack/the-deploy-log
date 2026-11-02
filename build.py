@@ -333,6 +333,63 @@ def validate(d):
         sys.exit(f"license {d['license']['name']!r} has no SPDX id here")
 
 
+def company_lead(wc):
+    """Who shipped the most this week, from the counts alone: the engine's companyLead (dcj-newsletter log.ts), so the
+    README and the week page say the same sentence. One company shipped it, or all of them; every company tied names
+    them all with 'each'; otherwise the top tier, then the next, named at three or fewer and counted above that."""
+    tiers = sorted(set(wc.values()), reverse=True)
+    tier = lambda n: sorted((c for c in wc if wc[c] == n), key=lambda c: (c.casefold(), c))
+    first = tier(tiers[0])
+    if len(wc) == 1:
+        return f"{first[0]} shipped {'it' if tiers[0] == 1 else f'all {num(tiers[0])}'}."
+    if len(first) == len(wc):
+        return f"{and_list(first)} shipped {rows_word(tiers[0])} each."
+    each = " each" if len(first) > 1 else ""
+    second = tier(tiers[1])
+    then = (f"{and_list(second)} with {num(tiers[1])}" + (" each" if len(second) > 1 else "") if len(second) <= 3
+            else f"{num(len(second))} companies with {num(tiers[1])} each")
+    return f"{and_list(first)} shipped the most, {rows_word(tiers[0])}{each}, then {then}."
+
+
+def week_paragraph(n_rows, n_pub, wc, monday, sunday, built_on):
+    """The README's opening sentence for the newest week: every word a count, a company's name or a date."""
+    text = (f"{rows_word(n_rows)} {'is' if n_rows == 1 else 'are'} listed for {span(monday, sunday)} in The Deploy Log, from "
+            f"{num(len(wc))} {'company' if len(wc) == 1 else 'companies'}. {company_lead(wc)} {num(n_pub)} "
+            f"{'carries' if n_pub == 1 else 'carry'} a publisher's date and {num(n_rows - n_pub)} "
+            f"{'is' if n_rows - n_pub == 1 else 'are'} placed by their edition.")
+    if built_on:
+        text += (f" The week runs to Sunday, {long_date(sunday)}, and was still in progress when this file was "
+                 f"built on {long_date(built_on)} (ET).")
+    return text
+
+
+def selftest():
+    """Grammar at a count of one, read off the README of 2026-11-02 ('1 row are listed ... NVIDIA shipped the most,
+    1 row. 1 carry a publisher's date'), and the engine's phrasing for a full week (log.ts companyLead)."""
+    mon = datetime.date(2026, 11, 2); sun = datetime.date(2026, 11, 8)
+    one = week_paragraph(1, 1, Counter({"NVIDIA": 1}), mon, sun, mon)
+    want = ("1 row is listed for November 2 to 8, 2026 in The Deploy Log, from 1 company. NVIDIA shipped it. "
+            "1 carries a publisher's date and 0 are placed by their edition. The week runs to Sunday, November 8, 2026, "
+            "and was still in progress when this file was built on November 2, 2026 (ET).")
+    full = company_lead(Counter({"OpenAI": 25, "Amazon Web Services": 21, "Google": 9}))
+    tied = company_lead(Counter({"A": 2, "B": 2}))
+    many = company_lead(Counter({"A": 5, "B": 1, "C": 1, "D": 1, "E": 1}))
+    top2 = company_lead(Counter({"A": 3, "B": 3, "C": 1}))
+    checks = [
+        ("a one row week reads 'is listed', 'shipped it' and 'carries'", one == want, one),
+        ("one company with several rows shipped all of them", company_lead(Counter({"NVIDIA": 3})) == "NVIDIA shipped all 3.", company_lead(Counter({"NVIDIA": 3}))),
+        ("the full week reads as the week page does", full == "OpenAI shipped the most, 25 rows, then Amazon Web Services with 21.", full),
+        ("every company tied names them all with 'each'", tied == "A and B shipped 2 rows each.", tied),
+        ("a second tier over three companies is counted, not named", many == "A shipped the most, 5 rows, then 4 companies with 1 each.", many),
+        ("a tied top tier with a second tier names both with 'each'", top2 == "A and B shipped the most, 3 rows each, then C with 1.", top2),
+    ]
+    bad = [(name, got) for name, ok, got in checks if not ok]
+    for name, got in bad:
+        print(f"FAIL {name}: {got!r}")
+    print(f"selftest: {len(checks) - len(bad)} of {len(checks)} pass")
+    return 1 if bad else 0
+
+
 def readme(d, served, locs, lanes, companies, tools, release, refused):
     validate(d)
     check_tools(tools)
@@ -353,24 +410,11 @@ def readme(d, served, locs, lanes, companies, tools, release, refused):
     week_rows = [r for r in rows if iso_week(listed(r)) == wk]
     week_pub = sum(1 for r in week_rows if r.get("published_date"))
     wc = Counter(r["company"] for r in week_rows)
-    tiers = sorted(set(wc.values()), reverse=True)
-    tier = lambda n: sorted((c for c in wc if wc[c] == n), key=lambda c: (c.casefold(), c))
-    first = tier(tiers[0])
-    most = (f"{first[0]} shipped the most, {rows_word(tiers[0])}" if len(first) == 1
-            else f"{and_list(first)} shipped the most, {rows_word(tiers[0])} each")
-    if len(tiers) > 1:
-        second = tier(tiers[1])
-        who = and_list(second) if len(second) <= 5 else f"{num(len(second))} companies"
-        most += f", then {who} with {num(tiers[1])}" + (" each" if len(second) > 1 else "")
     title = f"What shipped in AI, week of {long_date(monday)}"
     week_url = hub(f"{BASE}week/{wk}/")
     out = [f"# {d['name']}", "", d["description"], "",
            f"## {link(title, week_url)}", "",
-           f"{rows_word(len(week_rows))} are listed for {span(monday, sunday)} in The Deploy Log, from "
-           f"{num(len(wc))} {'company' if len(wc) == 1 else 'companies'}. {most}. {num(week_pub)} carry a "
-           f"publisher's date and {num(len(week_rows) - week_pub)} are placed by their edition."
-           + (f" The week runs to Sunday, {long_date(sunday)}, and was still in progress when this file was "
-              f"built on {long_date(today)} (ET)." if open_week else ""), ""]
+           week_paragraph(len(week_rows), week_pub, wc, monday, sunday, today if open_week else None), ""]
     record = ["## The record", "",
            f"The record holds {num(total)} rows, {num(len(pub))} with a publisher's date, "
            f"{num(total - len(pub))} placed by their edition, from {num(len(by_company))} companies. "
@@ -575,4 +619,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(selftest()) if "--selftest" in sys.argv[1:] else main()
