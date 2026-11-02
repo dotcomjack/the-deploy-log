@@ -4,7 +4,7 @@ Every deployment deployedbyai has carried. Every item sourced to the publisher's
 
 ## What shipped in AI, week of November 2, 2026
 
-1 row are listed for November 2 to 8, 2026 in The Deploy Log, from 1 company. NVIDIA shipped the most, 1 row. 1 carry a publisher's date and 0 are placed by their edition. The week runs to Sunday, November 8, 2026, and was still in progress when this file was built on November 2, 2026 (ET).
+1 row is listed for November 2 to 8, 2026 in The Deploy Log, from 1 company. NVIDIA shipped it. 1 carries a publisher's date and 0 are placed by their edition. The week runs to Sunday, November 8, 2026, and was still in progress when this file was built on November 2, 2026 (ET).
 
 ## Load it
 
