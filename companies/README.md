@@ -11,7 +11,7 @@ Of the 149 companies the record files a row under, 89 have a page there, and eac
 | [GitHub](github.md) | 98 | 89 | 2026-09-17 | 2026-11-04 | [page](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo) |
 | [Hugging Face](hugging-face.md) | 97 | 48 | 2025-09-17 | 2026-10-29 | [page](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo) |
 | [LangChain](langchain.md) | 71 | 70 | 2026-09-20 | 2026-11-05 | [page](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo) |
-| [Google Cloud](google-cloud.md) | 68 | 68 | 2026-09-17 | 2026-11-04 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
+| [Google Cloud](google-cloud.md) | 69 | 69 | 2026-09-17 | 2026-11-05 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
 | [Databricks](databricks.md) | 64 | 64 | 2026-09-22 | 2026-11-04 | [page](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo) |
 | [Cloudflare](cloudflare.md) | 58 | 50 | 2026-08-13 | 2026-11-04 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
 | [NVIDIA](nvidia.md) | 48 | 43 | 2026-08-20 | 2026-11-04 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
@@ -23,8 +23,8 @@ Of the 149 companies the record files a row under, 89 have a page there, and eac
 | [Microsoft](microsoft.md) | 30 | 28 | 2026-09-28 | 2026-11-04 | [page](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo) |
 | [Mistral](mistral.md) | 29 | 17 | 2026-03-31 | 2026-11-04 | [page](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo) |
 | [Model Context Protocol](model-context-protocol.md) | 29 | 29 | 2026-09-28 | 2026-10-23 | [page](https://deployedbyai.com/log/company/088b60189c15/model-context-protocol/?k=repo) |
+| [Microsoft Azure](microsoft-azure.md) | 28 | 28 | 2026-09-21 | 2026-11-05 | [page](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo) |
 | [OpenRouter](openrouter.md) | 28 | 28 | 2026-09-25 | 2026-11-05 | [page](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo) |
-| [Microsoft Azure](microsoft-azure.md) | 27 | 27 | 2026-09-21 | 2026-11-04 | [page](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo) |
 | [Cline](cline.md) | 25 | 25 | 2026-09-25 | 2026-10-26 | [page](https://deployedbyai.com/log/company/eb2499072dab/cline/?k=repo) |
 | [Langfuse](langfuse.md) | 25 | 25 | 2026-09-25 | 2026-11-04 | [page](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo) |
 | [Qwen](qwen.md) | 24 | 24 | 2026-09-29 | 2026-11-04 | [page](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo) |
