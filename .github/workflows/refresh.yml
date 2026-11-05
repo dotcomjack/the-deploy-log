@@ -16,6 +16,7 @@ jobs:
       - name: commit if changed
         run: |
           git add data.csv data.json README.md CITATION.cff
+          git add -A weeks companies
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
           git -c user.name="deployedbyai" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
             commit -q -m "data: refresh from deployedbyai.com/log/"
