@@ -1,0 +1,14 @@
+# LiveKit in The Deploy Log
+
+4 rows in The Deploy Log are filed under LiveKit. Every one carries a publisher's date, from October 1, 2026 to October 24, 2026.
+
+The same rows are on [the LiveKit page of the record](https://deployedbyai.com/log/company/1586f3da8be9/livekit/?k=repo).
+
+## October 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-10-24 | [livekit-agents@1.8.9](https://deployedbyai.com/log/e902f00ed128/livekit-agents-1-8-9/?k=repo) | livekit-agents 1.8.9 adds LiveKit Inference decision evaluation and custom LLM request attributes. | [LiveKit, livekit-agents@1.8.9](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.9) |
+| 2026-10-14 | [livekit-agents 1.8.7](https://deployedbyai.com/log/7c315e2fde0c/livekit-agents-1-8-7/?k=repo) | livekit-agents 1.8.7 adds Claude Opus 5, Opus 5.5 and Sonnet 5.5 support and realtime E2E latency measurement. | [LiveKit, livekit-agents 1.8.7](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.7) |
+| 2026-10-06 | [livekit-agents 1.8.5](https://deployedbyai.com/log/54f7baed8412/livekit-agents-1-8-5/?k=repo) | livekit-agents 1.8.5 adds Gemini 3.8 Live support and sticky LLM fallback routing. | [LiveKit, livekit-agents 1.8.5](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.5) |
+| 2026-10-01 | [livekit-agents@1.8.4](https://deployedbyai.com/log/a873f06feffe/livekit-agents-1-8-4/?k=repo) | livekit-agents 1.8.4 adds smallestai TTS continuations, baseten inline instructions, and Azure Voice Live Realtime API support. | [LiveKit, livekit-agents@1.8.4](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.4) |
