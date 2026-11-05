@@ -1,6 +1,6 @@
 # Oracle in The Deploy Log
 
-14 rows in The Deploy Log are filed under Oracle. Every one carries a publisher's date, from September 25, 2026 to November 3, 2026.
+15 rows in The Deploy Log are filed under Oracle. Every one carries a publisher's date, from September 25, 2026 to November 4, 2026.
 
 The same rows are on [the Oracle page of the record](https://deployedbyai.com/log/company/20d0d42a1ab9/oracle/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Oracle page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-04 | [Oracle Realtime Text to Speech](https://deployedbyai.com/log/e9702b4c4afc/oracle-realtime-text-to-speech/?k=repo) | Oracle Speech adds realtime text to speech via WebSocket API, available now through the API only. | [Oracle, Oracle Realtime Text to Speech](https://docs.oracle.com/iaas/releasenotes/speech/realtime-tts.htm) |
 | 2026-11-03 | [Database Tools MCP Server CIMD Support](https://deployedbyai.com/log/f704bf53710a/database-tools-mcp-server-cimd-support/?k=repo) | Database Tools MCP Server now supports Client ID Metadata Documents in IAM Identity Domains. | [Oracle, Database Tools MCP Server CIMD Support](https://docs.oracle.com/iaas/releasenotes/database-tools/cimd.htm) |
 
 ## October 2026

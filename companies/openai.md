@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-273 rows in The Deploy Log are filed under OpenAI. 166 carry a publisher's date, from September 25, 2025 to November 4, 2026, and 107 are placed by their edition. 5 of those dates have not yet come in New York.
+273 rows in The Deploy Log are filed under OpenAI. 166 carry a publisher's date, from September 25, 2025 to November 5, 2026, and 107 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [OpenAI Java SDK v4.100.0](https://deployedbyai.com/log/f8e7272ee4da/openai-java-sdk-v4-100-0/?k=repo) | OpenAI Java SDK v4.100.0 adds image complexity and GIF and SVG output controls. | [OpenAI, OpenAI Java SDK v4.100.0](https://github.com/openai/openai-java/releases/tag/v4.100.0) |
+| 2026-11-05 | [openai-go v3.95.0](https://deployedbyai.com/log/d5cd70bbe249/openai-go-v3-95-0/?k=repo) | openai-go v3.95.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-go v3.95.0](https://github.com/openai/openai-go/releases/tag/v3.95.0) |
+| 2026-11-05 | [openai-node v7.51.0](https://deployedbyai.com/log/a83e4c64db22/openai-node-v7-51-0/?k=repo) | openai-node v7.51.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-node v7.51.0](https://github.com/openai/openai-node/releases/tag/v7.51.0) |
+| 2026-11-05 | [openai-python v3.46.0](https://deployedbyai.com/log/87958cf2d619/openai-python-v3-46-0/?k=repo) | openai-python v3.46.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-python v3.46.0](https://github.com/openai/openai-python/releases/tag/v3.46.0) |
+| 2026-11-05 | [openai-ruby v0.119.0](https://deployedbyai.com/log/ed6d4e953526/openai-ruby-v0-119-0/?k=repo) | openai-ruby v0.119.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-ruby v0.119.0](https://github.com/openai/openai-ruby/releases/tag/v0.119.0) |
 | 2026-11-04 | [OpenAI Go SDK v3.94.0](https://deployedbyai.com/log/64407df44585/openai-go-sdk-v3-94-0/?k=repo) | Added project service tier settings and Responses cache-write usage details to the API. | [OpenAI, OpenAI Go SDK v3.94.0](https://github.com/openai/openai-go/releases/tag/v3.94.0) |
 | 2026-11-04 | [OpenAI Java SDK v4.99.0](https://deployedbyai.com/log/5a7bfb7a1117/openai-java-sdk-v4-99-0/?k=repo) | OpenAI Java SDK v4.99.0 adds 12-hour Responses caching, cache-write usage, and GPT-6 Rosalind to the model catalog. | [OpenAI, OpenAI Java SDK v4.99.0](https://github.com/openai/openai-java/releases/tag/v4.99.0) |
 | 2026-11-04 | [OpenAI Node SDK v7.50.0](https://deployedbyai.com/log/349febee204f/openai-node-sdk-v7-50-0/?k=repo) | OpenAI Node SDK v7.50.0 adds 12-hour Responses caching and cache-write usage, plus project service tier settings. | [OpenAI, OpenAI Node SDK v7.50.0](https://github.com/openai/openai-node/releases/tag/v7.50.0) |
@@ -234,18 +239,6 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 | 2025-09-29 | [Parental controls](https://deployedbyai.com/log/99c15a9dab73/parental-controls/?k=repo) | OpenAI launched parental controls for ChatGPT, letting parents link accounts, set quiet hours, disable voice, memory, image generation, and opt out of training. | [OpenAI, Introducing parental controls](https://openai.com/index/introducing-parental-controls) |
 | 2025-09-25 | [GDPval](https://deployedbyai.com/log/d20cf09a9ca7/gdpval/?k=repo) | GDPval evaluates models on 1,320 tasks across 44 occupations, finding frontier models approach expert quality and complete tasks 100x faster and cheaper. | [OpenAI, Measuring the performance of our models on real-world tasks](https://openai.com/index/gdpval) |
 | 2025-09-25 | [Shared projects and connectors](https://deployedbyai.com/log/9d3d37aa19c3/shared-projects-and-connectors/?k=repo) | Shared projects for Business, Enterprise, Edu plans; new connectors to Gmail, Calendar, Outlook, Teams, SharePoint, GitHub, Dropbox, Box; ISO 27001/27017/27018/27701 certifications; SOC 2 expanded. | [OpenAI, More ways to work with your team and tools in ChatGPT](https://openai.com/index/more-ways-to-work-with-your-team) |
-
-## Undated until its day
-
-5 rows carry a publisher's date that has not yet come in New York. The record prints no date for them until that day, and neither does this page.
-
-| Row | What shipped | Source |
-|---|---|---|
-| [OpenAI Java SDK v4.100.0](https://deployedbyai.com/log/f8e7272ee4da/openai-java-sdk-v4-100-0/?k=repo) | OpenAI Java SDK v4.100.0 adds image complexity and GIF and SVG output controls. | [OpenAI, OpenAI Java SDK v4.100.0](https://github.com/openai/openai-java/releases/tag/v4.100.0) |
-| [openai-go v3.95.0](https://deployedbyai.com/log/d5cd70bbe249/openai-go-v3-95-0/?k=repo) | openai-go v3.95.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-go v3.95.0](https://github.com/openai/openai-go/releases/tag/v3.95.0) |
-| [openai-node v7.51.0](https://deployedbyai.com/log/a83e4c64db22/openai-node-v7-51-0/?k=repo) | openai-node v7.51.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-node v7.51.0](https://github.com/openai/openai-node/releases/tag/v7.51.0) |
-| [openai-python v3.46.0](https://deployedbyai.com/log/87958cf2d619/openai-python-v3-46-0/?k=repo) | openai-python v3.46.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-python v3.46.0](https://github.com/openai/openai-python/releases/tag/v3.46.0) |
-| [openai-ruby v0.119.0](https://deployedbyai.com/log/ed6d4e953526/openai-ruby-v0-119-0/?k=repo) | openai-ruby v0.119.0 adds GPT-6 Rosalind to the model catalog, Australia/India/Japan residency options, and image complexity/GIF/SVG output controls. | [OpenAI, openai-ruby v0.119.0](https://github.com/openai/openai-ruby/releases/tag/v0.119.0) |
 
 ## Placed by their edition
 

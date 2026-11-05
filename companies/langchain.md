@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-69 rows in The Deploy Log are filed under LangChain. 68 carry a publisher's date, from September 20, 2026 to November 4, 2026, and 1 is placed by its edition. 1 of those dates has not yet come in New York.
+71 rows in The Deploy Log are filed under LangChain. 70 carry a publisher's date, from September 20, 2026 to November 5, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [langchain-core 1.7.6](https://deployedbyai.com/log/60cdfd8a5d3b/langchain-core-1-7-6/?k=repo) | langchain-core 1.7.6 released with performance fixes for streamed AIMessageChunk merging and partial JSON parsing. | [LangChain, langchain-core 1.7.6](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6) |
+| 2026-11-05 | [langgraph 1.2.20](https://deployedbyai.com/log/5ecc060e962d/langgraph-1-2-20/?k=repo) | LangGraph 1.2.20 adds per-task interrupt IDs and a strict resume mode that refuses stale interrupt answers. | [LangChain, langgraph 1.2.20](https://github.com/langchain-ai/langgraph/releases/tag/1.2.20) |
+| 2026-11-05 | [langgraph-sdk 0.4.13](https://deployedbyai.com/log/fb14805f4f5d/langgraph-sdk-0-4-13/?k=repo) | LangGraph SDK 0.4.13 adds cancel\_reason to Run and select to threads.get\_state and get\_history. | [LangChain, langgraph-sdk 0.4.13](https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13) |
 | 2026-11-04 | [langchain 1.4.9](https://deployedbyai.com/log/6aa896176ad4/langchain-1-4-9/?k=repo) | langchain 1.4.9 requires langchain-core&gt;=1.7.5 and standardizes model refusal content blocks. | [LangChain, langchain 1.4.9](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9) |
 | 2026-11-04 | [langchain-anthropic 1.7.10](https://deployedbyai.com/log/ec18e577f77b/langchain-anthropic-1-7-10/?k=repo) | langchain-anthropic 1.7.10 requires langchain-core&gt;=1.7.5 for refusal handling and translates Gemini safety blocks to refusal content blocks. | [LangChain, langchain-anthropic 1.7.10](https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10) |
 | 2026-11-04 | [langchain-core 1.7.5](https://deployedbyai.com/log/9e33760d9ab8/langchain-core-1-7-5/?k=repo) | langchain-core 1.7.5 adds Gemini safety block translation, model refusal content blocks, and cancellation fixes. | [LangChain, langchain-core 1.7.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5) |
@@ -85,14 +88,6 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 | 2026-09-21 | [langchain-core 1.6.4](https://deployedbyai.com/log/c18cb99967ce/langchain-core-1-6-4/?k=repo) | langchain-core 1.6.4 released with deprecation of chat message history. | [LangChain, langchain-core 1.6.4](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4) |
 | 2026-09-21 | [langchain-openai 1.6.3](https://deployedbyai.com/log/b7b4939c9234/langchain-openai-1-6-3/?k=repo) | langchain-openai 1.6.3 released with support for GPT-6 request constraints. | [LangChain, langchain-openai 1.6.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3) |
 | 2026-09-20 | [langchain-typesafe](https://deployedbyai.com/log/f33b8699cf1f/langchain-typesafe/?k=repo) | langchain-typesafe 0.0.1a3 released with TypeSafeClassifier and experimental middleware. | [LangChain, langchain-typesafe](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3) |
-
-## Undated until its day
-
-1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
-
-| Row | What shipped | Source |
-|---|---|---|
-| [langchain-core 1.7.6](https://deployedbyai.com/log/60cdfd8a5d3b/langchain-core-1-7-6/?k=repo) | langchain-core 1.7.6 released with performance fixes for streamed AIMessageChunk merging and partial JSON parsing. | [LangChain, langchain-core 1.7.6](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6) |
 
 ## Placed by their edition
 
