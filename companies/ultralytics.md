@@ -1,6 +1,6 @@
 # Ultralytics in The Deploy Log
 
-16 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 3, 2026.
+17 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 5, 2026.
 
 The same rows are on [the Ultralytics page of the record](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Ultralytics page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Ultralytics v8.4.203](https://deployedbyai.com/log/1ff43b680f0d/ultralytics-v8-4-203/?k=repo) | Adds NXP i.MX95 Neutron NPU export for YOLO models via format=nxp. | [Ultralytics, Ultralytics v8.4.203](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.203) |
 | 2026-11-03 | [Ultralytics 8.4.199](https://deployedbyai.com/log/9644fbe51544/ultralytics-8-4-199/?k=repo) | Ultralytics 8.4.199 sends the raw run name to Ultralytics Platform. | [Ultralytics, Ultralytics 8.4.199](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.199) |
 | 2026-11-03 | [Ultralytics 8.4.200](https://deployedbyai.com/log/05aa0e0edd09/ultralytics-8-4-200/?k=repo) | Arabic class names now display correctly in plots. | [Ultralytics, Ultralytics 8.4.200](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.200) |
 | 2026-11-03 | [Ultralytics v8.4.201](https://deployedbyai.com/log/01b79bdef13b/ultralytics-v8-4-201/?k=repo) | Ultralytics v8.4.201 makes PIL-based plotting up to 15x faster across all tasks. | [Ultralytics, Ultralytics v8.4.201](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.201) |

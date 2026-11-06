@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-183 rows in The Deploy Log are filed under Anthropic. 139 carry a publisher's date, from October 16, 2025 to November 4, 2026, and 44 are placed by their edition.
+187 rows in The Deploy Log are filed under Anthropic. 143 carry a publisher's date, from October 16, 2025 to November 5, 2026, and 44 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Anthropic Java SDK v3.6.0](https://deployedbyai.com/log/39778f624467/anthropic-java-sdk-v3-6-0/?k=repo) | Anthropic Java SDK v3.6.0 adds error codes for ramp limit and External Key validation failures and support for signing organization members out everywhere. | [Anthropic, Anthropic Java SDK v3.6.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.6.0) |
+| 2026-11-05 | [Anthropic Python SDK v2.6.0](https://deployedbyai.com/log/2b8277869fa3/anthropic-python-sdk-v2-6-0/?k=repo) | Anthropic Python SDK v2.6.0 adds error codes for ramp limit and External Key validation failures, plus platform client fixes. | [Anthropic, Anthropic Python SDK v2.6.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.6.0) |
+| 2026-11-05 | [anthropic-sdk-go v2.7.0](https://deployedbyai.com/log/9f5fb16b4695/anthropic-sdk-go-v2-7-0/?k=repo) | anthropic-sdk-go v2.7.0 adds error codes for ramp limit and External Key validation failures, support for signing organization members out everywhere, and client retry fixes. | [Anthropic, anthropic-sdk-go v2.7.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.7.0) |
+| 2026-11-05 | [anthropic-sdk-typescript v1.6.0](https://deployedbyai.com/log/a4b5cabc2543/anthropic-sdk-typescript-v1-6-0/?k=repo) | Anthropic released sdk-v1.6.0, adding error codes for ramp limit and External Key validation failures. | [Anthropic, anthropic-sdk-typescript v1.6.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.6.0) |
 | 2026-11-04 | [Anthropic Java SDK v3.5.0](https://deployedbyai.com/log/4010886314b4/anthropic-java-sdk-v3-5-0/?k=repo) | Anthropic Java SDK v3.5.0 adds error details types, an ids filter for list workspaces, and exception classes for HTTP statuses and API error codes. | [Anthropic, Anthropic Java SDK v3.5.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.5.0) |
 | 2026-11-04 | [Anthropic Python SDK v2.5.0](https://deployedbyai.com/log/d22eacab07d8/anthropic-python-sdk-v2-5-0/?k=repo) | Anthropic Python SDK v2.5.0 adds error details types, workspace ID filtering, and HTTP/API error classes. | [Anthropic, Anthropic Python SDK v2.5.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.5.0) |
 | 2026-11-04 | [Claude Agent SDK TypeScript v0.3.318](https://deployedbyai.com/log/a6ed64c4baa6/claude-agent-sdk-typescript-v0-3-318/?k=repo) | Claude Agent SDK TypeScript v0.3.318 adds credential\_expires\_at, config\_file\_invalid reason, and parity with Claude Code v2.1.318. | [Anthropic, Claude Agent SDK TypeScript v0.3.318](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.318) |

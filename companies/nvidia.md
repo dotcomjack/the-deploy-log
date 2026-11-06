@@ -1,6 +1,6 @@
 # NVIDIA in The Deploy Log
 
-48 rows in The Deploy Log are filed under NVIDIA. 43 carry a publisher's date, from August 20, 2026 to November 4, 2026, and 5 are placed by their edition.
+49 rows in The Deploy Log are filed under NVIDIA. 44 carry a publisher's date, from August 20, 2026 to November 5, 2026, and 5 are placed by their edition.
 
 The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Dynamo v1.6.2](https://deployedbyai.com/log/b0165313bcc4/dynamo-v1-6-2/?k=repo) | Patch release refreshes runtime OS and Python packages, moves SGLang image to CPython 3.12.16, returns HTTP 400 on TensorRT-LLM token budget overrun, and adds opt-in GC freeze for SGLang workers. | [NVIDIA, Dynamo v1.6.2](https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.2) |
 | 2026-11-04 | [CUDA 13.5](https://deployedbyai.com/log/97f996fdaf29/cuda-13-5/?k=repo) | CUDA Toolkit 13.5 is generally available with production-ready support for NVIDIA Vera Rubin GPU architecture. | [NVIDIA, CUDA 13.5](https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/) |
 | 2026-11-02 | [ModelOpt 0.48.0](https://deployedbyai.com/log/62bae5d4d5bf/modelopt-0-48-0/?k=repo) | ModelOpt 0.48.0 adds skip-softmax calibration through vLLM and metadata-only export specifications. | [NVIDIA, ModelOpt 0.48.0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0) |
 

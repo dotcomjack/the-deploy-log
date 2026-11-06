@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-153 rows in The Deploy Log are filed under Amazon Web Services. 147 carry a publisher's date, from September 16, 2026 to November 4, 2026, and 6 are placed by their edition.
+157 rows in The Deploy Log are filed under Amazon Web Services. 151 carry a publisher's date, from September 16, 2026 to November 5, 2026, and 6 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [AWS WAF AI traffic monetization](https://deployedbyai.com/log/1f5e9983854e/aws-waf-ai-traffic-monetization/?k=repo) | AWS WAF AI traffic monetization now supports fiat payouts through Stripe. | [Amazon Web Services, AWS WAF AI traffic monetization](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-stripe-fiat-payouts/) |
+| 2026-11-05 | [Amazon Q Developer in console](https://deployedbyai.com/log/28d714c29faf/amazon-q-developer-in-console/?k=repo) | Amazon Q Developer in console is now the AWS assistant. | [Amazon Web Services, Amazon Q Developer in console](https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/) |
+| 2026-11-05 | [SageMaker AI Studio IAM replication](https://deployedbyai.com/log/fdaa9d48acaa/sagemaker-ai-studio-iam-replication/?k=repo) | Amazon SageMaker AI Studio now supports IAM Identity Center multi-region replication. | [Amazon Web Services, SageMaker AI Studio IAM replication](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/) |
+| 2026-11-05 | [Web Answer on Bedrock AgentCore](https://deployedbyai.com/log/09a1d103927a/web-answer-on-bedrock-agentcore/?k=repo) | Web Answer is now available on Amazon Bedrock AgentCore. | [Amazon Web Services, Web Answer on Bedrock AgentCore](https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/) |
 | 2026-11-04 | [harness-cli v0.2.4](https://deployedbyai.com/log/89e72b6fd490/harness-cli-v0-2-4/?k=repo) | harness-cli v0.2.4 adds explicit cache points on GPT-5.6+ by default and a migration guide from strands-agents-tools. | [Amazon Web Services, harness-cli v0.2.4](https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli%2Fv0.2.4) |
 | 2026-11-04 | [harness-python v0.3.4](https://deployedbyai.com/log/b6e84c9f0dde/harness-python-v0-3-4/?k=repo) | Release harness-python/v0.3.4 adds SystemOneDecisionModel for Jev and decisionapi.net and explicit cache points on GPT-5.6+ by default. | [Amazon Web Services, harness-python v0.3.4](https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.3.4) |
 | 2026-11-04 | [harness-sdk python v1.64.0](https://deployedbyai.com/log/c3afbb92231a/harness-sdk-python-v1-64-0/?k=repo) | Release python/v1.64.0 adds SystemOneDecisionModel for Jev and decisionapi.net and explicit cache points on GPT-5.6+ by default. | [Amazon Web Services, harness-sdk python v1.64.0](https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.64.0) |

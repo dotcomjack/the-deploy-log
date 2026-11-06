@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-24 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 4, 2026.
+26 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 5, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Qwen SDK TypeScript v0.1.28](https://deployedbyai.com/log/96a14f12775c/qwen-sdk-typescript-v0-1-28/?k=repo) | SDK TypeScript v0.1.28 bundles CLI version 0.26.8. | [Qwen, Qwen SDK TypeScript v0.1.28](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.28) |
+| 2026-11-05 | [qwen-code v0.26.8](https://deployedbyai.com/log/03c9c7ee8a1e/qwen-code-v0-26-8/?k=repo) | qwen-code v0.26.8 adds prompt.submit hooks in OpenTUI, shared-loop model rounds, and concurrent workspace rewinds. | [Qwen, qwen-code v0.26.8](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.8) |
 | 2026-11-04 | [Qwen Code v0.26.7](https://deployedbyai.com/log/566172551697/qwen-code-v0-26-7/?k=repo) | Qwen Code v0.26.7 adds an operator model catalog refresh switch and multiple fixes. | [Qwen, Qwen Code v0.26.7](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7) |
 | 2026-11-02 | [Qwen Code v0.26.6](https://deployedbyai.com/log/adc97e3b9e88/qwen-code-v0-26-6/?k=repo) | Web Shell sidebar activity view, split view, and token usage metrics in Qwen Code v0.26.6. | [Qwen, Qwen Code v0.26.6](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.6) |
 | 2026-11-02 | [Qwen TypeScript SDK v0.1.27](https://deployedbyai.com/log/0f003e03fae9/qwen-typescript-sdk-v0-1-27/?k=repo) | Qwen TypeScript SDK v0.1.27 released, bundling CLI version 0.26.6. | [Qwen, Qwen TypeScript SDK v0.1.27](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.27) |

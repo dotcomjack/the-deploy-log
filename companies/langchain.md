@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-71 rows in The Deploy Log are filed under LangChain. 70 carry a publisher's date, from September 20, 2026 to November 5, 2026, and 1 is placed by its edition.
+74 rows in The Deploy Log are filed under LangChain. 73 carry a publisher's date, from September 20, 2026 to November 6, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,7 +8,10 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [langgraph-cli 0.4.42](https://deployedbyai.com/log/25499b59c9eb/langgraph-cli-0-4-42/?k=repo) | langgraph-cli 0.4.42 adds a deploy metrics command and bumps filelock and langgraph-api for security fixes. | [LangChain, langgraph-cli 0.4.42](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.42) |
+| 2026-11-06 | [langgraph-sdk 0.4.14](https://deployedbyai.com/log/e428927143e7/langgraph-sdk-0-4-14/?k=repo) | langgraph-sdk 0.4.14 adds strict\_resume to runs.create, stream, and wait, and tools and lifecycle to StreamMode. | [LangChain, langgraph-sdk 0.4.14](https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.14) |
 | 2026-11-05 | [langchain-core 1.7.6](https://deployedbyai.com/log/60cdfd8a5d3b/langchain-core-1-7-6/?k=repo) | langchain-core 1.7.6 released with performance fixes for streamed AIMessageChunk merging and partial JSON parsing. | [LangChain, langchain-core 1.7.6](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6) |
+| 2026-11-05 | [langchain-typesafe 0.0.2](https://deployedbyai.com/log/4e85b0addfc6/langchain-typesafe-0-0-2/?k=repo) | langchain-typesafe 0.0.2 adds a classifier option in experimental middleware. | [LangChain, langchain-typesafe 0.0.2](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2) |
 | 2026-11-05 | [langgraph 1.2.20](https://deployedbyai.com/log/5ecc060e962d/langgraph-1-2-20/?k=repo) | LangGraph 1.2.20 adds per-task interrupt IDs and a strict resume mode that refuses stale interrupt answers. | [LangChain, langgraph 1.2.20](https://github.com/langchain-ai/langgraph/releases/tag/1.2.20) |
 | 2026-11-05 | [langgraph-sdk 0.4.13](https://deployedbyai.com/log/fb14805f4f5d/langgraph-sdk-0-4-13/?k=repo) | LangGraph SDK 0.4.13 adds cancel\_reason to Run and select to threads.get\_state and get\_history. | [LangChain, langgraph-sdk 0.4.13](https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.13) |
 | 2026-11-04 | [langchain 1.4.9](https://deployedbyai.com/log/6aa896176ad4/langchain-1-4-9/?k=repo) | langchain 1.4.9 requires langchain-core&gt;=1.7.5 and standardizes model refusal content blocks. | [LangChain, langchain 1.4.9](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9) |

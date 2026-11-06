@@ -1,8 +1,14 @@
 # Roboflow in The Deploy Log
 
-7 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to October 28, 2026.
+8 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 5, 2026.
 
 The same rows are on [the Roboflow page of the record](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-05 | [supervision-0.31.5](https://deployedbyai.com/log/ab68c938ee7d/supervision-0-31-5/?k=repo) | supervision 0.31.5 adds right-to-left labels, occlusion-tolerant line counting, and exact oriented-box clipping. | [Roboflow, supervision-0.31.5](https://github.com/roboflow/supervision/releases/tag/0.31.5) |
 
 ## October 2026
 

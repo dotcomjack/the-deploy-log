@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-98 rows in The Deploy Log are filed under GitHub. 89 carry a publisher's date, from September 17, 2026 to November 4, 2026, and 9 are placed by their edition.
+99 rows in The Deploy Log are filed under GitHub. 90 carry a publisher's date, from September 17, 2026 to November 6, 2026, and 9 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [github/copilot-cli v1.0.106](https://deployedbyai.com/log/dc86e940155d/github-copilot-cli-v1-0-106/?k=repo) | Copilot CLI v1.0.106 adds GPT-6.1 Terra as a selectable model and new session tools. | [GitHub, github/copilot-cli v1.0.106](https://github.com/github/copilot-cli/releases/tag/v1.0.106) |
 | 2026-11-04 | [GitHub Copilot in Xcode coding assistant](https://deployedbyai.com/log/38506502cebc/github-copilot-in-xcode-coding-assistant/?k=repo) | GitHub Copilot is now available in Xcode's built-in coding assistant, in public preview starting with Xcode 27.3 beta. | [GitHub, GitHub Copilot in Xcode coding assistant](https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant) |
 | 2026-11-03 | [CodeQL 2.27.3](https://deployedbyai.com/log/4fe3f99cd033/codeql-2-27-3/?k=repo) | CodeQL 2.27.3 adds Python 3.15 features, JSON data extensions, C23 bit-precise integers, and an opt-in AI threat model. | [GitHub, CodeQL 2.27.3](https://github.blog/changelog/2026-11-03-codeql-2-27-3-adds-python-3-15-features-and-json-data-extensions) |
 | 2026-11-03 | [GitHub Copilot in JetBrains Air](https://deployedbyai.com/log/49d9777f2644/github-copilot-in-jetbrains-air/?k=repo) | GitHub Copilot is now available in JetBrains Air with local and cloud coding tasks. | [GitHub, GitHub Copilot in JetBrains Air](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air) |

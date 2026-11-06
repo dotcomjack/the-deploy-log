@@ -1,6 +1,6 @@
 # OpenHands in The Deploy Log
 
-10 rows in The Deploy Log are filed under OpenHands. Every one carries a publisher's date, from September 25, 2026 to November 3, 2026.
+11 rows in The Deploy Log are filed under OpenHands. Every one carries a publisher's date, from September 25, 2026 to November 5, 2026.
 
 The same rows are on [the OpenHands page of the record](https://deployedbyai.com/log/company/3073c3e8ba0d/openhands/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the OpenHands page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [OpenHands v1.36.0](https://deployedbyai.com/log/6a61c9de0c04/openhands-v1-36-0/?k=repo) | OpenHands v1.36.0 adds automation template features and Data Center templates with extensions 0.39.0. | [OpenHands, OpenHands v1.36.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.36.0) |
 | 2026-11-03 | [OpenHands v1.35.0](https://deployedbyai.com/log/67da9ff17d46/openhands-v1-35-0/?k=repo) | OpenHands v1.35.0 adds a Files tab Download button, resizable sidebar, and persists workspace/repo metadata as conversation tags. | [OpenHands, OpenHands v1.35.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.35.0) |
 
 ## October 2026

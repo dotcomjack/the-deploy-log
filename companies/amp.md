@@ -1,8 +1,14 @@
 # Amp in The Deploy Log
 
-7 rows in The Deploy Log are filed under Amp. Every one carries a publisher's date, from September 29, 2026 to October 29, 2026.
+8 rows in The Deploy Log are filed under Amp. Every one carries a publisher's date, from September 29, 2026 to November 5, 2026.
 
 The same rows are on [the Amp page of the record](https://deployedbyai.com/log/company/6da83e085d2b/amp/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-05 | [Amp GitLab Integration](https://deployedbyai.com/log/611088b25188/amp-gitlab-integration/?k=repo) | Amp now integrates with GitLab on gitlab.com and self-managed instances, letting users start projects from GitLab repositories. | [Amp, Amp GitLab Integration](https://ampcode.com/news/gitlab) |
 
 ## October 2026
 

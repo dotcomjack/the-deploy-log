@@ -1,8 +1,14 @@
 # Cognition in The Deploy Log
 
-6 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to October 26, 2026.
+7 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to November 5, 2026.
 
 The same rows are on [the Cognition page of the record](https://deployedbyai.com/log/company/a3079d818e00/cognition/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-05 | [Devin Review 2.0](https://deployedbyai.com/log/b8eb72be0ed9/devin-review-2-0/?k=repo) | Devin Review 2.0 cuts PR review cost by 82% to <span>$</span>0.25-<span>$</span>0.75 per PR and adds incremental reviews. | [Cognition, Devin Review 2.0](https://devin.ai/blog/devin-review-2) |
 
 ## October 2026
 

@@ -1,8 +1,14 @@
 # LiteLLM in The Deploy Log
 
-15 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to October 27, 2026.
+16 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 5, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-05 | [LiteLLM v1.108.1](https://deployedbyai.com/log/3125234e91c0/litellm-v1-108-1/?k=repo) | LiteLLM v1.108.1 released with signed Docker images. | [LiteLLM, LiteLLM v1.108.1](https://github.com/BerriAI/litellm/releases/tag/v1.108.1) |
 
 ## October 2026
 

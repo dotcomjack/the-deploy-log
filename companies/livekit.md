@@ -1,8 +1,14 @@
 # LiveKit in The Deploy Log
 
-4 rows in The Deploy Log are filed under LiveKit. Every one carries a publisher's date, from October 1, 2026 to October 24, 2026.
+5 rows in The Deploy Log are filed under LiveKit. Every one carries a publisher's date, from October 1, 2026 to November 5, 2026.
 
 The same rows are on [the LiveKit page of the record](https://deployedbyai.com/log/company/1586f3da8be9/livekit/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-05 | [livekit-agents 1.8.11](https://deployedbyai.com/log/085b4175ee34/livekit-agents-1-8-11/?k=repo) | Responses API via LiveKit Inference with structured output and web search, plus Zoom, Kalpa, Rime, Fish Audio, and OpenAI providers. | [LiveKit, livekit-agents 1.8.11](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.11) |
 
 ## October 2026
 

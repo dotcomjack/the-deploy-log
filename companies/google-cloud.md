@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-69 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 5, 2026.
+70 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 5, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Gemini Enterprise prepaid credits](https://deployedbyai.com/log/978afe14baac/gemini-enterprise-prepaid-credits/?k=repo) | Prepaid credits are generally available for self-serve Cloud Billing accounts on Gemini Enterprise Pay-as-you-go subscriptions and usage above quota. | [Google Cloud, Gemini Enterprise prepaid credits](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_05_2026) |
 | 2026-11-05 | [Model Armor CSAM filter](https://deployedbyai.com/log/314d6307e1c0/model-armor-csam-filter/?k=repo) | Model Armor templates and floor settings can enable or disable the CSAM filter with granular confidence levels (High, Medium and above, Low and above). | [Google Cloud, Model Armor CSAM filter](https://docs.cloud.google.com/release-notes#November_05_2026) |
 | 2026-11-04 | [Gemini Enterprise mobile team switching](https://deployedbyai.com/log/f1955e786619/gemini-enterprise-mobile-team-switching/?k=repo) | Gemini Enterprise mobile app now lets users switch between multiple teams without logging out and rescanning the QR code. | [Google Cloud, Gemini Enterprise mobile team switching](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_04_2026) |
 | 2026-11-03 | [Gemini Enterprise Salesforce federation](https://deployedbyai.com/log/2e8437d9fa26/gemini-enterprise-salesforce-federation/?k=repo) | Salesforce data source connection via data federation is generally available in Gemini Enterprise. | [Google Cloud, Gemini Enterprise Salesforce federation](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_03_2026) |

@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-58 rows in The Deploy Log are filed under Cloudflare. 50 carry a publisher's date, from August 13, 2026 to November 4, 2026, and 8 are placed by their edition.
+59 rows in The Deploy Log are filed under Cloudflare. 51 carry a publisher's date, from August 13, 2026 to November 5, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Cloudflare Q3 2026 results](https://deployedbyai.com/log/836c95de8a1d/cloudflare-q3-2026-results/?k=repo) | Revenue of <span>$</span>782.5 million, up 39% year-over-year, with Q4 guidance of <span>$</span>845.0 to <span>$</span>846.0 million. | [Cloudflare, Cloudflare Q3 2026 results](https://www.sec.gov/Archives/edgar/data/1477333/000147733326000060/q326exhibit991.htm) |
 | 2026-11-04 | [AI Gateway model aliases](https://deployedbyai.com/log/5fc62d7f6268/ai-gateway-model-aliases/?k=repo) | AI Gateway now supports model aliases, a pool of models called by one name with fallback or smart routing. | [Cloudflare, AI Gateway model aliases](https://developers.cloudflare.com/changelog/post/2026-11-04-model-aliases/) |
 | 2026-11-04 | [Cloudflare AI Crawler and Agent access policies](https://deployedbyai.com/log/594346b9a290/cloudflare-ai-crawler-and-agent-access-policies/?k=repo) | Cloudflare lets you set actions for top Personal Agents individually via Security &gt; Settings &gt; AI Crawler and Agent access policies. | [Cloudflare, Cloudflare AI Crawler and Agent access policies](https://developers.cloudflare.com/changelog/post/2026-11-04-personal-agent-policies/) |
 | 2026-11-03 | [AI Gateway authentication default](https://deployedbyai.com/log/def4a5a551d3/ai-gateway-authentication-default/?k=repo) | New AI Gateways now require authentication, on by default via API and dashboard. | [Cloudflare, AI Gateway authentication default](https://developers.cloudflare.com/changelog/post/2026-11-03-required-authentication/) |

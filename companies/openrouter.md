@@ -1,6 +1,6 @@
 # OpenRouter in The Deploy Log
 
-28 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 5, 2026.
+30 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 5, 2026.
 
 The same rows are on [the OpenRouter page of the record](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo).
 
@@ -8,7 +8,9 @@ The same rows are on [the OpenRouter page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Gemini Omni 1.2 Flash](https://deployedbyai.com/log/ac75b910b108/gemini-omni-1-2-flash/?k=repo) | Google's Gemini Omni 1.2 Flash video generation model is available on OpenRouter at <span>$</span>1.50/<span>$</span>9 per 1M tokens. | [OpenRouter, Gemini Omni 1.2 Flash](https://openrouter.ai/google/gemini-omni-1.2-flash) |
 | 2026-11-05 | [Ling 3.0 Tiny](https://deployedbyai.com/log/cd3ada110a04/ling-3-0-tiny/?k=repo) | InclusionAI Ling 3.0 Tiny is on OpenRouter at <span>$</span>0.015/<span>$</span>0.045 per 1M tokens with 262K context. | [OpenRouter, Ling 3.0 Tiny](https://openrouter.ai/inclusionai/ling-3.0-tiny) |
+| 2026-11-04 | [Gemini Omni 1.1 Flash](https://deployedbyai.com/log/84a906700e90/gemini-omni-1-1-flash/?k=repo) | Google's Gemini Omni 1.1 Flash video generation model is available on OpenRouter at <span>$</span>1.50/<span>$</span>9 per 1M tokens. | [OpenRouter, Gemini Omni 1.1 Flash](https://openrouter.ai/google/gemini-omni-1.1-flash) |
 | 2026-11-04 | [Tencent Hy4 on OpenRouter](https://deployedbyai.com/log/c6bed531a9b5/tencent-hy4-on-openrouter/?k=repo) | Tencent Hy4 is available on OpenRouter at <span>$</span>0.417/<span>$</span>1.251 per 1M tokens with 1M context. | [OpenRouter, Tencent Hy4 on OpenRouter](https://openrouter.ai/tencent/hy4) |
 | 2026-11-02 | [GLM 5.3 FlashX Legal](https://deployedbyai.com/log/42556fd79928/glm-5-3-flashx-legal/?k=repo) | Z.ai GLM 5.3 FlashX Legal is available on OpenRouter at <span>$</span>0.37/<span>$</span>1.25 per 1M tokens with 1M context. | [OpenRouter, GLM 5.3 FlashX Legal](https://openrouter.ai/z-ai/glm-5.3-flashx-legal) |
 

@@ -1,8 +1,14 @@
 # Docker in The Deploy Log
 
-7 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to October 28, 2026.
+8 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to November 5, 2026.
 
 The same rows are on [the Docker page of the record](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-05 | [docker-agent v1.157.0](https://deployedbyai.com/log/5a1e0f4d2bd7/docker-agent-v1-157-0/?k=repo) | Bug fixes for token handling, model error recognition, provider behavior, and a new build tag for embedders. | [Docker, docker-agent v1.157.0](https://github.com/docker/docker-agent/releases/tag/v1.157.0) |
 
 ## October 2026
 

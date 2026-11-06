@@ -1,6 +1,6 @@
 # Databricks in The Deploy Log
 
-64 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 4, 2026.
+67 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 5, 2026.
 
 The same rows are on [the Databricks page of the record](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo).
 
@@ -8,7 +8,10 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-05 | [Claude Code and Codex in SSH tunnel](https://deployedbyai.com/log/fd7f12a0f459/claude-code-and-codex-in-ssh-tunnel/?k=repo) | Claude Code and Codex are now available in Databricks SSH tunnel sessions, requiring Databricks CLI 1.23.0 or above. | [Databricks, Claude Code and Codex in SSH tunnel](https://docs.databricks.com/aws/en/release-notes/product/2026/november#run-claude-code-and-codex-in-the-ssh-tunnel) |
 | 2026-11-04 | [AI Function tasks for jobs](https://deployedbyai.com/log/8e490487ffe5/ai-function-tasks-for-jobs/?k=repo) | Databricks jobs can now run ai\_parse\_document, ai\_extract, or ai\_classify on volume files or table rows without SQL, in Beta. | [Databricks, AI Function tasks for jobs](https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-tasks-for-jobs-beta) |
+| 2026-11-04 | [Moonshot AI Kimi K3.1 Pro](https://deployedbyai.com/log/50eac386b60f/moonshot-ai-kimi-k3-1-pro/?k=repo) | Moonshot AI Kimi K3.1 Pro is available on Unity Gateway on pay-per-token endpoints in us-east-1. | [Databricks, Moonshot AI Kimi K3.1 Pro](https://docs.databricks.com/aws/en/release-notes/unity-gateway#moonshot-ai-kimi-k31-pro-is-now-available-on-unity-gateway) |
+| 2026-11-04 | [Unity Gateway Skills GitHub Action](https://deployedbyai.com/log/b22fcd827fae/unity-gateway-skills-github-action/?k=repo) | A GitHub Action in Beta publishes Git-managed skills to Unity Catalog on merges. | [Databricks, Unity Gateway Skills GitHub Action](https://docs.databricks.com/aws/en/release-notes/product/2026/november#publish-unity-gateway-skills-with-a-github-action-in-beta) |
 | 2026-11-03 | [Lakebase sink upsert merge strategies](https://deployedbyai.com/log/07a4f2aa59fd/lakebase-sink-upsert-merge-strategies/?k=repo) | Merge strategies for Lakebase sink upserts from Structured Streaming, requiring Databricks Runtime 19 and above. | [Databricks, Lakebase sink upsert merge strategies](https://docs.databricks.com/aws/en/release-notes/product/2026/november#control-lakebase-sink-upserts-with-merge-strategies) |
 | 2026-11-03 | [Lakeflow Jobs upstream dependencies](https://deployedbyai.com/log/a9a75044bae1/lakeflow-jobs-upstream-dependencies/?k=repo) | Lakeflow Jobs can now trigger when one or more upstream jobs complete, including across workspaces in the same Unity Catalog metastore. | [Databricks, Lakeflow Jobs upstream dependencies](https://docs.databricks.com/aws/en/release-notes/product/2026/november#trigger-lakeflow-jobs-when-upstream-jobs-complete-beta) |
 | 2026-11-02 | [Databricks Runtime 19](https://deployedbyai.com/log/f43d9cbf1372/databricks-runtime-19/?k=repo) | Databricks Runtime 19 adds ALTER SHARE ADD/ALTER VIEW WITH HISTORY and WITHOUT HISTORY, and updates pytz and tzdata libraries. | [Databricks, Databricks Runtime 19](https://docs.databricks.com/aws/en/release-notes/runtime/19#databricks-runtime-19-november-2-2026) |
