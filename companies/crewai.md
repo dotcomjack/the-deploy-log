@@ -1,6 +1,6 @@
 # CrewAI in The Deploy Log
 
-6 rows in The Deploy Log are filed under CrewAI. Every one carries a publisher's date, from September 28, 2026 to November 6, 2026.
+7 rows in The Deploy Log are filed under CrewAI. Every one carries a publisher's date, from September 28, 2026 to November 7, 2026.
 
 The same rows are on [the CrewAI page of the record](https://deployedbyai.com/log/company/ba61ca23a00b/crewai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the CrewAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-07 | [CrewAI 1.15.37](https://deployedbyai.com/log/18e29259d03d/crewai-1-15-37/?k=repo) | CrewAI 1.15.37 adds spreadsheet reading for agents and standalone agent project scaffolding. | [CrewAI, CrewAI 1.15.37](https://github.com/crewAIInc/crewAI/releases/tag/1.15.37) |
 | 2026-11-06 | [CrewAI 1.15.36](https://deployedbyai.com/log/723314ff5920/crewai-1-15-36/?k=repo) | CrewAI 1.15.36 adds experimental conversational Agent sessions and fixes async call execution for sync tools. | [CrewAI, CrewAI 1.15.36](https://github.com/crewAIInc/crewAI/releases/tag/1.15.36) |
 | 2026-11-01 | [CrewAI 1.15.34](https://deployedbyai.com/log/0626c64b3e92/crewai-1-15-34/?k=repo) | CrewAI 1.15.34 adds standalone LiteLLM catalog, crewai skill search, deploy create --zip, and multiple bug fixes. | [CrewAI, CrewAI 1.15.34](https://github.com/crewAIInc/crewAI/releases/tag/1.15.34) |
 

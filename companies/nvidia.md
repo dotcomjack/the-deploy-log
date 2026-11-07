@@ -1,6 +1,6 @@
 # NVIDIA in The Deploy Log
 
-49 rows in The Deploy Log are filed under NVIDIA. 44 carry a publisher's date, from August 20, 2026 to November 5, 2026, and 5 are placed by their edition.
+51 rows in The Deploy Log are filed under NVIDIA. 46 carry a publisher's date, from August 20, 2026 to November 6, 2026, and 5 are placed by their edition.
 
 The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [FLUX 3 Image Klein on Blackwell](https://deployedbyai.com/log/9eec13dbedca/flux-3-image-klein-on-blackwell/?k=repo) | TensorRT LLM VisualGen accelerates FLUX 3 Image Klein on NVIDIA Blackwell GPUs with up to 3.46x faster text-to-image and 4.45x faster image-to-image generation. | [NVIDIA, FLUX 3 Image Klein on Blackwell](https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/) |
+| 2026-11-06 | [ModelOpt 0.47.1](https://deployedbyai.com/log/d1a2ced1f17c/modelopt-0-47-1/?k=repo) | ModelOpt 0.47.1 fixes NVFP4 fake quantization with Triton 3.9 on GPUs with compute capability 8.9 or newer. | [NVIDIA, ModelOpt 0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) |
 | 2026-11-05 | [Dynamo v1.6.2](https://deployedbyai.com/log/b0165313bcc4/dynamo-v1-6-2/?k=repo) | Patch release refreshes runtime OS and Python packages, moves SGLang image to CPython 3.12.16, returns HTTP 400 on TensorRT-LLM token budget overrun, and adds opt-in GC freeze for SGLang workers. | [NVIDIA, Dynamo v1.6.2](https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.2) |
 | 2026-11-04 | [CUDA 13.5](https://deployedbyai.com/log/97f996fdaf29/cuda-13-5/?k=repo) | CUDA Toolkit 13.5 is generally available with production-ready support for NVIDIA Vera Rubin GPU architecture. | [NVIDIA, CUDA 13.5](https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/) |
 | 2026-11-02 | [ModelOpt 0.48.0](https://deployedbyai.com/log/62bae5d4d5bf/modelopt-0-48-0/?k=repo) | ModelOpt 0.48.0 adds skip-softmax calibration through vLLM and metadata-only export specifications. | [NVIDIA, ModelOpt 0.48.0](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.48.0) |

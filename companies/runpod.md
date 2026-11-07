@@ -1,8 +1,15 @@
 # RunPod in The Deploy Log
 
-23 rows in The Deploy Log are filed under RunPod. Every one carries a publisher's date, from September 25, 2026 to October 28, 2026.
+25 rows in The Deploy Log are filed under RunPod. Every one carries a publisher's date, from September 25, 2026 to November 6, 2026.
 
 The same rows are on [the RunPod page of the record](https://deployedbyai.com/log/company/3cc5d9cb66ef/runpod/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-06 | [Flash CLI Nix flake](https://deployedbyai.com/log/260390bc6746/flash-cli-nix-flake/?k=repo) | RunPod Flash CLI now ships a first-class Nix flake, runnable with nix run github:runpod/flash. | [RunPod, Flash CLI Nix flake](https://www.runpod.io/blog/flash-nix) |
+| 2026-11-06 | [Runpod Hub](https://deployedbyai.com/log/e6dae26b867f/runpod-hub/?k=repo) | Runpod Hub is live for deploying prebuilt open-source AI repos including ComfyUI, Whisper, and Mochi 1. | [RunPod, Runpod Hub](https://www.runpod.io/blog/runpod-hub-launch-open-source-ai-repos) |
 
 ## October 2026
 

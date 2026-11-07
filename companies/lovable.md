@@ -1,6 +1,6 @@
 # Lovable in The Deploy Log
 
-21 rows in The Deploy Log are filed under Lovable. Every one carries a publisher's date, from September 27, 2026 to November 4, 2026.
+22 rows in The Deploy Log are filed under Lovable. Every one carries a publisher's date, from September 27, 2026 to November 6, 2026.
 
 The same rows are on [the Lovable page of the record](https://deployedbyai.com/log/company/00260c69b4d7/lovable/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Lovable page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [GPT Image 2.6 Flare and Sunburst](https://deployedbyai.com/log/75a56853324a/gpt-image-2-6-flare-and-sunburst/?k=repo) | Lovable apps can now generate and edit images with GPT Image 2.6 Flare and Sunburst models. | [Lovable, GPT Image 2.6 Flare and Sunburst](https://docs.lovable.dev/changelog#nov-6-2026) |
 | 2026-11-04 | [Lovable Dreaming](https://deployedbyai.com/log/07ccce273167/lovable-dreaming/?k=repo) | Lovable now tidies project memory in the background on paid plans, a process called Dreaming. | [Lovable, Lovable Dreaming](https://docs.lovable.dev/changelog#nov-4-2026) |
 | 2026-11-02 | [Open page from Chats](https://deployedbyai.com/log/8048270f0af9/open-page-from-chats/?k=repo) | Ask Lovable in Chats to show a page in one of your projects. | [Lovable, Open page from Chats](https://docs.lovable.dev/changelog#oct-31-2026) |
 | 2026-11-02 | [SBOM download](https://deployedbyai.com/log/83a9f9ffbe34/sbom-download/?k=repo) | Download an SBOM for your project in SPDX 2.3 or CycloneDX 1.5 format from the Security view. | [Lovable, SBOM download](https://docs.lovable.dev/changelog#nov-1-2026) |

@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-16 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 5, 2026.
+17 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 6, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [LiteLLM 1.108.2 (LTS)](https://deployedbyai.com/log/05ce4ece4cdc/litellm-1-108-2-lts/?k=repo) | LiteLLM 1.108.2 (LTS) fixes OpenAI deployments with empty api\_key and AWS Bedrock Converse service\_tier handling. | [LiteLLM, LiteLLM 1.108.2 (LTS)](https://github.com/BerriAI/litellm/releases/tag/v1.108.2) |
 | 2026-11-05 | [LiteLLM v1.108.1](https://deployedbyai.com/log/3125234e91c0/litellm-v1-108-1/?k=repo) | LiteLLM v1.108.1 released with signed Docker images. | [LiteLLM, LiteLLM v1.108.1](https://github.com/BerriAI/litellm/releases/tag/v1.108.1) |
 
 ## October 2026

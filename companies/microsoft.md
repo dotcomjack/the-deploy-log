@@ -1,6 +1,6 @@
 # Microsoft in The Deploy Log
 
-30 rows in The Deploy Log are filed under Microsoft. 28 carry a publisher's date, from September 28, 2026 to November 4, 2026, and 2 are placed by their edition.
+32 rows in The Deploy Log are filed under Microsoft. 30 carry a publisher's date, from September 28, 2026 to November 6, 2026, and 2 are placed by their edition.
 
 The same rows are on [the Microsoft page of the record](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Microsoft page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [Agent Framework Python 1.25.0](https://deployedbyai.com/log/bb4442f1c0d0/agent-framework-python-1-25-0/?k=repo) | Agent Framework Python 1.25.0 releases 44 workspace distributions with shipping changes since python-1.24.0. | [Microsoft, Agent Framework Python 1.25.0](https://github.com/microsoft/agent-framework/releases/tag/python-1.25.0) |
+| 2026-11-06 | [dotnet-1.28.0](https://deployedbyai.com/log/d07c453a351c/dotnet-1-28-0/?k=repo) | Microsoft agent-framework released dotnet-1.28.0 with a release version bump and a fix for parsing declarative workflow formulas and values with InvariantCulture. | [Microsoft, dotnet-1.28.0](https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.28.0) |
 | 2026-11-04 | [Agent Framework builder skills](https://deployedbyai.com/log/9e0cdc60f4f3/agent-framework-builder-skills/?k=repo) | Microsoft added installable Agent Framework builder skills for .NET and Python, installable via GitHub CLI or skills CLI. | [Microsoft, Agent Framework builder skills](https://devblogs.microsoft.com/agent-framework/give-your-coding-agent-a-head-start-with-microsoft-agent-framework-skills-for-net-and-python/) |
 
 ## October 2026

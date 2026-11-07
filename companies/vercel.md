@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-296 rows in The Deploy Log are filed under Vercel. 104 carry a publisher's date, from September 18, 2025 to November 5, 2026, and 192 are placed by their edition.
+299 rows in The Deploy Log are filed under Vercel. 107 carry a publisher's date, from September 18, 2025 to November 6, 2026, and 192 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [AI Gateway DeepSeek Search and Fetch tools](https://deployedbyai.com/log/f565e0b309a9/ai-gateway-deepseek-search-and-fetch-tools/?k=repo) | DeepSeek Search and Fetch tools are now available through AI Gateway with one API key. | [Vercel, AI Gateway DeepSeek Search and Fetch tools](https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools) |
+| 2026-11-06 | [Ampersand on AI Gateway](https://deployedbyai.com/log/3916428f1570/ampersand-on-ai-gateway/?k=repo) | Ampersand from Humans&amp; is available on AI Gateway free through November 13, 2026. | [Vercel, Ampersand on AI Gateway](https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway) |
+| 2026-11-06 | [Chat SDK generative UI streaming](https://deployedbyai.com/log/7256bdf672b8/chat-sdk-generative-ui-streaming/?k=repo) | Chat SDK agents can now stream generative UI with json-render, converting JSON specs into native platform cards. | [Vercel, Chat SDK generative UI streaming](https://vercel.com/changelog/json-render-and-chat-sdk-agents) |
 | 2026-11-05 | [Gemini Omni 1.2 Flash](https://deployedbyai.com/log/643339fff88c/gemini-omni-1-2-flash/?k=repo) | Gemini Omni 1.2 Flash is available on AI Gateway, generating 3-15 second videos with native audio. | [Vercel, Gemini Omni 1.2 Flash](https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway) |
 | 2026-11-04 | [Kimi K3.1 Pro on AI Gateway](https://deployedbyai.com/log/e46d3022885e/kimi-k3-1-pro-on-ai-gateway/?k=repo) | Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are now available on AI Gateway from more Zero Data Retention providers, with a 1M-token context window. | [Vercel, Kimi K3.1 Pro on AI Gateway](https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway) |
 | 2026-11-03 | [Tencent Hy4 on AI Gateway](https://deployedbyai.com/log/79fc19048eb6/tencent-hy4-on-ai-gateway/?k=repo) | Tencent Hy4 is available on AI Gateway at 50% off through December 31, 2026, with a 1M-token context window. | [Vercel, Tencent Hy4 on AI Gateway](https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway) |

@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-157 rows in The Deploy Log are filed under Amazon Web Services. 151 carry a publisher's date, from September 16, 2026 to November 5, 2026, and 6 are placed by their edition.
+162 rows in The Deploy Log are filed under Amazon Web Services. 156 carry a publisher's date, from September 16, 2026 to November 6, 2026, and 6 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [Agent Registry in AWS GovCloud](https://deployedbyai.com/log/e2301294af4c/agent-registry-in-aws-govcloud/?k=repo) | Agent Registry is generally available in AWS GovCloud (US-West) Region. | [Amazon Web Services, Agent Registry in AWS GovCloud](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/) |
+| 2026-11-06 | [EC2 Capacity Blocks amortization](https://deployedbyai.com/log/4cdb798081fa/ec2-capacity-blocks-amortization/?k=repo) | AWS launches support for amortization of EC2 Capacity Blocks for ML. | [Amazon Web Services, EC2 Capacity Blocks amortization](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/) |
+| 2026-11-06 | [Kimi K3.1 Pro (Highspeed)](https://deployedbyai.com/log/04d52dfb9dc8/kimi-k3-1-pro-highspeed/?k=repo) | Kimi K3.1 Pro (Highspeed) is now available on Amazon Bedrock. | [Amazon Web Services, Kimi K3.1 Pro (Highspeed)](https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock) |
+| 2026-11-06 | [MediaConvert Smart Subtitles](https://deployedbyai.com/log/22687f77c09b/mediaconvert-smart-subtitles/?k=repo) | AWS Elemental MediaConvert adds a native integration with AWS Elemental Inference Smart Subtitles. | [Amazon Web Services, MediaConvert Smart Subtitles](https://aws.amazon.com/about-aws/whats-new/2026/11/mediaconvert-elemental-smart-subtitles/) |
+| 2026-11-06 | [SageMaker Multi-Instance GPU](https://deployedbyai.com/log/5e1729ff4728/sagemaker-multi-instance-gpu/?k=repo) | SageMaker Inference supports Multi-Instance GPU to maximize GPU utilization for model endpoints. | [Amazon Web Services, SageMaker Multi-Instance GPU](https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/) |
 | 2026-11-05 | [AWS WAF AI traffic monetization](https://deployedbyai.com/log/1f5e9983854e/aws-waf-ai-traffic-monetization/?k=repo) | AWS WAF AI traffic monetization now supports fiat payouts through Stripe. | [Amazon Web Services, AWS WAF AI traffic monetization](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-stripe-fiat-payouts/) |
 | 2026-11-05 | [Amazon Q Developer in console](https://deployedbyai.com/log/28d714c29faf/amazon-q-developer-in-console/?k=repo) | Amazon Q Developer in console is now the AWS assistant. | [Amazon Web Services, Amazon Q Developer in console](https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/) |
 | 2026-11-05 | [SageMaker AI Studio IAM replication](https://deployedbyai.com/log/fdaa9d48acaa/sagemaker-ai-studio-iam-replication/?k=repo) | Amazon SageMaker AI Studio now supports IAM Identity Center multi-region replication. | [Amazon Web Services, SageMaker AI Studio IAM replication](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/) |

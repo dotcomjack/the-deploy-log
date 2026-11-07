@@ -1,6 +1,6 @@
 # Neon in The Deploy Log
 
-5 rows in The Deploy Log are filed under Neon. Every one carries a publisher's date, from October 2, 2026 to November 4, 2026.
+6 rows in The Deploy Log are filed under Neon. Every one carries a publisher's date, from October 2, 2026 to November 6, 2026.
 
 The same rows are on [the Neon page of the record](https://deployedbyai.com/log/company/010df784046c/neon/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Neon page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [Neon AI Gateway credits](https://deployedbyai.com/log/279e42f8c2cb/neon-ai-gateway-credits/?k=repo) | All Neon accounts can purchase AI Gateway credits, with prepaid credits from $5 on the Free plan. | [Neon, Neon AI Gateway credits](https://neon.com/docs/changelog/2026-11-06) |
 | 2026-11-04 | [Neon MCP server stateless spec](https://deployedbyai.com/log/e815b87808d4/neon-mcp-server-stateless-spec/?k=repo) | Neon MCP server added support for the stateless MCP spec (2026-07-28) and retired its Server-Sent Events endpoints. | [Neon, Neon MCP server stateless spec](https://neon.com/blog/is-mcp-good-yet) |
 
 ## October 2026

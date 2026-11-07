@@ -1,8 +1,14 @@
 # Hugging Face in The Deploy Log
 
-97 rows in The Deploy Log are filed under Hugging Face. 48 carry a publisher's date, from September 17, 2025 to October 29, 2026, and 49 are placed by their edition.
+98 rows in The Deploy Log are filed under Hugging Face. 49 carry a publisher's date, from September 17, 2025 to November 6, 2026, and 49 are placed by their edition.
 
 The same rows are on [the Hugging Face page of the record](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-06 | [Transformers v5.22.2](https://deployedbyai.com/log/74357e5e2364/transformers-v5-22-2/?k=repo) | Patch release v5.22.2 with security and distributed fixes. | [Hugging Face, Transformers v5.22.2](https://github.com/huggingface/transformers/releases/tag/v5.22.2) |
 
 ## October 2026
 

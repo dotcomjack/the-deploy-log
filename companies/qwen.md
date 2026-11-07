@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-26 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 5, 2026.
+27 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 6, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [Qwen Code v0.26.9](https://deployedbyai.com/log/4da3989d3ff0/qwen-code-v0-26-9/?k=repo) | Qwen Code v0.26.9 ships fixes for channels, core, managed-agent, and PR verification. | [Qwen, Qwen Code v0.26.9](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9) |
 | 2026-11-05 | [Qwen SDK TypeScript v0.1.28](https://deployedbyai.com/log/96a14f12775c/qwen-sdk-typescript-v0-1-28/?k=repo) | SDK TypeScript v0.1.28 bundles CLI version 0.26.8. | [Qwen, Qwen SDK TypeScript v0.1.28](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.28) |
 | 2026-11-05 | [qwen-code v0.26.8](https://deployedbyai.com/log/03c9c7ee8a1e/qwen-code-v0-26-8/?k=repo) | qwen-code v0.26.8 adds prompt.submit hooks in OpenTUI, shared-loop model rounds, and concurrent workspace rewinds. | [Qwen, qwen-code v0.26.8](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.8) |
 | 2026-11-04 | [Qwen Code v0.26.7](https://deployedbyai.com/log/566172551697/qwen-code-v0-26-7/?k=repo) | Qwen Code v0.26.7 adds an operator model catalog refresh switch and multiple fixes. | [Qwen, Qwen Code v0.26.7](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.7) |
