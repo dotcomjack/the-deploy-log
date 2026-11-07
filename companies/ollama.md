@@ -8,7 +8,7 @@ The same rows are on [the Ollama page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
-| 2026-11-05 | [Ollama v0.40.15](https://deployedbyai.com/log/48d10d444544/ollama-v0-40-15/?k=repo) | Ollama v0.40.15 adds Kimi Code CLI support. | [Ollama, Ollama v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15) |
+| 2026-11-05 | [MiMo V2.6](https://deployedbyai.com/log/48d10d444544/mimo-v2-6/?k=repo) | Ollama v0.40.15 adds support for Xiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows. | [Ollama, v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15) |
 | 2026-11-03 | [Ollama v0.40.14](https://deployedbyai.com/log/091aabf3f9af/ollama-v0-40-14/?k=repo) | Ollama v0.40.14 applies model output token limits for Claude Code, fixes web search decoding, and preserves sampler defaults. | [Ollama, Ollama v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14) |
 
 ## October 2026

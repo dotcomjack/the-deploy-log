@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-102 rows in The Deploy Log are filed under GitHub. 93 carry a publisher's date, from September 17, 2026 to November 6, 2026, and 9 are placed by their edition.
+103 rows in The Deploy Log are filed under GitHub. 93 carry a publisher's date, from September 17, 2026 to November 6, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -114,10 +114,11 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 ## Placed by their edition
 
-9 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+10 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 59, 2026-11-07 | [Secret scanning](https://deployedbyai.com/log/47855d2cebf4/secret-scanning/?k=repo) | GitHub secret scanning adds SpaceX as a partner, detects starlink\_public\_api\_v2\_secret, and upgrades Alibaba, AWS, Google, OpenVSX, Pydantic Services, and Tencent detectors with additional false-positive filtering. | [GitHub, Secret scanning upgrades detectors, adds SpaceX as partner](https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner) |
 | Edition 58, 2026-10-31 | [GitHub webhook IP ranges](https://deployedbyai.com/log/39ffdc861313/github-webhook-ip-ranges/?k=repo) | GitHub added three webhook delivery IP ranges to the Meta API hooks field: 9.234.98.160/28, 9.234.98.176/28, and 9.234.106.48/28, for github.com across all plans including GitHub Enterprise Cloud. | [GitHub, Webhook IP ranges added to the Meta API](https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api) |
 | Edition 57, 2026-10-24 | [Copilot global default policy](https://deployedbyai.com/log/d58b497416df/copilot-global-default-policy/?k=repo) | GitHub is gradually rolling out enforcement of a global default policy for generally available Copilot features through October 26, setting eligible unconfigured features to Enabled, Disabled, or Let organizations decide. | [GitHub, Global default for Copilot features generally available](https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available) |
 | Edition 56, 2026-10-17 | [Xcode 27 runner image](https://deployedbyai.com/log/d83cca3a0110/xcode-27-runner-image/?k=repo) | The Xcode 27 runner image is now generally available in GitHub Actions, running on macOS 27 with the Xcode 27 toolchain and Apple SDKs on Apple Silicon runners only. | [GitHub, Xcode 27 runner image generally available](https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available) |

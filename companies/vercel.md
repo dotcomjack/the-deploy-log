@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-299 rows in The Deploy Log are filed under Vercel. 107 carry a publisher's date, from September 18, 2025 to November 6, 2026, and 192 are placed by their edition.
+301 rows in The Deploy Log are filed under Vercel. 107 carry a publisher's date, from September 18, 2025 to November 6, 2026, and 194 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,9 +8,9 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
-| 2026-11-06 | [AI Gateway DeepSeek Search and Fetch tools](https://deployedbyai.com/log/f565e0b309a9/ai-gateway-deepseek-search-and-fetch-tools/?k=repo) | DeepSeek Search and Fetch tools are now available through AI Gateway with one API key. | [Vercel, AI Gateway DeepSeek Search and Fetch tools](https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools) |
 | 2026-11-06 | [Ampersand on AI Gateway](https://deployedbyai.com/log/3916428f1570/ampersand-on-ai-gateway/?k=repo) | Ampersand from Humans&amp; is available on AI Gateway free through November 13, 2026. | [Vercel, Ampersand on AI Gateway](https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway) |
 | 2026-11-06 | [Chat SDK generative UI streaming](https://deployedbyai.com/log/7256bdf672b8/chat-sdk-generative-ui-streaming/?k=repo) | Chat SDK agents can now stream generative UI with json-render, converting JSON specs into native platform cards. | [Vercel, Chat SDK generative UI streaming](https://vercel.com/changelog/json-render-and-chat-sdk-agents) |
+| 2026-11-06 | [DeepSeek Search and Fetch](https://deployedbyai.com/log/f565e0b309a9/deepseek-search-and-fetch/?k=repo) | DeepSeek Search and DeepSeek Fetch are available through AI Gateway, each costing $0.75 per 1,000 billable requests, with no separate DeepSeek account required. | [Vercel, AI Gateway adds DeepSeek Search and Fetch tools](https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools) |
 | 2026-11-05 | [Gemini Omni 1.2 Flash](https://deployedbyai.com/log/643339fff88c/gemini-omni-1-2-flash/?k=repo) | Gemini Omni 1.2 Flash is available on AI Gateway, generating 3-15 second videos with native audio. | [Vercel, Gemini Omni 1.2 Flash](https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway) |
 | 2026-11-04 | [Kimi K3.1 Pro on AI Gateway](https://deployedbyai.com/log/e46d3022885e/kimi-k3-1-pro-on-ai-gateway/?k=repo) | Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are now available on AI Gateway from more Zero Data Retention providers, with a 1M-token context window. | [Vercel, Kimi K3.1 Pro on AI Gateway](https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway) |
 | 2026-11-03 | [Tencent Hy4 on AI Gateway](https://deployedbyai.com/log/79fc19048eb6/tencent-hy4-on-ai-gateway/?k=repo) | Tencent Hy4 is available on AI Gateway at 50% off through December 31, 2026, with a 1M-token context window. | [Vercel, Tencent Hy4 on AI Gateway](https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway) |
@@ -188,10 +188,12 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 ## Placed by their edition
 
-192 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+194 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 59, 2026-11-07 | [Vercel Schedules](https://deployedbyai.com/log/aa9958749ff7/vercel-schedules/?k=repo) | Vercel Schedules is in public beta on all plans, running tasks on a recurring cadence or at a single point in time, billed at <span>$</span>5 per 1M runs and <span>$</span>10 per 1M creations on Pro and Enterprise. | [Vercel, Vercel Schedules is now in public beta](https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta) |
+| Edition 59, 2026-11-07 | [Vercel Tracing](https://deployedbyai.com/log/31b56e3102cf/vercel-tracing/?k=repo) | Vercel Tracing is generally available on all plans, with a new Traces page, CLI search, automatic tracing for new Next.js projects, and retention of 3 days on Hobby, 14 days on Pro and Enterprise. | [Vercel, Vercel Tracing is now generally available](https://vercel.com/changelog/vercel-tracing-is-now-generally-available) |
 | Edition 58, 2026-10-31 | [Mistral Large 4 Gateway](https://deployedbyai.com/log/1b411ee7fa44/mistral-large-4-gateway/?k=repo) | Mistral Large 4 on Vercel AI Gateway now uses updated weights with lower pricing for input, cached input, and output tokens, and the existing model ID string mistral/mistral-large-4 serves the new version without changes. | [Vercel, Mistral Large 4 updated weights and lower pricing on AI Gateway](https://vercel.com/changelog/mistral-large-4-updated-weights-and-lower-pricing-on-ai-gateway) |
 | Edition 58, 2026-10-31 | [Vercel Flags SDK](https://deployedbyai.com/log/46f7408db04a/vercel-flags-sdk/?k=repo) | Vercel Flags SDK initialization on cold starts dropped from over 70 ms to 10 ms at p75, roughly 7x faster, and usage reporting no longer keeps functions running after the response, with update @flags-sdk/vercel to 1.5.3 or later. | [Vercel, Vercel Flags starts 7x faster and no longer extends function duration](https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration) |
 | Edition 58, 2026-10-31 | [Vercel IP geolocation](https://deployedbyai.com/log/846c02d9dedd/vercel-ip-geolocation/?k=repo) | Vercel IP geolocation now resolves city-level data for nearly all requests and postal-code data for 90% of traffic, with more frequent refreshes, enabled for all projects with no code or configuration changes. | [Vercel, Improved IP geolocation data](https://vercel.com/changelog/improved-ip-geolocation-data) |

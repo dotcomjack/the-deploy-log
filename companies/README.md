@@ -4,17 +4,17 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 
 | Company | Rows | With a publisher's date | First | Latest | In the record |
 |---|---:|---:|---|---|---|
-| [Vercel](vercel.md) | 299 | 107 | 2025-09-18 | 2026-11-06 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
-| [OpenAI](openai.md) | 279 | 172 | 2025-09-25 | 2026-11-06 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
+| [Vercel](vercel.md) | 301 | 107 | 2025-09-18 | 2026-11-06 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
+| [OpenAI](openai.md) | 280 | 172 | 2025-09-25 | 2026-11-06 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
 | [Anthropic](anthropic.md) | 190 | 146 | 2025-10-16 | 2026-11-06 | [page](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo) |
 | [Amazon Web Services](amazon-web-services.md) | 162 | 156 | 2026-09-16 | 2026-11-06 | [page](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo) |
-| [GitHub](github.md) | 102 | 93 | 2026-09-17 | 2026-11-06 | [page](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo) |
+| [GitHub](github.md) | 103 | 93 | 2026-09-17 | 2026-11-06 | [page](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo) |
 | [Hugging Face](hugging-face.md) | 98 | 49 | 2025-09-17 | 2026-11-06 | [page](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo) |
 | [LangChain](langchain.md) | 74 | 73 | 2026-09-20 | 2026-11-06 | [page](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo) |
 | [Google Cloud](google-cloud.md) | 72 | 72 | 2026-09-17 | 2026-11-06 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
 | [Databricks](databricks.md) | 67 | 67 | 2026-09-22 | 2026-11-05 | [page](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo) |
 | [Cloudflare](cloudflare.md) | 60 | 52 | 2026-08-13 | 2026-11-06 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
-| [NVIDIA](nvidia.md) | 51 | 46 | 2026-08-20 | 2026-11-06 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
+| [NVIDIA](nvidia.md) | 52 | 46 | 2026-08-20 | 2026-11-06 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
 | [Google Workspace](google-workspace.md) | 47 | 35 | 2026-08-28 | 2026-10-30 | [page](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo) |
 | [Google](google.md) | 45 | 37 | 2026-09-23 | 2026-11-07 | [page](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo) |
 | [Google DeepMind](google-deepmind.md) | 34 | 8 | 2025-10-25 | 2026-10-14 | [page](https://deployedbyai.com/log/company/c98c3052b742/google-deepmind/?k=repo) |

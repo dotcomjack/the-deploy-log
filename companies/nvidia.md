@@ -1,6 +1,6 @@
 # NVIDIA in The Deploy Log
 
-51 rows in The Deploy Log are filed under NVIDIA. 46 carry a publisher's date, from August 20, 2026 to November 6, 2026, and 5 are placed by their edition.
+52 rows in The Deploy Log are filed under NVIDIA. 46 carry a publisher's date, from August 20, 2026 to November 6, 2026, and 6 are placed by their edition.
 
 The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo).
 
@@ -72,10 +72,11 @@ The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/lo
 
 ## Placed by their edition
 
-5 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+6 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 59, 2026-11-07 | [Hogwarts Legacy DLSS 5](https://deployedbyai.com/log/ed844f6c9a08/hogwarts-legacy-dlss-5/?k=repo) | Hogwarts Legacy receives an NVIDIA DLSS 5 upgrade with 3D-Guided Neural Rendering on GeForce NOW, and 24 games join the library in November, including eight this week. | [NVIDIA, 'Hogwarts Legacy' Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW](https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/) |
 | Edition 57, 2026-10-24 | [Call of Duty: Modern Warfare](https://deployedbyai.com/log/ac0797561c83/call-of-duty-modern-warfare/?k=repo) | Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch today, with GeForce RTX 5080-class performance for Ultimate members bringing ray-tracing support in the cloud. | [NVIDIA, Cloud Deployment Incoming: 'Call of Duty: Modern Warfare 4' Arrives on GeForce NOW](https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/) |
 | Edition 56, 2026-10-17 | [GeForce NOW DLSS 4.5](https://deployedbyai.com/log/1cedf0b0370b/geforce-now-dlss-4-5/?k=repo) | NVIDIA DLSS 4.5 controls are now available on GeForce NOW, with Ultimate members on GeForce RTX 5080-powered cloud rigs getting Dynamic Multi Frame Generation up to 4X. | [NVIDIA, Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW](https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/) |
 | Edition 56, 2026-10-17 | [Nemotron 3.5 Super VL](https://deployedbyai.com/log/3b1c1b7baa69/nemotron-3-5-super-vl/?k=repo) | NVIDIA released Nemotron 3.5 Super VL, an open 120-billion-parameter model that is 5x faster than the next best in its class, alongside Nemotron 3.5 Bolt 74B-A9B 24GB for local agentic workloads. | [NVIDIA, From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/) |

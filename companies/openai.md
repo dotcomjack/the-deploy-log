@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-279 rows in The Deploy Log are filed under OpenAI. 172 carry a publisher's date, from September 25, 2025 to November 6, 2026, and 107 are placed by their edition.
+280 rows in The Deploy Log are filed under OpenAI. 172 carry a publisher's date, from September 25, 2025 to November 6, 2026, and 108 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -248,10 +248,11 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 ## Placed by their edition
 
-107 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+108 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 59, 2026-11-07 | [Codex rust-v0.167.0](https://deployedbyai.com/log/bcbc003a2261/codex-rust-v0-167-0/?k=repo) | Codex rust-v0.167.0 opens the agent command center with codex agents --no-daemon, marks unread results, and adds Google Cloud Vertex AI setup with Application Default Credentials or a credential file. | [OpenAI, rust-v0.167.0](https://github.com/openai/codex/releases/tag/rust-v0.167.0) |
 | Edition 58, 2026-10-31 | [Codex rust-v0.166.0](https://deployedbyai.com/log/8e944983e678/codex-rust-v0-166-0/?k=repo) | Codex rust-v0.166.0 added keyboard-driven transcript selection with word, line, and page motions, integrated search, GPT-6.1 Terra in bundled, Vertex AI, and Amazon Bedrock model catalogs, and codex queue --resume. | [OpenAI, Codex rust-v0.166.0 release notes](https://github.com/openai/codex/releases/tag/rust-v0.166.0) |
 | Edition 57, 2026-10-24 | [OpenAI models on Google Cloud](https://deployedbyai.com/log/9928c60e6fb6/openai-models-on-google-cloud/?k=repo) | OpenAI frontier models and Codex agentic workflows are coming to Google Cloud's Model Garden, purchasable through the Google Cloud Marketplace, with enterprises able to draw down GCP spend commitments for these purchases. | [OpenAI, OpenAI models are coming to Google Cloud](https://openai.com/index/openai-models-google-cloud) |
 | Edition 56, 2026-10-17 | [Codex rust-v0.163.0](https://deployedbyai.com/log/8b288aede60d/codex-rust-v0-163-0/?k=repo) | Codex rust-v0.163.0 enables Daybreak by default for eligible accounts, adds a configurable leader key with Ctrl+X as default, and lets you send a follow-up while Codex is responding. | [OpenAI, rust-v0.163.0](https://github.com/openai/codex/releases/tag/rust-v0.163.0) |
