@@ -46,10 +46,10 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 | [Apple](apple.md) | 11 | 8 | 2026-07-23 | 2026-10-28 | [page](https://deployedbyai.com/log/company/ecedc9023fa1/apple/?k=repo) |
 | [OpenHands](openhands.md) | 11 | 11 | 2026-09-25 | 2026-11-05 | [page](https://deployedbyai.com/log/company/3073c3e8ba0d/openhands/?k=repo) |
 | [Kilo Code](kilo-code.md) | 10 | 10 | 2026-09-25 | 2026-10-26 | [page](https://deployedbyai.com/log/company/37f4d5aefb1a/kilo-code/?k=repo) |
+| [Open WebUI](open-webui.md) | 10 | 10 | 2026-09-21 | 2026-11-08 | [page](https://deployedbyai.com/log/company/d493030271cb/open-webui/?k=repo) |
 | [Allen Institute for AI](allen-institute-for-ai.md) | 8 | 3 | 2026-05-08 | 2026-11-05 | [page](https://deployedbyai.com/log/company/0094e3ea82f8/allen-institute-for-ai/?k=repo) |
 | [Amp](amp.md) | 8 | 8 | 2026-09-29 | 2026-11-05 | [page](https://deployedbyai.com/log/company/6da83e085d2b/amp/?k=repo) |
 | [Docker](docker.md) | 8 | 8 | 2026-10-05 | 2026-11-05 | [page](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo) |
-| [Open WebUI](open-webui.md) | 8 | 8 | 2026-09-21 | 2026-11-03 | [page](https://deployedbyai.com/log/company/d493030271cb/open-webui/?k=repo) |
 | [Roboflow](roboflow.md) | 8 | 8 | 2026-10-02 | 2026-11-05 | [page](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo) |
 | [SAP](sap.md) | 8 | 8 | 2026-10-07 | 2026-11-03 | [page](https://deployedbyai.com/log/company/91948941b16c/sap/?k=repo) |
 | [Snowflake](snowflake.md) | 8 | 8 | 2026-10-02 | 2026-11-05 | [page](https://deployedbyai.com/log/company/2aea06ccb0d8/snowflake/?k=repo) |

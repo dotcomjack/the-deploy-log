@@ -1,6 +1,6 @@
 # Open WebUI in The Deploy Log
 
-8 rows in The Deploy Log are filed under Open WebUI. Every one carries a publisher's date, from September 21, 2026 to November 3, 2026.
+10 rows in The Deploy Log are filed under Open WebUI. Every one carries a publisher's date, from September 21, 2026 to November 8, 2026.
 
 The same rows are on [the Open WebUI page of the record](https://deployedbyai.com/log/company/d493030271cb/open-webui/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Open WebUI page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-08 | [Open WebUI v0.13.1](https://deployedbyai.com/log/02b115d1daca/open-webui-v0-13-1/?k=repo) | Coding agents like Claude Code, Codex and Pi appear in the model picker, and Tether desktop app is introduced. | [Open WebUI, Open WebUI v0.13.1](https://github.com/open-webui/open-webui/releases/tag/v0.13.1) |
+| 2026-11-08 | [Open WebUI v0.13.2](https://deployedbyai.com/log/6512e7e67fe8/open-webui-v0-13-2/?k=repo) | Open WebUI v0.13.2 fixes chat and comment loading over plain HTTP and makes the Side Chat permission switch visible independently. | [Open WebUI, Open WebUI v0.13.2](https://github.com/open-webui/open-webui/releases/tag/v0.13.2) |
 | 2026-11-03 | [Open WebUI v0.13.0](https://deployedbyai.com/log/69342ccc1dfe/open-webui-v0-13-0/?k=repo) | Open WebUI v0.13.0 adds a tabbed workspace and an Open Terminal Desktop tab for computer use. | [Open WebUI, Open WebUI v0.13.0](https://github.com/open-webui/open-webui/releases/tag/v0.13.0) |
 
 ## October 2026
