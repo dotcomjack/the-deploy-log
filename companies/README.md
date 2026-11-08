@@ -4,7 +4,7 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 
 | Company | Rows | With a publisher's date | First | Latest | In the record |
 |---|---:|---:|---|---|---|
-| [Vercel](vercel.md) | 301 | 107 | 2025-09-18 | 2026-11-06 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
+| [Vercel](vercel.md) | 302 | 108 | 2025-09-18 | 2026-11-07 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
 | [OpenAI](openai.md) | 280 | 172 | 2025-09-25 | 2026-11-06 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
 | [Anthropic](anthropic.md) | 190 | 146 | 2025-10-16 | 2026-11-06 | [page](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo) |
 | [Amazon Web Services](amazon-web-services.md) | 162 | 156 | 2026-09-16 | 2026-11-06 | [page](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo) |
@@ -22,18 +22,18 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 | [Notion](notion.md) | 33 | 21 | 2025-11-10 | 2026-08-07 | [page](https://deployedbyai.com/log/company/4751f64514b9/notion/?k=repo) |
 | [Microsoft](microsoft.md) | 32 | 30 | 2026-09-28 | 2026-11-06 | [page](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo) |
 | [OpenRouter](openrouter.md) | 32 | 32 | 2026-09-25 | 2026-11-06 | [page](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo) |
-| [Microsoft Azure](microsoft-azure.md) | 29 | 29 | 2026-09-21 | 2026-11-05 | [page](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo) |
+| [Microsoft Azure](microsoft-azure.md) | 30 | 30 | 2026-09-21 | 2026-11-06 | [page](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo) |
+| [Qwen](qwen.md) | 30 | 30 | 2026-09-29 | 2026-11-08 | [page](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo) |
 | [Mistral](mistral.md) | 29 | 17 | 2026-03-31 | 2026-11-04 | [page](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo) |
 | [Model Context Protocol](model-context-protocol.md) | 29 | 29 | 2026-09-28 | 2026-10-23 | [page](https://deployedbyai.com/log/company/088b60189c15/model-context-protocol/?k=repo) |
-| [Qwen](qwen.md) | 27 | 27 | 2026-09-29 | 2026-11-06 | [page](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo) |
 | [Langfuse](langfuse.md) | 26 | 26 | 2026-09-25 | 2026-11-05 | [page](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo) |
 | [Cline](cline.md) | 25 | 25 | 2026-09-25 | 2026-10-26 | [page](https://deployedbyai.com/log/company/eb2499072dab/cline/?k=repo) |
 | [RunPod](runpod.md) | 25 | 25 | 2026-09-25 | 2026-11-06 | [page](https://deployedbyai.com/log/company/3cc5d9cb66ef/runpod/?k=repo) |
 | [Lovable](lovable.md) | 22 | 22 | 2026-09-27 | 2026-11-06 | [page](https://deployedbyai.com/log/company/00260c69b4d7/lovable/?k=repo) |
+| [Ultralytics](ultralytics.md) | 21 | 21 | 2026-10-01 | 2026-11-07 | [page](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo) |
 | [Waymo](waymo.md) | 20 | 8 | 2025-09-17 | 2026-06-11 | [page](https://deployedbyai.com/log/company/70caf3ad4265/waymo/?k=repo) |
-| [Ultralytics](ultralytics.md) | 18 | 18 | 2026-10-01 | 2026-11-06 | [page](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo) |
+| [LiteLLM](litellm.md) | 18 | 18 | 2026-09-22 | 2026-11-07 | [page](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo) |
 | [DigitalOcean](digitalocean.md) | 17 | 17 | 2026-09-25 | 2026-11-04 | [page](https://deployedbyai.com/log/company/b6b9ec924bad/digitalocean/?k=repo) |
-| [LiteLLM](litellm.md) | 17 | 17 | 2026-09-22 | 2026-11-06 | [page](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo) |
 | [Netlify](netlify.md) | 17 | 17 | 2026-09-28 | 2026-11-04 | [page](https://deployedbyai.com/log/company/7adffd5ee2c8/netlify/?k=repo) |
 | [Pydantic](pydantic.md) | 17 | 17 | 2026-09-25 | 2026-11-04 | [page](https://deployedbyai.com/log/company/49425b50f21d/pydantic/?k=repo) |
 | [Shopify](shopify.md) | 17 | 17 | 2026-09-29 | 2026-10-28 | [page](https://deployedbyai.com/log/company/24b3b60d3d0e/shopify/?k=repo) |
@@ -71,6 +71,7 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 | [LiveKit](livekit.md) | 5 | 5 | 2026-10-01 | 2026-11-05 | [page](https://deployedbyai.com/log/company/1586f3da8be9/livekit/?k=repo) |
 | [Meta](meta.md) | 5 | 4 | 2026-10-09 | 2026-10-21 | [page](https://deployedbyai.com/log/company/50c5556ca53b/meta/?k=repo) |
 | [MLX-VLM](mlx-vlm.md) | 5 | 5 | 2026-09-28 | 2026-11-04 | [page](https://deployedbyai.com/log/company/3d4b8352ba97/mlx-vlm/?k=repo) |
+| [Tencent](tencent.md) | 5 | 5 | 2026-10-15 | 2026-11-07 | [page](https://deployedbyai.com/log/company/ea750d3cf789/tencent/?k=repo) |
 | [AMD](amd.md) | 4 | 4 | 2026-10-05 | 2026-11-06 | [page](https://deployedbyai.com/log/company/d916c9b502ed/amd/?k=repo) |
 | [Baseten](baseten.md) | 4 | 4 | 2026-10-02 | 2026-10-16 | [page](https://deployedbyai.com/log/company/7b20ec93ec55/baseten/?k=repo) |
 | [Cohere](cohere.md) | 4 | 4 | 2026-10-21 | 2026-11-04 | [page](https://deployedbyai.com/log/company/28c9fa52f6c5/cohere/?k=repo) |
@@ -84,7 +85,6 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 | [Samsung](samsung.md) | 4 | 4 | 2026-10-05 | 2026-11-03 | [page](https://deployedbyai.com/log/company/ce5bc1c2b116/samsung/?k=repo) |
 | [Stability AI](stability-ai.md) | 4 | 2 | 2025-09-18 | 2026-04-08 | [page](https://deployedbyai.com/log/company/18c00ca74996/stability-ai/?k=repo) |
 | [Supabase](supabase.md) | 4 | 4 | 2026-10-13 | 2026-10-26 | [page](https://deployedbyai.com/log/company/9ab23321c6a5/supabase/?k=repo) |
-| [Tencent](tencent.md) | 4 | 4 | 2026-10-15 | 2026-10-24 | [page](https://deployedbyai.com/log/company/ea750d3cf789/tencent/?k=repo) |
 | [Together AI](together-ai.md) | 4 | 4 | 2026-09-29 | 2026-10-15 | [page](https://deployedbyai.com/log/company/e4dcca255aac/together-ai/?k=repo) |
 | [Arize](arize.md) | 3 | 3 | 2026-09-28 | 2026-11-02 | [page](https://deployedbyai.com/log/company/b282770ef521/arize/?k=repo) |
 | [Browser Use](browser-use.md) | 3 | 3 | 2026-10-15 | 2026-10-26 | [page](https://deployedbyai.com/log/company/2dcdec0423ec/browser-use/?k=repo) |

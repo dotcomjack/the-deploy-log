@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-27 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 6, 2026.
+30 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 8, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-08 | [Qwen Code Desktop v0.27.0](https://deployedbyai.com/log/bf4dd5f5db96/qwen-code-desktop-v0-27-0/?k=repo) | Qwen Code Desktop v0.27.0 includes fixes for channels, core, and managed-agent. | [Qwen, Qwen Code Desktop v0.27.0](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.0) |
+| 2026-11-08 | [Qwen SDK TypeScript v0.1.30](https://deployedbyai.com/log/8b95058f542a/qwen-sdk-typescript-v0-1-30/?k=repo) | SDK TypeScript release v0.1.30 bundles CLI version 0.27.0. | [Qwen, Qwen SDK TypeScript v0.1.30](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.30) |
+| 2026-11-07 | [qwen-code v0.27.0](https://deployedbyai.com/log/1c93c0f3c8bd/qwen-code-v0-27-0/?k=repo) | qwen-code v0.27.0 adds FileChanged hook notifications, managed agent tool alignment, and test and CI fixes. | [Qwen, qwen-code v0.27.0](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0) |
 | 2026-11-06 | [Qwen Code v0.26.9](https://deployedbyai.com/log/4da3989d3ff0/qwen-code-v0-26-9/?k=repo) | Qwen Code v0.26.9 ships fixes for channels, core, managed-agent, and PR verification. | [Qwen, Qwen Code v0.26.9](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.9) |
 | 2026-11-05 | [Qwen SDK TypeScript v0.1.28](https://deployedbyai.com/log/96a14f12775c/qwen-sdk-typescript-v0-1-28/?k=repo) | SDK TypeScript v0.1.28 bundles CLI version 0.26.8. | [Qwen, Qwen SDK TypeScript v0.1.28](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.28) |
 | 2026-11-05 | [qwen-code v0.26.8](https://deployedbyai.com/log/03c9c7ee8a1e/qwen-code-v0-26-8/?k=repo) | qwen-code v0.26.8 adds prompt.submit hooks in OpenTUI, shared-loop model rounds, and concurrent workspace rewinds. | [Qwen, qwen-code v0.26.8](https://github.com/QwenLM/qwen-code/releases/tag/v0.26.8) |

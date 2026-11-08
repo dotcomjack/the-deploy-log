@@ -1,6 +1,6 @@
 # Microsoft Azure in The Deploy Log
 
-29 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 5, 2026.
+30 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 6, 2026.
 
 The same rows are on [the Microsoft Azure page of the record](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Microsoft Azure page of the record](https://deployedby
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-06 | [Kling, LTX, MiniMax in Foundry](https://deployedbyai.com/log/a2968d2e9ef6/kling-ltx-minimax-in-foundry/?k=repo) | Kling, LTX, and MiniMax video models are rolling out in public preview in Microsoft Foundry via fal. | [Microsoft Azure, Kling, LTX, MiniMax in Foundry](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032) |
 | 2026-11-05 | [Microsoft Foundry October updates](https://deployedbyai.com/log/b6b186c72ce5/microsoft-foundry-october-updates/?k=repo) | Browser Automation is generally available and the Decisions API is in Foundry; the Microsoft Copilot harness is in public preview. | [Microsoft Azure, Microsoft Foundry October updates](https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/) |
 | 2026-11-05 | [Microsoft Foundry extension for Azure Developer CLI](https://deployedbyai.com/log/309ec1f84080/microsoft-foundry-extension-for-azure-developer-cli/?k=repo) | Microsoft Foundry extension for Azure Developer CLI reaches version 1.0 and is generally available. | [Microsoft Azure, Microsoft Foundry extension for Azure Developer CLI](https://devblogs.microsoft.com/azure-sdk/microsoft-foundry-azure-developer-cli-ga/) |
 | 2026-11-04 | [Intelligent Terminal 0.3](https://deployedbyai.com/log/b1e53e5c9cab/intelligent-terminal-0-3/?k=repo) | Intelligent Terminal 0.3 adds a sidebar for managing tabs and agents, global search, agent CLI detection, and headless mode. | [Microsoft Azure, Intelligent Terminal 0.3](https://devblogs.microsoft.com/commandline/intelligent-terminal-v0-3-a-new-way-to-see-and-manage-your-tabs-and-agents/) |

@@ -8,7 +8,7 @@ The same rows are on [the PyTorch page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
-| 2026-11-05 | [PyTorch XPU OneDNN grouped\_mm](https://deployedbyai.com/log/040306a7933c/pytorch-xpu-onednn-grouped-mm/?k=repo) | PyTorch integrates OneDNN grouped\_mm and scaled\_grouped\_mm for Intel XPU devices. | [PyTorch, PyTorch XPU OneDNN grouped\_mm](https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1793919027) |
+| 2026-11-05 | [PyTorch XPU OneDNN grouped\_mm](https://deployedbyai.com/log/040306a7933c/pytorch-xpu-onednn-grouped-mm/?k=repo) | PyTorch merged OneDNN grouped\_mm and scaled\_grouped\_mm for Intel XPU devices. Correction, 8 Nov 2026: this row's source is a CI tag of a merged pull request, not a published PyTorch release. | [PyTorch, PyTorch XPU OneDNN grouped\_mm](https://github.com/pytorch/pytorch/releases/tag/viable%2Fstrict%2F1793919027) |
 
 ## October 2026
 

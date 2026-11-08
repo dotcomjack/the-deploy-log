@@ -1,8 +1,14 @@
 # Tencent in The Deploy Log
 
-4 rows in The Deploy Log are filed under Tencent. Every one carries a publisher's date, from October 15, 2026 to October 24, 2026.
+5 rows in The Deploy Log are filed under Tencent. Every one carries a publisher's date, from October 15, 2026 to November 7, 2026.
 
 The same rows are on [the Tencent page of the record](https://deployedbyai.com/log/company/ea750d3cf789/tencent/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-07 | [Qwen3.8-27B-DSpine-b16](https://deployedbyai.com/log/d947ee79dafb/qwen3-8-27b-dspine-b16/?k=repo) | Tencent released a five-layer draft model for Qwen3.8-27B with block size 16 and an 8,192-token sliding window. | [Tencent, Qwen3.8-27B-DSpine-b16](https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16) |
 
 ## October 2026
 
