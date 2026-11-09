@@ -1,10 +1,10 @@
 # The Deploy Log, week by week
 
-Of the 60 ISO weeks that hold a row in the record, 59 have a page there, and each is listed here, newest first. The rows of the other week are in `data.csv`.
+Of the 61 ISO weeks that hold a row in the record, 59 have a page there, and each is listed here, newest first. The rows of the other weeks are in `data.csv`.
 
 | Week | Monday to Sunday | Rows | With a publisher's date | In the record |
 |---|---|---:|---:|---|
-| [2026-W45](2026-W45.md) (in progress) | 2026-11-02 to 2026-11-08 | 261 | 256 | [page](https://deployedbyai.com/log/week/2026-W45/?k=repo) |
+| [2026-W45](2026-W45.md) | 2026-11-02 to 2026-11-08 | 266 | 261 | [page](https://deployedbyai.com/log/week/2026-W45/?k=repo) |
 | [2026-W44](2026-W44.md) | 2026-10-26 to 2026-11-01 | 246 | 239 | [page](https://deployedbyai.com/log/week/2026-W44/?k=repo) |
 | [2026-W43](2026-W43.md) | 2026-10-19 to 2026-10-25 | 319 | 313 | [page](https://deployedbyai.com/log/week/2026-W43/?k=repo) |
 | [2026-W42](2026-W42.md) | 2026-10-12 to 2026-10-18 | 297 | 285 | [page](https://deployedbyai.com/log/week/2026-W42/?k=repo) |

@@ -1,6 +1,6 @@
 # llama.cpp in The Deploy Log
 
-12 rows in The Deploy Log are filed under llama.cpp. Every one carries a publisher's date, from September 23, 2026 to November 5, 2026.
+13 rows in The Deploy Log are filed under llama.cpp. Every one carries a publisher's date, from September 23, 2026 to November 8, 2026.
 
 The same rows are on [the llama.cpp page of the record](https://deployedbyai.com/log/company/5b11e1c65bdb/llama-cpp/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the llama.cpp page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-08 | [llama.cpp b12210](https://deployedbyai.com/log/ab6136fdcdd2/llama-cpp-b12210/?k=repo) | CPU support for SpacemiT IME2 MXFP4 dense repack. | [llama.cpp, llama.cpp b12210](https://github.com/ggml-org/llama.cpp/releases/tag/b12210) |
 | 2026-11-05 | [llama.cpp b12146](https://deployedbyai.com/log/29541f15d45d/llama-cpp-b12146/?k=repo) | Metal backend fuses DeepSeek-V4/V4.1 and GLM MoE routing, including scale-bias routing norm for DeepSeek-V4.1. | [llama.cpp, llama.cpp b12146](https://github.com/ggml-org/llama.cpp/releases/tag/b12146) |
 | 2026-11-05 | [llama.cpp b12148](https://deployedbyai.com/log/70a61e287f8e/llama-cpp-b12148/?k=repo) | Vulkan RDNA3/4 large-tile split-K optimization in llama.cpp. | [llama.cpp, llama.cpp b12148](https://github.com/ggml-org/llama.cpp/releases/tag/b12148) |
 | 2026-11-04 | [llama.cpp v0.9.0](https://deployedbyai.com/log/d6b407e941e9/llama-cpp-v0-9-0/?k=repo) | Adds OCP FP8 E4M3 quantization, flash\_attn\_ext\_rows, four new architectures, Chatterbox TTS, and Gemma 4 E2B/E4B prefill optimizations. | [llama.cpp, llama.cpp v0.9.0](https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0) |

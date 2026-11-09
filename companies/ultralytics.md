@@ -1,6 +1,6 @@
 # Ultralytics in The Deploy Log
 
-21 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 7, 2026.
+22 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 8, 2026.
 
 The same rows are on [the Ultralytics page of the record](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Ultralytics page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-08 | [Ultralytics 8.4.208](https://deployedbyai.com/log/02b0bd4a7d2a/ultralytics-8-4-208/?k=repo) | Prediction and tracking now default to 0.5 NMS IoU, while validation keeps 0.7. | [Ultralytics, Ultralytics 8.4.208](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.208) |
 | 2026-11-07 | [Ultralytics 8.4.205 OCR](https://deployedbyai.com/log/18b90a4b0d2e/ultralytics-8-4-205-ocr/?k=repo) | Ultralytics 8.4.205 adds scene-text OCR with YOLO26-Text detection and PaddleOCR or custom recognizer. | [Ultralytics, Ultralytics 8.4.205 OCR](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.205) |
 | 2026-11-07 | [Ultralytics 8.4.206](https://deployedbyai.com/log/8b5336d106fa/ultralytics-8-4-206/?k=repo) | Ultralytics 8.4.206 reads upside-down and bottom-to-top text in OCR using a text-line orientation classifier. | [Ultralytics, Ultralytics 8.4.206](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.206) |
 | 2026-11-07 | [Ultralytics 8.4.207](https://deployedbyai.com/log/264335fb43f6/ultralytics-8-4-207/?k=repo) | Ultralytics 8.4.207 fixes PaddlePaddle export on new installs and CUDA machines. | [Ultralytics, Ultralytics 8.4.207](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.207) |

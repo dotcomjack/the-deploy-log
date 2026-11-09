@@ -1,8 +1,14 @@
 # Google DeepMind in The Deploy Log
 
-34 rows in The Deploy Log are filed under Google DeepMind. 8 carry a publisher's date, from October 25, 2025 to October 14, 2026, and 26 are placed by their edition.
+35 rows in The Deploy Log are filed under Google DeepMind. 9 carry a publisher's date, from October 25, 2025 to November 5, 2026, and 26 are placed by their edition.
 
 The same rows are on [the Google DeepMind page of the record](https://deployedbyai.com/log/company/c98c3052b742/google-deepmind/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-05 | [Gemini Omni 1.2 Flash](https://deployedbyai.com/log/ce1f926f3f7d/gemini-omni-1-2-flash/?k=repo) | Gemini Omni 1.2 Flash supports 15-second video clips and lower pricing. | [Google DeepMind, Gemini Omni 1.2 Flash](https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/) |
 
 ## October 2026
 

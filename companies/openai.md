@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-280 rows in The Deploy Log are filed under OpenAI. 172 carry a publisher's date, from September 25, 2025 to November 6, 2026, and 108 are placed by their edition.
+282 rows in The Deploy Log are filed under OpenAI. 174 carry a publisher's date, from September 25, 2025 to November 9, 2026, and 108 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [OpenAI Go SDK v3.97.0](https://deployedbyai.com/log/87ce5cd0ce1d/openai-go-sdk-v3-97-0/?k=repo) | OpenAI Go SDK v3.97.0 adds agent scheduling APIs. | [OpenAI, OpenAI Go SDK v3.97.0](https://github.com/openai/openai-go/releases/tag/v3.97.0) |
+| 2026-11-09 | [OpenAI Ruby SDK v0.121.0](https://deployedbyai.com/log/272568ece3bb/openai-ruby-sdk-v0-121-0/?k=repo) | Ruby SDK v0.121.0 adds agent scheduling APIs and gpt-6-rosalind to beta Responses requests. | [OpenAI, OpenAI Ruby SDK v0.121.0](https://github.com/openai/openai-ruby/releases/tag/v0.121.0) |
 | 2026-11-06 | [openai-node v7.53.0](https://deployedbyai.com/log/f31578b4d256/openai-node-v7-53-0/?k=repo) | Agents now deliver session errors as stream events. | [OpenAI, openai-node v7.53.0](https://github.com/openai/openai-node/releases/tag/v7.53.0) |
 | 2026-11-05 | [OpenAI Go SDK v3.96.0](https://deployedbyai.com/log/6f1110b756dd/openai-go-sdk-v3-96-0/?k=repo) | OpenAI Go SDK v3.96.0 adds a model option for Responses. | [OpenAI, OpenAI Go SDK v3.96.0](https://github.com/openai/openai-go/releases/tag/v3.96.0) |
 | 2026-11-05 | [OpenAI Java SDK v4.100.0](https://deployedbyai.com/log/f8e7272ee4da/openai-java-sdk-v4-100-0/?k=repo) | OpenAI Java SDK v4.100.0 adds image complexity and GIF and SVG output controls. | [OpenAI, OpenAI Java SDK v4.100.0](https://github.com/openai/openai-java/releases/tag/v4.100.0) |
