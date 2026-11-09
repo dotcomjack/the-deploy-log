@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-72 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 6, 2026.
+74 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 9, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Cloud Pathways](https://deployedbyai.com/log/a394c46c165b/cloud-pathways/?k=repo) | Cloud Pathways, a distributed ML runtime for accelerator fleets, is now GA on Google Kubernetes Engine. | [Google Cloud, Cloud Pathways](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/) |
+| 2026-11-09 | [TPU Sync](https://deployedbyai.com/log/62f8c4cff200/tpu-sync/?k=repo) | TPU Sync, an open-source C++ library for KV cache and weight transfer on TPU, cuts KV transfer latency by over 90%. | [Google Cloud, TPU Sync](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/) |
 | 2026-11-06 | [BigQuery Accessor in Pandas](https://deployedbyai.com/log/8c371c45ef84/bigquery-accessor-in-pandas/?k=repo) | BigQuery DataFrames adds a .bigquery accessor for zero-shot predictions via BigQuery AI functions in pandas. | [Google Cloud, BigQuery Accessor in Pandas](https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/) |
 | 2026-11-06 | [Google Cloud Z4M instances](https://deployedbyai.com/log/1d857ee98af9/google-cloud-z4m-instances/?k=repo) | Z4M VMs and bare-metal instances are GA with up to 168,000 GiB Local SSD and 400 Gbps RDMA. | [Google Cloud, Google Cloud Z4M instances](https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga/) |
 | 2026-11-05 | [Gemini Enterprise prepaid credits](https://deployedbyai.com/log/978afe14baac/gemini-enterprise-prepaid-credits/?k=repo) | Prepaid credits are generally available for self-serve Cloud Billing accounts on Gemini Enterprise Pay-as-you-go subscriptions and usage above quota. | [Google Cloud, Gemini Enterprise prepaid credits](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_05_2026) |

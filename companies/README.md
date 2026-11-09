@@ -10,10 +10,10 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 | [Amazon Web Services](amazon-web-services.md) | 162 | 156 | 2026-09-16 | 2026-11-06 | [page](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo) |
 | [GitHub](github.md) | 103 | 93 | 2026-09-17 | 2026-11-06 | [page](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo) |
 | [Hugging Face](hugging-face.md) | 98 | 49 | 2025-09-17 | 2026-11-06 | [page](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo) |
+| [Google Cloud](google-cloud.md) | 74 | 74 | 2026-09-17 | 2026-11-09 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
 | [LangChain](langchain.md) | 74 | 73 | 2026-09-20 | 2026-11-06 | [page](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo) |
-| [Google Cloud](google-cloud.md) | 72 | 72 | 2026-09-17 | 2026-11-06 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
 | [Databricks](databricks.md) | 67 | 67 | 2026-09-22 | 2026-11-05 | [page](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo) |
-| [Cloudflare](cloudflare.md) | 60 | 52 | 2026-08-13 | 2026-11-06 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
+| [Cloudflare](cloudflare.md) | 63 | 55 | 2026-08-13 | 2026-11-09 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
 | [NVIDIA](nvidia.md) | 52 | 46 | 2026-08-20 | 2026-11-06 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
 | [Google Workspace](google-workspace.md) | 47 | 35 | 2026-08-28 | 2026-10-30 | [page](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo) |
 | [Google](google.md) | 45 | 37 | 2026-09-23 | 2026-11-07 | [page](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo) |
@@ -26,7 +26,7 @@ Of the 151 companies the record files a row under, 93 have a page there, and eac
 | [Microsoft Azure](microsoft-azure.md) | 30 | 30 | 2026-09-21 | 2026-11-06 | [page](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo) |
 | [Mistral](mistral.md) | 29 | 17 | 2026-03-31 | 2026-11-04 | [page](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo) |
 | [Model Context Protocol](model-context-protocol.md) | 29 | 29 | 2026-09-28 | 2026-10-23 | [page](https://deployedbyai.com/log/company/088b60189c15/model-context-protocol/?k=repo) |
-| [Langfuse](langfuse.md) | 26 | 26 | 2026-09-25 | 2026-11-05 | [page](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo) |
+| [Langfuse](langfuse.md) | 27 | 27 | 2026-09-25 | 2026-11-09 | [page](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo) |
 | [Cline](cline.md) | 25 | 25 | 2026-09-25 | 2026-10-26 | [page](https://deployedbyai.com/log/company/eb2499072dab/cline/?k=repo) |
 | [RunPod](runpod.md) | 25 | 25 | 2026-09-25 | 2026-11-06 | [page](https://deployedbyai.com/log/company/3cc5d9cb66ef/runpod/?k=repo) |
 | [Lovable](lovable.md) | 22 | 22 | 2026-09-27 | 2026-11-06 | [page](https://deployedbyai.com/log/company/00260c69b4d7/lovable/?k=repo) |

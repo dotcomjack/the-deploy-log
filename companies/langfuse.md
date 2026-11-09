@@ -1,6 +1,6 @@
 # Langfuse in The Deploy Log
 
-26 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 5, 2026.
+27 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 9, 2026.
 
 The same rows are on [the Langfuse page of the record](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Langfuse page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Langfuse v4.77.0](https://deployedbyai.com/log/1078a590a471/langfuse-v4-77-0/?k=repo) | Langfuse v4.77.0 adds Amazon Bedrock upstream with API key auth and custom base URLs for OpenAI and Anthropic connections. | [Langfuse, Langfuse v4.77.0](https://github.com/langfuse/langfuse/releases/tag/v4.77.0) |
 | 2026-11-05 | [Langfuse v4.76.0](https://deployedbyai.com/log/4b657f73f890/langfuse-v4-76-0/?k=repo) | Langfuse v4.76.0 adds session list view, AI gateway key count telemetry, Topics summaries/assignments/rules in public API, MCP and in-app agent, and audit log read-access events. | [Langfuse, Langfuse v4.76.0](https://github.com/langfuse/langfuse/releases/tag/v4.76.0) |
 | 2026-11-04 | [Langfuse AI Gateway limits](https://deployedbyai.com/log/02b3ce9b6e20/langfuse-ai-gateway-limits/?k=repo) | Raises Pro/Team/Enterprise AI Gateway limits to 10k req/min and 5 GiB/min. | [Langfuse, Langfuse AI Gateway limits](https://github.com/langfuse/langfuse/releases/tag/v4.75.0) |
 | 2026-11-03 | [Langfuse v4.73.0](https://deployedbyai.com/log/5d4b3958f301/langfuse-v4-73-0/?k=repo) | AI Gateway analytics filtering by user and API key, GitHub Copilot CLI setup, HTTP/2, and HIPAA notice. | [Langfuse, Langfuse v4.73.0](https://github.com/langfuse/langfuse/releases/tag/v4.73.0) |
