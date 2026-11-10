@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-162 rows in The Deploy Log are filed under Amazon Web Services. 156 carry a publisher's date, from September 16, 2026 to November 6, 2026, and 6 are placed by their edition.
+166 rows in The Deploy Log are filed under Amazon Web Services. 160 carry a publisher's date, from September 16, 2026 to November 10, 2026, and 6 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Bedrock AgentCore Web Search API](https://deployedbyai.com/log/36ba670c1a84/bedrock-agentcore-web-search-api/?k=repo) | Amazon Bedrock AgentCore now offers a Web Search API. | [Amazon Web Services, Bedrock AgentCore Web Search API](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/) |
+| 2026-11-09 | [Claude Fable 5.2 in AWS GovCloud](https://deployedbyai.com/log/01bfd95b9a5e/claude-fable-5-2-in-aws-govcloud/?k=repo) | Claude Fable 5.2 is now available on AWS GovCloud (US). | [Amazon Web Services, Claude Fable 5.2 in AWS GovCloud](https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws-govcloud/) |
+| 2026-11-09 | [Claude Fable 5.2 on AWS](https://deployedbyai.com/log/a3dfc924b091/claude-fable-5-2-on-aws/?k=repo) | Claude Fable 5.2 is now available on AWS. | [Amazon Web Services, Claude Fable 5.2 on AWS](https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws/) |
+| 2026-11-09 | [Claude Mythos 5.2 in AWS GovCloud](https://deployedbyai.com/log/ee12823a8f53/claude-mythos-5-2-in-aws-govcloud/?k=repo) | Amazon Bedrock offers Claude Mythos 5.2 to eligible customers in AWS GovCloud (US). | [Amazon Web Services, Claude Mythos 5.2 in AWS GovCloud](https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/) |
 | 2026-11-06 | [Agent Registry in AWS GovCloud](https://deployedbyai.com/log/e2301294af4c/agent-registry-in-aws-govcloud/?k=repo) | Agent Registry is generally available in AWS GovCloud (US-West) Region. | [Amazon Web Services, Agent Registry in AWS GovCloud](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/) |
 | 2026-11-06 | [EC2 Capacity Blocks amortization](https://deployedbyai.com/log/4cdb798081fa/ec2-capacity-blocks-amortization/?k=repo) | AWS launches support for amortization of EC2 Capacity Blocks for ML. | [Amazon Web Services, EC2 Capacity Blocks amortization](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/) |
 | 2026-11-06 | [Kimi K3.1 Pro (Highspeed)](https://deployedbyai.com/log/04d52dfb9dc8/kimi-k3-1-pro-highspeed/?k=repo) | Kimi K3.1 Pro (Highspeed) is now available on Amazon Bedrock. | [Amazon Web Services, Kimi K3.1 Pro (Highspeed)](https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock) |

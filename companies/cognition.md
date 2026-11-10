@@ -1,6 +1,6 @@
 # Cognition in The Deploy Log
 
-7 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to November 5, 2026.
+8 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to November 9, 2026.
 
 The same rows are on [the Cognition page of the record](https://deployedbyai.com/log/company/a3079d818e00/cognition/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Cognition page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Claude Fable 5.2 in Devin](https://deployedbyai.com/log/bf513f8f6aab/claude-fable-5-2-in-devin/?k=repo) | Claude Fable 5.2 is live in Devin with a FrontierCode 2.0 score of 49.1%. | [Cognition, Claude Fable 5.2 in Devin](https://devin.ai/blog/claude-fable-5-2) |
 | 2026-11-05 | [Devin Review 2.0](https://deployedbyai.com/log/b8eb72be0ed9/devin-review-2-0/?k=repo) | Devin Review 2.0 cuts PR review cost by 82% to <span>$</span>0.25-<span>$</span>0.75 per PR and adds incremental reviews. | [Cognition, Devin Review 2.0](https://devin.ai/blog/devin-review-2) |
 
 ## October 2026

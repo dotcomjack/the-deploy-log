@@ -1,6 +1,6 @@
 # Mistral in The Deploy Log
 
-29 rows in The Deploy Log are filed under Mistral. 17 carry a publisher's date, from March 31, 2026 to November 4, 2026, and 12 are placed by their edition.
+30 rows in The Deploy Log are filed under Mistral. 18 carry a publisher's date, from March 31, 2026 to November 9, 2026, and 12 are placed by their edition.
 
 The same rows are on [the Mistral page of the record](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Mistral page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Mistral Vibe v3.1.1](https://deployedbyai.com/log/c1122837815c/mistral-vibe-v3-1-1/?k=repo) | Mistral Vibe v3.1.1 adds vibe-acp, Vim modes, sticky prompt, and pre-agent, notification, and session-start hooks. | [Mistral, Mistral Vibe v3.1.1](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.1) |
 | 2026-11-04 | [mistral-vibe v3.1.0](https://deployedbyai.com/log/2f91520ae57d/mistral-vibe-v3-1-0/?k=repo) | Added file autocomplete toggle, /context command with token estimates, and monthly usage display. | [Mistral, mistral-vibe v3.1.0](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.0) |
 
 ## October 2026

@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-31 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 9, 2026.
+34 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 9, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,7 +8,10 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Qwen Code Desktop v0.27.1](https://deployedbyai.com/log/911c169b2c47/qwen-code-desktop-v0-27-1/?k=repo) | Qwen Code Desktop v0.27.1 adds OpenAI-compatible provider docs and shell startup context. | [Qwen, Qwen Code Desktop v0.27.1](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.1) |
 | 2026-11-09 | [Qwen Code SDK TypeScript v0.1.29](https://deployedbyai.com/log/c9c5a83a9241/qwen-code-sdk-typescript-v0-1-29/?k=repo) | SDK TypeScript v0.1.29 published to npm, bundling CLI versions 0.26.2 through 0.26.9. | [Qwen, Qwen Code SDK TypeScript v0.1.29](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.29) |
+| 2026-11-09 | [SDK TypeScript v0.1.31](https://deployedbyai.com/log/9a00bf0dabfc/sdk-typescript-v0-1-31/?k=repo) | SDK TypeScript release v0.1.31 bundles CLI version 0.27.1. | [Qwen, SDK TypeScript v0.1.31](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.31) |
+| 2026-11-09 | [qwen-code v0.27.1](https://deployedbyai.com/log/c81a36e5dcd5/qwen-code-v0-27-1/?k=repo) | qwen-code v0.27.1 adds configurable background execution, LSP settings, and shell naming in startup context. | [Qwen, qwen-code v0.27.1](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.1) |
 | 2026-11-08 | [Qwen Code Desktop v0.27.0](https://deployedbyai.com/log/bf4dd5f5db96/qwen-code-desktop-v0-27-0/?k=repo) | Qwen Code Desktop v0.27.0 includes fixes for channels, core, and managed-agent. | [Qwen, Qwen Code Desktop v0.27.0](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.0) |
 | 2026-11-08 | [Qwen SDK TypeScript v0.1.30](https://deployedbyai.com/log/8b95058f542a/qwen-sdk-typescript-v0-1-30/?k=repo) | SDK TypeScript release v0.1.30 bundles CLI version 0.27.0. | [Qwen, Qwen SDK TypeScript v0.1.30](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.30) |
 | 2026-11-07 | [qwen-code v0.27.0](https://deployedbyai.com/log/1c93c0f3c8bd/qwen-code-v0-27-0/?k=repo) | qwen-code v0.27.0 adds FileChanged hook notifications, managed agent tool alignment, and test and CI fixes. | [Qwen, qwen-code v0.27.0](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.0) |

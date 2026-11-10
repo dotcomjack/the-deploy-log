@@ -1,6 +1,6 @@
 # Databricks in The Deploy Log
 
-67 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 5, 2026.
+71 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 9, 2026.
 
 The same rows are on [the Databricks page of the record](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Databricks Genie for Slack](https://deployedbyai.com/log/4bd3af3f934e/databricks-genie-for-slack/?k=repo) | Databricks Genie app for Slack is now generally available. | [Databricks, Databricks Genie for Slack](https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-genie-app-for-slack-is-now-generally-available) |
+| 2026-11-09 | [Databricks Genie for Teams](https://deployedbyai.com/log/c887fede4044/databricks-genie-for-teams/?k=repo) | Databricks Genie app in Microsoft Teams is now generally available. | [Databricks, Databricks Genie for Teams](https://docs.databricks.com/aws/en/release-notes/product/2026/november#databricks-genie-app-in-microsoft-teams-is-now-generally-available) |
+| 2026-11-09 | [Genie Ontology](https://deployedbyai.com/log/5f8aac5c3387/genie-ontology/?k=repo) | Genie Ontology is generally available as a context layer for Genie One, Genie Code, and other AI agents. | [Databricks, Genie Ontology](https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-ontology-is-now-generally-available) |
+| 2026-11-09 | [Genie Search](https://deployedbyai.com/log/88592ca4a051/genie-search/?k=repo) | Genie Search is generally available, indexing knowledge from Google Drive, Jira, Confluence, and Workday for Genie One. | [Databricks, Genie Search](https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-search-is-now-generally-available) |
 | 2026-11-05 | [Claude Code and Codex in SSH tunnel](https://deployedbyai.com/log/fd7f12a0f459/claude-code-and-codex-in-ssh-tunnel/?k=repo) | Claude Code and Codex are now available in Databricks SSH tunnel sessions, requiring Databricks CLI 1.23.0 or above. | [Databricks, Claude Code and Codex in SSH tunnel](https://docs.databricks.com/aws/en/release-notes/product/2026/november#run-claude-code-and-codex-in-the-ssh-tunnel) |
 | 2026-11-04 | [AI Function tasks for jobs](https://deployedbyai.com/log/8e490487ffe5/ai-function-tasks-for-jobs/?k=repo) | Databricks jobs can now run ai\_parse\_document, ai\_extract, or ai\_classify on volume files or table rows without SQL, in Beta. | [Databricks, AI Function tasks for jobs](https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-tasks-for-jobs-beta) |
 | 2026-11-04 | [Moonshot AI Kimi K3.1 Pro](https://deployedbyai.com/log/50eac386b60f/moonshot-ai-kimi-k3-1-pro/?k=repo) | Moonshot AI Kimi K3.1 Pro is available on Unity Gateway on pay-per-token endpoints in us-east-1. | [Databricks, Moonshot AI Kimi K3.1 Pro](https://docs.databricks.com/aws/en/release-notes/unity-gateway#moonshot-ai-kimi-k31-pro-is-now-available-on-unity-gateway) |

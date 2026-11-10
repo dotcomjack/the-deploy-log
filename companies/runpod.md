@@ -1,6 +1,6 @@
 # RunPod in The Deploy Log
 
-25 rows in The Deploy Log are filed under RunPod. Every one carries a publisher's date, from September 25, 2026 to November 6, 2026.
+31 rows in The Deploy Log are filed under RunPod. Every one carries a publisher's date, from September 25, 2026 to November 10, 2026.
 
 The same rows are on [the RunPod page of the record](https://deployedbyai.com/log/company/3cc5d9cb66ef/runpod/?k=repo).
 
@@ -8,6 +8,12 @@ The same rows are on [the RunPod page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [RunPod MCP for Coding Agents](https://deployedbyai.com/log/a15a5856de48/runpod-mcp-for-coding-agents/?k=repo) | RunPod MCP server at mcp.runpod.io and skills are available for Claude Code, Codex, Cursor and others. | [RunPod, RunPod MCP for Coding Agents](https://www.runpod.io/blog/set-up-runpod-coding-agent-mcp) |
+| 2026-11-10 | [RunPod Terraform Provider 2.0](https://deployedbyai.com/log/d501cd42a3d5/runpod-terraform-provider-2-0/?k=repo) | RunPod Terraform provider 2.0, generated from REST v2 API, is available since October. | [RunPod, RunPod Terraform Provider 2.0](https://www.runpod.io/blog/runpod-terraform-provider-2-0-migration) |
+| 2026-11-10 | [RunPod for Agents](https://deployedbyai.com/log/6e4871e647e8/runpod-for-agents/?k=repo) | RunPod for Agents adds an MCP server, skills, and one-prompt setup for Claude Code, Codex, Cursor and more. | [RunPod, RunPod for Agents](https://www.runpod.io/blog/whats-new-runpod-agents-november-2026) |
+| 2026-11-09 | [A40 GPUs on Runpod](https://deployedbyai.com/log/4d5c84fc31d3/a40-gpus-on-runpod/?k=repo) | NVIDIA A40 GPUs with 48 GB VRAM are available on Runpod for fine-tuning LLMs. | [RunPod, A40 GPUs on Runpod](https://www.runpod.io/blog/introducing-a40-gpus-machine-learning) |
+| 2026-11-09 | [DeepSeek R1 on 480GB VRAM](https://deployedbyai.com/log/2cc3fbdb5599/deepseek-r1-on-480gb-vram/?k=repo) | DeepSeek R1 Q4 runs on Runpod with 480GB VRAM at $10.74/hr on 6xA100s. | [RunPod, DeepSeek R1 on 480GB VRAM](https://www.runpod.io/blog/run-deepseek-r1-low-vram) |
+| 2026-11-09 | [Kimi K3 on 8xB300 Pod](https://deployedbyai.com/log/8ec7300008ba/kimi-k3-on-8xb300-pod/?k=repo) | Kimi K3 runs on a single 8xB300 Pod on Runpod at $71.92/hr with 128K context. | [RunPod, Kimi K3 on 8xB300 Pod](https://www.runpod.io/blog/deploying-kimi-k3-in-4-bit-on-a-single-8xb300-pod-on-runpod) |
 | 2026-11-06 | [Flash CLI Nix flake](https://deployedbyai.com/log/260390bc6746/flash-cli-nix-flake/?k=repo) | RunPod Flash CLI now ships a first-class Nix flake, runnable with nix run github:runpod/flash. | [RunPod, Flash CLI Nix flake](https://www.runpod.io/blog/flash-nix) |
 | 2026-11-06 | [Runpod Hub](https://deployedbyai.com/log/e6dae26b867f/runpod-hub/?k=repo) | Runpod Hub is live for deploying prebuilt open-source AI repos including ComfyUI, Whisper, and Mochi 1. | [RunPod, Runpod Hub](https://www.runpod.io/blog/runpod-hub-launch-open-source-ai-repos) |
 

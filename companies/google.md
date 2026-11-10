@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-45 rows in The Deploy Log are filed under Google. 37 carry a publisher's date, from September 23, 2026 to November 7, 2026, and 8 are placed by their edition.
+46 rows in The Deploy Log are filed under Google. 38 carry a publisher's date, from September 23, 2026 to November 9, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Google Maps Platform in AI Studio](https://deployedbyai.com/log/c96fb63638ea/google-maps-platform-in-ai-studio/?k=repo) | Google Maps Platform is now available directly inside Google AI Studio at no cost. | [Google, Google Maps Platform in AI Studio](https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/) |
 | 2026-11-07 | [ADK Python v2.14.0](https://deployedbyai.com/log/c1235d71e6a1/adk-python-v2-14-0/?k=repo) | ADK Python v2.14.0 graduates execution environments, A2A, evaluation, and core runtime modules from experimental and adds multi-run evaluation. | [Google, ADK Python v2.14.0](https://github.com/google/adk-python/releases/tag/v2.14.0) |
 | 2026-11-06 | [googleapis/python-genai v3.0.0](https://deployedbyai.com/log/5de98e525e75/googleapis-python-genai-v3-0-0/?k=repo) | Python GenAI SDK v3.0.0 defaults Gemini Developer API to v1 instead of v1beta. | [Google, googleapis/python-genai v3.0.0](https://github.com/googleapis/python-genai/releases/tag/v3.0.0) |
 | 2026-11-06 | [java-genai v2.0.0](https://deployedbyai.com/log/1ceac8b4021a/java-genai-v2-0-0/?k=repo) | java-genai v2.0.0 changes the default Gemini Developer API version from v1beta to v1; Vertex AI defaults unchanged. | [Google, java-genai v2.0.0](https://github.com/googleapis/java-genai/releases/tag/v2.0.0) |

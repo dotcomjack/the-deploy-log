@@ -1,8 +1,14 @@
 # Browser Use in The Deploy Log
 
-3 rows in The Deploy Log are filed under Browser Use. Every one carries a publisher's date, from October 15, 2026 to October 26, 2026.
+4 rows in The Deploy Log are filed under Browser Use. Every one carries a publisher's date, from October 15, 2026 to November 10, 2026.
 
 The same rows are on [the Browser Use page of the record](https://deployedbyai.com/log/company/2dcdec0423ec/browser-use/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-10 | [browser-use 1.0.1](https://deployedbyai.com/log/26b7525cae4b/browser-use-1-0-1/?k=repo) | browser-use 1.0.1 fixes MCP without Chrome, http\_get, allowed\_domains bypass, Windows UTF-8, timeout, and isolation. | [Browser Use, browser-use 1.0.1](https://github.com/browser-use/browser-use/releases/tag/1.0.1) |
 
 ## October 2026
 

@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-302 rows in The Deploy Log are filed under Vercel. 108 carry a publisher's date, from September 18, 2025 to November 7, 2026, and 194 are placed by their edition.
+305 rows in The Deploy Log are filed under Vercel. 111 carry a publisher's date, from September 18, 2025 to November 9, 2026, and 194 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Claude Fable 5.2 on AI Gateway](https://deployedbyai.com/log/027a1acc3700/claude-fable-5-2-on-ai-gateway/?k=repo) | Claude Fable 5.2 is available on AI Gateway with 30-day data retention and model fallbacks. | [Vercel, Claude Fable 5.2 on AI Gateway](https://vercel.com/changelog/claude-fable-5-2-now-available-on-ai-gateway) |
+| 2026-11-09 | [Muse Ember on AI Gateway](https://deployedbyai.com/log/c0f1d017fa56/muse-ember-on-ai-gateway/?k=repo) | Meta's Muse Ember reasoning model is available on AI Gateway with a 1M-token context window and adjustable reasoning effort. | [Vercel, Muse Ember on AI Gateway](https://vercel.com/changelog/muse-ember-now-available-on-ai-gateway) |
+| 2026-11-09 | [Workflow SDK WebSocket writes](https://deployedbyai.com/log/e79993ae6afb/workflow-sdk-websocket-writes/?k=repo) | Workflow SDK 5.2.0 sends event and stream writes over WebSockets by default, replacing one HTTP request per write. | [Vercel, Workflow SDK WebSocket writes](https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel) |
 | 2026-11-07 | [DeepSeek V4.1 Flash 1017 Ultrafast](https://deployedbyai.com/log/f5cbee5c1626/deepseek-v4-1-flash-1017-ultrafast/?k=repo) | DeepSeek V4.1 Flash 1017 Ultrafast is on AI Gateway via Fireworks with 1,000+ tokens per second and a 1M-token context window. | [Vercel, DeepSeek V4.1 Flash 1017 Ultrafast](https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway) |
 | 2026-11-06 | [Ampersand on AI Gateway](https://deployedbyai.com/log/3916428f1570/ampersand-on-ai-gateway/?k=repo) | Ampersand from Humans&amp; is available on AI Gateway free through November 13, 2026. | [Vercel, Ampersand on AI Gateway](https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway) |
 | 2026-11-06 | [Chat SDK generative UI streaming](https://deployedbyai.com/log/7256bdf672b8/chat-sdk-generative-ui-streaming/?k=repo) | Chat SDK agents can now stream generative UI with json-render, converting JSON specs into native platform cards. | [Vercel, Chat SDK generative UI streaming](https://vercel.com/changelog/json-render-and-chat-sdk-agents) |

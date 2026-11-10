@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-103 rows in The Deploy Log are filed under GitHub. 93 carry a publisher's date, from September 17, 2026 to November 6, 2026, and 10 are placed by their edition.
+105 rows in The Deploy Log are filed under GitHub. 95 carry a publisher's date, from September 17, 2026 to November 9, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Claude Fable 5.2](https://deployedbyai.com/log/0e21cf2a41fd/claude-fable-5-2/?k=repo) | Claude Fable 5.2 is generally available in GitHub Copilot for Pro+, Max, Business, and Enterprise users. | [GitHub, Claude Fable 5.2](https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot) |
+| 2026-11-09 | [Copilot CLI 1.0.108](https://deployedbyai.com/log/e4a657384f09/copilot-cli-1-0-108/?k=repo) | Copilot CLI 1.0.108 adds sandbox filesystem settings, /index commands, and Grok PDF attachment fallback. | [GitHub, Copilot CLI 1.0.108](https://github.com/github/copilot-cli/releases/tag/v1.0.108) |
 | 2026-11-06 | [Copilot impact dashboard chat and agent usage](https://deployedbyai.com/log/5f9e65ab6608/copilot-impact-dashboard-chat-and-agent-usage/?k=repo) | Copilot impact dashboard now tracks Copilot Chat and VS Code Agents window engagement across nine experiences. | [GitHub, Copilot impact dashboard chat and agent usage](https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage) |
 | 2026-11-06 | [GitHub Copilot CLI 1.0.107](https://deployedbyai.com/log/632af2ffd098/github-copilot-cli-1-0-107/?k=repo) | Adds GPT-6.1 Terra as a selectable model, /code command, Fusion tier setting, and sandbox extensions setting. | [GitHub, GitHub Copilot CLI 1.0.107](https://github.com/github/copilot-cli/releases/tag/v1.0.107) |
 | 2026-11-06 | [GitHub Copilot weekly releases](https://deployedbyai.com/log/8fbf0ffbb880/github-copilot-weekly-releases/?k=repo) | Copilot is now available in JetBrains Air and Xcode's coding assistant, with updates for pull requests, settings, and agent sessions. | [GitHub, GitHub Copilot weekly releases](https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2) |

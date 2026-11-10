@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-63 rows in The Deploy Log are filed under Cloudflare. 55 carry a publisher's date, from August 13, 2026 to November 9, 2026, and 8 are placed by their edition.
+64 rows in The Deploy Log are filed under Cloudflare. 56 carry a publisher's date, from August 13, 2026 to November 9, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -10,6 +10,7 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 |---|---|---|---|
 | 2026-11-09 | [Codex agent loop on Cloudflare Workers](https://deployedbyai.com/log/820d84b1ff21/codex-agent-loop-on-cloudflare-workers/?k=repo) | An experimental Agents SDK example runs the Codex agent loop in a Cloudflare Durable Object with persistence and recovery. | [Cloudflare, Codex agent loop on Cloudflare Workers](https://developers.cloudflare.com/changelog/post/2026-11-09-codex-harness/) |
 | 2026-11-09 | [Exo agents on Cloudflare](https://deployedbyai.com/log/9df334f69e0d/exo-agents-on-cloudflare/?k=repo) | Exo agents can now run on Cloudflare with Durable Objects coordinating conversations and Sandboxes running Linux tools. | [Cloudflare, Exo agents on Cloudflare](https://developers.cloudflare.com/changelog/post/2026-11-09-exo-on-cloudflare/) |
+| 2026-11-09 | [Markdown for Agents analytics and tracing](https://deployedbyai.com/log/106295ef55e3/markdown-for-agents-analytics-and-tracing/?k=repo) | Cloudflare's Markdown for Agents is generally available with analytics, logs, playground, GraphQL API, and Traces span for monitoring conversions. | [Cloudflare, Markdown for Agents analytics and tracing](https://developers.cloudflare.com/changelog/post/2026-11-09-markdown-for-agents-observability/) |
 | 2026-11-09 | [Nanocode agent harness in Durable Objects](https://deployedbyai.com/log/765e1ab00ebb/nanocode-agent-harness-in-durable-objects/?k=repo) | Nanocode coding agents can now run in Cloudflare Durable Objects with persistent session history and recovery after interruptions. | [Cloudflare, Nanocode agent harness in Durable Objects](https://developers.cloudflare.com/changelog/post/2026-11-09-nanocode-on-workers/) |
 | 2026-11-06 | [AI Gateway provider key activity](https://deployedbyai.com/log/d6e493f92a29/ai-gateway-provider-key-activity/?k=repo) | AI Gateway shows usage activity for stored provider keys, with last-used and last-updated dates and a 90-day inactivity highlight. | [Cloudflare, AI Gateway provider key activity](https://developers.cloudflare.com/changelog/post/2026-11-06-provider-key-security/) |
 | 2026-11-05 | [Cloudflare Q3 2026 results](https://deployedbyai.com/log/836c95de8a1d/cloudflare-q3-2026-results/?k=repo) | Revenue of <span>$</span>782.5 million, up 39% year-over-year, with Q4 guidance of <span>$</span>845.0 to <span>$</span>846.0 million. | [Cloudflare, Cloudflare Q3 2026 results](https://www.sec.gov/Archives/edgar/data/1477333/000147733326000060/q326exhibit991.htm) |

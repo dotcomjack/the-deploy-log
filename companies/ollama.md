@@ -1,6 +1,6 @@
 # Ollama in The Deploy Log
 
-14 rows in The Deploy Log are filed under Ollama. 7 carry a publisher's date, from September 22, 2026 to November 5, 2026, and 7 are placed by their edition.
+15 rows in The Deploy Log are filed under Ollama. 8 carry a publisher's date, from September 22, 2026 to November 9, 2026, and 7 are placed by their edition.
 
 The same rows are on [the Ollama page of the record](https://deployedbyai.com/log/company/f5b7c084312d/ollama/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Ollama page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Ollama v0.40.16](https://deployedbyai.com/log/7a16dcaf3b2e/ollama-v0-40-16/?k=repo) | Ollama v0.40.16 adds Ripple Preview model support and reduces Qwen3.8 Flash memory use by about 27 GiB on Apple silicon. | [Ollama, Ollama v0.40.16](https://github.com/ollama/ollama/releases/tag/v0.40.16) |
 | 2026-11-05 | [MiMo V2.6](https://deployedbyai.com/log/48d10d444544/mimo-v2-6/?k=repo) | Ollama v0.40.15 adds support for Xiaomi MiMo's mimo-v2.6, a 9B model built for code and agent workflows. | [Ollama, v0.40.15](https://github.com/ollama/ollama/releases/tag/v0.40.15) |
 | 2026-11-03 | [Ollama v0.40.14](https://deployedbyai.com/log/091aabf3f9af/ollama-v0-40-14/?k=repo) | Ollama v0.40.14 applies model output token limits for Claude Code, fixes web search decoding, and preserves sampler defaults. | [Ollama, Ollama v0.40.14](https://github.com/ollama/ollama/releases/tag/v0.40.14) |
 

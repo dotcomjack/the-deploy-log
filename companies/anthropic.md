@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-190 rows in The Deploy Log are filed under Anthropic. 146 carry a publisher's date, from October 16, 2025 to November 6, 2026, and 44 are placed by their edition.
+199 rows in The Deploy Log are filed under Anthropic. 155 carry a publisher's date, from October 16, 2025 to November 10, 2026, and 44 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,6 +8,15 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Claude Agent SDK v0.3.322](https://deployedbyai.com/log/fc12f2030b6f/claude-agent-sdk-v0-3-322/?k=repo) | Updated to parity with Claude Code v2.1.322. | [Anthropic, Claude Agent SDK v0.3.322](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.322) |
+| 2026-11-10 | [Claude Code v2.1.322](https://deployedbyai.com/log/7d02d6db088c/claude-code-v2-1-322/?k=repo) | Fast mode added on Vertex in global, us, and eu regions, falling back to standard speed if Vertex refuses it. | [Anthropic, Claude Code v2.1.322](https://github.com/anthropics/claude-code/releases/tag/v2.1.322) |
+| 2026-11-09 | [Anthropic Go SDK v2.8.0](https://deployedbyai.com/log/62fb79b00e7b/anthropic-go-sdk-v2-8-0/?k=repo) | Adds claude-fable-5-2 and claude-mythos-5-2 model names, webhook events, and usage report filtering. | [Anthropic, Anthropic Go SDK v2.8.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.8.0) |
+| 2026-11-09 | [Anthropic Java SDK v3.7.0](https://deployedbyai.com/log/aec389e9c010/anthropic-java-sdk-v3-7-0/?k=repo) | Adds claude-fable-5-2 and claude-mythos-5-2 model names, webhook events, and usage report filtering. | [Anthropic, Anthropic Java SDK v3.7.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.7.0) |
+| 2026-11-09 | [Anthropic Python SDK v2.7.0](https://deployedbyai.com/log/7ef765d18938/anthropic-python-sdk-v2-7-0/?k=repo) | Release v2.7.0 adds claude-fable-5-2 and claude-mythos-5-2 model names and new API features. | [Anthropic, Anthropic Python SDK v2.7.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0) |
+| 2026-11-09 | [Claude Agent SDK TypeScript v0.3.321](https://deployedbyai.com/log/dc04efca909d/claude-agent-sdk-typescript-v0-3-321/?k=repo) | Release v0.3.321 fixes hooks, MCP servers, skills, plugins, and session save hangs. | [Anthropic, Claude Agent SDK TypeScript v0.3.321](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.321) |
+| 2026-11-09 | [Claude Code v2.1.321](https://deployedbyai.com/log/541a60b381a9/claude-code-v2-1-321/?k=repo) | Claude Fable 5.2 is now the default model with 1M context and <span>$</span>8/<span>$</span>40 per Mtok pricing. | [Anthropic, Claude Code v2.1.321](https://github.com/anthropics/claude-code/releases/tag/v2.1.321) |
+| 2026-11-09 | [anthropic-sdk-typescript v1.7.0](https://deployedbyai.com/log/7121ba18744d/anthropic-sdk-typescript-v1-7-0/?k=repo) | SDK v1.7.0 adds claude-fable-5-2 and claude-mythos-5-2 model support. | [Anthropic, anthropic-sdk-typescript v1.7.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.7.0) |
+| 2026-11-09 | [claude-agent-sdk-python v0.2.180](https://deployedbyai.com/log/7a6e723dfbc7/claude-agent-sdk-python-v0-2-180/?k=repo) | Version 0.2.180 of the Claude Agent SDK for Python is on PyPI. | [Anthropic, claude-agent-sdk-python v0.2.180](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.180) |
 | 2026-11-06 | [Claude Agent SDK Python v0.2.179](https://deployedbyai.com/log/57884c4a52c6/claude-agent-sdk-python-v0-2-179/?k=repo) | claude-agent-sdk 0.2.179 released on PyPI. | [Anthropic, Claude Agent SDK Python v0.2.179](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.179) |
 | 2026-11-06 | [Claude Agent SDK v0.3.319](https://deployedbyai.com/log/e2b2ee89e6e7/claude-agent-sdk-v0-3-319/?k=repo) | Claude Agent SDK v0.3.319 adds MCP task support in SDK sessions and updates to Claude Code v2.1.319 parity. | [Anthropic, Claude Agent SDK v0.3.319](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.319) |
 | 2026-11-06 | [Claude Code v2.1.319](https://deployedbyai.com/log/72251ec9b600/claude-code-v2-1-319/?k=repo) | Claude Code v2.1.319 changes auto mode behavior with telemetry or feature flags off, adds MCP task backgrounding, and adds a /claude-api latency-optimize command. | [Anthropic, v2.1.319](https://github.com/anthropics/claude-code/releases/tag/v2.1.319) |

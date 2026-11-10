@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-74 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 9, 2026.
+75 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 9, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Agent Substrate on GKE](https://deployedbyai.com/log/a7d39381fee5/agent-substrate-on-gke/?k=repo) | Agent Substrate on GKE is generally available for GKE Standard clusters running version 1.37 or later. | [Google Cloud, Agent Substrate on GKE](https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#November_09_2026) |
 | 2026-11-09 | [Cloud Pathways](https://deployedbyai.com/log/a394c46c165b/cloud-pathways/?k=repo) | Cloud Pathways, a distributed ML runtime for accelerator fleets, is now GA on Google Kubernetes Engine. | [Google Cloud, Cloud Pathways](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/) |
 | 2026-11-09 | [TPU Sync](https://deployedbyai.com/log/62f8c4cff200/tpu-sync/?k=repo) | TPU Sync, an open-source C++ library for KV cache and weight transfer on TPU, cuts KV transfer latency by over 90%. | [Google Cloud, TPU Sync](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/) |
 | 2026-11-06 | [BigQuery Accessor in Pandas](https://deployedbyai.com/log/8c371c45ef84/bigquery-accessor-in-pandas/?k=repo) | BigQuery DataFrames adds a .bigquery accessor for zero-shot predictions via BigQuery AI functions in pandas. | [Google Cloud, BigQuery Accessor in Pandas](https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/) |

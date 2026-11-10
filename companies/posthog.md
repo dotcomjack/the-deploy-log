@@ -1,8 +1,14 @@
 # PostHog in The Deploy Log
 
-13 rows in The Deploy Log are filed under PostHog. Every one carries a publisher's date, from September 25, 2026 to October 23, 2026.
+14 rows in The Deploy Log are filed under PostHog. Every one carries a publisher's date, from September 25, 2026 to November 9, 2026.
 
 The same rows are on [the PostHog page of the record](https://deployedbyai.com/log/company/97fc8c3bb9de/posthog/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-09 | [PostHog Firebase Genkit tracing](https://deployedbyai.com/log/0807e2b40fab/posthog-firebase-genkit-tracing/?k=repo) | Firebase Genkit flows can send model, tool, and embedding traces to PostHog AI observability. | [PostHog, PostHog Firebase Genkit tracing](https://posthog.com/changelog?id=3139) |
 
 ## October 2026
 
