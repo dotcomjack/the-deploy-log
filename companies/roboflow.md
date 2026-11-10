@@ -1,6 +1,6 @@
 # Roboflow in The Deploy Log
 
-8 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 5, 2026.
+9 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 10, 2026.
 
 The same rows are on [the Roboflow page of the record](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Roboflow page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [supervision-0.31.6](https://deployedbyai.com/log/00ec0964de10/supervision-0-31-6/?k=repo) | supervision 0.31.6 fixes empty-frame keypoints, loads more Transformers models, and draws on grayscale and palette scenes. | [Roboflow, supervision-0.31.6](https://github.com/roboflow/supervision/releases/tag/0.31.6) |
 | 2026-11-05 | [supervision-0.31.5](https://deployedbyai.com/log/ab68c938ee7d/supervision-0-31-5/?k=repo) | supervision 0.31.5 adds right-to-left labels, occlusion-tolerant line counting, and exact oriented-box clipping. | [Roboflow, supervision-0.31.5](https://github.com/roboflow/supervision/releases/tag/0.31.5) |
 
 ## October 2026
