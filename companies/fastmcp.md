@@ -1,6 +1,6 @@
 # FastMCP in The Deploy Log
 
-8 rows in The Deploy Log are filed under FastMCP. Every one carries a publisher's date, from September 25, 2026 to November 10, 2026.
+9 rows in The Deploy Log are filed under FastMCP. Every one carries a publisher's date, from September 25, 2026 to November 10, 2026.
 
 The same rows are on [the FastMCP page of the record](https://deployedbyai.com/log/company/11b827318913/fastmcp/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the FastMCP page of the record](https://deployedbyai.com/l
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-10 | [FastMCP v4.1.7](https://deployedbyai.com/log/f95c6c04621d/fastmcp-v4-1-7/?k=repo) | FastMCP 4.1.7 backports 42 fixes from the 4.2 line. | [FastMCP, FastMCP v4.1.7](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.1.7) |
+| 2026-11-10 | [FastMCP v4.1.8](https://deployedbyai.com/log/196f58e9b890/fastmcp-v4-1-8/?k=repo) | FastMCP 4.1.8 backports 28 fixes from the 4.2 line. | [FastMCP, FastMCP v4.1.8](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.1.8) |
 | 2026-11-03 | [FastMCP v4.1.6](https://deployedbyai.com/log/3985dd4b3d8a/fastmcp-v4-1-6/?k=repo) | ClientGroup keeps tool routes after group context exits. | [FastMCP, FastMCP v4.1.6](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.1.6) |
 
 ## October 2026

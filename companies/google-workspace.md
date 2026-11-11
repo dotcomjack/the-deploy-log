@@ -1,6 +1,6 @@
 # Google Workspace in The Deploy Log
 
-48 rows in The Deploy Log are filed under Google Workspace. 36 carry a publisher's date, from August 28, 2026 to November 10, 2026, and 12 are placed by their edition.
+50 rows in The Deploy Log are filed under Google Workspace. 38 carry a publisher's date, from August 28, 2026 to November 10, 2026, and 12 are placed by their edition.
 
 The same rows are on [the Google Workspace page of the record](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Google Workspace page of the record](https://deployedb
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Gemini in Gmail for Workspace](https://deployedbyai.com/log/15eaa9172edf/gemini-in-gmail-for-workspace/?k=repo) | AI Overview conversation summaries and Help me write are now available to all Workspace users 18 and older. | [Google Workspace, Gemini in Gmail for Workspace](http://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html) |
+| 2026-11-10 | [Gemini meeting scheduling in Chat](https://deployedbyai.com/log/5cea0028cfab/gemini-meeting-scheduling-in-chat/?k=repo) | Gemini detects meeting intent in Chat and schedules with one click, available on web in English. | [Google Workspace, Gemini meeting scheduling in Chat](http://workspaceupdates.googleblog.com/2026/11/schedule-meetings-in-single-click-from-conversations-in-Google-Chat.html) |
 | 2026-11-10 | [Google Workspace skills](https://deployedbyai.com/log/244f3d122bb1/google-workspace-skills/?k=repo) | Skills in Google Workspace are now rolling out across Google Workspace Studio and Workspace apps. | [Google Workspace, Google Workspace skills](http://workspaceupdates.googleblog.com/2026/11/skills-in-workspace.html) |
 
 ## October 2026

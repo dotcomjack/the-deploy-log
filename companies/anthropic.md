@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-199 rows in The Deploy Log are filed under Anthropic. 155 carry a publisher's date, from October 16, 2025 to November 10, 2026, and 44 are placed by their edition.
+206 rows in The Deploy Log are filed under Anthropic. 162 carry a publisher's date, from October 16, 2025 to November 10, 2026, and 44 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,8 +8,15 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Anthropic Java SDK v3.8.0](https://deployedbyai.com/log/c966aaf05cde/anthropic-java-sdk-v3-8-0/?k=repo) | Adds Claude Tag metrics to analytics summaries and users reports, and reply\_mode to Claude Tag Slack channel settings. | [Anthropic, Anthropic Java SDK v3.8.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.8.0) |
 | 2026-11-10 | [Claude Agent SDK v0.3.322](https://deployedbyai.com/log/fc12f2030b6f/claude-agent-sdk-v0-3-322/?k=repo) | Updated to parity with Claude Code v2.1.322. | [Anthropic, Claude Agent SDK v0.3.322](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.322) |
 | 2026-11-10 | [Claude Code v2.1.322](https://deployedbyai.com/log/7d02d6db088c/claude-code-v2-1-322/?k=repo) | Fast mode added on Vertex in global, us, and eu regions, falling back to standard speed if Vertex refuses it. | [Anthropic, Claude Code v2.1.322](https://github.com/anthropics/claude-code/releases/tag/v2.1.322) |
+| 2026-11-10 | [anthropic-sdk-go v2.9.0](https://deployedbyai.com/log/82885245ad75/anthropic-sdk-go-v2-9-0/?k=repo) | anthropic-sdk-go v2.9.0 adds Claude Tag metrics and reply\_mode, with Bedrock model ID escaping fixes. | [Anthropic, anthropic-sdk-go v2.9.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.9.0) |
+| 2026-11-10 | [anthropic-sdk-python v2.8.0](https://deployedbyai.com/log/89240da58290/anthropic-sdk-python-v2-8-0/?k=repo) | Adds Claude Tag metrics, reply\_mode, and fixes for bedrock, google-cloud, and vertex model ID handling. | [Anthropic, anthropic-sdk-python v2.8.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.8.0) |
+| 2026-11-10 | [bedrock-sdk-v1.1.2](https://deployedbyai.com/log/8a3bf879d455/bedrock-sdk-v1-1-2/?k=repo) | Bedrock SDK release adds error handling for invalid model identifiers. | [Anthropic, bedrock-sdk-v1.1.2](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v1.1.2) |
+| 2026-11-10 | [google-cloud-sdk-v1.1.4](https://deployedbyai.com/log/55da84d0a2c5/google-cloud-sdk-v1-1-4/?k=repo) | Google Cloud SDK release adds error handling for invalid project, location, or workspace IDs. | [Anthropic, google-cloud-sdk-v1.1.4](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/google-cloud-sdk-v1.1.4) |
+| 2026-11-10 | [sdk-v1.8.0](https://deployedbyai.com/log/0055f1784cd7/sdk-v1-8-0/?k=repo) | SDK v1.8.0 adds Claude Tag metrics to analytics summaries and reply\_mode to Slack channel settings. | [Anthropic, sdk-v1.8.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.8.0) |
+| 2026-11-10 | [vertex-sdk-v1.1.3](https://deployedbyai.com/log/4b7b1e285ef4/vertex-sdk-v1-1-3/?k=repo) | Vertex SDK release fixes model encoding and error handling for invalid project IDs, regions, or models. | [Anthropic, vertex-sdk-v1.1.3](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v1.1.3) |
 | 2026-11-09 | [Anthropic Go SDK v2.8.0](https://deployedbyai.com/log/62fb79b00e7b/anthropic-go-sdk-v2-8-0/?k=repo) | Adds claude-fable-5-2 and claude-mythos-5-2 model names, webhook events, and usage report filtering. | [Anthropic, Anthropic Go SDK v2.8.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.8.0) |
 | 2026-11-09 | [Anthropic Java SDK v3.7.0](https://deployedbyai.com/log/aec389e9c010/anthropic-java-sdk-v3-7-0/?k=repo) | Adds claude-fable-5-2 and claude-mythos-5-2 model names, webhook events, and usage report filtering. | [Anthropic, Anthropic Java SDK v3.7.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.7.0) |
 | 2026-11-09 | [Anthropic Python SDK v2.7.0](https://deployedbyai.com/log/7ef765d18938/anthropic-python-sdk-v2-7-0/?k=repo) | Release v2.7.0 adds claude-fable-5-2 and claude-mythos-5-2 model names and new API features. | [Anthropic, Anthropic Python SDK v2.7.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.7.0) |

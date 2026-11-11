@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-19 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 9, 2026.
+23 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 11, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [LiteLLM v1.106.8](https://deployedbyai.com/log/79e1413cbe93/litellm-v1-106-8/?k=repo) | LiteLLM v1.106.8 released with signed Docker images. | [LiteLLM, LiteLLM v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) |
+| 2026-11-10 | [LiteLLM v1.103.11](https://deployedbyai.com/log/6bc21c332cbc/litellm-v1-103-11/?k=repo) | LiteLLM v1.103.11 released with signed Docker images. | [LiteLLM, LiteLLM v1.103.11](https://github.com/BerriAI/litellm/releases/tag/v1.103.11) |
+| 2026-11-10 | [LiteLLM v1.104.9](https://deployedbyai.com/log/12f53fdf33de/litellm-v1-104-9/?k=repo) | LiteLLM v1.104.9 released with signed Docker images. | [LiteLLM, LiteLLM v1.104.9](https://github.com/BerriAI/litellm/releases/tag/v1.104.9) |
+| 2026-11-10 | [LiteLLM v1.108.5](https://deployedbyai.com/log/a0b04d82a16e/litellm-v1-108-5/?k=repo) | LiteLLM v1.108.5 LTS fixes OpenAI keyless workload identity 401s and ollama\_chat parallel tool call indexing. | [LiteLLM, LiteLLM v1.108.5](https://github.com/BerriAI/litellm/releases/tag/v1.108.5) |
 | 2026-11-09 | [LiteLLM v1.108.4](https://deployedbyai.com/log/e95dcd358f74/litellm-v1-108-4/?k=repo) | LiteLLM v1.108.4 is released. | [LiteLLM, LiteLLM v1.108.4](https://github.com/BerriAI/litellm/releases/tag/v1.108.4) |
 | 2026-11-07 | [LiteLLM 1.108.3 (LTS)](https://deployedbyai.com/log/d8fccd66f03e/litellm-1-108-3-lts/?k=repo) | LiteLLM 1.108.3 LTS fixes AWS Bedrock api\_base failures and MCP tool results over 1 MiB. | [LiteLLM, LiteLLM 1.108.3 (LTS)](https://github.com/BerriAI/litellm/releases/tag/v1.108.3) |
 | 2026-11-06 | [LiteLLM 1.108.2 (LTS)](https://deployedbyai.com/log/05ce4ece4cdc/litellm-1-108-2-lts/?k=repo) | LiteLLM 1.108.2 (LTS) fixes OpenAI deployments with empty api\_key and AWS Bedrock Converse service\_tier handling. | [LiteLLM, LiteLLM 1.108.2 (LTS)](https://github.com/BerriAI/litellm/releases/tag/v1.108.2) |

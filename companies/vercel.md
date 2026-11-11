@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-305 rows in The Deploy Log are filed under Vercel. 111 carry a publisher's date, from September 18, 2025 to November 9, 2026, and 194 are placed by their edition.
+307 rows in The Deploy Log are filed under Vercel. 113 carry a publisher's date, from September 18, 2025 to November 10, 2026, and 194 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Gemini 4 Carbon on AI Gateway](https://deployedbyai.com/log/42e57127cf86/gemini-4-carbon-on-ai-gateway/?k=repo) | Gemini 4 Carbon is available on AI Gateway at 50% off through November 30, 2026, with a 1M-token context window. | [Vercel, Gemini 4 Carbon on AI Gateway](https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway) |
+| 2026-11-10 | [MiniMax H3 Image on AI Gateway](https://deployedbyai.com/log/bdbdba35cf20/minimax-h3-image-on-ai-gateway/?k=repo) | MiniMax H3 Image and Highspeed are available on AI Gateway with one API key. | [Vercel, MiniMax H3 Image on AI Gateway](https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway) |
 | 2026-11-09 | [Claude Fable 5.2 on AI Gateway](https://deployedbyai.com/log/027a1acc3700/claude-fable-5-2-on-ai-gateway/?k=repo) | Claude Fable 5.2 is available on AI Gateway with 30-day data retention and model fallbacks. | [Vercel, Claude Fable 5.2 on AI Gateway](https://vercel.com/changelog/claude-fable-5-2-now-available-on-ai-gateway) |
 | 2026-11-09 | [Muse Ember on AI Gateway](https://deployedbyai.com/log/c0f1d017fa56/muse-ember-on-ai-gateway/?k=repo) | Meta's Muse Ember reasoning model is available on AI Gateway with a 1M-token context window and adjustable reasoning effort. | [Vercel, Muse Ember on AI Gateway](https://vercel.com/changelog/muse-ember-now-available-on-ai-gateway) |
 | 2026-11-09 | [Workflow SDK WebSocket writes](https://deployedbyai.com/log/e79993ae6afb/workflow-sdk-websocket-writes/?k=repo) | Workflow SDK 5.2.0 sends event and stream writes over WebSockets by default, replacing one HTTP request per write. | [Vercel, Workflow SDK WebSocket writes](https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel) |

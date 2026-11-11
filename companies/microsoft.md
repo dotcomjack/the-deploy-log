@@ -1,6 +1,6 @@
 # Microsoft in The Deploy Log
 
-34 rows in The Deploy Log are filed under Microsoft. 32 carry a publisher's date, from September 28, 2026 to November 9, 2026, and 2 are placed by their edition.
+35 rows in The Deploy Log are filed under Microsoft. 33 carry a publisher's date, from September 28, 2026 to November 10, 2026, and 2 are placed by their edition.
 
 The same rows are on [the Microsoft page of the record](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Microsoft page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Copilot in Visual Studio](https://deployedbyai.com/log/f3d669c311c1/copilot-in-visual-studio/?k=repo) | Copilot Chat in Visual Studio 2026 version 18.12 runs on the Microsoft Copilot SDK and is on by default. | [Microsoft, Copilot in Visual Studio](https://devblogs.microsoft.com/visualstudio/copilot-in-visual-studio-just-got-a-major-upgrade/) |
 | 2026-11-09 | [Edge Copilot Shopping Comparison](https://deployedbyai.com/log/06b7e4ddaff3/edge-copilot-shopping-comparison/?k=repo) | Microsoft Edge now offers Copilot-generated product comparisons across open tabs and Checkout Savings for coupons. | [Microsoft, Edge Copilot Shopping Comparison](https://blogs.windows.com/blog/2026/11/09/shop-faster-and-save-money-with-built-in-tools-in-microsoft-edge/) |
 | 2026-11-09 | [Playwright MCP v0.0.85](https://deployedbyai.com/log/ed6b5af68a0f/playwright-mcp-v0-0-85/?k=repo) | Adds --background flag to keep the browser in the background when connecting through the extension. | [Microsoft, Playwright MCP v0.0.85](https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.85) |
 | 2026-11-06 | [Agent Framework Python 1.25.0](https://deployedbyai.com/log/bb4442f1c0d0/agent-framework-python-1-25-0/?k=repo) | Agent Framework Python 1.25.0 releases 44 workspace distributions with shipping changes since python-1.24.0. | [Microsoft, Agent Framework Python 1.25.0](https://github.com/microsoft/agent-framework/releases/tag/python-1.25.0) |

@@ -1,6 +1,6 @@
 # Firebase in The Deploy Log
 
-3 rows in The Deploy Log are filed under Firebase. Every one carries a publisher's date, from September 28, 2026 to November 3, 2026.
+4 rows in The Deploy Log are filed under Firebase. Every one carries a publisher's date, from September 28, 2026 to November 10, 2026.
 
 The same rows are on [the Firebase page of the record](https://deployedbyai.com/log/company/447cf9b9cce3/firebase/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Firebase page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Firebase agent skills for Google Analytics](https://deployedbyai.com/log/9c3c324f5dfd/firebase-agent-skills-for-google-analytics/?k=repo) | Firebase added Google Analytics agent skills for AI coding agents, installable now. | [Firebase, Firebase agent skills for Google Analytics](https://firebase.blog/posts/2026/11/firebase-skills-for-google-analytics) |
 | 2026-11-03 | [FCM AndroidConfigV2](https://deployedbyai.com/log/b6682df23c6f/fcm-androidconfigv2/?k=repo) | Firebase Cloud Messaging v2 brings more predictable and reliable remote notifications for Android. | [Firebase, FCM AndroidConfigV2](https://firebase.blog/posts/2026/11/fcm-android-config-v2) |
 
 ## September 2026

@@ -1,6 +1,6 @@
 # DigitalOcean in The Deploy Log
 
-17 rows in The Deploy Log are filed under DigitalOcean. Every one carries a publisher's date, from September 25, 2026 to November 4, 2026.
+18 rows in The Deploy Log are filed under DigitalOcean. Every one carries a publisher's date, from September 25, 2026 to November 9, 2026.
 
 The same rows are on [the DigitalOcean page of the record](https://deployedbyai.com/log/company/b6b9ec924bad/digitalocean/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the DigitalOcean page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-09 | [Claude Fable 5.2 on DigitalOcean Inference](https://deployedbyai.com/log/6fb856e2ab78/claude-fable-5-2-on-digitalocean-inference/?k=repo) | Claude Fable 5.2 is now available on DigitalOcean Inference for serverless inference. | [DigitalOcean, Claude Fable 5.2 on DigitalOcean Inference](https://docs.digitalocean.com/notes/2026/inference-claude-fable-5-2-model/) |
 | 2026-11-04 | [Kimi K3.1 Pro on DigitalOcean Inference](https://deployedbyai.com/log/73b43c98ad34/kimi-k3-1-pro-on-digitalocean-inference/?k=repo) | Moonshot AI model Kimi K3.1 Pro is now available on DigitalOcean Inference for serverless and dedicated inference. | [DigitalOcean, Kimi K3.1 Pro on DigitalOcean Inference](https://docs.digitalocean.com/notes/2026/inference-kimi-k3-1-pro-model/) |
 
 ## October 2026

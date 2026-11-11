@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-105 rows in The Deploy Log are filed under GitHub. 95 carry a publisher's date, from September 17, 2026 to November 9, 2026, and 10 are placed by their edition.
+108 rows in The Deploy Log are filed under GitHub. 98 carry a publisher's date, from September 17, 2026 to November 11, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [Enterprise Copilot seat management APIs](https://deployedbyai.com/log/1398144aca48/enterprise-copilot-seat-management-apis/?k=repo) | Enterprise GitHub Apps can call enterprise-level Copilot seat management APIs with a new fine-grained permission. | [GitHub, Enterprise Copilot seat management APIs](https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management) |
+| 2026-11-10 | [Copilot CLI 1.0.109](https://deployedbyai.com/log/dadb98fb226a/copilot-cli-1-0-109/?k=repo) | Adds Claude Fable 5.2 to the model picker and IPv4/IPv6 CIDR support for sandbox host rules. | [GitHub, Copilot CLI 1.0.109](https://github.com/github/copilot-cli/releases/tag/v1.0.109) |
+| 2026-11-10 | [Gemini 4 Carbon in GitHub Copilot](https://deployedbyai.com/log/df5ac7a59663/gemini-4-carbon-in-github-copilot/?k=repo) | Gemini 4 Carbon is now generally available in GitHub Copilot for Pro+, Max, Business, and Enterprise users. | [GitHub, Gemini 4 Carbon in GitHub Copilot](https://github.blog/changelog/2026-11-09-gemini-4-carbon-in-github-copilot) |
 | 2026-11-09 | [Claude Fable 5.2](https://deployedbyai.com/log/0e21cf2a41fd/claude-fable-5-2/?k=repo) | Claude Fable 5.2 is generally available in GitHub Copilot for Pro+, Max, Business, and Enterprise users. | [GitHub, Claude Fable 5.2](https://github.blog/changelog/2026-11-09-claude-fable-5-5-in-github-copilot) |
 | 2026-11-09 | [Copilot CLI 1.0.108](https://deployedbyai.com/log/e4a657384f09/copilot-cli-1-0-108/?k=repo) | Copilot CLI 1.0.108 adds sandbox filesystem settings, /index commands, and Grok PDF attachment fallback. | [GitHub, Copilot CLI 1.0.108](https://github.com/github/copilot-cli/releases/tag/v1.0.108) |
 | 2026-11-06 | [Copilot impact dashboard chat and agent usage](https://deployedbyai.com/log/5f9e65ab6608/copilot-impact-dashboard-chat-and-agent-usage/?k=repo) | Copilot impact dashboard now tracks Copilot Chat and VS Code Agents window engagement across nine experiences. | [GitHub, Copilot impact dashboard chat and agent usage](https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage) |

@@ -1,6 +1,6 @@
 # Netlify in The Deploy Log
 
-18 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 9, 2026.
+20 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 10, 2026.
 
 The same rows are on [the Netlify page of the record](https://deployedbyai.com/log/company/7adffd5ee2c8/netlify/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Netlify page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Gemini 4 Carbon on Netlify](https://deployedbyai.com/log/dc62b4c01007/gemini-4-carbon-on-netlify/?k=repo) | Google Gemini 4 Carbon is available through Netlify AI Gateway and Agent Runners with zero configuration. | [Netlify, Gemini 4 Carbon on Netlify](https://www.netlify.com/changelog/gemini-4-carbon-ai-gateway-agent-runners/) |
+| 2026-11-09 | [Claude Fable 5.2 on Netlify AI Gateway](https://deployedbyai.com/log/fb430c64dbd3/claude-fable-5-2-on-netlify-ai-gateway/?k=repo) | Claude Fable 5.2 is now available through Netlify's AI Gateway with zero configuration required. | [Netlify, Claude Fable 5.2 on Netlify AI Gateway](https://www.netlify.com/changelog/claude-fable-5-2-ai-gateway/) |
 | 2026-11-09 | [Muse Ember 1.0 on AI Gateway](https://deployedbyai.com/log/55d70231e333/muse-ember-1-0-on-ai-gateway/?k=repo) | Meta's Muse Ember 1.0 model is now available through Netlify's AI Gateway with zero configuration required. | [Netlify, Muse Ember 1.0 on AI Gateway](https://www.netlify.com/changelog/meta-muse-ember-ai-gateway/) |
 | 2026-11-04 | [GPT Image 2.6 Sunburst and Flare](https://deployedbyai.com/log/a8b8079ff9c0/gpt-image-2-6-sunburst-and-flare/?k=repo) | GPT Image 2.6 Sunburst and Flare are available through Netlify AI Gateway with zero configuration. | [Netlify, GPT Image 2.6 Sunburst and Flare](https://www.netlify.com/changelog/gpt-image-2-6-sunburst-flare-ai-gateway/) |
 

@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-77 rows in The Deploy Log are filed under LangChain. 76 carry a publisher's date, from September 20, 2026 to November 10, 2026, and 1 is placed by its edition.
+78 rows in The Deploy Log are filed under LangChain. 77 carry a publisher's date, from September 20, 2026 to November 10, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [LangChain 1.4.10](https://deployedbyai.com/log/c068fb53e492/langchain-1-4-10/?k=repo) | LangChain 1.4.10 released with middleware stream and trace input fixes. | [LangChain, LangChain 1.4.10](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10) |
 | 2026-11-10 | [langchain-core 1.7.7](https://deployedbyai.com/log/84898a72977c/langchain-core-1-7-7/?k=repo) | langchain-core 1.7.7 released with a nesting depth cap in load() and dependency security fixes. | [LangChain, langchain-core 1.7.7](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7) |
 | 2026-11-09 | [LangSmith BYOC on AWS](https://deployedbyai.com/log/92b9cce562f6/langsmith-byoc-on-aws/?k=repo) | LangSmith Bring Your Own Cloud is generally available on AWS across 15 regions. | [LangChain, LangSmith BYOC on AWS](https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws) |
 | 2026-11-09 | [langchain-fireworks 1.7.3](https://deployedbyai.com/log/2a7faf81d9a3/langchain-fireworks-1-7-3/?k=repo) | langchain-fireworks 1.7.3 fixes default max\_tokens from model profiles and refreshes model profile data. | [LangChain, langchain-fireworks 1.7.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3) |

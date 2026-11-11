@@ -1,8 +1,15 @@
 # inclusionAI in The Deploy Log
 
-5 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to October 27, 2026.
+7 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to November 11, 2026.
 
 The same rows are on [the inclusionAI page of the record](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-11 | [SingVL\_S1\_4B](https://deployedbyai.com/log/dc3963a582f0/singvl-s1-4b/?k=repo) | SingVL\_S1\_4B, a multimodal decision model built on Qwen3.5, is available on Hugging Face. | [inclusionAI, SingVL\_S1\_4B](https://huggingface.co/inclusionAI/SingVL_S1_4B) |
+| 2026-11-10 | [ZoomGain-9B and ZoomGain-4B](https://deployedbyai.com/log/a18f93946c66/zoomgain-9b-and-zoomgain-4b/?k=repo) | ZoomGain-9B and ZoomGain-4B checkpoints are available on Hugging Face, with ZoomGain-9B scoring 61.08 on ZoomGainBench. | [inclusionAI, ZoomGain-9B and ZoomGain-4B](https://huggingface.co/inclusionAI/ZoomGain-9B) |
 
 ## October 2026
 

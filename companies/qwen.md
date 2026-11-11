@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-34 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 9, 2026.
+36 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 10, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Qwen SDK TypeScript v0.1.32](https://deployedbyai.com/log/92553316ae94/qwen-sdk-typescript-v0-1-32/?k=repo) | SDK TypeScript v0.1.32 bundles CLI version 0.27.2. | [Qwen, Qwen SDK TypeScript v0.1.32](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.32) |
+| 2026-11-10 | [qwen-code v0.27.2](https://deployedbyai.com/log/2897c32576cd/qwen-code-v0-27-2/?k=repo) | qwen-code v0.27.2 released with fixes for CI, CLI, channels, and managed-agent features. | [Qwen, qwen-code v0.27.2](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2) |
 | 2026-11-09 | [Qwen Code Desktop v0.27.1](https://deployedbyai.com/log/911c169b2c47/qwen-code-desktop-v0-27-1/?k=repo) | Qwen Code Desktop v0.27.1 adds OpenAI-compatible provider docs and shell startup context. | [Qwen, Qwen Code Desktop v0.27.1](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.1) |
 | 2026-11-09 | [Qwen Code SDK TypeScript v0.1.29](https://deployedbyai.com/log/c9c5a83a9241/qwen-code-sdk-typescript-v0-1-29/?k=repo) | SDK TypeScript v0.1.29 published to npm, bundling CLI versions 0.26.2 through 0.26.9. | [Qwen, Qwen Code SDK TypeScript v0.1.29](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.29) |
 | 2026-11-09 | [SDK TypeScript v0.1.31](https://deployedbyai.com/log/9a00bf0dabfc/sdk-typescript-v0-1-31/?k=repo) | SDK TypeScript release v0.1.31 bundles CLI version 0.27.1. | [Qwen, SDK TypeScript v0.1.31](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.31) |

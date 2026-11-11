@@ -1,8 +1,14 @@
 # Deepgram in The Deploy Log
 
-6 rows in The Deploy Log are filed under Deepgram. Every one carries a publisher's date, from September 30, 2026 to October 23, 2026.
+7 rows in The Deploy Log are filed under Deepgram. Every one carries a publisher's date, from September 30, 2026 to November 10, 2026.
 
 The same rows are on [the Deepgram page of the record](https://deployedbyai.com/log/company/d875bddf276c/deepgram/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-10 | [Deepgram Self-Hosted 261110](https://deployedbyai.com/log/d3295dcbd1e1/deepgram-self-hosted-261110/?k=repo) | Container images for self-hosted API, engine, license proxy, and billing, including FIPS 140-3 variants, are published. | [Deepgram, Deepgram Self-Hosted 261110](https://developers.deepgram.com/changelog/2026/11/10) |
 
 ## October 2026
 

@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-46 rows in The Deploy Log are filed under Google. 38 carry a publisher's date, from September 23, 2026 to November 9, 2026, and 8 are placed by their edition.
+51 rows in The Deploy Log are filed under Google. 43 carry a publisher's date, from September 23, 2026 to November 10, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Gemini 4 Carbon](https://deployedbyai.com/log/26514be7e667/gemini-4-carbon/?k=repo) | Gemini 4 Carbon, Google's strongest model for cybersecurity and long-horizon agentic workflows, is available to developers. | [Google, Gemini 4 Carbon](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/) |
+| 2026-11-10 | [Gemini CLI v0.68.0](https://deployedbyai.com/log/2b81d5ffbb5f/gemini-cli-v0-68-0/?k=repo) | Gemini CLI v0.68.0 released with extension validation command and various fixes. | [Google, Gemini CLI v0.68.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0) |
+| 2026-11-10 | [Gemini Intelligence](https://deployedbyai.com/log/2c556b842d4c/gemini-intelligence/?k=repo) | Gemini Intelligence features are now available on more devices. | [Google, Gemini Intelligence](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/) |
+| 2026-11-10 | [java-genai v2.1.0](https://deployedbyai.com/log/215a21e6f0ef/java-genai-v2-1-0/?k=repo) | Adds gemini-omni-1.2-flash as the video default, proactive\_video, xhigh thinking, and usage\_metadata for Gemini Enterprise API. | [Google, java-genai v2.1.0](https://github.com/googleapis/java-genai/releases/tag/v2.1.0) |
+| 2026-11-10 | [python-genai v3.1.0](https://deployedbyai.com/log/6b9a722981f5/python-genai-v3-1-0/?k=repo) | Adds gemini-omni-1.2-flash as the gemini-api video default, proactive\_video for Live API, xhigh thinking level, and usage\_metadata for Gemini Enterprise API. | [Google, python-genai v3.1.0](https://github.com/googleapis/python-genai/releases/tag/v3.1.0) |
 | 2026-11-09 | [Google Maps Platform in AI Studio](https://deployedbyai.com/log/c96fb63638ea/google-maps-platform-in-ai-studio/?k=repo) | Google Maps Platform is now available directly inside Google AI Studio at no cost. | [Google, Google Maps Platform in AI Studio](https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/) |
 | 2026-11-07 | [ADK Python v2.14.0](https://deployedbyai.com/log/c1235d71e6a1/adk-python-v2-14-0/?k=repo) | ADK Python v2.14.0 graduates execution environments, A2A, evaluation, and core runtime modules from experimental and adds multi-run evaluation. | [Google, ADK Python v2.14.0](https://github.com/google/adk-python/releases/tag/v2.14.0) |
 | 2026-11-06 | [googleapis/python-genai v3.0.0](https://deployedbyai.com/log/5de98e525e75/googleapis-python-genai-v3-0-0/?k=repo) | Python GenAI SDK v3.0.0 defaults Gemini Developer API to v1 instead of v1beta. | [Google, googleapis/python-genai v3.0.0](https://github.com/googleapis/python-genai/releases/tag/v3.0.0) |

@@ -1,8 +1,14 @@
 # CoreWeave in The Deploy Log
 
-6 rows in The Deploy Log are filed under CoreWeave. Every one carries a publisher's date, from October 1, 2026 to October 2, 2026.
+7 rows in The Deploy Log are filed under CoreWeave. Every one carries a publisher's date, from October 1, 2026 to November 10, 2026.
 
 The same rows are on [the CoreWeave page of the record](https://deployedbyai.com/log/company/2b7c4e611a04/coreweave/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-10 | [CoreWeave Q3 2026 Results](https://deployedbyai.com/log/d5115d557e9c/coreweave-q3-2026-results/?k=repo) | CoreWeave reported Q3 2026 revenue of <span>$</span>3.661 billion, up from <span>$</span>1.365 billion a year earlier. | [CoreWeave, CoreWeave Q3 2026 Results](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
 
 ## October 2026
 

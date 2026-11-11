@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-75 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 9, 2026.
+80 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 10, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [BigQuery gemini-4-carbon support](https://deployedbyai.com/log/de280d092622/bigquery-gemini-4-carbon-support/?k=repo) | BigQuery generative AI functions now support the gemini-4-carbon model. | [Google Cloud, BigQuery gemini-4-carbon support](https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026) |
+| 2026-11-10 | [BigQuery measures GA](https://deployedbyai.com/log/6f295d6ecb47/bigquery-measures-ga/?k=repo) | BigQuery measures is now generally available, unifying BI metrics and knowledge graphs for AI accuracy. | [Google Cloud, BigQuery measures GA](https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/) |
+| 2026-11-10 | [Gemini 4 Carbon](https://deployedbyai.com/log/1c2b71b7a1a6/gemini-4-carbon/?k=repo) | Gemini 4 Carbon is generally available in the Gemini Enterprise web app, mobile app, Workflow Builder, and AI developer tools. | [Google Cloud, Gemini 4 Carbon](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_10_2026) |
+| 2026-11-10 | [Gemini for healthcare](https://deployedbyai.com/log/4fded1753b1e/gemini-for-healthcare/?k=repo) | Google Cloud launched Gemini for healthcare, an industry agent for clinical, financial, and administrative workflows. | [Google Cloud, Gemini for healthcare](https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare/) |
+| 2026-11-10 | [Model Armor image screening](https://deployedbyai.com/log/973e1b59a134/model-armor-image-screening/?k=repo) | Model Armor image screening is generally available for PDF, Word, Excel, and PowerPoint documents. | [Google Cloud, Model Armor image screening](https://docs.cloud.google.com/release-notes#November_10_2026) |
 | 2026-11-09 | [Agent Substrate on GKE](https://deployedbyai.com/log/a7d39381fee5/agent-substrate-on-gke/?k=repo) | Agent Substrate on GKE is generally available for GKE Standard clusters running version 1.37 or later. | [Google Cloud, Agent Substrate on GKE](https://docs.cloud.google.com/kubernetes-engine/docs/release-notes#November_09_2026) |
 | 2026-11-09 | [Cloud Pathways](https://deployedbyai.com/log/a394c46c165b/cloud-pathways/?k=repo) | Cloud Pathways, a distributed ML runtime for accelerator fleets, is now GA on Google Kubernetes Engine. | [Google Cloud, Cloud Pathways](https://cloud.google.com/blog/topics/ai-infrastructure/cloud-pathways-a-distributed-ml-runtime-is-ga/) |
 | 2026-11-09 | [TPU Sync](https://deployedbyai.com/log/62f8c4cff200/tpu-sync/?k=repo) | TPU Sync, an open-source C++ library for KV cache and weight transfer on TPU, cuts KV transfer latency by over 90%. | [Google Cloud, TPU Sync](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu/) |
