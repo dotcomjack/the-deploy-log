@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-287 rows in The Deploy Log are filed under OpenAI. 179 carry a publisher's date, from September 25, 2025 to November 10, 2026, and 108 are placed by their edition.
+288 rows in The Deploy Log are filed under OpenAI. 180 carry a publisher's date, from September 25, 2025 to November 11, 2026, and 108 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [Codex rust-v0.167.2](https://deployedbyai.com/log/33dc94c5c145/codex-rust-v0-167-2/?k=repo) | Codex rust-v0.167.2 is released. | [OpenAI, Codex rust-v0.167.2](https://github.com/openai/codex/releases/tag/rust-v0.167.2) |
 | 2026-11-10 | [Codex rust-v0.167.1](https://deployedbyai.com/log/3b1b2a117428/codex-rust-v0-167-1/?k=repo) | OpenAI Codex rust-v0.167.1 released. | [OpenAI, Codex rust-v0.167.1](https://github.com/openai/codex/releases/tag/rust-v0.167.1) |
 | 2026-11-10 | [OpenAI Node SDK v7.55.0](https://deployedbyai.com/log/22a1cd08557c/openai-node-sdk-v7-55-0/?k=repo) | Adds typed async function tools and updates dependencies. | [OpenAI, OpenAI Node SDK v7.55.0](https://github.com/openai/openai-node/releases/tag/v7.55.0) |
 | 2026-11-10 | [OpenAI Python SDK v3.49.0](https://deployedbyai.com/log/502de3fe3762/openai-python-sdk-v3-49-0/?k=repo) | Adds typed async function tools and fixes microphone recording encoding to valid PCM WAV. | [OpenAI, OpenAI Python SDK v3.49.0](https://github.com/openai/openai-python/releases/tag/v3.49.0) |

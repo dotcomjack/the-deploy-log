@@ -1,8 +1,14 @@
 # Shopify in The Deploy Log
 
-17 rows in The Deploy Log are filed under Shopify. Every one carries a publisher's date, from September 29, 2026 to October 28, 2026.
+18 rows in The Deploy Log are filed under Shopify. Every one carries a publisher's date, from September 29, 2026 to November 11, 2026.
 
 The same rows are on [the Shopify page of the record](https://deployedbyai.com/log/company/24b3b60d3d0e/shopify/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-11 | [Storefront MCP policies tool deprecated](https://deployedbyai.com/log/9986b07a52f1/storefront-mcp-policies-tool-deprecated/?k=repo) | Storefront MCP search\_shop\_policies\_and\_faqs is deprecated; migrate to UCP MCP ask\_business by January 15, 2027. | [Shopify, Storefront MCP policies tool deprecated](https://shopify.dev/changelog/storefront-mcp-policies-and-faqs-tool-is-being-deprecated-in-favor-of-ucp-mcp-ask-tool) |
 
 ## October 2026
 

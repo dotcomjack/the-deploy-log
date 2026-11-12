@@ -1,6 +1,6 @@
 # CrewAI in The Deploy Log
 
-8 rows in The Deploy Log are filed under CrewAI. Every one carries a publisher's date, from September 28, 2026 to November 8, 2026.
+9 rows in The Deploy Log are filed under CrewAI. Every one carries a publisher's date, from September 28, 2026 to November 11, 2026.
 
 The same rows are on [the CrewAI page of the record](https://deployedbyai.com/log/company/ba61ca23a00b/crewai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the CrewAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [CrewAI 1.15.40](https://deployedbyai.com/log/d01779be7696/crewai-1-15-40/?k=repo) | CrewAI 1.15.40 removes chromadb from the embedding function layer and adds exact historical state lookup by row id. | [CrewAI, CrewAI 1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40) |
 | 2026-11-08 | [CrewAI 1.15.38](https://deployedbyai.com/log/bbcfc61977e3/crewai-1-15-38/?k=repo) | CrewAI 1.15.38 makes gpt-6-luna the default model everywhere and adds spreadsheet URL reading in agent input. | [CrewAI, CrewAI 1.15.38](https://github.com/crewAIInc/crewAI/releases/tag/1.15.38) |
 | 2026-11-07 | [CrewAI 1.15.37](https://deployedbyai.com/log/18e29259d03d/crewai-1-15-37/?k=repo) | CrewAI 1.15.37 adds spreadsheet reading for agents and standalone agent project scaffolding. | [CrewAI, CrewAI 1.15.37](https://github.com/crewAIInc/crewAI/releases/tag/1.15.37) |
 | 2026-11-06 | [CrewAI 1.15.36](https://deployedbyai.com/log/723314ff5920/crewai-1-15-36/?k=repo) | CrewAI 1.15.36 adds experimental conversational Agent sessions and fixes async call execution for sync tools. | [CrewAI, CrewAI 1.15.36](https://github.com/crewAIInc/crewAI/releases/tag/1.15.36) |

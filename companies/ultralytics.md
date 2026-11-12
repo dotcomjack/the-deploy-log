@@ -1,6 +1,6 @@
 # Ultralytics in The Deploy Log
 
-24 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 10, 2026.
+25 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 11, 2026.
 
 The same rows are on [the Ultralytics page of the record](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Ultralytics page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [Ultralytics v8.4.211](https://deployedbyai.com/log/de38f5572df8/ultralytics-v8-4-211/?k=repo) | Compiled SAM 3 image encoding is 7-9% faster, with INT8 ExecuTorch export and faster OCR on NVIDIA GPUs. | [Ultralytics, Ultralytics v8.4.211](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.211) |
 | 2026-11-10 | [Ultralytics 8.4.210](https://deployedbyai.com/log/b43169a680e6/ultralytics-8-4-210/?k=repo) | OpenVINO and LiteRT now accept PyTorch-style device names: cpu, xpu, and npu. | [Ultralytics, Ultralytics 8.4.210](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.210) |
 | 2026-11-10 | [Ultralytics YOLO v8.4.209](https://deployedbyai.com/log/5fe708d97155/ultralytics-yolo-v8-4-209/?k=repo) | Concurrent YOLO predictions now apply per-request settings, with fixes for validation, exports, and device-specific inference. | [Ultralytics, Ultralytics YOLO v8.4.209](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.209) |
 | 2026-11-08 | [Ultralytics 8.4.208](https://deployedbyai.com/log/02b0bd4a7d2a/ultralytics-8-4-208/?k=repo) | Prediction and tracking now default to 0.5 NMS IoU, while validation keeps 0.7. | [Ultralytics, Ultralytics 8.4.208](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.208) |

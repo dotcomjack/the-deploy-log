@@ -1,8 +1,14 @@
 # Meta in The Deploy Log
 
-5 rows in The Deploy Log are filed under Meta. 4 carry a publisher's date, from October 9, 2026 to October 21, 2026, and 1 is placed by its edition.
+6 rows in The Deploy Log are filed under Meta. 5 carry a publisher's date, from October 9, 2026 to November 12, 2026, and 1 is placed by its edition.
 
 The same rows are on [the Meta page of the record](https://deployedbyai.com/log/company/50c5556ca53b/meta/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-12 | [MetaEncoder v1](https://deployedbyai.com/log/34b2c35243bf/metaencoder-v1/?k=repo) | Meta releases meta-encoder-v1 on Hugging Face, an embedding model with encode, retrieve, and decide calls. | [Meta, MetaEncoder v1](https://huggingface.co/facebook/meta-encoder-v1) |
 
 ## October 2026
 

@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-51 rows in The Deploy Log are filed under Google. 43 carry a publisher's date, from September 23, 2026 to November 10, 2026, and 8 are placed by their edition.
+52 rows in The Deploy Log are filed under Google. 44 carry a publisher's date, from September 23, 2026 to November 11, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [Gemini on Apple CarPlay](https://deployedbyai.com/log/6efcc854c66f/gemini-on-apple-carplay/?k=repo) | Gemini Live is available on Apple CarPlay for hands-free conversations, calendar, email, and brainstorming. | [Google, Gemini on Apple CarPlay](https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/) |
 | 2026-11-10 | [Gemini 4 Carbon](https://deployedbyai.com/log/26514be7e667/gemini-4-carbon/?k=repo) | Gemini 4 Carbon, Google's strongest model for cybersecurity and long-horizon agentic workflows, is available to developers. | [Google, Gemini 4 Carbon](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/) |
 | 2026-11-10 | [Gemini CLI v0.68.0](https://deployedbyai.com/log/2b81d5ffbb5f/gemini-cli-v0-68-0/?k=repo) | Gemini CLI v0.68.0 released with extension validation command and various fixes. | [Google, Gemini CLI v0.68.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0) |
 | 2026-11-10 | [Gemini Intelligence](https://deployedbyai.com/log/2c556b842d4c/gemini-intelligence/?k=repo) | Gemini Intelligence features are now available on more devices. | [Google, Gemini Intelligence](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/) |

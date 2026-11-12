@@ -1,8 +1,14 @@
 # vLLM in The Deploy Log
 
-6 rows in The Deploy Log are filed under vLLM. 4 carry a publisher's date, from September 22, 2026 to October 28, 2026, and 2 are placed by their edition.
+7 rows in The Deploy Log are filed under vLLM. 5 carry a publisher's date, from September 22, 2026 to November 11, 2026, and 2 are placed by their edition.
 
 The same rows are on [the vLLM page of the record](https://deployedbyai.com/log/company/c69431b9c427/vllm/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-11 | [vLLM v0.34.0rc1](https://deployedbyai.com/log/4f41cef93370/vllm-v0-34-0rc1/?k=repo) | vLLM v0.34.0rc1 is released with a bugfix for greedy\_argmax on XPU. | [vLLM, vLLM v0.34.0rc1](https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1) |
 
 ## October 2026
 

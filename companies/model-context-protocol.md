@@ -1,8 +1,14 @@
 # Model Context Protocol in The Deploy Log
 
-29 rows in The Deploy Log are filed under Model Context Protocol. Every one carries a publisher's date, from September 28, 2026 to October 23, 2026.
+30 rows in The Deploy Log are filed under Model Context Protocol. Every one carries a publisher's date, from September 28, 2026 to November 12, 2026.
 
 The same rows are on [the Model Context Protocol page of the record](https://deployedbyai.com/log/company/088b60189c15/model-context-protocol/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-12 | [MCP Inspector 2.15.0](https://deployedbyai.com/log/54cb911fe752/mcp-inspector-2-15-0/?k=repo) | MCP Inspector 2.15.0 fixes four vulnerabilities and adds per-tool run history, session management, and load testing features. | [Model Context Protocol, MCP Inspector 2.15.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.15.0) |
 
 ## October 2026
 

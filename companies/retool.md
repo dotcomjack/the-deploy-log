@@ -1,6 +1,6 @@
 # Retool in The Deploy Log
 
-12 rows in The Deploy Log are filed under Retool. Every one carries a publisher's date, from September 30, 2026 to November 3, 2026.
+13 rows in The Deploy Log are filed under Retool. Every one carries a publisher's date, from September 30, 2026 to November 11, 2026.
 
 The same rows are on [the Retool page of the record](https://deployedbyai.com/log/company/07a5ddfe307f/retool/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Retool page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [Claude Fable 5.2 in Retool](https://deployedbyai.com/log/d31ecb4b6cc4/claude-fable-5-2-in-retool/?k=repo) | Claude Fable 5.2 is available in Retool through Anthropic and Amazon Bedrock. | [Retool, Claude Fable 5.2 in Retool](https://docs.retool.com/changelog/claude-fable-5-2) |
 | 2026-11-03 | [Retool on Google Cloud Marketplace](https://deployedbyai.com/log/9df356db3c04/retool-on-google-cloud-marketplace/?k=repo) | Retool is now available on Google Cloud Marketplace, joining its existing AWS Marketplace listing. | [Retool, Retool on Google Cloud Marketplace](https://retool.com/blog/retool-google-cloud-marketplace-announcement) |
 
 ## October 2026

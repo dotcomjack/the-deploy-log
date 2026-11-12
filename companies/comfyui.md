@@ -1,8 +1,14 @@
 # ComfyUI in The Deploy Log
 
-7 rows in The Deploy Log are filed under ComfyUI. Every one carries a publisher's date, from September 21, 2026 to October 18, 2026.
+8 rows in The Deploy Log are filed under ComfyUI. Every one carries a publisher's date, from September 21, 2026 to November 10, 2026.
 
 The same rows are on [the ComfyUI page of the record](https://deployedbyai.com/log/company/597f01076d59/comfyui/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-10 | [ComfyUI v0.45.0](https://deployedbyai.com/log/5ef842315fd3/comfyui-v0-45-0/?k=repo) | ComfyUI v0.45.0 adds Pika H3 Flex, Pika Soundtrack/SFX/Music, and Tencent HY LLM nodes. | [ComfyUI, ComfyUI v0.45.0](https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0) |
 
 ## October 2026
 

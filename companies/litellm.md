@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-23 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 11, 2026.
+26 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 12, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,7 +8,10 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [LiteLLM v1.106.9](https://deployedbyai.com/log/963180d5b2cb/litellm-v1-106-9/?k=repo) | LiteLLM v1.106.9 released with ChatGPT client subscription forwarding and a proxy security fix. | [LiteLLM, LiteLLM v1.106.9](https://github.com/BerriAI/litellm/releases/tag/v1.106.9) |
+| 2026-11-12 | [LiteLLM v1.108.6](https://deployedbyai.com/log/f95b6c590ae7/litellm-v1-108-6/?k=repo) | LiteLLM v1.108.6 released with backported fixes for tool\_choice, proxy budget resets, usage, responses, MCP, and a proxy security fix. | [LiteLLM, LiteLLM v1.108.6](https://github.com/BerriAI/litellm/releases/tag/v1.108.6) |
 | 2026-11-11 | [LiteLLM v1.106.8](https://deployedbyai.com/log/79e1413cbe93/litellm-v1-106-8/?k=repo) | LiteLLM v1.106.8 released with signed Docker images. | [LiteLLM, LiteLLM v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) |
+| 2026-11-11 | [LiteLLM v1.109.0](https://deployedbyai.com/log/87989dab5fae/litellm-v1-109-0/?k=repo) | LiteLLM v1.109.0 released with 982 PRs, 144 added, 424 fixed, and 60 changed. | [LiteLLM, LiteLLM v1.109.0](https://github.com/BerriAI/litellm/releases/tag/v1.109.0) |
 | 2026-11-10 | [LiteLLM v1.103.11](https://deployedbyai.com/log/6bc21c332cbc/litellm-v1-103-11/?k=repo) | LiteLLM v1.103.11 released with signed Docker images. | [LiteLLM, LiteLLM v1.103.11](https://github.com/BerriAI/litellm/releases/tag/v1.103.11) |
 | 2026-11-10 | [LiteLLM v1.104.9](https://deployedbyai.com/log/12f53fdf33de/litellm-v1-104-9/?k=repo) | LiteLLM v1.104.9 released with signed Docker images. | [LiteLLM, LiteLLM v1.104.9](https://github.com/BerriAI/litellm/releases/tag/v1.104.9) |
 | 2026-11-10 | [LiteLLM v1.108.5](https://deployedbyai.com/log/a0b04d82a16e/litellm-v1-108-5/?k=repo) | LiteLLM v1.108.5 LTS fixes OpenAI keyless workload identity 401s and ollama\_chat parallel tool call indexing. | [LiteLLM, LiteLLM v1.108.5](https://github.com/BerriAI/litellm/releases/tag/v1.108.5) |

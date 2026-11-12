@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-78 rows in The Deploy Log are filed under LangChain. 77 carry a publisher's date, from September 20, 2026 to November 10, 2026, and 1 is placed by its edition.
+81 rows in The Deploy Log are filed under LangChain. 80 carry a publisher's date, from September 20, 2026 to November 11, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-11 | [langchain 1.5.0](https://deployedbyai.com/log/63df03d47d0a/langchain-1-5-0/?k=repo) | langchain 1.5.0 drops Python 3.10 support and requires langchain-core 1.8.0. | [LangChain, langchain 1.5.0](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0) |
+| 2026-11-11 | [langchain-core 1.8.0](https://deployedbyai.com/log/f4f468202545/langchain-core-1-8-0/?k=repo) | langchain-core 1.8.0 drops Python 3.10 support; minimum is now Python 3.11. | [LangChain, langchain-core 1.8.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0) |
+| 2026-11-11 | [langchain-typesafe 0.1.0](https://deployedbyai.com/log/b4fcd6533a1b/langchain-typesafe-0-1-0/?k=repo) | langchain-typesafe 0.1.0 drops Python 3.10 support and requires Python 3.11 and langchain-core 1.8.0. | [LangChain, langchain-typesafe 0.1.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0) |
 | 2026-11-10 | [LangChain 1.4.10](https://deployedbyai.com/log/c068fb53e492/langchain-1-4-10/?k=repo) | LangChain 1.4.10 released with middleware stream and trace input fixes. | [LangChain, LangChain 1.4.10](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10) |
 | 2026-11-10 | [langchain-core 1.7.7](https://deployedbyai.com/log/84898a72977c/langchain-core-1-7-7/?k=repo) | langchain-core 1.7.7 released with a nesting depth cap in load() and dependency security fixes. | [LangChain, langchain-core 1.7.7](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7) |
 | 2026-11-09 | [LangSmith BYOC on AWS](https://deployedbyai.com/log/92b9cce562f6/langsmith-byoc-on-aws/?k=repo) | LangSmith Bring Your Own Cloud is generally available on AWS across 15 regions. | [LangChain, LangSmith BYOC on AWS](https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws) |
