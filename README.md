@@ -22,7 +22,7 @@ import pandas as pd
 rows = pd.read_csv("https://raw.githubusercontent.com/dotcomjack/the-deploy-log/main/data.csv")
 ```
 
-The newest dated release, [2026-11-11](https://github.com/dotcomjack/the-deploy-log/releases/tag/2026-11-11), carries `data.csv` and `data.json` as files; every release is at https://github.com/dotcomjack/the-deploy-log/releases
+The newest dated release, [2026-11-12](https://github.com/dotcomjack/the-deploy-log/releases/tag/2026-11-12), carries `data.csv` and `data.json` as files; every release is at https://github.com/dotcomjack/the-deploy-log/releases
 
 ## API
 
