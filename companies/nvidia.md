@@ -1,6 +1,6 @@
 # NVIDIA in The Deploy Log
 
-53 rows in The Deploy Log are filed under NVIDIA. 47 carry a publisher's date, from August 20, 2026 to November 10, 2026, and 6 are placed by their edition.
+54 rows in The Deploy Log are filed under NVIDIA. 48 carry a publisher's date, from August 20, 2026 to November 12, 2026, and 6 are placed by their edition.
 
 The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [NVIDIA CEO Transition](https://deployedbyai.com/log/8360e6f8f04a/nvidia-ceo-transition/?k=repo) | Jensen Huang resigned as CEO effective immediately; Colette Kress appointed interim CEO. | [NVIDIA, NVIDIA CEO Transition](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm) |
 | 2026-11-10 | [NVIDIA OpenShell and DSX AI Factory](https://deployedbyai.com/log/50a4abe8b8eb/nvidia-openshell-and-dsx-ai-factory/?k=repo) | NVIDIA contributed OpenShell to CNCF and added Kubernetes Engine, Recipes, and Snapshot to DSX AI Factory. | [NVIDIA, NVIDIA OpenShell and DSX AI Factory](https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/) |
 | 2026-11-06 | [FLUX 3 Image Klein on Blackwell](https://deployedbyai.com/log/9eec13dbedca/flux-3-image-klein-on-blackwell/?k=repo) | TensorRT LLM VisualGen accelerates FLUX 3 Image Klein on NVIDIA Blackwell GPUs with up to 3.46x faster text-to-image and 4.45x faster image-to-image generation. | [NVIDIA, FLUX 3 Image Klein on Blackwell](https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/) |
 | 2026-11-06 | [ModelOpt 0.47.1](https://deployedbyai.com/log/d1a2ced1f17c/modelopt-0-47-1/?k=repo) | ModelOpt 0.47.1 fixes NVFP4 fake quantization with Triton 3.9 on GPUs with compute capability 8.9 or newer. | [NVIDIA, ModelOpt 0.47.1](https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.1) |

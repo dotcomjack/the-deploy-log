@@ -1,6 +1,6 @@
 # Hugging Face in The Deploy Log
 
-100 rows in The Deploy Log are filed under Hugging Face. 51 carry a publisher's date, from September 17, 2025 to November 10, 2026, and 49 are placed by their edition.
+101 rows in The Deploy Log are filed under Hugging Face. 52 carry a publisher's date, from September 17, 2025 to November 13, 2026, and 49 are placed by their edition.
 
 The same rows are on [the Hugging Face page of the record](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Hugging Face page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [PEFT v0.21.3](https://deployedbyai.com/log/06e246482c5b/peft-v0-21-3/?k=repo) | PEFT v0.21.3 released, fixing adapter weight gathering for DTensor TP models. | [Hugging Face, PEFT v0.21.3](https://github.com/huggingface/peft/releases/tag/v0.21.3) |
 | 2026-11-10 | [Decision Models in Hugging Face](https://deployedbyai.com/log/b62ddd07b443/decision-models-in-hugging-face/?k=repo) | Hugging Face now supports decision models across Transformers, llama.cpp, the Hub, and training tooling. | [Hugging Face, Decision Models in Hugging Face](https://huggingface.co/blog/decision) |
 | 2026-11-10 | [Hugging Face Hub Google Cloud billing](https://deployedbyai.com/log/089d9247fbb3/hugging-face-hub-google-cloud-billing/?k=repo) | Hugging Face Hub can now be paid through a Google Cloud account via the Google Cloud Marketplace. | [Hugging Face, Hugging Face Hub Google Cloud billing](https://huggingface.co/blog/hub-gcp-marketplace) |
 | 2026-11-06 | [Transformers v5.22.2](https://deployedbyai.com/log/74357e5e2364/transformers-v5-22-2/?k=repo) | Patch release v5.22.2 with security and distributed fixes. | [Hugging Face, Transformers v5.22.2](https://github.com/huggingface/transformers/releases/tag/v5.22.2) |

@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-36 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 10, 2026.
+39 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 13, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [Qwen Code Desktop v0.27.3](https://deployedbyai.com/log/a97b04f5f732/qwen-code-desktop-v0-27-3/?k=repo) | Qwen Code Desktop v0.27.3 ships fixes and features including Mods model completions. | [Qwen, Qwen Code Desktop v0.27.3](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.3) |
+| 2026-11-13 | [Qwen Code SDK TypeScript v0.1.33](https://deployedbyai.com/log/ddd4d14e1da4/qwen-code-sdk-typescript-v0-1-33/?k=repo) | SDK TypeScript v0.1.33 bundles CLI version 0.27.3. | [Qwen, Qwen Code SDK TypeScript v0.1.33](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.33) |
+| 2026-11-13 | [Qwen Code v0.27.3](https://deployedbyai.com/log/73876d07b517/qwen-code-v0-27-3/?k=repo) | Qwen Code v0.27.3 adds workflow chips, Chinese localization, managed MCP limits, managed-agent SPIs, and DingTalk webhook support. | [Qwen, Qwen Code v0.27.3](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.3) |
 | 2026-11-10 | [Qwen SDK TypeScript v0.1.32](https://deployedbyai.com/log/92553316ae94/qwen-sdk-typescript-v0-1-32/?k=repo) | SDK TypeScript v0.1.32 bundles CLI version 0.27.2. | [Qwen, Qwen SDK TypeScript v0.1.32](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.32) |
 | 2026-11-10 | [qwen-code v0.27.2](https://deployedbyai.com/log/2897c32576cd/qwen-code-v0-27-2/?k=repo) | qwen-code v0.27.2 released with fixes for CI, CLI, channels, and managed-agent features. | [Qwen, qwen-code v0.27.2](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.2) |
 | 2026-11-09 | [Qwen Code Desktop v0.27.1](https://deployedbyai.com/log/911c169b2c47/qwen-code-desktop-v0-27-1/?k=repo) | Qwen Code Desktop v0.27.1 adds OpenAI-compatible provider docs and shell startup context. | [Qwen, Qwen Code Desktop v0.27.1](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.1) |

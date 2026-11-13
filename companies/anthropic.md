@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-206 rows in The Deploy Log are filed under Anthropic. 162 carry a publisher's date, from October 16, 2025 to November 10, 2026, and 44 are placed by their edition.
+209 rows in The Deploy Log are filed under Anthropic. 165 carry a publisher's date, from October 16, 2025 to November 12, 2026, and 44 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [Claude Agent SDK TypeScript v0.3.323](https://deployedbyai.com/log/22b7e35ba98d/claude-agent-sdk-typescript-v0-3-323/?k=repo) | Claude Agent SDK TypeScript v0.3.323 adds machinePolicy.didNotLoad, matchDeniedModels, tool\_progress heartbeat, and parity with Claude Code v2.1.323. | [Anthropic, Claude Agent SDK TypeScript v0.3.323](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.323) |
+| 2026-11-12 | [Claude Code v2.1.323](https://deployedbyai.com/log/c9594f01389e/claude-code-v2-1-323/?k=repo) | Claude Code v2.1.323 adds experimental Code Mode, plugin version range enforcement, and TypeScript hook validation. | [Anthropic, Claude Code v2.1.323](https://github.com/anthropics/claude-code/releases/tag/v2.1.323) |
+| 2026-11-12 | [claude-agent-sdk-python v0.2.181](https://deployedbyai.com/log/e1ffa307e3d6/claude-agent-sdk-python-v0-2-181/?k=repo) | Version 0.2.181 of the Claude Agent SDK for Python is available on PyPI. | [Anthropic, claude-agent-sdk-python v0.2.181](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.181) |
 | 2026-11-10 | [Anthropic Java SDK v3.8.0](https://deployedbyai.com/log/c966aaf05cde/anthropic-java-sdk-v3-8-0/?k=repo) | Adds Claude Tag metrics to analytics summaries and users reports, and reply\_mode to Claude Tag Slack channel settings. | [Anthropic, Anthropic Java SDK v3.8.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.8.0) |
 | 2026-11-10 | [Claude Agent SDK v0.3.322](https://deployedbyai.com/log/fc12f2030b6f/claude-agent-sdk-v0-3-322/?k=repo) | Updated to parity with Claude Code v2.1.322. | [Anthropic, Claude Agent SDK v0.3.322](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.322) |
 | 2026-11-10 | [Claude Code v2.1.322](https://deployedbyai.com/log/7d02d6db088c/claude-code-v2-1-322/?k=repo) | Fast mode added on Vertex in global, us, and eu regions, falling back to standard speed if Vertex refuses it. | [Anthropic, Claude Code v2.1.322](https://github.com/anthropics/claude-code/releases/tag/v2.1.322) |

@@ -1,6 +1,6 @@
 # Google DeepMind in The Deploy Log
 
-36 rows in The Deploy Log are filed under Google DeepMind. 10 carry a publisher's date, from October 25, 2025 to November 9, 2026, and 26 are placed by their edition.
+37 rows in The Deploy Log are filed under Google DeepMind. 11 carry a publisher's date, from October 25, 2025 to November 10, 2026, and 26 are placed by their edition.
 
 The same rows are on [the Google DeepMind page of the record](https://deployedbyai.com/log/company/c98c3052b742/google-deepmind/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google DeepMind page of the record](https://deployedby
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-10 | [Gemini 4 Carbon](https://deployedbyai.com/log/c9d479ecdcc4/gemini-4-carbon/?k=repo) | Gemini 4 Carbon is available to developers, enterprises, scientists, and consumers. | [Google DeepMind, Gemini 4 Carbon](https://deepmind.google/blog/gemini-4-carbon-is-now-available/) |
 | 2026-11-09 | [Gemini Robotics 2.5](https://deployedbyai.com/log/bbc9150244a7/gemini-robotics-2-5/?k=repo) | Gemini Robotics 2.5, a vision-language-action model, is rolling out to robotics partners with 96% success on a Mercedes-Benz proof-of-concept. | [Google DeepMind, Gemini Robotics 2.5](https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/) |
 | 2026-11-05 | [Gemini Omni 1.2 Flash](https://deployedbyai.com/log/ce1f926f3f7d/gemini-omni-1-2-flash/?k=repo) | Gemini Omni 1.2 Flash supports 15-second video clips and lower pricing. | [Google DeepMind, Gemini Omni 1.2 Flash](https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/) |
 

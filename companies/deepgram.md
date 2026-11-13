@@ -1,6 +1,6 @@
 # Deepgram in The Deploy Log
 
-7 rows in The Deploy Log are filed under Deepgram. Every one carries a publisher's date, from September 30, 2026 to November 10, 2026.
+8 rows in The Deploy Log are filed under Deepgram. Every one carries a publisher's date, from September 30, 2026 to November 12, 2026.
 
 The same rows are on [the Deepgram page of the record](https://deployedbyai.com/log/company/d875bddf276c/deepgram/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Deepgram page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [Improved Nova-3 models](https://deployedbyai.com/log/1c647acc6844/improved-nova-3-models/?k=repo) | Deepgram released improved Nova-3 monolingual models for 13 languages, plus a new English (Australia, New Zealand) model. | [Deepgram, Improved Nova-3 models](https://developers.deepgram.com/changelog/2026/11/12) |
 | 2026-11-10 | [Deepgram Self-Hosted 261110](https://deployedbyai.com/log/d3295dcbd1e1/deepgram-self-hosted-261110/?k=repo) | Container images for self-hosted API, engine, license proxy, and billing, including FIPS 140-3 variants, are published. | [Deepgram, Deepgram Self-Hosted 261110](https://developers.deepgram.com/changelog/2026/11/10) |
 
 ## October 2026

@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-64 rows in The Deploy Log are filed under Cloudflare. 56 carry a publisher's date, from August 13, 2026 to November 9, 2026, and 8 are placed by their edition.
+69 rows in The Deploy Log are filed under Cloudflare. 61 carry a publisher's date, from August 13, 2026 to November 12, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [AI Search D1 data source](https://deployedbyai.com/log/11192fea67ac/ai-search-d1-data-source/?k=repo) | AI Search can now use a D1 database as a data source, with scheduled syncs keeping the index current. | [Cloudflare, AI Search D1 data source](https://developers.cloudflare.com/changelog/post/2026-11-12-d1-data-source/) |
+| 2026-11-12 | [AI Security for Apps Terraform](https://deployedbyai.com/log/b3e8032d2f42/ai-security-for-apps-terraform/?k=repo) | Terraform Cloudflare provider 5.29.0 adds resources to manage AI Security for Apps and custom topics. | [Cloudflare, AI Security for Apps Terraform](https://developers.cloudflare.com/changelog/post/2026-11-12-ai-security-for-apps-terraform/) |
+| 2026-11-12 | [EmbeddingGemma 2 on Workers AI](https://deployedbyai.com/log/f86e5cb52d26/embeddinggemma-2-on-workers-ai/?k=repo) | EmbeddingGemma 2 is available on Workers AI at $0.0017 per million input tokens. | [Cloudflare, EmbeddingGemma 2 on Workers AI](https://developers.cloudflare.com/changelog/post/2026-11-12-embeddinggemma-2-workers-ai/) |
+| 2026-11-12 | [Inkling 2 Small on Workers AI](https://deployedbyai.com/log/559d009a9640/inkling-2-small-on-workers-ai/?k=repo) | Inkling 2 Small is available on Workers AI with 1,048,576 token context and 20 requests per minute default rate limit. | [Cloudflare, Inkling 2 Small on Workers AI](https://developers.cloudflare.com/changelog/post/2026-11-12-inkling-2-small-workers-ai/) |
+| 2026-11-12 | [Kitesurf open source](https://deployedbyai.com/log/ea8b4c7fe2c8/kitesurf-open-source/?k=repo) | Kitesurf, Cloudflare's browser engine for AI agents, is open source under Apache 2.0 and runnable locally or on Cloudflare Workers. | [Cloudflare, Kitesurf open source](https://developers.cloudflare.com/changelog/post/2026-11-12-kitesurf-open-source/) |
 | 2026-11-09 | [Codex agent loop on Cloudflare Workers](https://deployedbyai.com/log/820d84b1ff21/codex-agent-loop-on-cloudflare-workers/?k=repo) | An experimental Agents SDK example runs the Codex agent loop in a Cloudflare Durable Object with persistence and recovery. | [Cloudflare, Codex agent loop on Cloudflare Workers](https://developers.cloudflare.com/changelog/post/2026-11-09-codex-harness/) |
 | 2026-11-09 | [Exo agents on Cloudflare](https://deployedbyai.com/log/9df334f69e0d/exo-agents-on-cloudflare/?k=repo) | Exo agents can now run on Cloudflare with Durable Objects coordinating conversations and Sandboxes running Linux tools. | [Cloudflare, Exo agents on Cloudflare](https://developers.cloudflare.com/changelog/post/2026-11-09-exo-on-cloudflare/) |
 | 2026-11-09 | [Markdown for Agents analytics and tracing](https://deployedbyai.com/log/106295ef55e3/markdown-for-agents-analytics-and-tracing/?k=repo) | Cloudflare's Markdown for Agents is generally available with analytics, logs, playground, GraphQL API, and Traces span for monitoring conversions. | [Cloudflare, Markdown for Agents analytics and tracing](https://developers.cloudflare.com/changelog/post/2026-11-09-markdown-for-agents-observability/) |

@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-80 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 10, 2026.
+82 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 12, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [Chrome Enterprise Premium](https://deployedbyai.com/log/41a05bc6de63/chrome-enterprise-premium/?k=repo) | Chrome Enterprise Premium adds DLP controls for AI prompts and extensions, and is now available in the IGEL Marketplace. | [Google Cloud, Chrome Enterprise Premium](https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/) |
+| 2026-11-12 | [Gemini 3.8 Flash in Canada and Japan](https://deployedbyai.com/log/5e614ad4af1f/gemini-3-8-flash-in-canada-and-japan/?k=repo) | Gemini 3.8 Flash is generally available in Canada and Japan with in-region data residency and ML processing. | [Google Cloud, Gemini 3.8 Flash in Canada and Japan](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_12_2026) |
 | 2026-11-10 | [BigQuery gemini-4-carbon support](https://deployedbyai.com/log/de280d092622/bigquery-gemini-4-carbon-support/?k=repo) | BigQuery generative AI functions now support the gemini-4-carbon model. | [Google Cloud, BigQuery gemini-4-carbon support](https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026) |
 | 2026-11-10 | [BigQuery measures GA](https://deployedbyai.com/log/6f295d6ecb47/bigquery-measures-ga/?k=repo) | BigQuery measures is now generally available, unifying BI metrics and knowledge graphs for AI accuracy. | [Google Cloud, BigQuery measures GA](https://cloud.google.com/blog/products/data-analytics/bigquery-measures-ga-unifying-bi-metrics-and-knowledge-graphs/) |
 | 2026-11-10 | [Gemini 4 Carbon](https://deployedbyai.com/log/1c2b71b7a1a6/gemini-4-carbon/?k=repo) | Gemini 4 Carbon is generally available in the Gemini Enterprise web app, mobile app, Workflow Builder, and AI developer tools. | [Google Cloud, Gemini 4 Carbon](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_10_2026) |

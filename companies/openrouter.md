@@ -1,6 +1,6 @@
 # OpenRouter in The Deploy Log
 
-39 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 10, 2026.
+40 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 12, 2026.
 
 The same rows are on [the OpenRouter page of the record](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the OpenRouter page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [Gemini 4 Hydrogen](https://deployedbyai.com/log/05f11401cc95/gemini-4-hydrogen/?k=repo) | Gemini 4 Hydrogen is available on OpenRouter with 1M context and EU in-region routing. | [OpenRouter, Gemini 4 Hydrogen](https://openrouter.ai/google/gemini-4-hydrogen) |
 | 2026-11-10 | [ERNIE-5.5-Flash-Preview](https://deployedbyai.com/log/7334232040c2/ernie-5-5-flash-preview/?k=repo) | Baidu ERNIE-5.5-Flash-Preview is available on OpenRouter at <span>$</span>0.28 input and <span>$</span>1.13 output per 1M tokens with 1M context. | [OpenRouter, ERNIE-5.5-Flash-Preview](https://openrouter.ai/baidu/ernie-5.5-flash-preview) |
 | 2026-11-10 | [ERNIE-Light-DT-1.0](https://deployedbyai.com/log/39a583ef2d70/ernie-light-dt-1-0/?k=repo) | Baidu ERNIE-Light-DT-1.0 is available on OpenRouter at <span>$</span>1.13 input and <span>$</span>3.94 output per 1M tokens with 1M context. | [OpenRouter, ERNIE-Light-DT-1.0](https://openrouter.ai/baidu/ernie-light-dt-1.0-intl) |
 | 2026-11-10 | [Gemini 4 Carbon on OpenRouter](https://deployedbyai.com/log/4c86a6a2f995/gemini-4-carbon-on-openrouter/?k=repo) | Google Gemini 4 Carbon is available on OpenRouter at <span>$</span>2/<span>$</span>10 per 1M tokens with 1.0M context. | [OpenRouter, Gemini 4 Carbon on OpenRouter](https://openrouter.ai/google/gemini-4-carbon) |

@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-308 rows in The Deploy Log are filed under Vercel. 114 carry a publisher's date, from September 18, 2025 to November 11, 2026, and 194 are placed by their edition.
+310 rows in The Deploy Log are filed under Vercel. 116 carry a publisher's date, from September 18, 2025 to November 12, 2026, and 194 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [Gemini 4 Hydrogen on AI Gateway](https://deployedbyai.com/log/a97d72647563/gemini-4-hydrogen-on-ai-gateway/?k=repo) | Gemini 4 Hydrogen is available on AI Gateway as google/gemini-4-hydrogen. | [Vercel, Gemini 4 Hydrogen on AI Gateway](https://vercel.com/changelog/gemini-4-hydrogen-now-available-on-ai-gateway) |
+| 2026-11-12 | [Inkling 2 Small on AI Gateway](https://deployedbyai.com/log/07f175468c9a/inkling-2-small-on-ai-gateway/?k=repo) | Thinking Machines' multimodal reasoning model Inkling 2 Small is now available on Vercel AI Gateway as thinkingmachines/inkling-2-small. | [Vercel, Inkling 2 Small on AI Gateway](https://vercel.com/changelog/inkling-2-small-now-available-on-ai-gateway) |
 | 2026-11-11 | [Gemini Decision 1 on AI Gateway](https://deployedbyai.com/log/88dca4164994/gemini-decision-1-on-ai-gateway/?k=repo) | Google's Gemini Decision 1 multimodal decision model is available on AI Gateway via AI SDK, TypeSafe-compatible API, and Decisions API. | [Vercel, Gemini Decision 1 on AI Gateway](https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway) |
 | 2026-11-10 | [Gemini 4 Carbon on AI Gateway](https://deployedbyai.com/log/42e57127cf86/gemini-4-carbon-on-ai-gateway/?k=repo) | Gemini 4 Carbon is available on AI Gateway at 50% off through November 30, 2026, with a 1M-token context window. | [Vercel, Gemini 4 Carbon on AI Gateway](https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway) |
 | 2026-11-10 | [MiniMax H3 Image on AI Gateway](https://deployedbyai.com/log/bdbdba35cf20/minimax-h3-image-on-ai-gateway/?k=repo) | MiniMax H3 Image and Highspeed are available on AI Gateway with one API key. | [Vercel, MiniMax H3 Image on AI Gateway](https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway) |

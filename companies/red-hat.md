@@ -1,6 +1,6 @@
 # Red Hat in The Deploy Log
 
-10 rows in The Deploy Log are filed under Red Hat. Every one carries a publisher's date, from October 8, 2026 to November 11, 2026.
+11 rows in The Deploy Log are filed under Red Hat. Every one carries a publisher's date, from October 8, 2026 to November 12, 2026.
 
 The same rows are on [the Red Hat page of the record](https://deployedbyai.com/log/company/f3385ce24af8/red-hat/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Red Hat page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [OpenShift Lightspeed 2](https://deployedbyai.com/log/5bdbcfb9bd75/openshift-lightspeed-2/?k=repo) | OpenShift Lightspeed 2 adds live cluster troubleshooting chat and autonomous investigation in an isolated pod. | [Red Hat, OpenShift Lightspeed 2](https://www.redhat.com/en/blog/whats-new-red-hat-openshift-lightspeed-2) |
 | 2026-11-11 | [ACM 5.0 MCP Server](https://deployedbyai.com/log/fca22f458c2b/acm-5-0-mcp-server/?k=repo) | Red Hat Advanced Cluster Management 5.0 makes the Model Context Protocol server for Search available as a technical preview. | [Red Hat, ACM 5.0 MCP Server](https://www.redhat.com/en/blog/red-hat-advanced-cluster-management-kubernetes-5) |
 | 2026-11-11 | [MCP server for RHEL](https://deployedbyai.com/log/2c38531016ca/mcp-server-for-rhel/?k=repo) | MCP server for Red Hat Enterprise Linux is generally available as an RPM with new PCP performance diagnostics. | [Red Hat, MCP server for RHEL](https://www.redhat.com/en/blog/announcing-general-availability-mcp-server-red-hat-enterprise-linux) |
 | 2026-11-11 | [OpenShift Lightspeed Observability](https://deployedbyai.com/log/4cb1e48b1e55/openshift-lightspeed-observability/?k=repo) | Red Hat OpenShift Lightspeed autonomous troubleshooting agents are available with OpenShift 5 and Lightspeed operator 2. | [Red Hat, OpenShift Lightspeed Observability](https://www.redhat.com/en/blog/guide-observability-red-hat-openshift-5) |

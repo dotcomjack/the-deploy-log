@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-81 rows in The Deploy Log are filed under LangChain. 80 carry a publisher's date, from September 20, 2026 to November 11, 2026, and 1 is placed by its edition.
+83 rows in The Deploy Log are filed under LangChain. 82 carry a publisher's date, from September 20, 2026 to November 12, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [langgraph 1.2.21](https://deployedbyai.com/log/9a036543c6fb/langgraph-1-2-21/?k=repo) | langgraph 1.2.21 with namespace fixes and dependency updates. | [LangChain, langgraph 1.2.21](https://github.com/langchain-ai/langgraph/releases/tag/1.2.21) |
+| 2026-11-12 | [langgraph-cli 0.4.43](https://deployedbyai.com/log/8e7e0e52b644/langgraph-cli-0-4-43/?k=repo) | langgraph-cli 0.4.43 uses Agent Server flags with hidden deployment aliases and removes the discontinued local debugger image. | [LangChain, langgraph-cli 0.4.43](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.43) |
 | 2026-11-11 | [langchain 1.5.0](https://deployedbyai.com/log/63df03d47d0a/langchain-1-5-0/?k=repo) | langchain 1.5.0 drops Python 3.10 support and requires langchain-core 1.8.0. | [LangChain, langchain 1.5.0](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0) |
 | 2026-11-11 | [langchain-core 1.8.0](https://deployedbyai.com/log/f4f468202545/langchain-core-1-8-0/?k=repo) | langchain-core 1.8.0 drops Python 3.10 support; minimum is now Python 3.11. | [LangChain, langchain-core 1.8.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0) |
 | 2026-11-11 | [langchain-typesafe 0.1.0](https://deployedbyai.com/log/b4fcd6533a1b/langchain-typesafe-0-1-0/?k=repo) | langchain-typesafe 0.1.0 drops Python 3.10 support and requires Python 3.11 and langchain-core 1.8.0. | [LangChain, langchain-typesafe 0.1.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0) |

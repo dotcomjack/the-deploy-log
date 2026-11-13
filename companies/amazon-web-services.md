@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-180 rows in The Deploy Log are filed under Amazon Web Services. 174 carry a publisher's date, from September 16, 2026 to November 11, 2026, and 6 are placed by their edition.
+185 rows in The Deploy Log are filed under Amazon Web Services. 179 carry a publisher's date, from September 16, 2026 to November 12, 2026, and 6 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [EC2 Image Builder DevOps Agent](https://deployedbyai.com/log/77d56d315666/ec2-image-builder-devops-agent/?k=repo) | EC2 Image Builder console now integrates with the AWS DevOps Agent for troubleshooting and resource creation. | [Amazon Web Services, EC2 Image Builder DevOps Agent](https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration) |
+| 2026-11-12 | [ECS Managed Instances GPU auto-repair](https://deployedbyai.com/log/efd63054fd0b/ecs-managed-instances-gpu-auto-repair/?k=repo) | Amazon ECS Managed Instances now automatically detects GPU hardware failures and replaces impaired instances, enabled by default. | [Amazon Web Services, ECS Managed Instances GPU auto-repair](https://aws.amazon.com/blogs/containers/automatically-recover-from-gpu-failures-with-amazon-ecs-managed-instances/) |
+| 2026-11-12 | [harness-python/v0.4.0](https://deployedbyai.com/log/df812215a3b9/harness-python-v0-4-0/?k=repo) | harness-python/v0.4.0 adds ClassifierStrategy routing with any DecisionModel and server-side summary with Anthropic on-demand compaction. | [Amazon Web Services, harness-python/v0.4.0](https://github.com/strands-agents/harness-sdk/releases/tag/harness-python%2Fv0.4.0) |
+| 2026-11-12 | [harness-typescript/v0.4.0](https://deployedbyai.com/log/d41d5c87f81f/harness-typescript-v0-4-0/?k=repo) | harness-typescript/v0.4.0 adds SageMakerDecisionModel, HumanInTheLoop auto mode, and server-side summary with Anthropic on-demand compaction. | [Amazon Web Services, harness-typescript/v0.4.0](https://github.com/strands-agents/harness-sdk/releases/tag/harness-typescript%2Fv0.4.0) |
+| 2026-11-12 | [mcp/v0.4.0](https://deployedbyai.com/log/606fd90e4f7b/mcp-v0-4-0/?k=repo) | mcp/v0.4.0 adds find\_integrations, server instructions, tool annotations, and recoverable fetch\_doc errors. | [Amazon Web Services, mcp/v0.4.0](https://github.com/strands-agents/harness-sdk/releases/tag/mcp%2Fv0.4.0) |
 | 2026-11-11 | [AWS DMS Schema Conversion AI agents](https://deployedbyai.com/log/19bf7508b5dc/aws-dms-schema-conversion-ai-agents/?k=repo) | AI agents can now configure offline source and virtual target modes, assess and convert database objects, and export results from a conversational prompt. | [Amazon Web Services, AWS DMS Schema Conversion AI agents](https://aws.amazon.com/blogs/database/offline-assessment-and-conversion-with-ai-agents-in-aws-dms/) |
 | 2026-11-11 | [AWS Emulator](https://deployedbyai.com/log/2019a12559aa/aws-emulator/?k=repo) | AWS Emulator, a local emulator for AWS services, is available with no additional service fee. | [Amazon Web Services, AWS Emulator](https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator/) |
 | 2026-11-11 | [AWS October AI Builder Releases](https://deployedbyai.com/log/c66e8139b3b3/aws-october-ai-builder-releases/?k=repo) | Claude Haiku 5.5 and OpenAI GPT-6.1 Terra are now generally available on Amazon Bedrock, with new AgentCore and Strands updates. | [Amazon Web Services, AWS October AI Builder Releases](https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/) |

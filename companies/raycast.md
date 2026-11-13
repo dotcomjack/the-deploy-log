@@ -1,8 +1,14 @@
 # Raycast in The Deploy Log
 
-4 rows in The Deploy Log are filed under Raycast. Every one carries a publisher's date, from September 25, 2026 to October 28, 2026.
+5 rows in The Deploy Log are filed under Raycast. Every one carries a publisher's date, from September 25, 2026 to November 12, 2026.
 
 The same rows are on [the Raycast page of the record](https://deployedbyai.com/log/company/44e0db819832/raycast/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-12 | [Raycast v2.12](https://deployedbyai.com/log/746e5e020b50/raycast-v2-12/?k=repo) | Raycast v2.12 ships a rebuilt calculator that is 60x faster and uses 65% less memory. | [Raycast, Raycast v2.12](https://raycast.com//changelog/macos/2-12) |
 
 ## October 2026
 

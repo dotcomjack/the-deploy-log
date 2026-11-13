@@ -1,8 +1,21 @@
 # Gradio in The Deploy Log
 
-6 rows in The Deploy Log are filed under Gradio. Every one carries a publisher's date, from October 8, 2026 to October 28, 2026.
+14 rows in The Deploy Log are filed under Gradio. Every one carries a publisher's date, from October 8, 2026 to November 12, 2026.
 
 The same rows are on [the Gradio page of the record](https://deployedbyai.com/log/company/263d01028438/gradio/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-12 | [@gradio/client 2.8.0](https://deployedbyai.com/log/d524e5daa80a/gradio-client-2-8-0/?k=repo) | Console forwarding added for embedded apps. | [Gradio, @gradio/client 2.8.0](https://github.com/gradio-app/gradio/releases/tag/%40gradio%2Fclient%402.8.0) |
+| 2026-11-12 | [@gradio/core 1.14.0](https://deployedbyai.com/log/7a6c7c6a16d1/gradio-core-1-14-0/?k=repo) | Visitor's own HF token used for run history buckets. | [Gradio, @gradio/core 1.14.0](https://github.com/gradio-app/gradio/releases/tag/%40gradio%2Fcore%401.14.0) |
+| 2026-11-12 | [@gradio/gallery 0.19.5](https://deployedbyai.com/log/448a93360a6f/gradio-gallery-0-19-5/?k=repo) | Camera permission denied error shown for webcam. | [Gradio, @gradio/gallery 0.19.5](https://github.com/gradio-app/gradio/releases/tag/%40gradio%2Fgallery%400.19.5) |
+| 2026-11-12 | [@gradio/image 0.28.6](https://deployedbyai.com/log/df85fcb5c265/gradio-image-0-28-6/?k=repo) | Shows an error when camera permission is denied for the webcam. | [Gradio, @gradio/image 0.28.6](https://github.com/gradio-app/gradio/releases/tag/%40gradio%2Fimage%400.28.6) |
+| 2026-11-12 | [@gradio/imageeditor 0.21.3](https://deployedbyai.com/log/027f2b25dc56/gradio-imageeditor-0-21-3/?k=repo) | Shows an error when camera permission is denied for the webcam. | [Gradio, @gradio/imageeditor 0.21.3](https://github.com/gradio-app/gradio/releases/tag/%40gradio%2Fimageeditor%400.21.3) |
+| 2026-11-12 | [@gradio/model3d 0.20.0](https://deployedbyai.com/log/264050cefa1e/gradio-model3d-0-20-0/?k=repo) | Adds 3D model node support to Gradio workflows. | [Gradio, @gradio/model3d 0.20.0](https://github.com/gradio-app/gradio/releases/tag/%40gradio%2Fmodel3d%400.20.0) |
+| 2026-11-12 | [@gradio/workflowcanvas 0.15.0](https://deployedbyai.com/log/c5c84b362ca0/gradio-workflowcanvas-0-15-0/?k=repo) | @gradio/workflowcanvas 0.15.0 adds depth estimation, masked textbox, and 3D model node support. | [Gradio, @gradio/workflowcanvas 0.15.0](https://github.com/gradio-app/gradio/releases/tag/%40gradio%2Fworkflowcanvas%400.15.0) |
+| 2026-11-12 | [gradio 6.32.0](https://deployedbyai.com/log/9173900b073c/gradio-6-32-0/?k=repo) | gradio 6.32.0 adds GitHub-installed CLI extensions, console forwarding, and MCP server auth support. | [Gradio, gradio 6.32.0](https://github.com/gradio-app/gradio/releases/tag/gradio%406.32.0) |
 
 ## October 2026
 
