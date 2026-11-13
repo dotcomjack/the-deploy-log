@@ -13,7 +13,7 @@ Of the 153 companies the record files a row under, 100 have a page there, and ea
 | [Databricks](databricks.md) | 89 | 89 | 2026-09-22 | 2026-11-13 | [page](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo) |
 | [LangChain](langchain.md) | 83 | 82 | 2026-09-20 | 2026-11-12 | [page](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo) |
 | [Google Cloud](google-cloud.md) | 82 | 82 | 2026-09-17 | 2026-11-12 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
-| [Cloudflare](cloudflare.md) | 69 | 61 | 2026-08-13 | 2026-11-12 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
+| [Cloudflare](cloudflare.md) | 70 | 62 | 2026-08-13 | 2026-11-13 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
 | [Google](google.md) | 60 | 52 | 2026-09-23 | 2026-11-13 | [page](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo) |
 | [NVIDIA](nvidia.md) | 54 | 48 | 2026-08-20 | 2026-11-12 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
 | [Google Workspace](google-workspace.md) | 50 | 38 | 2026-08-28 | 2026-11-10 | [page](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo) |
