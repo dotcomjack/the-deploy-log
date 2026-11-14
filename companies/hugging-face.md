@@ -1,6 +1,6 @@
 # Hugging Face in The Deploy Log
 
-103 rows in The Deploy Log are filed under Hugging Face. 54 carry a publisher's date, from September 17, 2025 to November 13, 2026, and 49 are placed by their edition.
+104 rows in The Deploy Log are filed under Hugging Face. 54 carry a publisher's date, from September 17, 2025 to November 13, 2026, and 50 are placed by their edition.
 
 The same rows are on [the Hugging Face page of the record](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo).
 
@@ -125,10 +125,11 @@ The same rows are on [the Hugging Face page of the record](https://deployedbyai.
 
 ## Placed by their edition
 
-49 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+50 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 60, 2026-11-14 | [llama.cpp v1.0.0](https://deployedbyai.com/log/49cb9fae1d5b/llama-cpp-v1-0-0/?k=repo) | llama.cpp and ggml release v1.0.0, with semantic versioning rules that bump MAJOR for breaking changes to the public C API in ./include. | [Hugging Face, llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1) |
 | Edition 50, 2026-09-05 | [WebGPU kernels](https://deployedbyai.com/log/696eac69330e/webgpu-kernels/?k=repo) | Hugging Face released @huggingface/kernels with 207 WebGPU kernels, 2.57x faster than ORT WebGPU by geometric mean across 809 matching test cases on an Apple M4 GPU. | [Hugging Face, Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI](https://huggingface.co/blog/webgpu-kernels) |
 | Edition 46, 2026-08-08 | [Baseten Inference Provider](https://deployedbyai.com/log/0b570baa3167/baseten-inference-provider/?k=repo) | Baseten is now a supported Inference Provider on the Hugging Face Hub, launching support for conversational and text-generation tasks with open-weight LLMs such as Kimi K3, DeepSeek V4 Flash, and GLM-5.2. | [Hugging Face, Baseten on Hugging Face Inference Providers](https://huggingface.co/blog/baseten) |
 | Edition 42, 2026-07-11 | [LeRobot v0.6.0](https://deployedbyai.com/log/41fdd3ae2a87/lerobot-v0-6-0/?k=repo) | LeRobot v0.6.0 ships world model policies VLA-JEPA, FastWAM, and LingBot-VA, new VLAs including GR00T N1.7 and MolmoAct2, reward models Robometer and TOPReward, and six new simulation benchmarks under lerobot-eval. | [Hugging Face, LeRobot v0.6.0: Imagine, Evaluate, Improve](https://huggingface.co/blog/lerobot-release-v060) |

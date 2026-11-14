@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-71 rows in The Deploy Log are filed under Cloudflare. 63 carry a publisher's date, from August 13, 2026 to November 13, 2026, and 8 are placed by their edition.
+72 rows in The Deploy Log are filed under Cloudflare. 63 carry a publisher's date, from August 13, 2026 to November 13, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -89,10 +89,11 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 
 ## Placed by their edition
 
-8 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+9 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 60, 2026-11-14 | [Kitesurf](https://deployedbyai.com/log/9e03e6a9e4d8/kitesurf/?k=repo) | Kitesurf, Cloudflare's stateless browser for AI agents that runs entirely on Workers, is now open source on GitHub under the Apache 2.0 license. | [Cloudflare, Kitesurf is now open source](https://blog.cloudflare.com/kitesurf-open-source/) |
 | Edition 55, 2026-10-10 | [Clef-omni](https://deployedbyai.com/log/40fd0c187f17/clef-omni/?k=repo) | Cloudflare released Clef-omni, an open-weight decision model that takes audio in wav or mp3, video in mp4 or webm, image and text input. Cloudflare also cut the price of Clef-flash so it is now cheaper than Jev, and made Clef faster. | [Cloudflare, Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash](https://blog.cloudflare.com/clef-faster-cheaper-multimodal/) |
 | Edition 54, 2026-10-03 | [AI Search](https://deployedbyai.com/log/b9c3d26784e4/ai-search/?k=repo) | Cloudflare's AI Search is generally available, combining Workers AI, Vectorize, R2, and Browser Run into a fully managed index and retrieval pipeline, with billing starting November 1, 2026. | [Cloudflare, AI Search is now generally available](https://blog.cloudflare.com/ai-search-ga/) |
 | Edition 54, 2026-10-03 | [Clef decision models](https://deployedbyai.com/log/db65145b5bd5/clef-decision-models/?k=repo) | Cloudflare released two trained decision models, Clef and Clef-flash, hosted on Workers AI. Clef is currently the leader when evaluated against the Jev Decision Index, and the models are open-sourced on Hugging Face under an Apache 2.0 license. | [Cloudflare, Introducing Clef: our open-source decision models, and new RL fine-tuning platform](https://blog.cloudflare.com/clef-decision-models/) |

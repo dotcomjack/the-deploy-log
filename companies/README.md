@@ -4,17 +4,17 @@ Of the 153 companies the record files a row under, 101 have a page there, and ea
 
 | Company | Rows | With a publisher's date | First | Latest | In the record |
 |---|---:|---:|---|---|---|
-| [Vercel](vercel.md) | 316 | 122 | 2025-09-18 | 2026-11-13 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
+| [Vercel](vercel.md) | 317 | 122 | 2025-09-18 | 2026-11-13 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
 | [OpenAI](openai.md) | 304 | 196 | 2025-09-25 | 2026-11-13 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
 | [Anthropic](anthropic.md) | 211 | 167 | 2025-10-16 | 2026-11-13 | [page](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo) |
 | [Amazon Web Services](amazon-web-services.md) | 190 | 184 | 2026-09-16 | 2026-11-13 | [page](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo) |
 | [GitHub](github.md) | 112 | 102 | 2026-09-17 | 2026-11-13 | [page](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo) |
-| [Hugging Face](hugging-face.md) | 103 | 54 | 2025-09-17 | 2026-11-13 | [page](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo) |
+| [Hugging Face](hugging-face.md) | 104 | 54 | 2025-09-17 | 2026-11-13 | [page](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo) |
 | [Databricks](databricks.md) | 89 | 89 | 2026-09-22 | 2026-11-13 | [page](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo) |
 | [LangChain](langchain.md) | 88 | 87 | 2026-09-20 | 2026-11-14 | [page](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo) |
 | [Google Cloud](google-cloud.md) | 85 | 85 | 2026-09-17 | 2026-11-13 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
-| [Cloudflare](cloudflare.md) | 71 | 63 | 2026-08-13 | 2026-11-13 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
-| [Google](google.md) | 62 | 54 | 2026-09-23 | 2026-11-13 | [page](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo) |
+| [Cloudflare](cloudflare.md) | 72 | 63 | 2026-08-13 | 2026-11-13 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
+| [Google](google.md) | 63 | 54 | 2026-09-23 | 2026-11-13 | [page](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo) |
 | [NVIDIA](nvidia.md) | 54 | 48 | 2026-08-20 | 2026-11-12 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
 | [Google Workspace](google-workspace.md) | 50 | 38 | 2026-08-28 | 2026-11-10 | [page](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo) |
 | [Microsoft](microsoft.md) | 40 | 38 | 2026-09-28 | 2026-11-14 | [page](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo) |
@@ -44,9 +44,9 @@ Of the 153 companies the record files a row under, 101 have a page there, and ea
 | [OpenHands](openhands.md) | 14 | 14 | 2026-09-25 | 2026-11-12 | [page](https://deployedbyai.com/log/company/3073c3e8ba0d/openhands/?k=repo) |
 | [PostHog](posthog.md) | 14 | 14 | 2026-09-25 | 2026-11-09 | [page](https://deployedbyai.com/log/company/97fc8c3bb9de/posthog/?k=repo) |
 | [Retool](retool.md) | 13 | 13 | 2026-09-30 | 2026-11-11 | [page](https://deployedbyai.com/log/company/07a5ddfe307f/retool/?k=repo) |
+| [Apple](apple.md) | 12 | 8 | 2026-07-23 | 2026-10-28 | [page](https://deployedbyai.com/log/company/ecedc9023fa1/apple/?k=repo) |
 | [Cognition](cognition.md) | 12 | 12 | 2026-09-28 | 2026-11-13 | [page](https://deployedbyai.com/log/company/a3079d818e00/cognition/?k=repo) |
 | [Agno](agno.md) | 11 | 11 | 2026-10-01 | 2026-10-29 | [page](https://deployedbyai.com/log/company/18c156da0579/agno/?k=repo) |
-| [Apple](apple.md) | 11 | 8 | 2026-07-23 | 2026-10-28 | [page](https://deployedbyai.com/log/company/ecedc9023fa1/apple/?k=repo) |
 | [Docker](docker.md) | 11 | 11 | 2026-10-05 | 2026-11-12 | [page](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo) |
 | [Open WebUI](open-webui.md) | 11 | 11 | 2026-09-21 | 2026-11-08 | [page](https://deployedbyai.com/log/company/d493030271cb/open-webui/?k=repo) |
 | [Red Hat](red-hat.md) | 11 | 11 | 2026-10-08 | 2026-11-12 | [page](https://deployedbyai.com/log/company/f3385ce24af8/red-hat/?k=repo) |

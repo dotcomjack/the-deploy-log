@@ -1,6 +1,6 @@
 # Apple in The Deploy Log
 
-11 rows in The Deploy Log are filed under Apple. 8 carry a publisher's date, from July 23, 2026 to October 28, 2026, and 3 are placed by their edition.
+12 rows in The Deploy Log are filed under Apple. 8 carry a publisher's date, from July 23, 2026 to October 28, 2026, and 4 are placed by their edition.
 
 The same rows are on [the Apple page of the record](https://deployedbyai.com/log/company/ecedc9023fa1/apple/?k=repo).
 
@@ -34,10 +34,11 @@ The same rows are on [the Apple page of the record](https://deployedbyai.com/log
 
 ## Placed by their edition
 
-3 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+4 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 60, 2026-11-14 | [Apple HomeView](https://deployedbyai.com/log/64ce7e9bb68b/apple-homeview/?k=repo) | A 7-inch Liquid Retina display with Siri AI, face recognition for up to six people, and smart home control, available in tabletop and wall-mounted models for $299. | [Apple, Apple HomeView available today](https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/) |
 | Edition 56, 2026-10-17 | [iPhone Duo](https://deployedbyai.com/log/ffbccd7a09f8/iphone-duo/?k=repo) | Pre-orders begin Friday, October 16 at 5 a.m. PT, with an inner display 50 percent larger than iPhone 18 Pro Max and a 5.4-inch outer display delivering 90 percent of iPhone 18 Pro screen area. | [Apple, Open up to new possibilities with iPhone Duo](https://www.apple.com/newsroom/2026/10/open-up-to-new-possibilities-with-iphone-duo/) |
 | Edition 52, 2026-09-19 | [iPhone 18 Pro lineup](https://deployedbyai.com/log/85f75496bf63/iphone-18-pro-lineup/?k=repo) | Apple debuted iPhone 18 Pro and iPhone 18 Pro Max, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5 at Apple Store locations worldwide on Friday, September 18. | [Apple, iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, and AirPods 5 arrive in stores worldwide](https://www.apple.com/newsroom/2026/09/the-latest-iphone-apple-watch-and-airpods-lineups-arrive-in-stores-worldwide/) |
 | Edition 49, 2026-08-29 | [Mac Studio M5 Ultra](https://deployedbyai.com/log/e32b57667256/mac-studio-m5-ultra/?k=repo) | Mac Studio with M5 Ultra scales to a 36-core CPU, up to an 80-core GPU, and 512GB of unified memory with 1.2TB/s bandwidth, delivering up to 4.3x the peak AI compute performance of M3 Ultra and 9.8x more than M1 Ultra. | [Apple, Apple introduces new Mac Studio with M5 Max and M5 Ultra](https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/) |
