@@ -8,7 +8,7 @@ The same rows are on [the vLLM page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
-| 2026-11-11 | [vLLM v0.34.0rc1](https://deployedbyai.com/log/4f41cef93370/vllm-v0-34-0rc1/?k=repo) | vLLM v0.34.0rc1 is released with a bugfix for greedy\_argmax on XPU. | [vLLM, vLLM v0.34.0rc1](https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1) |
+| 2026-11-11 | [vLLM v0.34.0rc1](https://deployedbyai.com/log/4f41cef93370/vllm-v0-34-0rc1/?k=repo) | vLLM v0.34.0rc1 is tagged, a release candidate with a bugfix for greedy\_argmax on XPU. Correction, 14 Nov 2026: this row first said it was released; its source is a GitHub tag with no published release, and none is published as of 14 Nov 2026. | [vLLM, vLLM v0.34.0rc1](https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1) |
 
 ## October 2026
 

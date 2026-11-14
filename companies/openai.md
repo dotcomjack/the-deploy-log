@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-301 rows in The Deploy Log are filed under OpenAI. 193 carry a publisher's date, from September 25, 2025 to November 13, 2026, and 108 are placed by their edition.
+304 rows in The Deploy Log are filed under OpenAI. 196 carry a publisher's date, from September 25, 2025 to November 13, 2026, and 108 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -10,6 +10,9 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 |---|---|---|---|
 | 2026-11-13 | [Codex 0.168.0](https://deployedbyai.com/log/87284ff79a49/codex-0-168-0/?k=repo) | Codex 0.168.0 adds model provider browsing, side conversations, audio recording attachments, animated GIF generation, and terminal notifications. | [OpenAI, Codex 0.168.0](https://github.com/openai/codex/releases/tag/rust-v0.168.0) |
 | 2026-11-13 | [Codex 0.169.0](https://deployedbyai.com/log/26272d2d4d79/codex-0-169-0/?k=repo) | Codex 0.169.0 adds multiple side-chat tabs, custom model providers from the terminal, and Cloud connection with image support. | [OpenAI, Codex 0.169.0](https://github.com/openai/codex/releases/tag/rust-v0.169.0) |
+| 2026-11-13 | [openai-java v4.105.0](https://deployedbyai.com/log/3e82b287b00a/openai-java-v4-105-0/?k=repo) | openai-java v4.105.0 updates Managed Agents, Live, and image APIs. | [OpenAI, openai-java v4.105.0](https://github.com/openai/openai-java/releases/tag/v4.105.0) |
+| 2026-11-13 | [openai-python v3.51.0](https://deployedbyai.com/log/e4f6ad9f05bd/openai-python-v3-51-0/?k=repo) | openai-python v3.51.0 expands agent, image, Live, and external key support. | [OpenAI, openai-python v3.51.0](https://github.com/openai/openai-python/releases/tag/v3.51.0) |
+| 2026-11-13 | [openai-ruby v0.124.0](https://deployedbyai.com/log/a083433d3a70/openai-ruby-v0-124-0/?k=repo) | openai-ruby v0.124.0 updates Live, Agents, images, and external keys. | [OpenAI, openai-ruby v0.124.0](https://github.com/openai/openai-ruby/releases/tag/v0.124.0) |
 | 2026-11-12 | [@openai/agents-core@0.22.0](https://deployedbyai.com/log/2eca14ad601e/openai-agents-core-0-22-0/?k=repo) | Release 0.22.0 with fixes for Docker sandbox resources, MCP discovery annotations, session compaction, and Chat Completions reasoning effort defaults. | [OpenAI, @openai/agents-core@0.22.0](https://github.com/openai/openai-agents-js/releases/tag/%40openai%2Fagents-core%400.22.0) |
 | 2026-11-12 | [@openai/agents-extensions@0.22.0](https://deployedbyai.com/log/209c770dadc9/openai-agents-extensions-0-22-0/?k=repo) | Release 0.22.0 with fixes for sandbox login shells, tool error messages, and WebSocket types. | [OpenAI, @openai/agents-extensions@0.22.0](https://github.com/openai/openai-agents-js/releases/tag/%40openai%2Fagents-extensions%400.22.0) |
 | 2026-11-12 | [@openai/agents-openai@0.22.0](https://deployedbyai.com/log/6e374b1154c0/openai-agents-openai-0-22-0/?k=repo) | Release 0.22.0 with fixes for session compaction, sandbox clients, tool name conflicts, and Chat Completions reasoning effort defaults. | [OpenAI, @openai/agents-openai@0.22.0](https://github.com/openai/openai-agents-js/releases/tag/%40openai%2Fagents-openai%400.22.0) |

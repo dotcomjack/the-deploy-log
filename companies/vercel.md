@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-310 rows in The Deploy Log are filed under Vercel. 116 carry a publisher's date, from September 18, 2025 to November 12, 2026, and 194 are placed by their edition.
+316 rows in The Deploy Log are filed under Vercel. 122 carry a publisher's date, from September 18, 2025 to November 13, 2026, and 194 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,8 +8,14 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [Parallel Decisions Fast on AI Gateway](https://deployedbyai.com/log/3ad4502179df/parallel-decisions-fast-on-ai-gateway/?k=repo) | Parallel Decisions Fast is now available on AI Gateway and free through November 23, 2026. | [Vercel, Parallel Decisions Fast on AI Gateway](https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free) |
+| 2026-11-13 | [Token Pass](https://deployedbyai.com/log/4ac82f666369/token-pass/?k=repo) | Token Pass now includes <span>$</span>150 of tokens per month for <span>$</span>30 per team, up from <span>$</span>80, for featured open-weight models on AI Gateway. | [Vercel, Token Pass](https://vercel.com/changelog/vercel-token-pass-now-includes-one-hundred-fifty-dollars-of-monthly-tokens) |
+| 2026-11-13 | [Vercel Daemon Tracing](https://deployedbyai.com/log/d9c0f1c03f44/vercel-daemon-tracing/?k=repo) | Vercel Daemons can now send OpenTelemetry traces to Vercel Tracing via a Unix socket, with automatic export in @vercel/otel 2.3.0. | [Vercel, Vercel Daemon Tracing](https://vercel.com/changelog/vercel-daemons-can-now-send-traces-to-vercel-tracing) |
+| 2026-11-13 | [Vercel Sandbox regional cache](https://deployedbyai.com/log/f9c9481ae246/vercel-sandbox-regional-cache/?k=repo) | Vercel Sandbox initialization is up to 4x faster outside iad1 when reused image data is served from a regional cache. | [Vercel, Vercel Sandbox regional cache](https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster) |
 | 2026-11-12 | [Gemini 4 Hydrogen on AI Gateway](https://deployedbyai.com/log/a97d72647563/gemini-4-hydrogen-on-ai-gateway/?k=repo) | Gemini 4 Hydrogen is available on AI Gateway as google/gemini-4-hydrogen. | [Vercel, Gemini 4 Hydrogen on AI Gateway](https://vercel.com/changelog/gemini-4-hydrogen-now-available-on-ai-gateway) |
 | 2026-11-12 | [Inkling 2 Small on AI Gateway](https://deployedbyai.com/log/07f175468c9a/inkling-2-small-on-ai-gateway/?k=repo) | Thinking Machines' multimodal reasoning model Inkling 2 Small is now available on Vercel AI Gateway as thinkingmachines/inkling-2-small. | [Vercel, Inkling 2 Small on AI Gateway](https://vercel.com/changelog/inkling-2-small-now-available-on-ai-gateway) |
+| 2026-11-12 | [Kimi K3.1 Pro](https://deployedbyai.com/log/e360e0fc19a2/kimi-k3-1-pro/?k=repo) | Kimi K3.1 Pro is now available in Token Pass with a 1M context window for $30 per team per month. | [Vercel, Kimi K3.1 Pro](https://vercel.com/changelog/kimi-k3-1-pro-is-now-available-in-token-pass) |
+| 2026-11-12 | [Workflow SDK 5](https://deployedbyai.com/log/a50e5714d654/workflow-sdk-5/?k=repo) | Workflow SDK 5 is now available with end-to-end AES-256-GCM encryption of workflow payloads. | [Vercel, Workflow SDK 5](https://vercel.com/blog/workflow-sdk-5) |
 | 2026-11-11 | [Gemini Decision 1 on AI Gateway](https://deployedbyai.com/log/88dca4164994/gemini-decision-1-on-ai-gateway/?k=repo) | Google's Gemini Decision 1 multimodal decision model is available on AI Gateway via AI SDK, TypeSafe-compatible API, and Decisions API. | [Vercel, Gemini Decision 1 on AI Gateway](https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway) |
 | 2026-11-10 | [Gemini 4 Carbon on AI Gateway](https://deployedbyai.com/log/42e57127cf86/gemini-4-carbon-on-ai-gateway/?k=repo) | Gemini 4 Carbon is available on AI Gateway at 50% off through November 30, 2026, with a 1M-token context window. | [Vercel, Gemini 4 Carbon on AI Gateway](https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway) |
 | 2026-11-10 | [MiniMax H3 Image on AI Gateway](https://deployedbyai.com/log/bdbdba35cf20/minimax-h3-image-on-ai-gateway/?k=repo) | MiniMax H3 Image and Highspeed are available on AI Gateway with one API key. | [Vercel, MiniMax H3 Image on AI Gateway](https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway) |

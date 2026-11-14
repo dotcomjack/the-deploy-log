@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-26 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 12, 2026.
+28 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 14, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-14 | [LiteLLM v1.106.10](https://deployedbyai.com/log/bab7f2a37c6d/litellm-v1-106-10/?k=repo) | LiteLLM v1.106.10 fixes Google MCP servers asking users to sign in again when the access token expires. | [LiteLLM, LiteLLM v1.106.10](https://github.com/BerriAI/litellm/releases/tag/v1.106.10) |
+| 2026-11-13 | [LiteLLM 1.108.8 (LTS)](https://deployedbyai.com/log/68994bc69ea2/litellm-1-108-8-lts/?k=repo) | LiteLLM 1.108.8 (LTS) released with fixes for Azure /v1/decisions 400 errors, Gemini file ownership checks, and MCP sign-in loops. | [LiteLLM, LiteLLM 1.108.8 (LTS)](https://github.com/BerriAI/litellm/releases/tag/v1.108.8) |
 | 2026-11-12 | [LiteLLM v1.106.9](https://deployedbyai.com/log/963180d5b2cb/litellm-v1-106-9/?k=repo) | LiteLLM v1.106.9 released with ChatGPT client subscription forwarding and a proxy security fix. | [LiteLLM, LiteLLM v1.106.9](https://github.com/BerriAI/litellm/releases/tag/v1.106.9) |
 | 2026-11-12 | [LiteLLM v1.108.6](https://deployedbyai.com/log/f95b6c590ae7/litellm-v1-108-6/?k=repo) | LiteLLM v1.108.6 released with backported fixes for tool\_choice, proxy budget resets, usage, responses, MCP, and a proxy security fix. | [LiteLLM, LiteLLM v1.108.6](https://github.com/BerriAI/litellm/releases/tag/v1.108.6) |
 | 2026-11-11 | [LiteLLM v1.106.8](https://deployedbyai.com/log/79e1413cbe93/litellm-v1-106-8/?k=repo) | LiteLLM v1.106.8 released with signed Docker images. | [LiteLLM, LiteLLM v1.106.8](https://github.com/BerriAI/litellm/releases/tag/v1.106.8) |

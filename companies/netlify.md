@@ -1,6 +1,6 @@
 # Netlify in The Deploy Log
 
-21 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 12, 2026.
+22 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 13, 2026.
 
 The same rows are on [the Netlify page of the record](https://deployedbyai.com/log/company/7adffd5ee2c8/netlify/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Netlify page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [Agent Runners PR comments](https://deployedbyai.com/log/9463145d47d1/agent-runners-pr-comments/?k=repo) | Agent Runners can now read comments on pull requests they created, using review feedback as context for changes. | [Netlify, Agent Runners PR comments](https://www.netlify.com/changelog/2026-11-13-agent-runners-pr-review-comments/) |
 | 2026-11-12 | [Gemini 4 Hydrogen on Netlify](https://deployedbyai.com/log/aafea3359e83/gemini-4-hydrogen-on-netlify/?k=repo) | Google's Gemini 4 Hydrogen model is available through Netlify's AI Gateway and Agent Runners with zero configuration. | [Netlify, Gemini 4 Hydrogen on Netlify](https://www.netlify.com/changelog/gemini-4-hydrogen-ai-gateway-agent-runners/) |
 | 2026-11-10 | [Gemini 4 Carbon on Netlify](https://deployedbyai.com/log/dc62b4c01007/gemini-4-carbon-on-netlify/?k=repo) | Google Gemini 4 Carbon is available through Netlify AI Gateway and Agent Runners with zero configuration. | [Netlify, Gemini 4 Carbon on Netlify](https://www.netlify.com/changelog/gemini-4-carbon-ai-gateway-agent-runners/) |
 | 2026-11-09 | [Claude Fable 5.2 on Netlify AI Gateway](https://deployedbyai.com/log/fb430c64dbd3/claude-fable-5-2-on-netlify-ai-gateway/?k=repo) | Claude Fable 5.2 is now available through Netlify's AI Gateway with zero configuration required. | [Netlify, Claude Fable 5.2 on Netlify AI Gateway](https://www.netlify.com/changelog/claude-fable-5-2-ai-gateway/) |

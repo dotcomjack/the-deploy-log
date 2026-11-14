@@ -1,6 +1,6 @@
 # Cognition in The Deploy Log
 
-11 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to November 11, 2026.
+12 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to November 13, 2026.
 
 The same rows are on [the Cognition page of the record](https://deployedbyai.com/log/company/a3079d818e00/cognition/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Cognition page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [Devin Apps](https://deployedbyai.com/log/583cf2b1e589/devin-apps/?k=repo) | Devin Apps are live, private web applications hosted directly on Devin's cloud computer, built by describing the tool your team needs. | [Cognition, Devin Apps](https://devin.ai/blog/devin-apps) |
 | 2026-11-11 | [Claude Mythos 5.2 in Devin Security](https://deployedbyai.com/log/8e0c7a228284/claude-mythos-5-2-in-devin-security/?k=repo) | Claude Mythos 5.2 is available in Devin Security for eligible enterprise customers, with $100M+ in credits offered. | [Cognition, Claude Mythos 5.2 in Devin Security](https://devin.ai/blog/claude-mythos-5-2-security) |
 | 2026-11-11 | [Gemini 4 Hydrogen in Devin](https://deployedbyai.com/log/5ea2ac731117/gemini-4-hydrogen-in-devin/?k=repo) | Gemini 4 Hydrogen is live in Devin Desktop and CLI at $2.40 per task, scoring 38.2% on FrontierCode 2.0. | [Cognition, Gemini 4 Hydrogen in Devin](https://devin.ai/blog/gemini-4-hydrogen) |
 | 2026-11-10 | [Gemini 4 Carbon in Devin](https://deployedbyai.com/log/c150933fc7ab/gemini-4-carbon-in-devin/?k=repo) | Gemini 4 Carbon is live in Devin Desktop and Devin CLI, scoring 40.0% on FrontierCode 2.0. | [Cognition, Gemini 4 Carbon in Devin](https://devin.ai/blog/gemini-4-carbon) |

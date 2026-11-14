@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-209 rows in The Deploy Log are filed under Anthropic. 165 carry a publisher's date, from October 16, 2025 to November 12, 2026, and 44 are placed by their edition.
+211 rows in The Deploy Log are filed under Anthropic. 167 carry a publisher's date, from October 16, 2025 to November 13, 2026, and 44 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [Claude Agent SDK TypeScript v0.3.325](https://deployedbyai.com/log/1599b348db50/claude-agent-sdk-typescript-v0-3-325/?k=repo) | Added archiveSession() and unarchiveSession(), refuseIfBusy for plugin reloads, and parity with Claude Code v2.1.325. | [Anthropic, Claude Agent SDK TypeScript v0.3.325](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.325) |
+| 2026-11-13 | [claude-agent-sdk-python v0.2.182](https://deployedbyai.com/log/61ec5fd44f49/claude-agent-sdk-python-v0-2-182/?k=repo) | claude-agent-sdk-python v0.2.182 is available on PyPI. | [Anthropic, claude-agent-sdk-python v0.2.182](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.182) |
 | 2026-11-12 | [Claude Agent SDK TypeScript v0.3.323](https://deployedbyai.com/log/22b7e35ba98d/claude-agent-sdk-typescript-v0-3-323/?k=repo) | Claude Agent SDK TypeScript v0.3.323 adds machinePolicy.didNotLoad, matchDeniedModels, tool\_progress heartbeat, and parity with Claude Code v2.1.323. | [Anthropic, Claude Agent SDK TypeScript v0.3.323](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.323) |
 | 2026-11-12 | [Claude Code v2.1.323](https://deployedbyai.com/log/c9594f01389e/claude-code-v2-1-323/?k=repo) | Claude Code v2.1.323 adds experimental Code Mode, plugin version range enforcement, and TypeScript hook validation. | [Anthropic, Claude Code v2.1.323](https://github.com/anthropics/claude-code/releases/tag/v2.1.323) |
 | 2026-11-12 | [claude-agent-sdk-python v0.2.181](https://deployedbyai.com/log/e1ffa307e3d6/claude-agent-sdk-python-v0-2-181/?k=repo) | Version 0.2.181 of the Claude Agent SDK for Python is available on PyPI. | [Anthropic, claude-agent-sdk-python v0.2.181](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.181) |

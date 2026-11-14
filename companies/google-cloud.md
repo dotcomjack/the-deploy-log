@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-82 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 12, 2026.
+85 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 13, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [AI agent observability in BigQuery and Looker](https://deployedbyai.com/log/59ad417a1892/ai-agent-observability-in-bigquery-and-looker/?k=repo) | Unified AI agent observability and evaluation capabilities across BigQuery and Looker, including telemetry capture for first-party and custom agents. | [Google Cloud, AI agent observability in BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) |
+| 2026-11-13 | [Agentic HPC skills](https://deployedbyai.com/log/2ef678823c71/agentic-hpc-skills/?k=repo) | Composable agent skills for HPC workloads, available for download from Google Skills and DeepMind Science Skills repositories. | [Google Cloud, Agentic HPC skills](https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/) |
+| 2026-11-13 | [Gemini Enterprise single-user quota limits](https://deployedbyai.com/log/9232409c7744/gemini-enterprise-single-user-quota-limits/?k=repo) | Single-user quota limits for AI developer tools, including Google Antigravity, are generally available in Gemini Enterprise Standard and Plus editions. | [Google Cloud, Gemini Enterprise single-user quota limits](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_13_2026) |
 | 2026-11-12 | [Chrome Enterprise Premium](https://deployedbyai.com/log/41a05bc6de63/chrome-enterprise-premium/?k=repo) | Chrome Enterprise Premium adds DLP controls for AI prompts and extensions, and is now available in the IGEL Marketplace. | [Google Cloud, Chrome Enterprise Premium](https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-brings-more-protections-to-healthcare-technologies/) |
 | 2026-11-12 | [Gemini 3.8 Flash in Canada and Japan](https://deployedbyai.com/log/5e614ad4af1f/gemini-3-8-flash-in-canada-and-japan/?k=repo) | Gemini 3.8 Flash is generally available in Canada and Japan with in-region data residency and ML processing. | [Google Cloud, Gemini 3.8 Flash in Canada and Japan](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_12_2026) |
 | 2026-11-10 | [BigQuery gemini-4-carbon support](https://deployedbyai.com/log/de280d092622/bigquery-gemini-4-carbon-support/?k=repo) | BigQuery generative AI functions now support the gemini-4-carbon model. | [Google Cloud, BigQuery gemini-4-carbon support](https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026) |

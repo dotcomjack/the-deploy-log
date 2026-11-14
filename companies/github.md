@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-109 rows in The Deploy Log are filed under GitHub. 99 carry a publisher's date, from September 17, 2026 to November 12, 2026, and 10 are placed by their edition.
+112 rows in The Deploy Log are filed under GitHub. 102 carry a publisher's date, from September 17, 2026 to November 13, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [AI Scan REST API](https://deployedbyai.com/log/15bc64da0ee9/ai-scan-rest-api/?k=repo) | GitHub code scanning's AI Scan for repositories can now be toggled via REST API at organization and repository levels. | [GitHub, AI Scan REST API](https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api) |
+| 2026-11-13 | [Copilot CLI 1.0.111](https://deployedbyai.com/log/9c70948a2255/copilot-cli-1-0-111/?k=repo) | Copilot CLI 1.0.111 adds regex support to enterprise-managed shell permission rules and a --host-allow-session-creation flag. | [GitHub, Copilot CLI 1.0.111](https://github.com/github/copilot-cli/releases/tag/v1.0.111) |
+| 2026-11-13 | [Gemini 4 Hydrogen](https://deployedbyai.com/log/59c035e902c7/gemini-4-hydrogen/?k=repo) | Gemini 4 Hydrogen is generally available in GitHub Copilot for Pro, Pro+, Max, Business, and Enterprise users, billed at provider list pricing. | [GitHub, Gemini 4 Hydrogen](https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot) |
 | 2026-11-12 | [GitHub Copilot CLI v1.0.110](https://deployedbyai.com/log/3f757c7d0c98/github-copilot-cli-v1-0-110/?k=repo) | GitHub Copilot CLI v1.0.110 ships with experimental masked password prompts, MCP config preservation, and session and UI fixes. | [GitHub, GitHub Copilot CLI v1.0.110](https://github.com/github/copilot-cli/releases/tag/v1.0.110) |
 | 2026-11-11 | [Enterprise Copilot seat management APIs](https://deployedbyai.com/log/1398144aca48/enterprise-copilot-seat-management-apis/?k=repo) | Enterprise GitHub Apps can call enterprise-level Copilot seat management APIs with a new fine-grained permission. | [GitHub, Enterprise Copilot seat management APIs](https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management) |
 | 2026-11-10 | [Copilot CLI 1.0.109](https://deployedbyai.com/log/dadb98fb226a/copilot-cli-1-0-109/?k=repo) | Adds Claude Fable 5.2 to the model picker and IPv4/IPv6 CIDR support for sandbox host rules. | [GitHub, Copilot CLI 1.0.109](https://github.com/github/copilot-cli/releases/tag/v1.0.109) |

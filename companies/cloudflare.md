@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-70 rows in The Deploy Log are filed under Cloudflare. 62 carry a publisher's date, from August 13, 2026 to November 13, 2026, and 8 are placed by their edition.
+71 rows in The Deploy Log are filed under Cloudflare. 63 carry a publisher's date, from August 13, 2026 to November 13, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [Browser Run Quick Actions](https://deployedbyai.com/log/e3d69186694b/browser-run-quick-actions/?k=repo) | Browser Run Quick Actions now work locally under npx wrangler dev, with json emulated and Kitesurf unsupported. | [Cloudflare, Browser Run Quick Actions](https://developers.cloudflare.com/changelog/post/2026-11-13-quick-actions-local-dev/) |
 | 2026-11-13 | [Cloudflare AI Search Terraform](https://deployedbyai.com/log/15b2eb92d767/cloudflare-ai-search-terraform/?k=repo) | Cloudflare Terraform provider v5.29.0 adds a namespace argument to manage AI Search instances in any namespace. | [Cloudflare, Cloudflare AI Search Terraform](https://developers.cloudflare.com/changelog/post/2026-11-13-terraform-namespaces/) |
 | 2026-11-12 | [AI Search D1 data source](https://deployedbyai.com/log/11192fea67ac/ai-search-d1-data-source/?k=repo) | AI Search can now use a D1 database as a data source, with scheduled syncs keeping the index current. | [Cloudflare, AI Search D1 data source](https://developers.cloudflare.com/changelog/post/2026-11-12-d1-data-source/) |
 | 2026-11-12 | [AI Security for Apps Terraform](https://deployedbyai.com/log/b3e8032d2f42/ai-security-for-apps-terraform/?k=repo) | Terraform Cloudflare provider 5.29.0 adds resources to manage AI Security for Apps and custom topics. | [Cloudflare, AI Security for Apps Terraform](https://developers.cloudflare.com/changelog/post/2026-11-12-ai-security-for-apps-terraform/) |

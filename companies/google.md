@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-60 rows in The Deploy Log are filed under Google. 52 carry a publisher's date, from September 23, 2026 to November 13, 2026, and 8 are placed by their edition.
+62 rows in The Deploy Log are filed under Google. 54 carry a publisher's date, from September 23, 2026 to November 13, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-13 | [Gemini Google Wallet connection](https://deployedbyai.com/log/d8dd5a94e0c8/gemini-google-wallet-connection/?k=repo) | All Gemini app users in the U.S. can connect Google Wallet for responses informed by spending habits, with optional Plaid account linking. | [Google, Gemini Google Wallet connection](https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/) |
+| 2026-11-13 | [Google AI Studio Cloud credits](https://deployedbyai.com/log/f6f4cdc3f3af/google-ai-studio-cloud-credits/?k=repo) | Google AI Pro and Ultra subscribers can claim monthly Google Cloud credits and manage billing directly inside Google AI Studio. | [Google, Google AI Studio Cloud credits](https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/) |
 | 2026-11-13 | [MCP Toolbox v1.17.0](https://deployedbyai.com/log/dea33940567a/mcp-toolbox-v1-17-0/?k=repo) | Adds OAuth discovery/token CORS proxy, Looker data app tools, and several bug fixes. | [Google, MCP Toolbox v1.17.0](https://github.com/googleapis/mcp-toolbox/releases/tag/v1.17.0) |
 | 2026-11-12 | [Gemini 4 Hydrogen](https://deployedbyai.com/log/16d3cdb7a337/gemini-4-hydrogen/?k=repo) | Gemini 4 Hydrogen is available today across Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and Google Antigravity. | [Google, Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) |
 | 2026-11-12 | [Gemini 4 Hydrogen for developers](https://deployedbyai.com/log/4579c03d728f/gemini-4-hydrogen-for-developers/?k=repo) | Gemini 4 Hydrogen is available starting today via the Gemini API, Google AI Studio, Android Studio, Gemini for business, and Google Antigravity. | [Google, Gemini 4 Hydrogen for developers](https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/) |

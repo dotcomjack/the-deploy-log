@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-83 rows in The Deploy Log are filed under LangChain. 82 carry a publisher's date, from September 20, 2026 to November 12, 2026, and 1 is placed by its edition.
+88 rows in The Deploy Log are filed under LangChain. 87 carry a publisher's date, from September 20, 2026 to November 14, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-14 | [langgraph 1.2.22](https://deployedbyai.com/log/094e46c44552/langgraph-1-2-22/?k=repo) | langgraph 1.2.22 released with fixes for streaming child graphs and performance improvements. | [LangChain, langgraph 1.2.22](https://github.com/langchain-ai/langgraph/releases/tag/1.2.22) |
+| 2026-11-14 | [langgraph-checkpoint 4.3.2](https://deployedbyai.com/log/0d68e038eaba/langgraph-checkpoint-4-3-2/?k=repo) | langgraph-checkpoint 4.3.2 released with performance improvements for store search and batched reads. | [LangChain, langgraph-checkpoint 4.3.2](https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.2) |
+| 2026-11-14 | [langgraph-checkpoint-postgres 3.2.1](https://deployedbyai.com/log/d61bf8923a64/langgraph-checkpoint-postgres-3-2-1/?k=repo) | langgraph-checkpoint-postgres 3.2.1 released with performance improvements for store reads and connection pools. | [LangChain, langgraph-checkpoint-postgres 3.2.1](https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.1) |
+| 2026-11-14 | [langgraph-prebuilt 1.1.2](https://deployedbyai.com/log/61bf12ae4b8e/langgraph-prebuilt-1-1-2/?k=repo) | langgraph-prebuilt 1.1.2 released with a performance improvement for error message formatting. | [LangChain, langgraph-prebuilt 1.1.2](https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.2) |
+| 2026-11-13 | [langchain-openai 1.8.0](https://deployedbyai.com/log/d631d5506502/langchain-openai-1-8-0/?k=repo) | langchain-openai 1.8.0 adds OpenAIClassifier for the GA Decisions API and drops Python 3.10 support. | [LangChain, langchain-openai 1.8.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0) |
 | 2026-11-12 | [langgraph 1.2.21](https://deployedbyai.com/log/9a036543c6fb/langgraph-1-2-21/?k=repo) | langgraph 1.2.21 with namespace fixes and dependency updates. | [LangChain, langgraph 1.2.21](https://github.com/langchain-ai/langgraph/releases/tag/1.2.21) |
 | 2026-11-12 | [langgraph-cli 0.4.43](https://deployedbyai.com/log/8e7e0e52b644/langgraph-cli-0-4-43/?k=repo) | langgraph-cli 0.4.43 uses Agent Server flags with hidden deployment aliases and removes the discontinued local debugger image. | [LangChain, langgraph-cli 0.4.43](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.43) |
 | 2026-11-11 | [langchain 1.5.0](https://deployedbyai.com/log/63df03d47d0a/langchain-1-5-0/?k=repo) | langchain 1.5.0 drops Python 3.10 support and requires langchain-core 1.8.0. | [LangChain, langchain 1.5.0](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0) |
