@@ -1,6 +1,6 @@
 # Snowflake in The Deploy Log
 
-8 rows in The Deploy Log are filed under Snowflake. Every one carries a publisher's date, from October 2, 2026 to November 5, 2026.
+9 rows in The Deploy Log are filed under Snowflake. Every one carries a publisher's date, from October 2, 2026 to November 12, 2026.
 
 The same rows are on [the Snowflake page of the record](https://deployedbyai.com/log/company/2aea06ccb0d8/snowflake/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Snowflake page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-12 | [Inkling 2 Small in Cortex Training](https://deployedbyai.com/log/67c0be315177/inkling-2-small-in-cortex-training/?k=repo) | Inkling 2 Small, a 594B-parameter MoE model, is available in Snowflake Cortex Training public preview for post-training and inference. | [Snowflake, Inkling 2 Small in Cortex Training](https://www.snowflake.com/content/snowflake-site/global/en/blog/inkling-2-small-snowflake-cortex-training) |
 | 2026-11-05 | [Snowflake CoCo for Excel and Google Sheets](https://deployedbyai.com/log/b1f4bc78bc7e/snowflake-coco-for-excel-and-google-sheets/?k=repo) | Snowflake CoCo, the coding agent for data teams, is now available in Microsoft Excel and Google Sheets. | [Snowflake, Snowflake CoCo for Excel and Google Sheets](https://www.snowflake.com/content/snowflake-site/global/en/blog/snowflake-coco-microsoft-excel-google-sheets) |
 | 2026-11-03 | [Snowflake real-time analytics](https://deployedbyai.com/log/33160a5a4287/snowflake-real-time-analytics/?k=repo) | Snowflake introduces a connected real-time analytics experience spanning connectivity, transformation, and serving across native and Iceberg tables. | [Snowflake, Snowflake real-time analytics](https://www.snowflake.com/content/snowflake-site/global/en/blog/real-time-analytics-snowflake) |
 

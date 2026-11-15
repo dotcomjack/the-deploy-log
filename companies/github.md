@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-112 rows in The Deploy Log are filed under GitHub. 102 carry a publisher's date, from September 17, 2026 to November 13, 2026, and 10 are placed by their edition.
+113 rows in The Deploy Log are filed under GitHub. 103 carry a publisher's date, from September 17, 2026 to November 13, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -93,6 +93,7 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 | 2026-10-01 | [GitHub Copilot CLI 1.0.91](https://deployedbyai.com/log/f8dac5754ff2/github-copilot-cli-1-0-91/?k=repo) | Adds sandbox CA commands for check, create, trust, rotate, and remove, plus session timeline and Windows sandbox fixes. | [GitHub, GitHub Copilot CLI 1.0.91](https://github.com/github/copilot-cli/releases/tag/v1.0.91) |
 | 2026-10-01 | [GitHub Copilot CLI 1.0.91-1](https://deployedbyai.com/log/dee9b849f100/github-copilot-cli-1-0-91-1/?k=repo) | Adds copilot sandbox ca commands for proxy CA trust and fixes shutdown telemetry flush. | [GitHub, GitHub Copilot CLI 1.0.91-1](https://github.com/github/copilot-cli/releases/tag/v1.0.91-1) |
 | 2026-10-01 | [GitHub Copilot computer use](https://deployedbyai.com/log/d82071cde719/github-copilot-computer-use/?k=repo) | Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. | [GitHub, GitHub Copilot computer use](https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps) |
+| 2026-10-01 | [GitHub MCP Server 1.13.0](https://deployedbyai.com/log/83c9ee6d7640/github-mcp-server-1-13-0/?k=repo) | GitHub MCP Server 1.13.0 adds granular tools to hide and unhide issue comments, PR review comments, and PR reviews. | [GitHub, GitHub MCP Server 1.13.0](https://github.com/github/github-mcp-server/releases/tag/v1.13.0) |
 
 ## September 2026
 

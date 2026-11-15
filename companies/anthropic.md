@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-211 rows in The Deploy Log are filed under Anthropic. 167 carry a publisher's date, from October 16, 2025 to November 13, 2026, and 44 are placed by their edition.
+213 rows in The Deploy Log are filed under Anthropic. 168 carry a publisher's date, from October 16, 2025 to November 13, 2026, and 45 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -161,6 +161,7 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 | 2026-09-30 | [anthropic-sdk-go v1.78.0](https://deployedbyai.com/log/c6666d709c2d/anthropic-sdk-go-v1-78-0/?k=repo) | anthropic-sdk-go v1.78.0 adds a list spend limits endpoint and marks Claude Sonnet 4.5 deprecated with end-of-life November 30, 2026. | [Anthropic, anthropic-sdk-go v1.78.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.78.0) |
 | 2026-09-30 | [anthropic-sdk-java v2.68.0](https://deployedbyai.com/log/2c9615912e5c/anthropic-sdk-java-v2-68-0/?k=repo) | anthropic-sdk-java v2.68.0 adds a list spend limits endpoint and marks Claude Sonnet 4.5 deprecated with end-of-life November 30, 2026. | [Anthropic, anthropic-sdk-java v2.68.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.68.0) |
 | 2026-09-30 | [sdk v0.131.0](https://deployedbyai.com/log/81f0838f989c/sdk-v0-131-0/?k=repo) | Adds list spend limits endpoint and deprecates sonnet 4.5. | [Anthropic, sdk v0.131.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.131.0) |
+| 2026-09-29 | [Claude Agent SDK TypeScript v0.3.285](https://deployedbyai.com/log/ddda0c130638/claude-agent-sdk-typescript-v0-3-285/?k=repo) | v0.3.285 adds optional read.title to Artifact results, provider\_not\_allowed to startup\_failure\_reason, and fixes subagent and message issues. | [Anthropic, Claude Agent SDK TypeScript v0.3.285](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.285) |
 | 2026-09-29 | [Claude Code v2.1.285](https://deployedbyai.com/log/66a6a1176dbe/claude-code-v2-1-285/?k=repo) | Claude Code v2.1.285 adds CLAUDE\_CODE\_DISABLE\_WEB\_FETCH, claude --desktop, and plugin configure options. | [Anthropic, Claude Code v2.1.285](https://github.com/anthropics/claude-code/releases/tag/v2.1.285) |
 | 2026-09-28 | [Anthropic Python SDK v1.9.0](https://deployedbyai.com/log/3cef704b4fb7/anthropic-python-sdk-v1-9-0/?k=repo) | Adds claude-sonnet-5-5, between\_tools thinking type, and cache diagnostics GA. | [Anthropic, Anthropic Python SDK v1.9.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.9.0) |
 | 2026-09-28 | [Claude Agent SDK Python v0.2.161](https://deployedbyai.com/log/c3cc907536f7/claude-agent-sdk-python-v0-2-161/?k=repo) | Python SDK v0.2.161 released with bundled Claude CLI updated to version 2.1.284. | [Anthropic, Claude Agent SDK Python v0.2.161](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.161) |
@@ -223,10 +224,11 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 ## Placed by their edition
 
-44 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+45 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 60, 2026-11-14 | [Claude Code v2.1.325](https://deployedbyai.com/log/ad864aa9e7d3/claude-code-v2-1-325/?k=repo) | Claude Code v2.1.325 fixes a security issue in how zstd-compressed responses are decoded and adds a spinner tip in VS Code about re-running a notebook cell. | [Anthropic, Claude Code v2.1.325](https://github.com/anthropics/claude-code/releases/tag/v2.1.325) |
 | Edition 56, 2026-10-17 | [Claude Code v2.1.302](https://deployedbyai.com/log/3391f2a60194/claude-code-v2-1-302/?k=repo) | Claude Code v2.1.302 adds CLAUDE\_CODE\_AUTO\_MODE\_MODEL to choose the client-side auto mode classifier model and fixes image files over 128 MB being loaded entirely into memory. | [Anthropic, v2.1.302](https://github.com/anthropics/claude-code/releases/tag/v2.1.302) |
 | Edition 55, 2026-10-10 | [Claude Code v2.1.296](https://deployedbyai.com/log/58355cf27dd1/claude-code-v2-1-296/?k=repo) | Claude Code v2.1.296 added a code key to the Claude apps gateway managed policies, an autoCompactWindow option for subagents, a CLAUDE\_CODE\_WORKFLOW\_SUBAGENT\_MODEL environment variable, and updated Sonnet 5.5 cache reads to <span>$</span>0.10 per million tokens from <span>$</span>0.20. | [Anthropic, Claude Code v2.1.296 release notes](https://github.com/anthropics/claude-code/releases/tag/v2.1.296) |
 | Edition 54, 2026-10-03 | [Claude Code v2.1.287](https://deployedbyai.com/log/df8de57eb4e5/claude-code-v2-1-287/?k=repo) | Claude Code v2.1.287 added Claude Mods, a built-in mod called You should know, an n:&lt;text&gt; filter to the agents view, and prompt\_text to the OpenTelemetry user\_prompt event. | [Anthropic, v2.1.287](https://github.com/anthropics/claude-code/releases/tag/v2.1.287) |

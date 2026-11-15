@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-88 rows in The Deploy Log are filed under LangChain. 87 carry a publisher's date, from September 20, 2026 to November 14, 2026, and 1 is placed by its edition.
+89 rows in The Deploy Log are filed under LangChain. 88 carry a publisher's date, from September 20, 2026 to November 14, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -94,6 +94,7 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 | 2026-09-28 | [langchain 1.4.3](https://deployedbyai.com/log/b9adecedab4c/langchain-1-4-3/?k=repo) | langchain 1.4.3 supports Bedrock Mantle chat models in init\_chat\_model and recognizes GPT-6 structured output. | [LangChain, langchain 1.4.3](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.3) |
 | 2026-09-28 | [langchain-fireworks 1.7.0](https://deployedbyai.com/log/c47336b886d1/langchain-fireworks-1-7-0/?k=repo) | langchain-fireworks 1.7.0 adds prompt caching middleware and fixes mid-stream read timeouts. | [LangChain, langchain-fireworks 1.7.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0) |
 | 2026-09-25 | [LangSmith Custom Apps](https://deployedbyai.com/log/dc2fcdeab8bb/langsmith-custom-apps/?k=repo) | LangSmith Custom Apps lets users build, publish, and run custom UIs on LangSmith data directly inside LangSmith. | [LangChain, LangSmith Custom Apps](https://www.langchain.com/blog/langsmith-custom-apps) |
+| 2026-09-25 | [LangSmith Engine v2](https://deployedbyai.com/log/0c17ac74ec45/langsmith-engine-v2/?k=repo) | LangSmith Engine v2 adds red teaming, expanded issue detection, and automated fix validation; Managed Deep Agents adds user-level memory and built-in web search. | [LangChain, LangSmith Engine v2](https://www.langchain.com/blog/langsmith-engine-agents-fine-tuning-trajectories) |
 | 2026-09-24 | [langchain-openai 1.6.6](https://deployedbyai.com/log/a3fa5f1f9cd9/langchain-openai-1-6-6/?k=repo) | langchain-openai 1.6.6 released with a fix that raises on error events in the stream path. | [LangChain, langchain-openai 1.6.6](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6) |
 | 2026-09-23 | [langchain-anthropic 1.7.4](https://deployedbyai.com/log/3fd1116a2d9e/langchain-anthropic-1-7-4/?k=repo) | langchain-anthropic 1.7.4 adds Opus 5.5 and GPT-6 profile augmentations. | [LangChain, langchain-anthropic 1.7.4](https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4) |
 | 2026-09-23 | [langchain-openai 1.6.5](https://deployedbyai.com/log/b886e7ee6448/langchain-openai-1-6-5/?k=repo) | langchain-openai 1.6.5 adds Opus 5.5 and GPT-6 profile augmentations and mid-conversation tool changes. | [LangChain, langchain-openai 1.6.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5) |

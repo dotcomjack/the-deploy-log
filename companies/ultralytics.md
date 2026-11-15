@@ -1,6 +1,6 @@
 # Ultralytics in The Deploy Log
 
-26 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 13, 2026.
+27 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 14, 2026.
 
 The same rows are on [the Ultralytics page of the record](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Ultralytics page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-14 | [Ultralytics 8.4.213](https://deployedbyai.com/log/8f01c7d9580f/ultralytics-8-4-213/?k=repo) | Large segmentation mask stacks now decode inside detection boxes, reducing memory and compute; tiled detections keep valid objects across class boundaries. | [Ultralytics, Ultralytics 8.4.213](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.213) |
 | 2026-11-13 | [ultralytics 8.4.212](https://deployedbyai.com/log/f5fa2ffe9863/ultralytics-8-4-212/?k=repo) | Ultralytics 8.4.212 adds OCR for Korean, Cyrillic, Arabic, Devanagari, Thai, Greek, Tamil, and Telugu scripts. | [Ultralytics, ultralytics 8.4.212](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.212) |
 | 2026-11-11 | [Ultralytics v8.4.211](https://deployedbyai.com/log/de38f5572df8/ultralytics-v8-4-211/?k=repo) | Compiled SAM 3 image encoding is 7-9% faster, with INT8 ExecuTorch export and faster OCR on NVIDIA GPUs. | [Ultralytics, Ultralytics v8.4.211](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.211) |
 | 2026-11-10 | [Ultralytics 8.4.210](https://deployedbyai.com/log/b43169a680e6/ultralytics-8-4-210/?k=repo) | OpenVINO and LiteRT now accept PyTorch-style device names: cpu, xpu, and npu. | [Ultralytics, Ultralytics 8.4.210](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.210) |
