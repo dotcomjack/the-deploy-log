@@ -4,8 +4,8 @@ Of the 153 companies the record files a row under, 101 have a page there, and ea
 
 | Company | Rows | With a publisher's date | First | Latest | In the record |
 |---|---:|---:|---|---|---|
-| [Vercel](vercel.md) | 317 | 122 | 2025-09-18 | 2026-11-13 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
-| [OpenAI](openai.md) | 305 | 197 | 2025-09-25 | 2026-11-13 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
+| [Vercel](vercel.md) | 319 | 122 | 2025-09-18 | 2026-11-13 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
+| [OpenAI](openai.md) | 307 | 197 | 2025-09-25 | 2026-11-13 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
 | [Anthropic](anthropic.md) | 213 | 168 | 2025-10-16 | 2026-11-13 | [page](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo) |
 | [Amazon Web Services](amazon-web-services.md) | 190 | 184 | 2026-09-16 | 2026-11-13 | [page](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo) |
 | [GitHub](github.md) | 113 | 103 | 2026-09-17 | 2026-11-13 | [page](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo) |

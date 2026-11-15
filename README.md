@@ -22,7 +22,7 @@ import pandas as pd
 rows = pd.read_csv("https://raw.githubusercontent.com/dotcomjack/the-deploy-log/main/data.csv")
 ```
 
-The newest dated release, [2026-11-14](https://github.com/dotcomjack/the-deploy-log/releases/tag/2026-11-14), carries `data.csv` and `data.json` as files; every release is at https://github.com/dotcomjack/the-deploy-log/releases
+The newest dated release, [2026-11-15](https://github.com/dotcomjack/the-deploy-log/releases/tag/2026-11-15), carries `data.csv` and `data.json` as files; every release is at https://github.com/dotcomjack/the-deploy-log/releases
 
 ## API
 
@@ -31,7 +31,7 @@ Two GET endpoints return the whole record, every row in one response. A row's fi
 | Method | URL | Content-Type | Returns |
 |---|---|---|---|
 | GET | https://deployedbyai.com/log/data.json | `application/json; charset=utf-8` | One JSON object, with the keys below |
-| GET | https://deployedbyai.com/log/data.csv | `text/csv; charset=utf-8` | The 2,862 rows as CSV, under a header line of the field names |
+| GET | https://deployedbyai.com/log/data.csv | `text/csv; charset=utf-8` | The 2,866 rows as CSV, under a header line of the field names |
 
 - Auth: none. A GET that carries no key, token or cookie answers 200.
 - HTTPS: yes.
@@ -49,8 +49,8 @@ Two GET endpoints return the whole record, every row in one response. A row's fi
 | `license` | object | Keys `name`, `url`, `attribution` |
 | `fields` | array | The 17 field names, in the order of `data.csv`'s header |
 | `dictionary` | array | 17 objects, a `name` and a `description` per field: the [Data dictionary](#data-dictionary) |
-| `count` | number | 2,862, the number of objects in `rows` |
-| `rows` | array | 2,862 objects, one per row, each keyed by the names in `fields`, in that order |
+| `count` | number | 2,866, the number of objects in `rows` |
+| `rows` | array | 2,866 objects, one per row, each keyed by the names in `fields`, in that order |
 
 Example: the first object in `rows`, as `data.json` served it when this file was built on November 15, 2026 (ET):
 
@@ -129,7 +129,7 @@ The response, as the server answered it when this file was built on November 15,
 
 ## The record
 
-The record holds 2,862 rows, 2,307 with a publisher's date, 555 placed by their edition, from 153 companies. Rows are listed from September 17, 2025 to November 15, 2026, each by its publisher's date or, where the record carries none, its edition's date. The newest row entered the record on November 15, 2026 (ET). Every row carries `source_url`, the publisher's own page, and `record_url`, its page in the record at https://deployedbyai.com/log/
+The record holds 2,866 rows, 2,307 with a publisher's date, 559 placed by their edition, from 153 companies. Rows are listed from September 17, 2025 to November 15, 2026, each by its publisher's date or, where the record carries none, its edition's date. The newest row entered the record on November 15, 2026 (ET). Every row carries `source_url`, the publisher's own page, and `record_url`, its page in the record at https://deployedbyai.com/log/
 
 ## Indexes
 
@@ -146,13 +146,13 @@ Each row is filed in one of 5 lanes, except an edition's lead, which is filed in
 
 | Lane | Rows | With a publisher's date | Placed by their edition |
 |---|---:|---:|---:|
-| [Tools and products](https://deployedbyai.com/log/lane/tools_products/) | 2,169 | 1,927 | 242 |
-| [Models and APIs](https://deployedbyai.com/log/lane/models_apis/) | 431 | 287 | 144 |
+| [Tools and products](https://deployedbyai.com/log/lane/tools_products/) | 2,171 | 1,927 | 244 |
+| [Models and APIs](https://deployedbyai.com/log/lane/models_apis/) | 432 | 287 | 145 |
 | [Robotics, hardware and chips](https://deployedbyai.com/log/lane/robotics_hardware_chips/) | 53 | 38 | 15 |
 | [Breakthroughs](https://deployedbyai.com/log/lane/breakthroughs/) | 45 | 24 | 21 |
 | [Funding and acquisitions](https://deployedbyai.com/log/lane/funding_acquisitions/) | 26 | 26 | 0 |
-| Leads (filed in no lane) | 138 | 5 | 133 |
-| Total | 2,862 | 2,307 | 555 |
+| Leads (filed in no lane) | 139 | 5 | 134 |
+| Total | 2,866 | 2,307 | 559 |
 
 ## The 16 companies with the most rows
 
@@ -160,8 +160,8 @@ Ordered by rows, then by name. First and latest are the earliest and newest publ
 
 | Company | Rows | With a publisher's date | First | Latest |
 |---|---:|---:|---|---|
-| [Vercel](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/) | 317 | 122 | 2025-09-18 | 2026-11-13 |
-| [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | 305 | 197 | 2025-09-25 | 2026-11-13 |
+| [Vercel](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/) | 319 | 122 | 2025-09-18 | 2026-11-13 |
+| [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | 307 | 197 | 2025-09-25 | 2026-11-13 |
 | [Anthropic](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/) | 213 | 168 | 2025-10-16 | 2026-11-13 |
 | [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | 190 | 184 | 2026-09-16 | 2026-11-13 |
 | [GitHub](https://deployedbyai.com/log/company/057e2e5f0d0b/github/) | 113 | 103 | 2026-09-17 | 2026-11-13 |
@@ -201,9 +201,9 @@ A row counts in the month of its listed date, as above.
 | [November 2026](https://deployedbyai.com/log/month/2026-11/) | 621 | 610 | 11 |
 | [October 2026](https://deployedbyai.com/log/month/2026-10/) | 1,262 | 1,199 | 63 |
 | [September 2026](https://deployedbyai.com/log/month/2026-09/) | 372 | 324 | 48 |
-| [August 2026](https://deployedbyai.com/log/month/2026-08/) | 59 | 18 | 41 |
-| [July 2026](https://deployedbyai.com/log/month/2026-07/) | 55 | 14 | 41 |
-| [June 2026](https://deployedbyai.com/log/month/2026-06/) | 51 | 11 | 40 |
+| [August 2026](https://deployedbyai.com/log/month/2026-08/) | 60 | 18 | 42 |
+| [July 2026](https://deployedbyai.com/log/month/2026-07/) | 57 | 14 | 43 |
+| [June 2026](https://deployedbyai.com/log/month/2026-06/) | 52 | 11 | 41 |
 | [May 2026](https://deployedbyai.com/log/month/2026-05/) | 43 | 15 | 28 |
 | [April 2026](https://deployedbyai.com/log/month/2026-04/) | 58 | 20 | 38 |
 | [March 2026](https://deployedbyai.com/log/month/2026-03/) | 53 | 18 | 35 |
@@ -213,7 +213,7 @@ A row counts in the month of its listed date, as above.
 | [November 2025](https://deployedbyai.com/log/month/2025-11/) | 68 | 14 | 54 |
 | [October 2025](https://deployedbyai.com/log/month/2025-10/) | 49 | 19 | 30 |
 | [September 2025](https://deployedbyai.com/log/month/2025-09/) | 21 | 8 | 13 |
-| Total | 2,862 | 2,307 | 555 |
+| Total | 2,866 | 2,307 | 559 |
 
 ## The 10 rows added most recently
 
@@ -221,16 +221,16 @@ Added is the day the row entered the record, on Eastern Time, not the day the th
 
 | Added (ET) | Company | Row | Source |
 |---|---|---|---|
+| 2026-11-15 | [Vercel](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/) | [Vercel Security Dashboard](https://deployedbyai.com/log/7f661c0b5df6/vercel-security-dashboard/?k=data) | [Vercel](https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available) |
+| 2026-11-15 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | [OpenAI Presence](https://deployedbyai.com/log/51be2c42e151/openai-presence/?k=data) | [OpenAI](https://openai.com/index/introducing-openai-presence) |
+| 2026-11-15 | [Vercel](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/) | [Vercel Agent](https://deployedbyai.com/log/cf8bf93fbade/vercel-agent/?k=data) | [Vercel](https://vercel.com/changelog/an-expanded-vercel-agent-chat-investigations-and-approved-actions-now-in-public-beta) |
+| 2026-11-15 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | [GPT-5.5 Instant health](https://deployedbyai.com/log/8cae90034f59/gpt-5-5-instant-health/?k=data) | [OpenAI, Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) |
 | 2026-11-15 | [Qwen](https://deployedbyai.com/log/company/abb905e81511/qwen/) | [Qwen Code Desktop v0.27.4](https://deployedbyai.com/log/b9b91ac97978/qwen-code-desktop-v0-27-4/?k=data) | [Qwen, Qwen Code Desktop v0.27.4](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.4) |
 | 2026-11-15 | [Qwen](https://deployedbyai.com/log/company/abb905e81511/qwen/) | [Qwen Code SDK TypeScript v0.1.34](https://deployedbyai.com/log/a6270a5ca229/qwen-code-sdk-typescript-v0-1-34/?k=data) | [Qwen, Qwen Code SDK TypeScript v0.1.34](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.34) |
 | 2026-11-15 | [Qwen](https://deployedbyai.com/log/company/abb905e81511/qwen/) | [Qwen Code v0.27.4](https://deployedbyai.com/log/4b2a6981919b/qwen-code-v0-27-4/?k=data) | [Qwen, Qwen Code v0.27.4](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4) |
 | 2026-11-14 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | [ChatGPT Wallet](https://deployedbyai.com/log/6fcd7fd89530/chatgpt-wallet/?k=data) | [OpenAI, ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet) |
 | 2026-11-14 | [Snowflake](https://deployedbyai.com/log/company/2aea06ccb0d8/snowflake/) | [Inkling 2 Small in Cortex Training](https://deployedbyai.com/log/67c0be315177/inkling-2-small-in-cortex-training/?k=data) | [Snowflake, Inkling 2 Small in Cortex Training](https://www.snowflake.com/content/snowflake-site/global/en/blog/inkling-2-small-snowflake-cortex-training) |
 | 2026-11-14 | [Anthropic](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/) | [Claude Code v2.1.325](https://deployedbyai.com/log/ad864aa9e7d3/claude-code-v2-1-325/?k=data) | [Anthropic, Claude Code v2.1.325](https://github.com/anthropics/claude-code/releases/tag/v2.1.325) |
-| 2026-11-14 | [LiteLLM](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/) | [LiteLLM v1.108.9](https://deployedbyai.com/log/5514917900a6/litellm-v1-108-9/?k=data) | [LiteLLM, LiteLLM v1.108.9](https://github.com/BerriAI/litellm/releases/tag/v1.108.9) |
-| 2026-11-14 | [Ultralytics](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/) | [Ultralytics 8.4.213](https://deployedbyai.com/log/8f01c7d9580f/ultralytics-8-4-213/?k=data) | [Ultralytics, Ultralytics 8.4.213](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.213) |
-| 2026-11-14 | [Cloudflare](https://deployedbyai.com/log/company/a248aed96312/cloudflare/) | [Kitesurf](https://deployedbyai.com/log/9e03e6a9e4d8/kitesurf/?k=data) | [Cloudflare, Kitesurf is now open source](https://blog.cloudflare.com/kitesurf-open-source/) |
-| 2026-11-14 | [Vercel](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/) | [Build cache size limit](https://deployedbyai.com/log/7d36ad4da61a/build-cache-size-limit/?k=data) | [Vercel, Build cache size limit on Vercel increased to 5 GB](https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb) |
 
 ## Files
 
@@ -248,23 +248,23 @@ Each field, in the order of `data.csv`'s header, with the number of rows where i
 
 | Field | Rows with a value | What it holds |
 |---|---:|---|
-| `row_key` | 2,862 | The row's key: 12 lowercase hexadecimal characters, drawn at random when the row enters the record and kept for the life of the row. |
-| `company` | 2,862 | The name of the company the row is filed under, as its company page names it. |
-| `subject` | 2,862 | What the row is about, in a few words: the heading of the row's own page. |
-| `what_shipped` | 2,862 | The row's one sentence on what shipped, as its own page prints it. |
-| `lane` | 2,724 | The lane the row is filed in: Models and APIs; Tools and products; Robotics, hardware and chips; Breakthroughs; Funding and acquisitions. Null for an edition's lead, which is filed in no lane. |
-| `edition_n` | 583 | The number of the edition that carried the row. Null for a row no edition has carried. |
-| `edition_date` | 583 | The date of the edition that carried the row, as YYYY-MM-DD. Null for a row no edition has carried. |
+| `row_key` | 2,866 | The row's key: 12 lowercase hexadecimal characters, drawn at random when the row enters the record and kept for the life of the row. |
+| `company` | 2,866 | The name of the company the row is filed under, as its company page names it. |
+| `subject` | 2,866 | What the row is about, in a few words: the heading of the row's own page. |
+| `what_shipped` | 2,866 | The row's one sentence on what shipped, as its own page prints it. |
+| `lane` | 2,727 | The lane the row is filed in: Models and APIs; Tools and products; Robotics, hardware and chips; Breakthroughs; Funding and acquisitions. Null for an edition's lead, which is filed in no lane. |
+| `edition_n` | 587 | The number of the edition that carried the row. Null for a row no edition has carried. |
+| `edition_date` | 587 | The date of the edition that carried the row, as YYYY-MM-DD. Null for a row no edition has carried. |
 | `published_date` | 2,307 | The date the publisher's own page gives, as YYYY-MM-DD, kept when an edition later carries the row. Null where the row has none, as on a row that entered the record with an edition, which is dated by its edition. |
-| `date_label` | 2,862 | The row's date in words: Published and the publisher's date on a row no edition has carried; otherwise Edition, the edition's number, a comma and the edition's date. A row whose publisher's date has not yet come in New York carries, in place of that date, the words its own page prints for it until that day. |
-| `source` | 2,862 | The source the row cites, in words: the publisher and its page, as the row's source line prints it. |
-| `source_url` | 2,862 | The URL of the publisher's own page the row is sourced to. |
-| `record_url` | 2,862 | The row's own page on The Deploy Log, with ?k=data, the key that marks a visit as coming from this file. |
-| `added_at` | 2,862 | When the row entered the record, an ISO 8601 timestamp in UTC. It is not the day the thing shipped. |
-| `models` | 223 | The ids of the AI models the row's subject names, read by the matcher the model pages use, in the order the subject names them: each is the 12 lowercase hexadecimal characters of the model's page, the page at /log/model/ followed by that id. A model has a page only when rows from 2 or more companies name it; one below that still carries its id here, and the week and month pages count it among the models seen for the first time. Empty when the subject names none. In the CSV, the ids joined by semicolons. |
+| `date_label` | 2,866 | The row's date in words: Published and the publisher's date on a row no edition has carried; otherwise Edition, the edition's number, a comma and the edition's date. A row whose publisher's date has not yet come in New York carries, in place of that date, the words its own page prints for it until that day. |
+| `source` | 2,866 | The source the row cites, in words: the publisher and its page, as the row's source line prints it. |
+| `source_url` | 2,866 | The URL of the publisher's own page the row is sourced to. |
+| `record_url` | 2,866 | The row's own page on The Deploy Log, with ?k=data, the key that marks a visit as coming from this file. |
+| `added_at` | 2,866 | When the row entered the record, an ISO 8601 timestamp in UTC. It is not the day the thing shipped. |
+| `models` | 224 | The ids of the AI models the row's subject names, read by the matcher the model pages use, in the order the subject names them: each is the 12 lowercase hexadecimal characters of the model's page, the page at /log/model/ followed by that id. A model has a page only when rows from 2 or more companies name it; one below that still carries its id here, and the week and month pages count it among the models seen for the first time. Empty when the subject names none. In the CSV, the ids joined by semicolons. |
 | `platforms` | 367 | The ids of the platforms the row's subject or what_shipped names, read by the matcher the platform pages use, in the order of the record's list of platforms: each is the 12 lowercase hexadecimal characters of the platform's page, the page at /log/platform/ followed by that id. A platform has a page only when 10 or more rows from 2 or more companies name it, 10 or more of them from companies other than its owners; one below that still carries its id here. A row that names a platform did not necessarily ship on it. Empty when the row names none. In the CSV, the ids joined by semicolons. |
-| `updated` | 2,862 | When the row was last written, an ISO 8601 timestamp in UTC: the instant it entered the record, or the instant it was last written again, as when an edition that carries it enters the record. Null where the record holds only a day for it. Each page that lists rows gives, as the day it last changed, New York's day of the newest of these among its rows; a row's own page gives that day or the day the row is dated, whichever is later. It is not the day the thing shipped. |
-| `kind` | 2,862 | How the row entered the record: backfill, a release read from the publisher's own page and dated by the publisher's date; edition_lead or edition_row, an item a Saturday edition carried, dated by the edition, including a publisher's row an edition later carried, which keeps its published_date. |
+| `updated` | 2,866 | When the row was last written, an ISO 8601 timestamp in UTC: the instant it entered the record, or the instant it was last written again, as when an edition that carries it enters the record. Null where the record holds only a day for it. Each page that lists rows gives, as the day it last changed, New York's day of the newest of these among its rows; a row's own page gives that day or the day the row is dated, whichever is later. It is not the day the thing shipped. |
+| `kind` | 2,866 | How the row entered the record: backfill, a release read from the publisher's own page and dated by the publisher's date; edition_lead or edition_row, an item a Saturday edition carried, dated by the edition, including a publisher's row an edition later carried, which keeps its published_date. |
 
 ## Cite this
 
