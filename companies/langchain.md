@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-89 rows in The Deploy Log are filed under LangChain. 88 carry a publisher's date, from September 20, 2026 to November 14, 2026, and 1 is placed by its edition.
+94 rows in The Deploy Log are filed under LangChain. 93 carry a publisher's date, from September 20, 2026 to November 15, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-15 | [langchain-core 1.8.1](https://deployedbyai.com/log/e5e0fdd77152/langchain-core-1-8-1/?k=repo) | langchain-core 1.8.1 adds per-context LangSmith gateway override via langsmith\_gateway. | [LangChain, langchain-core 1.8.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1) |
+| 2026-11-15 | [langchain-deepseek 1.2.0](https://deployedbyai.com/log/73ba1c3daf14/langchain-deepseek-1-2-0/?k=repo) | langchain-deepseek 1.2.0 routes ChatDeepSeek through LangSmith gateway and drops Python 3.10. | [LangChain, langchain-deepseek 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0) |
+| 2026-11-15 | [langchain-groq 1.2.0](https://deployedbyai.com/log/9c3e1602928d/langchain-groq-1-2-0/?k=repo) | langchain-groq 1.2.0 routes ChatGroq through LangSmith gateway and drops Python 3.10. | [LangChain, langchain-groq 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0) |
+| 2026-11-15 | [langchain-mistralai 1.2.0](https://deployedbyai.com/log/7eb8cb90945f/langchain-mistralai-1-2-0/?k=repo) | langchain-mistralai 1.2.0 fixes streaming for reasoning models and routes ChatMistralAI through LangSmith gateway. | [LangChain, langchain-mistralai 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0) |
+| 2026-11-15 | [langchain-xai 1.4.0](https://deployedbyai.com/log/6021c03c5e9e/langchain-xai-1-4-0/?k=repo) | langchain-xai 1.4.0 routes ChatXAI through LangSmith gateway and drops Python 3.10. | [LangChain, langchain-xai 1.4.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0) |
 | 2026-11-14 | [langgraph 1.2.22](https://deployedbyai.com/log/094e46c44552/langgraph-1-2-22/?k=repo) | langgraph 1.2.22 released with fixes for streaming child graphs and performance improvements. | [LangChain, langgraph 1.2.22](https://github.com/langchain-ai/langgraph/releases/tag/1.2.22) |
 | 2026-11-14 | [langgraph-checkpoint 4.3.2](https://deployedbyai.com/log/0d68e038eaba/langgraph-checkpoint-4-3-2/?k=repo) | langgraph-checkpoint 4.3.2 released with performance improvements for store search and batched reads. | [LangChain, langgraph-checkpoint 4.3.2](https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.2) |
 | 2026-11-14 | [langgraph-checkpoint-postgres 3.2.1](https://deployedbyai.com/log/d61bf8923a64/langgraph-checkpoint-postgres-3-2-1/?k=repo) | langgraph-checkpoint-postgres 3.2.1 released with performance improvements for store reads and connection pools. | [LangChain, langgraph-checkpoint-postgres 3.2.1](https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.1) |

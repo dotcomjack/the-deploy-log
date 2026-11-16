@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-63 rows in The Deploy Log are filed under Google. 54 carry a publisher's date, from September 23, 2026 to November 13, 2026, and 9 are placed by their edition.
+64 rows in The Deploy Log are filed under Google. 55 carry a publisher's date, from September 23, 2026 to November 13, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -17,6 +17,7 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 | 2026-11-12 | [Google Flow Tools](https://deployedbyai.com/log/1c32697ab0cc/google-flow-tools/?k=repo) | Five new AI creative tools in Google Flow for visual storytelling. | [Google, Google Flow Tools](https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools/) |
 | 2026-11-12 | [adk-python v2.14.1](https://deployedbyai.com/log/e7095126ff0a/adk-python-v2-14-1/?k=repo) | adk-python v2.14.1 turns off FastAPI native tracing on Agent Engine. | [Google, adk-python v2.14.1](https://github.com/google/adk-python/releases/tag/v2.14.1) |
 | 2026-11-12 | [java-genai v2.3.0](https://deployedbyai.com/log/fa5785c6bea9/java-genai-v2-3-0/?k=repo) | Adds XHIGH and xhigh to ThinkingLevel, missing enum values, and gemini-4-hydrogen to Model enum. | [Google, java-genai v2.3.0](https://github.com/googleapis/java-genai/releases/tag/v2.3.0) |
+| 2026-11-12 | [js-genai v3.3.0](https://deployedbyai.com/log/0b47827162e3/js-genai-v3-3-0/?k=repo) | Adds XHIGH and xhigh to ThinkingLevel, missing enum values, and gemini-4-hydrogen to Model enum. | [Google, js-genai v3.3.0](https://github.com/googleapis/js-genai/releases/tag/v3.3.0) |
 | 2026-11-12 | [python-genai v3.3.0](https://deployedbyai.com/log/e14a125861d2/python-genai-v3-3-0/?k=repo) | Adds XHIGH thinking level, missing enum values, and gemini-4-hydrogen model enum. | [Google, python-genai v3.3.0](https://github.com/googleapis/python-genai/releases/tag/v3.3.0) |
 | 2026-11-11 | [Gemini on Apple CarPlay](https://deployedbyai.com/log/6efcc854c66f/gemini-on-apple-carplay/?k=repo) | Gemini Live is available on Apple CarPlay for hands-free conversations, calendar, email, and brainstorming. | [Google, Gemini on Apple CarPlay](https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/) |
 | 2026-11-10 | [Gemini 4 Carbon](https://deployedbyai.com/log/26514be7e667/gemini-4-carbon/?k=repo) | Gemini 4 Carbon, Google's strongest model for cybersecurity and long-horizon agentic workflows, is available to developers. | [Google, Gemini 4 Carbon](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/) |

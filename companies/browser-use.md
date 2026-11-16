@@ -1,6 +1,6 @@
 # Browser Use in The Deploy Log
 
-7 rows in The Deploy Log are filed under Browser Use. Every one carries a publisher's date, from October 15, 2026 to November 13, 2026.
+8 rows in The Deploy Log are filed under Browser Use. Every one carries a publisher's date, from October 15, 2026 to November 16, 2026.
 
 The same rows are on [the Browser Use page of the record](https://deployedbyai.com/log/company/2dcdec0423ec/browser-use/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Browser Use page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [browser-use 1.0.6](https://deployedbyai.com/log/eb645d117d00/browser-use-1-0-6/?k=repo) | browser-use 1.0.6 makes BU 4.0 the default model, with bu-4.0-mini and bu-4.0-pro options, and tokens cost <span>$</span>1.80/<span>$</span>9.00 per 1M input/output. | [Browser Use, browser-use 1.0.6](https://github.com/browser-use/browser-use/releases/tag/1.0.6) |
 | 2026-11-13 | [browser-use 1.0.4](https://deployedbyai.com/log/f43ddf9fa2c6/browser-use-1-0-4/?k=repo) | browser-use 1.0.4 cuts model cost per task from <span>$</span>0.434 to <span>$</span>0.208 and fixes prompt cache pruning. | [Browser Use, browser-use 1.0.4](https://github.com/browser-use/browser-use/releases/tag/1.0.4) |
 | 2026-11-12 | [browser-use 1.0.3](https://deployedbyai.com/log/4b6fdeceede1/browser-use-1-0-3/?k=repo) | browser-use 1.0.3 released with CLI MCP clean exit, own Chromium, 3-second BU\_CDP\_URL failure, and 10-second cancelled cloud run download copy. | [Browser Use, browser-use 1.0.3](https://github.com/browser-use/browser-use/releases/tag/1.0.3) |
 | 2026-11-11 | [browser-use 1.0.2](https://deployedbyai.com/log/2b7a1406f886/browser-use-1-0-2/?k=repo) | browser-use 1.0.2 released with fixes for MCP, slow pages, and Windows. | [Browser Use, browser-use 1.0.2](https://github.com/browser-use/browser-use/releases/tag/1.0.2) |

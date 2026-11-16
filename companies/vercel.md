@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-319 rows in The Deploy Log are filed under Vercel. 122 carry a publisher's date, from September 18, 2025 to November 13, 2026, and 197 are placed by their edition.
+320 rows in The Deploy Log are filed under Vercel. 123 carry a publisher's date, from September 18, 2025 to November 15, 2026, and 197 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-15 | [Qwen4-Max on AI Gateway](https://deployedbyai.com/log/5f1eb859f2a8/qwen4-max-on-ai-gateway/?k=repo) | Qwen4-Max is available on AI Gateway with a 1M-token context window and native vision. | [Vercel, Qwen4-Max on AI Gateway](https://vercel.com/changelog/qwen4-max-now-available-on-ai-gateway) |
 | 2026-11-13 | [Parallel Decisions Fast](https://deployedbyai.com/log/3ad4502179df/parallel-decisions-fast/?k=repo) | Parallel Decisions Fast from Parallel is now available on AI Gateway and is free through November 23, 2026, searching the live web to answer typed questions with probabilities and cited evidence. | [Vercel, Parallel Decisions Fast now available on AI Gateway](https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free) |
 | 2026-11-13 | [Vercel Daemon Tracing](https://deployedbyai.com/log/d9c0f1c03f44/vercel-daemon-tracing/?k=repo) | Vercel Daemons can now send OpenTelemetry traces to Vercel Tracing via a Unix socket, with automatic export in @vercel/otel 2.3.0. | [Vercel, Vercel Daemon Tracing](https://vercel.com/changelog/vercel-daemons-can-now-send-traces-to-vercel-tracing) |
 | 2026-11-13 | [Vercel Sandbox](https://deployedbyai.com/log/f9c9481ae246/vercel-sandbox/?k=repo) | Vercel Sandbox now initializes up to 4x faster outside the Washington, D.C. region when reused image data is served from a regional cache. | [Vercel, Vercel Sandbox starts up to 4x faster](https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster) |
