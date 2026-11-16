@@ -1,6 +1,6 @@
 # OpenRouter in The Deploy Log
 
-41 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 16, 2026.
+43 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 16, 2026.
 
 The same rows are on [the OpenRouter page of the record](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo).
 
@@ -8,7 +8,9 @@ The same rows are on [the OpenRouter page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [OpenRouter on Hugging Face](https://deployedbyai.com/log/d4205de5263f/openrouter-on-hugging-face/?k=repo) | OpenRouter routing now powers Hugging Face Inference Providers, with 160 models from 38 labs available today. | [OpenRouter, OpenRouter on Hugging Face](https://openrouter.ai/blog/announcements/hugging-face-inference-providers/) |
 | 2026-11-16 | [Qwen4 Max on OpenRouter](https://deployedbyai.com/log/18b6a12842be/qwen4-max-on-openrouter/?k=repo) | Qwen4 Max is available on OpenRouter at <span>$</span>1.50 input and <span>$</span>4.50 output per 1M tokens with a 1M-token context window. | [OpenRouter, Qwen4 Max on OpenRouter](https://openrouter.ai/qwen/qwen4-max) |
+| 2026-11-16 | [Tencent Hy4 flash](https://deployedbyai.com/log/98914e72cd06/tencent-hy4-flash/?k=repo) | Tencent Hy4 flash is available on OpenRouter at <span>$</span>0.04375 input and <span>$</span>0.1756 output per 1M tokens with 1M context. | [OpenRouter, Tencent Hy4 flash](https://openrouter.ai/tencent/hy4-flash) |
 | 2026-11-12 | [Gemini 4 Hydrogen](https://deployedbyai.com/log/05f11401cc95/gemini-4-hydrogen/?k=repo) | Gemini 4 Hydrogen is available on OpenRouter with 1M context and EU in-region routing. | [OpenRouter, Gemini 4 Hydrogen](https://openrouter.ai/google/gemini-4-hydrogen) |
 | 2026-11-10 | [ERNIE-5.5-Flash-Preview](https://deployedbyai.com/log/7334232040c2/ernie-5-5-flash-preview/?k=repo) | Baidu ERNIE-5.5-Flash-Preview is available on OpenRouter at <span>$</span>0.28 input and <span>$</span>1.13 output per 1M tokens with 1M context. | [OpenRouter, ERNIE-5.5-Flash-Preview](https://openrouter.ai/baidu/ernie-5.5-flash-preview) |
 | 2026-11-10 | [ERNIE-Light-DT-1.0](https://deployedbyai.com/log/39a583ef2d70/ernie-light-dt-1-0/?k=repo) | Baidu ERNIE-Light-DT-1.0 is available on OpenRouter at <span>$</span>1.13 input and <span>$</span>3.94 output per 1M tokens with 1M context. | [OpenRouter, ERNIE-Light-DT-1.0](https://openrouter.ai/baidu/ernie-light-dt-1.0-intl) |

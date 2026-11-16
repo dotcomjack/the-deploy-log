@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-213 rows in The Deploy Log are filed under Anthropic. 168 carry a publisher's date, from October 16, 2025 to November 13, 2026, and 45 are placed by their edition.
+217 rows in The Deploy Log are filed under Anthropic. 172 carry a publisher's date, from October 16, 2025 to November 16, 2026, and 45 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [Anthropic Go SDK v2.10.0](https://deployedbyai.com/log/e3411829e610/anthropic-go-sdk-v2-10-0/?k=repo) | Adds source and error codes to RBAC Role read endpoints, Update Bundle API, and owner-only agent toolset files. | [Anthropic, Anthropic Go SDK v2.10.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.10.0) |
+| 2026-11-16 | [Anthropic Java SDK v3.9.0](https://deployedbyai.com/log/0175506785fc/anthropic-java-sdk-v3-9-0/?k=repo) | Adds source and error codes to RBAC Role read endpoints, Update Bundle API, and Vertex default credential scope. | [Anthropic, Anthropic Java SDK v3.9.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.9.0) |
+| 2026-11-16 | [Anthropic TypeScript SDK v1.9.0](https://deployedbyai.com/log/ea5371f96b42/anthropic-typescript-sdk-v1-9-0/?k=repo) | Adds source and error codes to RBAC Role read endpoints, Update Bundle API, and streaming tool input validation. | [Anthropic, Anthropic TypeScript SDK v1.9.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.9.0) |
+| 2026-11-16 | [anthropic-sdk-python v2.9.0](https://deployedbyai.com/log/4795e3ea6339/anthropic-sdk-python-v2-9-0/?k=repo) | v2.9.0 adds source and error codes to RBAC Role read endpoints and Update Bundle. | [Anthropic, anthropic-sdk-python v2.9.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.9.0) |
 | 2026-11-13 | [Claude Agent SDK TypeScript v0.3.325](https://deployedbyai.com/log/1599b348db50/claude-agent-sdk-typescript-v0-3-325/?k=repo) | Added archiveSession() and unarchiveSession(), refuseIfBusy for plugin reloads, and parity with Claude Code v2.1.325. | [Anthropic, Claude Agent SDK TypeScript v0.3.325](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.325) |
 | 2026-11-13 | [claude-agent-sdk-python v0.2.182](https://deployedbyai.com/log/61ec5fd44f49/claude-agent-sdk-python-v0-2-182/?k=repo) | claude-agent-sdk-python v0.2.182 is available on PyPI. | [Anthropic, claude-agent-sdk-python v0.2.182](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.182) |
 | 2026-11-12 | [Claude Agent SDK TypeScript v0.3.323](https://deployedbyai.com/log/22b7e35ba98d/claude-agent-sdk-typescript-v0-3-323/?k=repo) | Claude Agent SDK TypeScript v0.3.323 adds machinePolicy.didNotLoad, matchDeniedModels, tool\_progress heartbeat, and parity with Claude Code v2.1.323. | [Anthropic, Claude Agent SDK TypeScript v0.3.323](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.323) |

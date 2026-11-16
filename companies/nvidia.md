@@ -1,6 +1,6 @@
 # NVIDIA in The Deploy Log
 
-54 rows in The Deploy Log are filed under NVIDIA. 48 carry a publisher's date, from August 20, 2026 to November 12, 2026, and 6 are placed by their edition.
+57 rows in The Deploy Log are filed under NVIDIA. 51 carry a publisher's date, from August 20, 2026 to November 16, 2026, and 6 are placed by their edition.
 
 The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [CUDA-X libraries for scientific discovery](https://deployedbyai.com/log/49e487e26f35/cuda-x-libraries-for-scientific-discovery/?k=repo) | New CUDA-X libraries cuPhoton, cuPotential and cuSpa are available, with cuPhoton.xBeam cutting black hole correlation from over a month to eight minutes. | [NVIDIA, CUDA-X libraries for scientific discovery](https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/) |
+| 2026-11-16 | [NVIDIA Vera CPU platform](https://deployedbyai.com/log/4fba3ff2eb05/nvidia-vera-cpu-platform/?k=repo) | The Vera CPU rack-scale platform combines 192 Vera CPUs with Quantum-X800 InfiniBand, delivering over 200TB/s aggregate peak memory bandwidth. | [NVIDIA, NVIDIA Vera CPU platform](https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery) |
+| 2026-11-16 | [Nemotron for Science](https://deployedbyai.com/log/37982fc25bfa/nemotron-for-science/?k=repo) | Nemotron for Science brings Nemotron 3.5 Super VL, LitmusBench v0.2 with nearly 50,000 chemistry questions, and post-training recipes for science agents. | [NVIDIA, Nemotron for Science](https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents) |
 | 2026-11-12 | [NVIDIA CEO Transition](https://deployedbyai.com/log/8360e6f8f04a/nvidia-ceo-transition/?k=repo) | Jensen Huang resigned as CEO effective immediately; Colette Kress appointed interim CEO. | [NVIDIA, NVIDIA CEO Transition](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm) |
 | 2026-11-10 | [NVIDIA OpenShell and DSX AI Factory](https://deployedbyai.com/log/50a4abe8b8eb/nvidia-openshell-and-dsx-ai-factory/?k=repo) | NVIDIA contributed OpenShell to CNCF and added Kubernetes Engine, Recipes, and Snapshot to DSX AI Factory. | [NVIDIA, NVIDIA OpenShell and DSX AI Factory](https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/) |
 | 2026-11-06 | [FLUX 3 Image Klein on Blackwell](https://deployedbyai.com/log/9eec13dbedca/flux-3-image-klein-on-blackwell/?k=repo) | TensorRT LLM VisualGen accelerates FLUX 3 Image Klein on NVIDIA Blackwell GPUs with up to 3.46x faster text-to-image and 4.45x faster image-to-image generation. | [NVIDIA, FLUX 3 Image Klein on Blackwell](https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/) |

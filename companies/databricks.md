@@ -1,6 +1,6 @@
 # Databricks in The Deploy Log
 
-89 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 13, 2026.
+90 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 16, 2026.
 
 The same rows are on [the Databricks page of the record](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [Unity Catalog agent skills sharing](https://deployedbyai.com/log/dff4f1f547f1/unity-catalog-agent-skills-sharing/?k=repo) | Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings. | [Databricks, Unity Catalog agent skills sharing](https://docs.databricks.com/aws/en/release-notes/product/2026/november#share-unity-catalog-agent-skills-with-opensharing-and-databricks-marketplace-beta) |
 | 2026-11-13 | [AI Function task support in Declarative Automation Bundles](https://deployedbyai.com/log/be6b4ade3be4/ai-function-task-support-in-declarative-automation-bundles/?k=repo) | Support for AI Function tasks in Declarative Automation Bundles is now in Beta. | [Databricks, AI Function task support in Declarative Automation Bundles](https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-task-support-in-declarative-automation-bundles-beta) |
 | 2026-11-12 | [Gemini 3.6 Flash retirement](https://deployedbyai.com/log/2efb3f62a67b/gemini-3-6-flash-retirement/?k=repo) | Gemini 3.6 Flash will be retired on November 19, 2026, with API calls redirected to Gemini 3.8 Flash at the same price. | [Databricks, Gemini 3.6 Flash retirement](https://docs.databricks.com/aws/en/release-notes/product/2026/november#gemini-36-flash-will-be-retired-on-november-19-2026) |
 | 2026-11-12 | [Gemini 4 Hydrogen on Unity Gateway](https://deployedbyai.com/log/2de2cd682967/gemini-4-hydrogen-on-unity-gateway/?k=repo) | Google Gemini 4 Hydrogen is now available on Unity Gateway via Foundation Model APIs. | [Databricks, Gemini 4 Hydrogen on Unity Gateway](https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-4-hydrogen-is-now-available-on-unity-gateway) |
