@@ -1,6 +1,6 @@
 # OpenHands in The Deploy Log
 
-14 rows in The Deploy Log are filed under OpenHands. Every one carries a publisher's date, from September 25, 2026 to November 12, 2026.
+15 rows in The Deploy Log are filed under OpenHands. Every one carries a publisher's date, from September 25, 2026 to November 16, 2026.
 
 The same rows are on [the OpenHands page of the record](https://deployedbyai.com/log/company/3073c3e8ba0d/openhands/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the OpenHands page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [OpenHands v1.41.0](https://deployedbyai.com/log/4f71c25466b6/openhands-v1-41-0/?k=repo) | OpenHands v1.41.0 adds agent reasoning effort selection, named hooks files, automation setup analytics, and grouped automation dashboard. | [OpenHands, OpenHands v1.41.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0) |
 | 2026-11-12 | [OpenHands v1.40.0](https://deployedbyai.com/log/447ac21db6d5/openhands-v1-40-0/?k=repo) | OpenHands v1.40.0 ships with Codex subscription authentication guidance and chat, git, and i18n fixes. | [OpenHands, OpenHands v1.40.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.40.0) |
 | 2026-11-11 | [OpenHands v1.39.0](https://deployedbyai.com/log/8f9f3f0180f1/openhands-v1-39-0/?k=repo) | OpenHands v1.39.0 adds dashboard owner filtering, chat timestamp fixes, and theme printing. | [OpenHands, OpenHands v1.39.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.39.0) |
 | 2026-11-10 | [OpenHands v1.38.0](https://deployedbyai.com/log/de2ab6c78f28/openhands-v1-38-0/?k=repo) | OpenHands v1.38.0 adds automation plugin configuration, conversation budgets, and a Paper theme. | [OpenHands, OpenHands v1.38.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.38.0) |

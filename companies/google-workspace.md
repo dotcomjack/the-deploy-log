@@ -1,6 +1,6 @@
 # Google Workspace in The Deploy Log
 
-52 rows in The Deploy Log are filed under Google Workspace. 40 carry a publisher's date, from August 28, 2026 to November 16, 2026, and 12 are placed by their edition.
+53 rows in The Deploy Log are filed under Google Workspace. 41 carry a publisher's date, from August 28, 2026 to November 16, 2026, and 12 are placed by their edition.
 
 The same rows are on [the Google Workspace page of the record](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google Workspace page of the record](https://deployedb
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [Gemini app shareable skills](https://deployedbyai.com/log/9ebe1b946cc3/gemini-app-shareable-skills/?k=repo) | Gemini app skills can now be shared with View or Edit permissions and include files from Google Drive, Gemini Notebook, and Google Photos. | [Google Workspace, Gemini app shareable skills](http://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html) |
 | 2026-11-16 | [Gemini in Apps Script](https://deployedbyai.com/log/272bf7910acf/gemini-in-apps-script/?k=repo) | Gemini side panel in Apps Script is generally available, letting users create, customize, and troubleshoot scripts with plain language. | [Google Workspace, Gemini in Apps Script](http://workspaceupdates.googleblog.com/2026/11/customize-and-extend-workspace-with-apps-script.html) |
 | 2026-11-16 | [Nano Banana 2.1 in Google Pics](https://deployedbyai.com/log/f9b513030a15/nano-banana-2-1-in-google-pics/?k=repo) | Google Pics upgraded to Nano Banana 2.1 with higher visual quality, stronger edit fidelity, and sharper text rendering, rolling out from November 16, 2026. | [Google Workspace, Nano Banana 2.1 in Google Pics](http://workspaceupdates.googleblog.com/2026/11/google-pics-upgrades-to-nano-banana-21-for-higher-quality-image-generation-and-editing.html) |
 | 2026-11-10 | [Gemini in Gmail for Workspace](https://deployedbyai.com/log/15eaa9172edf/gemini-in-gmail-for-workspace/?k=repo) | AI Overview conversation summaries and Help me write are now available to all Workspace users 18 and older. | [Google Workspace, Gemini in Gmail for Workspace](http://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html) |

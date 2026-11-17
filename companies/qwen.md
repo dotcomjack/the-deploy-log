@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-42 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 15, 2026.
+43 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 17, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [Qwen Code v0.28.0](https://deployedbyai.com/log/bd97757c742e/qwen-code-v0-28-0/?k=repo) | Qwen Code v0.28.0 adds workspace filtering, DingTalk adapter, shared agent loop defaults, and web-shell session features. | [Qwen, Qwen Code v0.28.0](https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0) |
 | 2026-11-15 | [Qwen Code Desktop v0.27.4](https://deployedbyai.com/log/b9b91ac97978/qwen-code-desktop-v0-27-4/?k=repo) | Qwen Code Desktop v0.27.4 released with managed agent filesystem registration and Feishu webhook delivery. | [Qwen, Qwen Code Desktop v0.27.4](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.27.4) |
 | 2026-11-15 | [Qwen Code SDK TypeScript v0.1.34](https://deployedbyai.com/log/a6270a5ca229/qwen-code-sdk-typescript-v0-1-34/?k=repo) | SDK TypeScript v0.1.34 released, bundling CLI version 0.27.4. | [Qwen, Qwen Code SDK TypeScript v0.1.34](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.34) |
 | 2026-11-15 | [Qwen Code v0.27.4](https://deployedbyai.com/log/4b2a6981919b/qwen-code-v0-27-4/?k=repo) | Qwen Code v0.27.4 adds managed-agent filesystem registration, Feishu webhook delivery, and SDK workspace memory import API. | [Qwen, Qwen Code v0.27.4](https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4) |

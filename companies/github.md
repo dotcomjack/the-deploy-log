@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-114 rows in The Deploy Log are filed under GitHub. 104 carry a publisher's date, from September 17, 2026 to November 16, 2026, and 10 are placed by their edition.
+117 rows in The Deploy Log are filed under GitHub. 107 carry a publisher's date, from September 17, 2026 to November 16, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -9,6 +9,9 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-16 | [Bulk start AI Scan](https://deployedbyai.com/log/8c1bc326a7d2/bulk-start-ai-scan/?k=repo) | You can now start AI Scans for up to 20 repositories at once. | [GitHub, Bulk start AI Scan](https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories) |
+| 2026-11-16 | [Claude Fable 5.2 and Gemini 4 Carbon](https://deployedbyai.com/log/ea57efbc7b50/claude-fable-5-2-and-gemini-4-carbon/?k=repo) | Claude Fable 5.2 and Gemini 4 Carbon are available to Copilot Pro+, Max, Business, and Enterprise users. | [GitHub, Claude Fable 5.2 and Gemini 4 Carbon](https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9) |
+| 2026-11-16 | [GitHub Copilot customization controls](https://deployedbyai.com/log/f66c0f4a4832/github-copilot-customization-controls/?k=repo) | Enterprise admins can now require selected GitHub Copilot customizations to come from plugins or managed settings. | [GitHub, GitHub Copilot customization controls](https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from) |
+| 2026-11-16 | [GitHub MCP Server 2.2.0](https://deployedbyai.com/log/4161d0ee239b/github-mcp-server-2-2-0/?k=repo) | GitHub MCP Server 2.2.0 adds filtered MCP skills, optional secret hiding, and public agent automation tools. | [GitHub, GitHub MCP Server 2.2.0](https://github.com/github/github-mcp-server/releases/tag/v2.2.0) |
 | 2026-11-13 | [AI Scan REST API](https://deployedbyai.com/log/15bc64da0ee9/ai-scan-rest-api/?k=repo) | GitHub code scanning's AI Scan for repositories can now be toggled via REST API at organization and repository levels. | [GitHub, AI Scan REST API](https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api) |
 | 2026-11-13 | [Copilot CLI 1.0.111](https://deployedbyai.com/log/9c70948a2255/copilot-cli-1-0-111/?k=repo) | Copilot CLI 1.0.111 adds regex support to enterprise-managed shell permission rules and a --host-allow-session-creation flag. | [GitHub, Copilot CLI 1.0.111](https://github.com/github/copilot-cli/releases/tag/v1.0.111) |
 | 2026-11-13 | [Gemini 4 Hydrogen in Copilot](https://deployedbyai.com/log/59c035e902c7/gemini-4-hydrogen-in-copilot/?k=repo) | Gemini 4 Hydrogen is now generally available in GitHub Copilot for Copilot Pro, Pro+, Max, Business, and Enterprise users, billed at provider list pricing under usage-based billing. | [GitHub, Gemini 4 Hydrogen in GitHub Copilot](https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot) |

@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-64 rows in The Deploy Log are filed under Google. 55 carry a publisher's date, from September 23, 2026 to November 13, 2026, and 9 are placed by their edition.
+67 rows in The Deploy Log are filed under Google. 58 carry a publisher's date, from September 23, 2026 to November 16, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [java-genai v2.4.0](https://deployedbyai.com/log/53b7931f3b4e/java-genai-v2-4-0/?k=repo) | Adds tool search types, static file processing options, and batch inputs for Gemini embedding models. | [Google, java-genai v2.4.0](https://github.com/googleapis/java-genai/releases/tag/v2.4.0) |
+| 2026-11-16 | [js-genai v3.4.0](https://deployedbyai.com/log/ba1774374358/js-genai-v3-4-0/?k=repo) | js-genai v3.4.0 adds tool search types, static file processing options, and batch inputs with usage metadata for Gemini embedding models. | [Google, js-genai v3.4.0](https://github.com/googleapis/js-genai/releases/tag/v3.4.0) |
+| 2026-11-16 | [python-genai v3.4.0](https://deployedbyai.com/log/0419b4bff620/python-genai-v3-4-0/?k=repo) | python-genai v3.4.0 released with tool search types, batch inputs for Gemini embeddings, and bug fixes. | [Google, python-genai v3.4.0](https://github.com/googleapis/python-genai/releases/tag/v3.4.0) |
 | 2026-11-13 | [Gemini Google Wallet connection](https://deployedbyai.com/log/d8dd5a94e0c8/gemini-google-wallet-connection/?k=repo) | All Gemini app users in the U.S. can connect Google Wallet for responses informed by spending habits, with optional Plaid account linking. | [Google, Gemini Google Wallet connection](https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/) |
 | 2026-11-13 | [Google AI Studio Cloud credits](https://deployedbyai.com/log/f6f4cdc3f3af/google-ai-studio-cloud-credits/?k=repo) | Google AI Pro and Ultra subscribers can claim monthly Google Cloud credits and manage billing directly inside Google AI Studio. | [Google, Google AI Studio Cloud credits](https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/) |
 | 2026-11-13 | [MCP Toolbox v1.17.0](https://deployedbyai.com/log/dea33940567a/mcp-toolbox-v1-17-0/?k=repo) | Adds OAuth discovery/token CORS proxy, Looker data app tools, and several bug fixes. | [Google, MCP Toolbox v1.17.0](https://github.com/googleapis/mcp-toolbox/releases/tag/v1.17.0) |

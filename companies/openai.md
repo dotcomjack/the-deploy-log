@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-307 rows in The Deploy Log are filed under OpenAI. 197 carry a publisher's date, from September 25, 2025 to November 13, 2026, and 110 are placed by their edition.
+311 rows in The Deploy Log are filed under OpenAI. 201 carry a publisher's date, from September 25, 2025 to November 16, 2026, and 110 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-16 | [OpenAI Java SDK v4.106.0](https://deployedbyai.com/log/364986a9ff1a/openai-java-sdk-v4-106-0/?k=repo) | OpenAI Java SDK v4.106.0 adds schedule pause reasons and delivers beta Agents session errors as stream events. | [OpenAI, OpenAI Java SDK v4.106.0](https://github.com/openai/openai-java/releases/tag/v4.106.0) |
+| 2026-11-16 | [openai-go v3.100.0](https://deployedbyai.com/log/82616ba93e46/openai-go-v3-100-0/?k=repo) | OpenAI Go SDK v3.100.0 adds MCP approvals, Live transport events, schedule pause reasons, and beta Agents session errors as stream events. | [OpenAI, openai-go v3.100.0](https://github.com/openai/openai-go/releases/tag/v3.100.0) |
+| 2026-11-16 | [openai-python v3.52.0](https://deployedbyai.com/log/6b62579630b6/openai-python-v3-52-0/?k=repo) | Adds schedule pause reasons and delivers beta Agents session errors as stream events. | [OpenAI, openai-python v3.52.0](https://github.com/openai/openai-python/releases/tag/v3.52.0) |
+| 2026-11-16 | [openai-ruby v0.125.0](https://deployedbyai.com/log/72804b441cea/openai-ruby-v0-125-0/?k=repo) | Adds schedule pause reasons and delivers beta Agents session errors as stream events. | [OpenAI, openai-ruby v0.125.0](https://github.com/openai/openai-ruby/releases/tag/v0.125.0) |
 | 2026-11-13 | [ChatGPT Wallet](https://deployedbyai.com/log/6fcd7fd89530/chatgpt-wallet/?k=repo) | ChatGPT Wallet is available to ChatGPT Pro subscribers in the US, letting agents pay without sharing card details. | [OpenAI, ChatGPT Wallet](https://openai.com/index/introducing-chatgpt-wallet) |
 | 2026-11-13 | [Codex 0.168.0](https://deployedbyai.com/log/87284ff79a49/codex-0-168-0/?k=repo) | Codex 0.168.0 adds model provider browsing, side conversations, audio recording attachments, animated GIF generation, and terminal notifications. | [OpenAI, Codex 0.168.0](https://github.com/openai/codex/releases/tag/rust-v0.168.0) |
 | 2026-11-13 | [Codex rust-v0.169.0](https://deployedbyai.com/log/26272d2d4d79/codex-rust-v0-169-0/?k=repo) | Codex rust-v0.169.0 adds multiple side-chat tabs in the opt-in terminal workspace, search for older tasks from the agent command center, and custom model provider editing from the terminal. | [OpenAI, Codex rust-v0.169.0](https://github.com/openai/codex/releases/tag/rust-v0.169.0) |
