@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-117 rows in The Deploy Log are filed under GitHub. 107 carry a publisher's date, from September 17, 2026 to November 16, 2026, and 10 are placed by their edition.
+123 rows in The Deploy Log are filed under GitHub. 113 carry a publisher's date, from September 17, 2026 to November 17, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,12 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [Copilot CLI v1.0.113](https://deployedbyai.com/log/fd8036217d55/copilot-cli-v1-0-113/?k=repo) | Administrators can disable built-in Browser Use with the managed setting features.browserUse, including in running sessions. | [GitHub, Copilot CLI v1.0.113](https://github.com/github/copilot-cli/releases/tag/v1.0.113) |
+| 2026-11-17 | [Copilot activity in Microsoft Agent 365](https://deployedbyai.com/log/9c311966e20d/copilot-activity-in-microsoft-agent-365/?k=repo) | GitHub Enterprise Cloud customers with Enterprise Managed Users can stream GitHub Copilot agent activity into Microsoft Agent 365. | [GitHub, Copilot activity in Microsoft Agent 365](https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365) |
+| 2026-11-17 | [GitHub Copilot app releases](https://deployedbyai.com/log/187d1aff2d51/github-copilot-app-releases/?k=repo) | GitHub Copilot app adds Azure DevOps integration, browser use, and GHES support. | [GitHub, GitHub Copilot app releases](https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases) |
+| 2026-11-17 | [GitHub Copilot in JetBrains](https://deployedbyai.com/log/e59e4059a3c3/github-copilot-in-jetbrains/?k=repo) | GitHub Copilot in JetBrains adds remote access, on-device voice dictation, browser use controls, and split mode remote development, with several features in public preview. | [GitHub, GitHub Copilot in JetBrains](https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases) |
+| 2026-11-17 | [MAI Code 2 and MAI Code 2 Flash](https://deployedbyai.com/log/b020c1dbda0c/mai-code-2-and-mai-code-2-flash/?k=repo) | MAI Code 2 and MAI Code 2 Flash are available in GitHub Copilot across Free, Student, Pro, Pro+, Max, Business, and Enterprise plans. | [GitHub, MAI Code 2 and MAI Code 2 Flash](https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot) |
+| 2026-11-17 | [Repository insights for Copilot code review](https://deployedbyai.com/log/a117aa811156/repository-insights-for-copilot-code-review/?k=repo) | New Repository insights page shows Copilot code review outcomes with four summary signals. | [GitHub, Repository insights for Copilot code review](https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights) |
 | 2026-11-16 | [Bulk start AI Scan](https://deployedbyai.com/log/8c1bc326a7d2/bulk-start-ai-scan/?k=repo) | You can now start AI Scans for up to 20 repositories at once. | [GitHub, Bulk start AI Scan](https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories) |
 | 2026-11-16 | [Claude Fable 5.2 and Gemini 4 Carbon](https://deployedbyai.com/log/ea57efbc7b50/claude-fable-5-2-and-gemini-4-carbon/?k=repo) | Claude Fable 5.2 and Gemini 4 Carbon are available to Copilot Pro+, Max, Business, and Enterprise users. | [GitHub, Claude Fable 5.2 and Gemini 4 Carbon](https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9) |
 | 2026-11-16 | [GitHub Copilot customization controls](https://deployedbyai.com/log/f66c0f4a4832/github-copilot-customization-controls/?k=repo) | Enterprise admins can now require selected GitHub Copilot customizations to come from plugins or managed settings. | [GitHub, GitHub Copilot customization controls](https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from) |

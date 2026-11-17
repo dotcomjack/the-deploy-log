@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-220 rows in The Deploy Log are filed under Anthropic. 175 carry a publisher's date, from October 16, 2025 to November 16, 2026, and 45 are placed by their edition.
+224 rows in The Deploy Log are filed under Anthropic. 179 carry a publisher's date, from October 16, 2025 to November 17, 2026, and 45 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [Anthropic TypeScript SDK v1.10.0](https://deployedbyai.com/log/bbd5472fd44d/anthropic-typescript-sdk-v1-10-0/?k=repo) | Anthropic TypeScript SDK v1.10.0 adds beta billing\_policy parameter, new error codes, and session tool runner fixes. | [Anthropic, Anthropic TypeScript SDK v1.10.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.10.0) |
+| 2026-11-17 | [anthropic-sdk-go v2.11.0](https://deployedbyai.com/log/13ad1c2c292c/anthropic-sdk-go-v2-11-0/?k=repo) | Adds beta billing\_policy request parameter, new billing error codes, and webhook events for external key failure and recovery. | [Anthropic, anthropic-sdk-go v2.11.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.11.0) |
+| 2026-11-17 | [anthropic-sdk-java v3.10.0](https://deployedbyai.com/log/71beeccffab9/anthropic-sdk-java-v3-10-0/?k=repo) | Adds beta billing\_policy request parameter, new billing error codes, and webhook events for external key failure and recovery. | [Anthropic, anthropic-sdk-java v3.10.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.10.0) |
+| 2026-11-17 | [anthropic-sdk-python v2.10.0](https://deployedbyai.com/log/11651da85f92/anthropic-sdk-python-v2-10-0/?k=repo) | Adds beta billing\_policy parameter, linked billing refusal error codes, and webhook events for external key failure and recovery. | [Anthropic, anthropic-sdk-python v2.10.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v2.10.0) |
 | 2026-11-16 | [Anthropic Go SDK v2.10.0](https://deployedbyai.com/log/e3411829e610/anthropic-go-sdk-v2-10-0/?k=repo) | Adds source and error codes to RBAC Role read endpoints, Update Bundle API, and owner-only agent toolset files. | [Anthropic, Anthropic Go SDK v2.10.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.10.0) |
 | 2026-11-16 | [Anthropic Java SDK v3.9.0](https://deployedbyai.com/log/0175506785fc/anthropic-java-sdk-v3-9-0/?k=repo) | Adds source and error codes to RBAC Role read endpoints, Update Bundle API, and Vertex default credential scope. | [Anthropic, Anthropic Java SDK v3.9.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.9.0) |
 | 2026-11-16 | [Anthropic TypeScript SDK v1.9.0](https://deployedbyai.com/log/ea5371f96b42/anthropic-typescript-sdk-v1-9-0/?k=repo) | Adds source and error codes to RBAC Role read endpoints, Update Bundle API, and streaming tool input validation. | [Anthropic, Anthropic TypeScript SDK v1.9.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v1.9.0) |

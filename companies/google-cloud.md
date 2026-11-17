@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-86 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 17, 2026.
+88 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 17, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,7 +8,9 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [BigQuery AI.RANK](https://deployedbyai.com/log/c6e3efdba31f/bigquery-ai-rank/?k=repo) | AI.RANK reorders table rows by how well text in a column answers a search query, now generally available. | [Google Cloud, BigQuery AI.RANK](https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026) |
 | 2026-11-17 | [Gemini models on Google Cloud Dedicated](https://deployedbyai.com/log/9b7d62e76353/gemini-models-on-google-cloud-dedicated/?k=repo) | Gemini models are coming to Google Cloud Dedicated, the partner-operated sovereign cloud. | [Google Cloud, Gemini models on Google Cloud Dedicated](https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/) |
+| 2026-11-17 | [Model Armor custom org policies](https://deployedbyai.com/log/8ff8fa89a7f8/model-armor-custom-org-policies/?k=repo) | Custom organization policies for Model Armor FloorSetting resources are generally available. | [Google Cloud, Model Armor custom org policies](https://docs.cloud.google.com/release-notes#November_17_2026) |
 | 2026-11-13 | [AI agent observability in BigQuery and Looker](https://deployedbyai.com/log/59ad417a1892/ai-agent-observability-in-bigquery-and-looker/?k=repo) | Unified AI agent observability and evaluation capabilities across BigQuery and Looker, including telemetry capture for first-party and custom agents. | [Google Cloud, AI agent observability in BigQuery and Looker](https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/) |
 | 2026-11-13 | [Agentic HPC skills](https://deployedbyai.com/log/2ef678823c71/agentic-hpc-skills/?k=repo) | Composable agent skills for HPC workloads, available for download from Google Skills and DeepMind Science Skills repositories. | [Google Cloud, Agentic HPC skills](https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26/) |
 | 2026-11-13 | [Gemini Enterprise single-user quota limits](https://deployedbyai.com/log/9232409c7744/gemini-enterprise-single-user-quota-limits/?k=repo) | Single-user quota limits for AI developer tools, including Google Antigravity, are generally available in Gemini Enterprise Standard and Plus editions. | [Google Cloud, Gemini Enterprise single-user quota limits](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_13_2026) |

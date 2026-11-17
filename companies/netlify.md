@@ -1,6 +1,6 @@
 # Netlify in The Deploy Log
 
-22 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 13, 2026.
+24 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 17, 2026.
 
 The same rows are on [the Netlify page of the record](https://deployedbyai.com/log/company/7adffd5ee2c8/netlify/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Netlify page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [Connectors for Agent Runners](https://deployedbyai.com/log/b102a2ef6d68/connectors-for-agent-runners/?k=repo) | Agent Runners can now work with over 150 third-party services including Linear, Notion, Snowflake, and Stripe. | [Netlify, Connectors for Agent Runners](https://www.netlify.com/changelog/2026-11-17-connectors-agent-runners/) |
+| 2026-11-17 | [GPT-6.2 Astra and Sol on Netlify](https://deployedbyai.com/log/09ceac64fa31/gpt-6-2-astra-and-sol-on-netlify/?k=repo) | GPT-6.2 Astra and GPT-6.2 Sol are available through Netlify AI Gateway and Agent Runners with zero configuration. | [Netlify, GPT-6.2 Astra and Sol on Netlify](https://www.netlify.com/changelog/gpt-6-2-astra-sol-ai-gateway-agent-runners/) |
 | 2026-11-13 | [Agent Runners PR comments](https://deployedbyai.com/log/9463145d47d1/agent-runners-pr-comments/?k=repo) | Agent Runners can now read comments on pull requests they created, using review feedback as context for changes. | [Netlify, Agent Runners PR comments](https://www.netlify.com/changelog/2026-11-13-agent-runners-pr-review-comments/) |
 | 2026-11-12 | [Gemini 4 Hydrogen on Netlify](https://deployedbyai.com/log/aafea3359e83/gemini-4-hydrogen-on-netlify/?k=repo) | Google's Gemini 4 Hydrogen model is available through Netlify's AI Gateway and Agent Runners with zero configuration. | [Netlify, Gemini 4 Hydrogen on Netlify](https://www.netlify.com/changelog/gemini-4-hydrogen-ai-gateway-agent-runners/) |
 | 2026-11-10 | [Gemini 4 Carbon on Netlify](https://deployedbyai.com/log/dc62b4c01007/gemini-4-carbon-on-netlify/?k=repo) | Google Gemini 4 Carbon is available through Netlify AI Gateway and Agent Runners with zero configuration. | [Netlify, Gemini 4 Carbon on Netlify](https://www.netlify.com/changelog/gemini-4-carbon-ai-gateway-agent-runners/) |

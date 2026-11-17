@@ -1,6 +1,6 @@
 # Langfuse in The Deploy Log
 
-31 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 16, 2026.
+32 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 17, 2026.
 
 The same rows are on [the Langfuse page of the record](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Langfuse page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [Langfuse v4.82.0](https://deployedbyai.com/log/cbdf2426c7f3/langfuse-v4-82-0/?k=repo) | Langfuse v4.82.0 adds a Developer API key preset, normalizes provider usage and costs, and reads audit logs from ClickHouse. | [Langfuse, Langfuse v4.82.0](https://github.com/langfuse/langfuse/releases/tag/v4.82.0) |
 | 2026-11-16 | [Langfuse v4.81.0](https://deployedbyai.com/log/08e4c9a5883d/langfuse-v4-81-0/?k=repo) | Langfuse v4.81.0 adds Google Vertex AI as a gateway provider and Gemini decision models in evaluators. | [Langfuse, Langfuse v4.81.0](https://github.com/langfuse/langfuse/releases/tag/v4.81.0) |
 | 2026-11-13 | [Langfuse v4.80.0](https://deployedbyai.com/log/66d75f80a840/langfuse-v4-80-0/?k=repo) | Langfuse v4.80.0 released with Google AI Studio and Microsoft Azure gateway providers. | [Langfuse, Langfuse v4.80.0](https://github.com/langfuse/langfuse/releases/tag/v4.80.0) |
 | 2026-11-12 | [Langfuse v4.79.0](https://deployedbyai.com/log/082942a23258/langfuse-v4-79-0/?k=repo) | OpenRouter, xAI, and Vercel AI Gateway are now generally available as AI gateway providers, with custom base URLs and extra headers on all deployments. | [Langfuse, Langfuse v4.79.0](https://github.com/langfuse/langfuse/releases/tag/v4.79.0) |

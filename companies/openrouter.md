@@ -1,6 +1,6 @@
 # OpenRouter in The Deploy Log
 
-43 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 16, 2026.
+47 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 17, 2026.
 
 The same rows are on [the OpenRouter page of the record](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the OpenRouter page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [GPT-6.2 Astra](https://deployedbyai.com/log/2e70d4163d4b/gpt-6-2-astra/?k=repo) | GPT-6.2 Astra is available on OpenRouter at <span>$</span>8 per 1M input and <span>$</span>40 per 1M output with 1.1M context. | [OpenRouter, GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra) |
+| 2026-11-17 | [GPT-6.2 Astra Pro](https://deployedbyai.com/log/2e5c6e7eb5fc/gpt-6-2-astra-pro/?k=repo) | GPT-6.2 Astra Pro is available on OpenRouter at <span>$</span>8 per 1M input and <span>$</span>40 per 1M output with 1.1M context. | [OpenRouter, GPT-6.2 Astra Pro](https://openrouter.ai/openai/gpt-6.2-astra-pro) |
+| 2026-11-17 | [GPT-6.2 Sol Pro](https://deployedbyai.com/log/37726ce3a0e0/gpt-6-2-sol-pro/?k=repo) | GPT-6.2 Sol Pro is available on OpenRouter at <span>$</span>2 per 1M input and <span>$</span>10 per 1M output with 1.1M context. | [OpenRouter, GPT-6.2 Sol Pro](https://openrouter.ai/openai/gpt-6.2-sol-pro) |
+| 2026-11-17 | [GPT-6.2 Sol on OpenRouter](https://deployedbyai.com/log/4a870b6b1855/gpt-6-2-sol-on-openrouter/?k=repo) | GPT-6.2 Sol is available on OpenRouter at <span>$</span>2 per 1M input tokens and <span>$</span>10 per 1M output tokens with 1.1M context. | [OpenRouter, GPT-6.2 Sol on OpenRouter](https://openrouter.ai/openai/gpt-6.2-sol) |
 | 2026-11-16 | [OpenRouter on Hugging Face](https://deployedbyai.com/log/d4205de5263f/openrouter-on-hugging-face/?k=repo) | OpenRouter routing now powers Hugging Face Inference Providers, with 160 models from 38 labs available today. | [OpenRouter, OpenRouter on Hugging Face](https://openrouter.ai/blog/announcements/hugging-face-inference-providers/) |
 | 2026-11-16 | [Qwen4 Max on OpenRouter](https://deployedbyai.com/log/18b6a12842be/qwen4-max-on-openrouter/?k=repo) | Qwen4 Max is available on OpenRouter at <span>$</span>1.50 input and <span>$</span>4.50 output per 1M tokens with a 1M-token context window. | [OpenRouter, Qwen4 Max on OpenRouter](https://openrouter.ai/qwen/qwen4-max) |
 | 2026-11-16 | [Tencent Hy4 flash](https://deployedbyai.com/log/98914e72cd06/tencent-hy4-flash/?k=repo) | Tencent Hy4 flash is available on OpenRouter at <span>$</span>0.04375 input and <span>$</span>0.1756 output per 1M tokens with 1M context. | [OpenRouter, Tencent Hy4 flash](https://openrouter.ai/tencent/hy4-flash) |

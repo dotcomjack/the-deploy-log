@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-199 rows in The Deploy Log are filed under Amazon Web Services. 193 carry a publisher's date, from September 16, 2026 to November 17, 2026, and 6 are placed by their edition.
+202 rows in The Deploy Log are filed under Amazon Web Services. 196 carry a publisher's date, from September 16, 2026 to November 17, 2026, and 6 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [AWS DevOps Agent MCP integrations](https://deployedbyai.com/log/261b4a0461c6/aws-devops-agent-mcp-integrations/?k=repo) | AWS DevOps Agent now supports secure MCP tool integrations via Amazon Bedrock AgentCore. | [Amazon Web Services, AWS DevOps Agent MCP integrations](https://aws.amazon.com/blogs/devops/secure-mcp-integrations-for-aws-devops-agent-with-amazon-bedrock-agentcore/) |
+| 2026-11-17 | [GPT-6.2 Astra and Sol on Bedrock](https://deployedbyai.com/log/7c183c71a6d0/gpt-6-2-astra-and-sol-on-bedrock/?k=repo) | OpenAI GPT-6.2 Astra and GPT-6.2 Sol are generally available on Amazon Bedrock, with Astra including an Ultrafast mode. | [Amazon Web Services, GPT-6.2 Astra and Sol on Bedrock](https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-6-2-astra-sol-amazon-bedrock/) |
+| 2026-11-17 | [OpenTSLM on SageMaker JumpStart](https://deployedbyai.com/log/8daaa54048d9/opentslm-on-sagemaker-jumpstart/?k=repo) | OpenTSLM time-series language models are now available in Amazon SageMaker JumpStart. | [Amazon Web Services, OpenTSLM on SageMaker JumpStart](https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/) |
 | 2026-11-17 | [Z-Image-Turbo on Amazon ECS](https://deployedbyai.com/log/955d18902d37/z-image-turbo-on-amazon-ecs/?k=repo) | AWS Professional Services released a deployable solution running Z-Image-Turbo on AWS Inferentia2 via Amazon ECS, with 512px images at <span>$</span>0.003 and 1024px at <span>$</span>0.011. | [Amazon Web Services, Z-Image-Turbo on Amazon ECS](https://aws.amazon.com/blogs/containers/high-quality-cost-effective-ai-image-generation-on-amazon-ecs/) |
 | 2026-11-16 | [AWS DevOps Agent](https://deployedbyai.com/log/0a2107f7f281/aws-devops-agent/?k=repo) | AWS DevOps Agent is now available in AWS GovCloud (US-West). | [Amazon Web Services, AWS DevOps Agent](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-govcloud-west/) |
 | 2026-11-16 | [AgentCore runtime instances](https://deployedbyai.com/log/71479e197274/agentcore-runtime-instances/?k=repo) | AgentCore runtime instances are now available in six additional AWS Regions: US West (N. California), Canada (Central), Europe (London), Europe (Paris), Europe (Stockholm), and Asia Pacific (Seoul). | [Amazon Web Services, AgentCore runtime instances](https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/) |

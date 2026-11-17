@@ -1,8 +1,14 @@
 # Agno in The Deploy Log
 
-11 rows in The Deploy Log are filed under Agno. Every one carries a publisher's date, from October 1, 2026 to October 29, 2026.
+12 rows in The Deploy Log are filed under Agno. Every one carries a publisher's date, from October 1, 2026 to November 17, 2026.
 
 The same rows are on [the Agno page of the record](https://deployedbyai.com/log/company/18c156da0579/agno/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-17 | [Agno v3.2.1](https://deployedbyai.com/log/91e953cf5281/agno-v3-2-1/?k=repo) | Agno v3.2.1 adds session compaction listing, company file API routes, and tool timeout defaults. | [Agno, Agno v3.2.1](https://github.com/agno-agi/agno/releases/tag/v3.2.1) |
 
 ## October 2026
 

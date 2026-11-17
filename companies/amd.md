@@ -1,6 +1,6 @@
 # AMD in The Deploy Log
 
-6 rows in The Deploy Log are filed under AMD. Every one carries a publisher's date, from October 5, 2026 to November 12, 2026.
+7 rows in The Deploy Log are filed under AMD. Every one carries a publisher's date, from October 5, 2026 to November 17, 2026.
 
 The same rows are on [the AMD page of the record](https://deployedbyai.com/log/company/d916c9b502ed/amd/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the AMD page of the record](https://deployedbyai.com/log/c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [GAIA v0.26.0](https://deployedbyai.com/log/3b3db5baf69f/gaia-v0-26-0/?k=repo) | GAIA v0.26.0 ships faster first replies, Gmail and calendar tools, long recording analysis, Discord messaging, and a gaia-cli terminal UI. | [AMD, GAIA v0.26.0](https://github.com/amd/gaia/releases/tag/v0.26.0) |
 | 2026-11-12 | [AMD Life Science 26.08](https://deployedbyai.com/log/aae7c97e9df8/amd-life-science-26-08/?k=repo) | AMD Life Science 26.08 delivers a GPU-accelerated medical imaging stack on AMD Instinct GPUs with hipCIM, MONAI, and MONAILabel. | [AMD, AMD Life Science 26.08](https://rocm.blogs.amd.com/artificial-intelligence/rocm-ls-2608/README.html) |
 | 2026-11-10 | [6th Gen AMD EPYC SP7 Processors](https://deployedbyai.com/log/8d418a523a20/6th-gen-amd-epyc-sp7-processors/?k=repo) | 6th Gen AMD EPYC SP7 server processors are generally available and shipping from leading server OEMs and ODMs. | [AMD, 6th Gen AMD EPYC SP7 Processors](https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing) |
 | 2026-11-06 | [GAIA AGENT 0.3.4](https://deployedbyai.com/log/48186fd9580c/gaia-agent-0-3-4/?k=repo) | AMD released gaia agent 0.3.4 with model-server restart recovery, a working forget command, and faster docs. | [AMD, GAIA AGENT 0.3.4](https://github.com/amd/gaia/releases/tag/agent-pkg-gaia-v0.3.4) |

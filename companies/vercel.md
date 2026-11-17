@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-323 rows in The Deploy Log are filed under Vercel. 126 carry a publisher's date, from September 18, 2025 to November 16, 2026, and 197 are placed by their edition.
+327 rows in The Deploy Log are filed under Vercel. 130 carry a publisher's date, from September 18, 2025 to November 17, 2026, and 197 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [Decision-1.1](https://deployedbyai.com/log/b99385b19c60/decision-1-1/?k=repo) | Decision-1.1 from Microsoft AI is now available on AI Gateway, returning structured answers for routing, workflow steps, and grading. | [Vercel, Decision-1.1](https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway) |
+| 2026-11-17 | [GPT-6.2 Astra and Sol](https://deployedbyai.com/log/a51b68d45ebd/gpt-6-2-astra-and-sol/?k=repo) | GPT-6.2 Astra and GPT-6.2 Sol from OpenAI are now available on AI Gateway, with Astra's Ultrafast output-token price 60% lower than GPT-6 Astra's. | [Vercel, GPT-6.2 Astra and Sol](https://vercel.com/changelog/gpt-6-2-astra-and-sol-now-available-on-ai-gateway) |
+| 2026-11-17 | [MAI-Image-2.7 and MAI-Image-2.7-Flash](https://deployedbyai.com/log/993ce60b1016/mai-image-2-7-and-mai-image-2-7-flash/?k=repo) | Microsoft's MAI-Image-2.7 and MAI-Image-2.7-Flash are now available in public preview on AI Gateway, with 2048 x 2048 output and transparent backgrounds. | [Vercel, MAI-Image-2.7 and MAI-Image-2.7-Flash](https://vercel.com/changelog/mai-image-2-7-and-mai-image-2-7-flash-now-available-on-ai-gateway) |
+| 2026-11-17 | [eve 1.0](https://deployedbyai.com/log/321212dce34f/eve-1-0/?k=repo) | eve 1.0, an open-source framework for building production-ready agents, is now generally available. | [Vercel, eve 1.0](https://vercel.com/blog/eve-is-now-generally-available) |
 | 2026-11-16 | [AI Gateway Private Inference](https://deployedbyai.com/log/746b28d47107/ai-gateway-private-inference/?k=repo) | Private Inference connects your own model endpoints to AI Gateway with the same authentication, SDKs, APIs, and observability as catalog models. | [Vercel, AI Gateway Private Inference](https://vercel.com/changelog/ai-gateway-now-supports-private-inference) |
 | 2026-11-16 | [Hy4 Flash on AI Gateway](https://deployedbyai.com/log/34f78c7b765e/hy4-flash-on-ai-gateway/?k=repo) | Tencent's Hy4 Flash model is available on AI Gateway with 50% off tokens through November 29, 2026. | [Vercel, Hy4 Flash on AI Gateway](https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off) |
 | 2026-11-16 | [Seedance 2.5 Flash](https://deployedbyai.com/log/5a1ed5b6292b/seedance-2-5-flash/?k=repo) | ByteDance's Seedance 2.5 Flash is available on AI Gateway, generating videos with synchronized audio from text or references. | [Vercel, Seedance 2.5 Flash](https://vercel.com/changelog/seedance-2-5-flash-now-available-on-ai-gateway) |

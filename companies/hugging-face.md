@@ -1,6 +1,6 @@
 # Hugging Face in The Deploy Log
 
-104 rows in The Deploy Log are filed under Hugging Face. 54 carry a publisher's date, from September 17, 2025 to November 13, 2026, and 50 are placed by their edition.
+105 rows in The Deploy Log are filed under Hugging Face. 55 carry a publisher's date, from September 17, 2025 to November 17, 2026, and 50 are placed by their edition.
 
 The same rows are on [the Hugging Face page of the record](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Hugging Face page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [TRL v1.18.1](https://deployedbyai.com/log/46dd390f3b5c/trl-v1-18-1/?k=repo) | TRL v1.18.1 fixes CLI parsing on Python 3.15, recognizes SmolVLM2 chat templates, and grades accuracy rewards in a separate process. | [Hugging Face, TRL v1.18.1](https://github.com/huggingface/trl/releases/tag/v1.18.1) |
 | 2026-11-13 | [PEFT v0.21.3](https://deployedbyai.com/log/06e246482c5b/peft-v0-21-3/?k=repo) | PEFT v0.21.3 released, fixing adapter weight gathering for DTensor TP models. | [Hugging Face, PEFT v0.21.3](https://github.com/huggingface/peft/releases/tag/v0.21.3) |
 | 2026-11-13 | [TRL v1.18.0](https://deployedbyai.com/log/a1c9f1823f18/trl-v1-18-0/?k=repo) | AsyncGRPOTrainer is now a stable trainer in TRL v1.18.0, moved to the top-level package with a public rollout loop. | [Hugging Face, TRL v1.18.0](https://github.com/huggingface/trl/releases/tag/v1.18.0) |
 | 2026-11-13 | [Transformers v5.23.0](https://deployedbyai.com/log/4ea2bff6dfac/transformers-v5-23-0/?k=repo) | Transformers v5.23.0 adds Inkling2, JEV, LFM3, Dots 3 Note Preview, and LFM3-VL model support. | [Hugging Face, Transformers v5.23.0](https://github.com/huggingface/transformers/releases/tag/v5.23.0) |

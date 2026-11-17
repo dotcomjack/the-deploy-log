@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-311 rows in The Deploy Log are filed under OpenAI. 201 carry a publisher's date, from September 25, 2025 to November 16, 2026, and 110 are placed by their edition.
+315 rows in The Deploy Log are filed under OpenAI. 205 carry a publisher's date, from September 25, 2025 to November 17, 2026, and 110 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [openai-go v3.101.0](https://deployedbyai.com/log/e64a377ea621/openai-go-v3-101-0/?k=repo) | Adds GPT-6.2 Astra, Astra Law, and Sol model identifiers plus 2-hour and 8-hour Responses background windows. | [OpenAI, openai-go v3.101.0](https://github.com/openai/openai-go/releases/tag/v3.101.0) |
+| 2026-11-17 | [openai-node v7.58.0](https://deployedbyai.com/log/4f1b0e20cb20/openai-node-v7-58-0/?k=repo) | Adds GPT-6.2 Astra, Astra Law, and Sol model identifiers plus 2-hour and 8-hour Responses background windows. | [OpenAI, openai-node v7.58.0](https://github.com/openai/openai-node/releases/tag/v7.58.0) |
+| 2026-11-17 | [openai-python v3.53.0](https://deployedbyai.com/log/ef02a8919df8/openai-python-v3-53-0/?k=repo) | Adds GPT-6.2 Astra, Astra Law, and Sol model identifiers plus 2-hour and 8-hour Responses background windows. | [OpenAI, openai-python v3.53.0](https://github.com/openai/openai-python/releases/tag/v3.53.0) |
+| 2026-11-17 | [openai-ruby v0.126.0](https://deployedbyai.com/log/14dee68f8dae/openai-ruby-v0-126-0/?k=repo) | Adds GPT-6.2 Astra, GPT-6.2 Sol, and GPT-6.2 Astra Law model identifiers plus 2-hour and 8-hour Responses background windows. | [OpenAI, openai-ruby v0.126.0](https://github.com/openai/openai-ruby/releases/tag/v0.126.0) |
 | 2026-11-16 | [OpenAI Java SDK v4.106.0](https://deployedbyai.com/log/364986a9ff1a/openai-java-sdk-v4-106-0/?k=repo) | OpenAI Java SDK v4.106.0 adds schedule pause reasons and delivers beta Agents session errors as stream events. | [OpenAI, OpenAI Java SDK v4.106.0](https://github.com/openai/openai-java/releases/tag/v4.106.0) |
 | 2026-11-16 | [openai-go v3.100.0](https://deployedbyai.com/log/82616ba93e46/openai-go-v3-100-0/?k=repo) | OpenAI Go SDK v3.100.0 adds MCP approvals, Live transport events, schedule pause reasons, and beta Agents session errors as stream events. | [OpenAI, openai-go v3.100.0](https://github.com/openai/openai-go/releases/tag/v3.100.0) |
 | 2026-11-16 | [openai-python v3.52.0](https://deployedbyai.com/log/6b62579630b6/openai-python-v3-52-0/?k=repo) | Adds schedule pause reasons and delivers beta Agents session errors as stream events. | [OpenAI, openai-python v3.52.0](https://github.com/openai/openai-python/releases/tag/v3.52.0) |
