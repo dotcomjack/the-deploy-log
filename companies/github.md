@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-124 rows in The Deploy Log are filed under GitHub. 114 carry a publisher's date, from September 17, 2026 to November 17, 2026, and 10 are placed by their edition.
+125 rows in The Deploy Log are filed under GitHub. 115 carry a publisher's date, from September 17, 2026 to November 18, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [GitHub Copilot team plugin defaults](https://deployedbyai.com/log/fc063eca0dc7/github-copilot-team-plugin-defaults/?k=repo) | Team customizations for GitHub Copilot plugins are generally available for organization teams. | [GitHub, GitHub Copilot team plugin defaults](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team) |
 | 2026-11-17 | [Copilot CLI v1.0.113](https://deployedbyai.com/log/fd8036217d55/copilot-cli-v1-0-113/?k=repo) | Administrators can disable built-in Browser Use with the managed setting features.browserUse, including in running sessions. | [GitHub, Copilot CLI v1.0.113](https://github.com/github/copilot-cli/releases/tag/v1.0.113) |
 | 2026-11-17 | [Copilot activity in Microsoft Agent 365](https://deployedbyai.com/log/9c311966e20d/copilot-activity-in-microsoft-agent-365/?k=repo) | GitHub Enterprise Cloud customers with Enterprise Managed Users can stream GitHub Copilot agent activity into Microsoft Agent 365. | [GitHub, Copilot activity in Microsoft Agent 365](https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365) |
 | 2026-11-17 | [GPT-6.2 Astra and Sol in Copilot](https://deployedbyai.com/log/1fd3c34b4410/gpt-6-2-astra-and-sol-in-copilot/?k=repo) | OpenAI's GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot for Pro+, Max, Business, and Enterprise users. | [GitHub, GPT-6.2 Astra and Sol in Copilot](https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available) |

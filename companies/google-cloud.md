@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-88 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 17, 2026.
+90 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 18, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Gemini Enterprise Canvas web apps](https://deployedbyai.com/log/cc05aa672107/gemini-enterprise-canvas-web-apps/?k=repo) | Gemini Enterprise Canvas can create interactive single-page HTML web apps, generally available. | [Google Cloud, Gemini Enterprise Canvas web apps](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_18_2026) |
+| 2026-11-18 | [OKF v0.3](https://deployedbyai.com/log/1442cc78ab77/okf-v0-3/?k=repo) | OKF v0.3 adds conformance rules, trust tiers, licensing, retirement, extension model, and versioning policy. | [Google Cloud, OKF v0.3](https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/) |
 | 2026-11-17 | [BigQuery AI.RANK](https://deployedbyai.com/log/c6e3efdba31f/bigquery-ai-rank/?k=repo) | AI.RANK reorders table rows by how well text in a column answers a search query, now generally available. | [Google Cloud, BigQuery AI.RANK](https://docs.cloud.google.com/bigquery/docs/release-notes#November_17_2026) |
 | 2026-11-17 | [Gemini models on Google Cloud Dedicated](https://deployedbyai.com/log/9b7d62e76353/gemini-models-on-google-cloud-dedicated/?k=repo) | Gemini models are coming to Google Cloud Dedicated, the partner-operated sovereign cloud. | [Google Cloud, Gemini models on Google Cloud Dedicated](https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/) |
 | 2026-11-17 | [Model Armor custom org policies](https://deployedbyai.com/log/8ff8fa89a7f8/model-armor-custom-org-policies/?k=repo) | Custom organization policies for Model Armor FloorSetting resources are generally available. | [Google Cloud, Model Armor custom org policies](https://docs.cloud.google.com/release-notes#November_17_2026) |

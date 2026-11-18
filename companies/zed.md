@@ -1,8 +1,14 @@
 # Zed in The Deploy Log
 
-3 rows in The Deploy Log are filed under Zed. Every one is placed by its edition.
+4 rows in The Deploy Log are filed under Zed. 1 carries a publisher's date, November 18, 2026, and 3 are placed by their edition.
 
 The same rows are on [the Zed page of the record](https://deployedbyai.com/log/company/0a5dec84a039/zed/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-18 | [Zed v1.29.1](https://deployedbyai.com/log/0a5bcdcf9345/zed-v1-29-1/?k=repo) | Zed v1.29.1 adds support for Claude Fable 5.2 and Claude Mythos 5.2 for Anthropic BYOK users. | [Zed, Zed v1.29.1](https://github.com/zed-industries/zed/releases/tag/v1.29.1) |
 
 ## Placed by their edition
 

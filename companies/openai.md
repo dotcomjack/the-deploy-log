@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-324 rows in The Deploy Log are filed under OpenAI. 214 carry a publisher's date, from September 25, 2025 to November 18, 2026, and 110 are placed by their edition.
+331 rows in The Deploy Log are filed under OpenAI. 221 carry a publisher's date, from September 25, 2025 to November 18, 2026, and 110 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -9,8 +9,15 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-18 | [Codex 0.170.0](https://deployedbyai.com/log/2cb137e3b530/codex-0-170-0/?k=repo) | Codex 0.170.0 adds WebRTC negotiation for realtime voice calls in the TUI. | [OpenAI, Codex 0.170.0](https://github.com/openai/codex/releases/tag/rust-v0.170.0) |
+| 2026-11-18 | [OpenAI Java SDK v4.109.0](https://deployedbyai.com/log/001884c7aaa2/openai-java-sdk-v4-109-0/?k=repo) | Standalone CSAM moderation models added to the OpenAI Java SDK. | [OpenAI, OpenAI Java SDK v4.109.0](https://github.com/openai/openai-java/releases/tag/v4.109.0) |
+| 2026-11-18 | [OpenAI Node SDK v7.60.0](https://deployedbyai.com/log/2235423e034e/openai-node-sdk-v7-60-0/?k=repo) | OpenAI Node SDK v7.60.0 adds Live MCP server configuration and standalone CSAM moderation types. | [OpenAI, OpenAI Node SDK v7.60.0](https://github.com/openai/openai-node/releases/tag/v7.60.0) |
 | 2026-11-18 | [openai-agents-python v0.25.0](https://deployedbyai.com/log/4696bc563783/openai-agents-python-v0-25-0/?k=repo) | OpenAI Agents Python SDK v0.25.0 adds opt-in handoff error recovery and concurrent Streamable HTTP requests on MCP v2. | [OpenAI, openai-agents-python v0.25.0](https://github.com/openai/openai-agents-python/releases/tag/v0.25.0) |
+| 2026-11-18 | [openai-go Vertex v1.0.4](https://deployedbyai.com/log/a53fae4bfe4b/openai-go-vertex-v1-0-4/?k=repo) | Release v1.0.4 bumps cloud.google.com/go/auth from 0.24.2 to 0.24.3. | [OpenAI, openai-go Vertex v1.0.4](https://github.com/openai/openai-go/releases/tag/v3%2Fvertex%2Fv1.0.4) |
+| 2026-11-18 | [openai-go v3.103.0](https://deployedbyai.com/log/9b9788eb45e5/openai-go-v3-103-0/?k=repo) | Release v3.103.0 adds CSAM moderation model constant, Live MCP tools, and approval filters. | [OpenAI, openai-go v3.103.0](https://github.com/openai/openai-go/releases/tag/v3.103.0) |
 | 2026-11-18 | [openai-python v3.55.0](https://deployedbyai.com/log/47b51a6a99cd/openai-python-v3-55-0/?k=repo) | Live MCP server configuration added to the OpenAI Python SDK. | [OpenAI, openai-python v3.55.0](https://github.com/openai/openai-python/releases/tag/v3.55.0) |
+| 2026-11-18 | [openai-python v3.55.1](https://deployedbyai.com/log/9e0f4347255a/openai-python-v3-55-1/?k=repo) | Release v3.55.1 documents CSAM moderation response fields and bumps dependencies. | [OpenAI, openai-python v3.55.1](https://github.com/openai/openai-python/releases/tag/v3.55.1) |
+| 2026-11-18 | [openai-ruby v0.128.0](https://deployedbyai.com/log/3c19c02f095a/openai-ruby-v0-128-0/?k=repo) | OpenAI Ruby SDK v0.128.0 adds Live MCP server configuration and standalone CSAM moderation models. | [OpenAI, openai-ruby v0.128.0](https://github.com/openai/openai-ruby/releases/tag/v0.128.0) |
+| 2026-11-18 | [openai-ruby v0.128.1](https://deployedbyai.com/log/e093fe2af48a/openai-ruby-v0-128-1/?k=repo) | openai-ruby v0.128.1 ignores replayed budget events in agent session streams. | [OpenAI, openai-ruby v0.128.1](https://github.com/openai/openai-ruby/releases/tag/v0.128.1) |
 | 2026-11-17 | [GPT-6.2 Astra and Sol](https://deployedbyai.com/log/fd345a103b66/gpt-6-2-astra-and-sol/?k=repo) | GPT-6.2 Astra and GPT-6.2 Sol are available in ChatGPT Work and the API, with Astra input at <span>$</span>8, cached input at <span>$</span>0.40, and output at <span>$</span>40 per million tokens. | [OpenAI, GPT-6.2 Astra and Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol) |
 | 2026-11-17 | [OpenAI Go SDK v3.102.0](https://deployedbyai.com/log/f07ea7105beb/openai-go-sdk-v3-102-0/?k=repo) | OpenAI Go SDK v3.102.0 adds Managed Agents budget events type. | [OpenAI, OpenAI Go SDK v3.102.0](https://github.com/openai/openai-go/releases/tag/v3.102.0) |
 | 2026-11-17 | [OpenAI Node SDK v7.59.0](https://deployedbyai.com/log/4221051fedc7/openai-node-sdk-v7-59-0/?k=repo) | OpenAI Node SDK v7.59.0 adds Managed Agents budget events type. | [OpenAI, OpenAI Node SDK v7.59.0](https://github.com/openai/openai-node/releases/tag/v7.59.0) |

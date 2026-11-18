@@ -1,6 +1,6 @@
 # Microsoft in The Deploy Log
 
-44 rows in The Deploy Log are filed under Microsoft. 42 carry a publisher's date, from September 28, 2026 to November 18, 2026, and 2 are placed by their edition.
+47 rows in The Deploy Log are filed under Microsoft. 45 carry a publisher's date, from September 28, 2026 to November 18, 2026, and 2 are placed by their edition.
 
 The same rows are on [the Microsoft page of the record](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Microsoft page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Aion-1.0-Instruct-2.3B](https://deployedbyai.com/log/f78d38399258/aion-1-0-instruct-2-3b/?k=repo) | Microsoft released Aion-1.0-Instruct-2.3B on Hugging Face, a 2.3B parameter on-device SLM with 32K context under MIT license. | [Microsoft, Aion-1.0-Instruct-2.3B](https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B) |
+| 2026-11-18 | [Frontier Tuning](https://deployedbyai.com/log/35fd16373f3b/frontier-tuning/?k=repo) | Frontier Tuning expands private preview with GitHub Copilot plugin, CLI, APIs, and GPT 6 Luna and MAI Code 2 Flash tuning. | [Microsoft, Frontier Tuning](https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-opens-to-more-customers-with-new-tools-for-your-teams/) |
+| 2026-11-18 | [Playwright MCP v0.0.86](https://deployedbyai.com/log/82bf32cf7c1c/playwright-mcp-v0-0-86/?k=repo) | Playwright MCP v0.0.86 adds tab group resume, session naming and colors, and Linux ARM64 Chrome install. | [Microsoft, Playwright MCP v0.0.86](https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.86) |
 | 2026-11-18 | [SPFx Dev Skills v1.1.2](https://deployedbyai.com/log/35501fdbfbc8/spfx-dev-skills-v1-1-2/?k=repo) | SPFx Dev Skills v1.1.2 released with support for SharePoint Framework v1.24.1 and React 18 migration. | [Microsoft, SPFx Dev Skills v1.1.2](https://devblogs.microsoft.com/microsoft365dev/spfx-dev-skills-for-spfx-1-24-1-tested-across-agents-and-models/) |
 | 2026-11-17 | [Starter Pack for Work IQ](https://deployedbyai.com/log/c25f3ba6c37e/starter-pack-for-work-iq/?k=repo) | Open source PowerShell scripts that provision demo users, content and business data for Work IQ. | [Microsoft, Starter Pack for Work IQ](https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq/) |
 | 2026-11-17 | [Teams Digital Teammates](https://deployedbyai.com/log/9822a40bfd55/teams-digital-teammates/?k=repo) | Streaming in group chats and channels, and extended Markdown with tables, code, checklists, and citations are available now. | [Microsoft, Teams Digital Teammates](https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams/) |

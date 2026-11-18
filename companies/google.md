@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-76 rows in The Deploy Log are filed under Google. 67 carry a publisher's date, from September 23, 2026 to November 18, 2026, and 9 are placed by their edition.
+77 rows in The Deploy Log are filed under Google. 68 carry a publisher's date, from September 23, 2026 to November 18, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-18 | [ADK Java v1.15.0](https://deployedbyai.com/log/a342c3235b03/adk-java-v1-15-0/?k=repo) | ADK Java v1.15.0 adds FunctionNode, ClassifierNode, LlmClassifier, and workflow routing features. | [Google, ADK Java v1.15.0](https://github.com/google/adk-java/releases/tag/v1.15.0) |
+| 2026-11-18 | [Gemini app on lower-memory Android](https://deployedbyai.com/log/4a3155e8e63b/gemini-app-on-lower-memory-android/?k=repo) | Gemini app now available on eligible Android (Go edition) devices, with Gemini Live in 45+ languages and Nano Banana image creation. | [Google, Gemini app on lower-memory Android](https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/) |
 | 2026-11-18 | [Google js-genai v3.5.0](https://deployedbyai.com/log/96d5d530b71f/google-js-genai-v3-5-0/?k=repo) | Google js-genai v3.5.0 adds self-hosted BYOS mode, system\_instruction, custom\_config, and Live Interactions SDK support. | [Google, Google js-genai v3.5.0](https://github.com/googleapis/js-genai/releases/tag/v3.5.0) |
 | 2026-11-18 | [Google js-genai v3.6.0](https://deployedbyai.com/log/1b0744dd478b/google-js-genai-v3-6-0/?k=repo) | Google js-genai v3.6.0 adds tool retrieval and function result schemas in the public SDK. | [Google, Google js-genai v3.6.0](https://github.com/googleapis/js-genai/releases/tag/v3.6.0) |
 | 2026-11-18 | [java-genai v2.5.0](https://deployedbyai.com/log/dcc540fbc8ad/java-genai-v2-5-0/?k=repo) | Adds history parameter to Chats.create, self-hosted BYOS mode, tool retrieval and function result schemas. | [Google, java-genai v2.5.0](https://github.com/googleapis/java-genai/releases/tag/v2.5.0) |

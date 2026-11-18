@@ -1,6 +1,6 @@
 # Meta in The Deploy Log
 
-6 rows in The Deploy Log are filed under Meta. 5 carry a publisher's date, from October 9, 2026 to November 12, 2026, and 1 is placed by its edition.
+7 rows in The Deploy Log are filed under Meta. 6 carry a publisher's date, from October 9, 2026 to November 18, 2026, and 1 is placed by its edition.
 
 The same rows are on [the Meta page of the record](https://deployedbyai.com/log/company/50c5556ca53b/meta/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Meta page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Muse Loblaw Connector and Voice](https://deployedbyai.com/log/041272cd39fa/muse-loblaw-connector-and-voice/?k=repo) | Loblaw is the first Canadian retailer connected to Muse, and Voice is rolling out in Canada on mobile, web and Mac. | [Meta, Muse Loblaw Connector and Voice](https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/) |
 | 2026-11-12 | [MetaEncoder v1](https://deployedbyai.com/log/34b2c35243bf/metaencoder-v1/?k=repo) | Meta releases meta-encoder-v1 on Hugging Face, an embedding model with encode, retrieve, and decide calls. | [Meta, MetaEncoder v1](https://huggingface.co/facebook/meta-encoder-v1) |
 
 ## October 2026

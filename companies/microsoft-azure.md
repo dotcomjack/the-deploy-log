@@ -1,6 +1,6 @@
 # Microsoft Azure in The Deploy Log
 
-40 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 17, 2026.
+42 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 18, 2026.
 
 The same rows are on [the Microsoft Azure page of the record](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Microsoft Azure page of the record](https://deployedby
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Foundry Agent Service hosted agents](https://deployedbyai.com/log/d30bcad3f38d/foundry-agent-service-hosted-agents/?k=repo) | Shared subnet IPs, network egress controls, long-running resilient execution, and configurable idle timeout are generally available for hosted agents in Foundry Agent Service. | [Microsoft Azure, Foundry Agent Service hosted agents](https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/) |
+| 2026-11-18 | [Foundry Dev Pack](https://deployedbyai.com/log/d853589ada66/foundry-dev-pack/?k=repo) | Foundry Dev Pack is generally available, bundling Foundry CLI, Skill, VS Code Toolkit, and GitHub Copilot plugin. | [Microsoft Azure, Foundry Dev Pack](https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/) |
 | 2026-11-17 | [Azure AI Gateway](https://deployedbyai.com/log/a57734194a34/azure-ai-gateway/?k=repo) | Azure AI Gateway is generally available. | [Microsoft Azure, Azure AI Gateway](https://azure.microsoft.com/updates?id=580080) |
 | 2026-11-17 | [Azure Cosmos DB SDK for Rust](https://deployedbyai.com/log/214b8f7fb504/azure-cosmos-db-sdk-for-rust/?k=repo) | Azure Cosmos DB SDK for Rust is now generally available, with production-ready defaults and hardening from OpenAI's production traffic. | [Microsoft Azure, Azure Cosmos DB SDK for Rust](https://devblogs.microsoft.com/cosmosdb/announcing-the-general-availability-of-the-azure-cosmos-db-sdk-for-rust/) |
 | 2026-11-17 | [Azure Cosmos DB Shell](https://deployedbyai.com/log/63a0965d6ace/azure-cosmos-db-shell/?k=repo) | Azure Cosmos DB Shell is now generally available, with AI-assisted data modeler and Managed MCP Server in preview. | [Microsoft Azure, Azure Cosmos DB Shell](https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-ai-agent-developer-tools/) |

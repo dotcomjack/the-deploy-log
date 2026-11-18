@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-99 rows in The Deploy Log are filed under LangChain. 98 carry a publisher's date, from September 20, 2026 to November 17, 2026, and 1 is placed by its edition.
+108 rows in The Deploy Log are filed under LangChain. 107 carry a publisher's date, from September 20, 2026 to November 18, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,15 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [deepagents 0.7.40](https://deployedbyai.com/log/e28fb4419fed/deepagents-0-7-40/?k=repo) | deepagents 0.7.40 fixes timed-out shell command output, cancelled command cleanup, and warning-filter races, and speeds up plugin discovery. | [LangChain, deepagents 0.7.40](https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.40) |
+| 2026-11-18 | [deepagents-code 0.2.11](https://deployedbyai.com/log/d8e819d690cb/deepagents-code-0-2-11/?k=repo) | deepagents-code 0.2.11 honors MCP hook approval policies and waits for background worker cleanup on shutdown. | [LangChain, deepagents-code 0.2.11](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.11) |
+| 2026-11-18 | [langchain 1.5.1](https://deployedbyai.com/log/8636e9c0fcd1/langchain-1-5-1/?k=repo) | langchain 1.5.1 released with warning-filter race fixes. | [LangChain, langchain 1.5.1](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1) |
+| 2026-11-18 | [langchain-anthropic 1.7.11](https://deployedbyai.com/log/a1c8aef18e72/langchain-anthropic-1-7-11/?k=repo) | langchain-anthropic 1.7.11 released with Claude Fable and Mythos 5.2 support. | [LangChain, langchain-anthropic 1.7.11](https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11) |
+| 2026-11-18 | [langchain-core 1.8.3](https://deployedbyai.com/log/41cc2d3b61d1/langchain-core-1-8-3/?k=repo) | langchain-core 1.8.3 released with warning suppression context-local fix. | [LangChain, langchain-core 1.8.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.3) |
+| 2026-11-18 | [langchain-deepseek 1.2.1](https://deployedbyai.com/log/f11fde67fb76/langchain-deepseek-1-2-1/?k=repo) | langchain-deepseek 1.2.1 sends langsmith\_gateway headers from the client. | [LangChain, langchain-deepseek 1.2.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.1) |
+| 2026-11-18 | [langchain-groq 1.2.1](https://deployedbyai.com/log/3ea7d4f1fcb2/langchain-groq-1-2-1/?k=repo) | langchain-groq 1.2.1 sends langsmith\_gateway headers from the client. | [LangChain, langchain-groq 1.2.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.1) |
+| 2026-11-18 | [langchain-openai 1.8.2](https://deployedbyai.com/log/8ec130422eb6/langchain-openai-1-8-2/?k=repo) | langchain-openai 1.8.2 adds support for GPT-6.2 Astra and Sol. | [LangChain, langchain-openai 1.8.2](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.2) |
+| 2026-11-18 | [langchain-xai 1.4.1](https://deployedbyai.com/log/64ac68a08f12/langchain-xai-1-4-1/?k=repo) | langchain-xai 1.4.1 sends langsmith\_gateway headers from the client. | [LangChain, langchain-xai 1.4.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1) |
 | 2026-11-17 | [deepagents-code 0.2.10](https://deployedbyai.com/log/3f3cd58c9f09/deepagents-code-0-2-10/?k=repo) | deepagents-code 0.2.10 adds OSC 7501 agent status reporting and MCP trust list loading fixes. | [LangChain, deepagents-code 0.2.10](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.10) |
 | 2026-11-17 | [langchain-core 1.8.2](https://deployedbyai.com/log/dc488e3a776d/langchain-core-1-8-2/?k=repo) | langchain-core 1.8.2 adds headers to langsmith\_gateway and ignores proxies. | [LangChain, langchain-core 1.8.2](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2) |
 | 2026-11-17 | [langchain-openai 1.8.1](https://deployedbyai.com/log/fcd1659fe02f/langchain-openai-1-8-1/?k=repo) | langchain-openai 1.8.1 recovers function call args from done events. | [LangChain, langchain-openai 1.8.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1) |
