@@ -1,6 +1,6 @@
 # Raycast in The Deploy Log
 
-5 rows in The Deploy Log are filed under Raycast. Every one carries a publisher's date, from September 25, 2026 to November 12, 2026.
+6 rows in The Deploy Log are filed under Raycast. Every one carries a publisher's date, from September 25, 2026 to November 18, 2026.
 
 The same rows are on [the Raycast page of the record](https://deployedbyai.com/log/company/44e0db819832/raycast/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Raycast page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Raycast MCP](https://deployedbyai.com/log/9fd366f49490/raycast-mcp/?k=repo) | Raycast MCP, a local server letting agents like Claude, Codex and Cursor use Raycast, is now available. | [Raycast, Raycast MCP](https://www.raycast.com/changelog/macos/2-13) |
 | 2026-11-12 | [Raycast v2.12](https://deployedbyai.com/log/746e5e020b50/raycast-v2-12/?k=repo) | Raycast v2.12 ships a rebuilt calculator that is 60x faster and uses 65% less memory. | [Raycast, Raycast v2.12](https://raycast.com//changelog/macos/2-12) |
 
 ## October 2026

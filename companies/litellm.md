@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-30 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 16, 2026.
+32 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 18, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [LiteLLM v1.110.0](https://deployedbyai.com/log/5cbf77bbb643/litellm-v1-110-0/?k=repo) | LiteLLM v1.110.0 ships fixes for Gemini, Anthropic, Bedrock, proxy, and MCP handling. | [LiteLLM, LiteLLM v1.110.0](https://github.com/BerriAI/litellm/releases/tag/v1.110.0) |
+| 2026-11-17 | [LiteLLM 1.108.11 (LTS)](https://deployedbyai.com/log/708e580b0944/litellm-1-108-11-lts/?k=repo) | LiteLLM 1.108.11 LTS released with 22 PRs: 1 added, 14 fixed, 2 changed. | [LiteLLM, LiteLLM 1.108.11 (LTS)](https://github.com/BerriAI/litellm/releases/tag/v1.108.11) |
 | 2026-11-16 | [LiteLLM v1.108.10](https://deployedbyai.com/log/d4ebdc6ff56b/litellm-v1-108-10/?k=repo) | LiteLLM v1.108.10 released with backported fixes for OpenAI, Vertex AI, and cost tracking. | [LiteLLM, LiteLLM v1.108.10](https://github.com/BerriAI/litellm/releases/tag/v1.108.10) |
 | 2026-11-14 | [LiteLLM v1.106.10](https://deployedbyai.com/log/bab7f2a37c6d/litellm-v1-106-10/?k=repo) | LiteLLM v1.106.10 fixes Google MCP servers asking users to sign in again when the access token expires. | [LiteLLM, LiteLLM v1.106.10](https://github.com/BerriAI/litellm/releases/tag/v1.106.10) |
 | 2026-11-14 | [LiteLLM v1.108.9](https://deployedbyai.com/log/5514917900a6/litellm-v1-108-9/?k=repo) | LiteLLM v1.108.9 released with backports for reasoning, Bedrock S3 media sources, Azure Foundry Kimi K3, Vertex caller labels, and Vercel AI Gateway decision models. | [LiteLLM, LiteLLM v1.108.9](https://github.com/BerriAI/litellm/releases/tag/v1.108.9) |

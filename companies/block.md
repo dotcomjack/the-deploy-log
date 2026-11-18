@@ -1,6 +1,6 @@
 # Block in The Deploy Log
 
-6 rows in The Deploy Log are filed under Block. Every one carries a publisher's date, from October 2, 2026 to November 16, 2026.
+7 rows in The Deploy Log are filed under Block. Every one carries a publisher's date, from October 2, 2026 to November 18, 2026.
 
 The same rows are on [the Block page of the record](https://deployedbyai.com/log/company/e8b074e16397/block/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Block page of the record](https://deployedbyai.com/log
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Goose v1.60.1](https://deployedbyai.com/log/39603b14bbad/goose-v1-60-1/?k=repo) | Goose v1.60.1 fixes compaction by dropping the analysis scratchpad that Claude models refuse. | [Block, Goose v1.60.1](https://github.com/aaif-goose/goose/releases/tag/v1.60.1) |
 | 2026-11-16 | [Goose v1.59.2](https://deployedbyai.com/log/5d4459d2b71a/goose-v1-59-2/?k=repo) | Databricks provider drops thinking blocks bound to a different prefix. | [Block, Goose v1.59.2](https://github.com/aaif-goose/goose/releases/tag/v1.59.2) |
 | 2026-11-10 | [Goose v1.58.1](https://deployedbyai.com/log/36da04d2dc2e/goose-v1-58-1/?k=repo) | Goose v1.58.1 fixes a compaction prompt that Opus 5.5 refuses as distillation. | [Block, Goose v1.58.1](https://github.com/aaif-goose/goose/releases/tag/v1.58.1) |
 | 2026-11-10 | [Goose v1.59.0](https://deployedbyai.com/log/1a3888b8d177/goose-v1-59-0/?k=repo) | Goose v1.59.0 adds minimal deferred MCP tools, configurable live-voice instructions, and a configurable GPT-Live endpoint, model, and key. | [Block, Goose v1.59.0](https://github.com/aaif-goose/goose/releases/tag/v1.59.0) |

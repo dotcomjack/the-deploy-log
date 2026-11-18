@@ -1,8 +1,15 @@
 # Together AI in The Deploy Log
 
-4 rows in The Deploy Log are filed under Together AI. Every one carries a publisher's date, from September 29, 2026 to October 15, 2026.
+6 rows in The Deploy Log are filed under Together AI. Every one carries a publisher's date, from September 29, 2026 to November 17, 2026.
 
 The same rows are on [the Together AI page of the record](https://deployedbyai.com/log/company/e4dcca255aac/together-ai/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-17 | [Nemotron 3.5 fine-tuning](https://deployedbyai.com/log/e3cfb49abada/nemotron-3-5-fine-tuning/?k=repo) | NVIDIA Nemotron 3.5 Lightning 30B and Super VL 120B are now available for fine-tuning. | [Together AI, Nemotron 3.5 fine-tuning](https://docs.together.ai/docs/changelog#november-17-2026) |
+| 2026-11-16 | [Inkling-2-Small on serverless](https://deployedbyai.com/log/c040a32a1991/inkling-2-small-on-serverless/?k=repo) | thinkingmachines/Inkling-2-Small is now available on serverless with 1,048,576 context length and pricing from $0.30 input per 1M tokens. | [Together AI, Inkling-2-Small on serverless](https://docs.together.ai/docs/changelog#november-12-2026) |
 
 ## October 2026
 

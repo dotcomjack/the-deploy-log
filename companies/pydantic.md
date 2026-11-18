@@ -1,6 +1,6 @@
 # Pydantic in The Deploy Log
 
-20 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 17, 2026.
+21 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 17, 2026.
 
 The same rows are on [the Pydantic page of the record](https://deployedbyai.com/log/company/49425b50f21d/pydantic/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the Pydantic page of the record](https://deployedbyai.com/
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-17 | [Pydantic AI v2.69.0](https://deployedbyai.com/log/a7dce0520c66/pydantic-ai-v2-69-0/?k=repo) | Pydantic AI v2.69.0 adds Gemini 4 Hydrogen support on GoogleModel and GroqModel service\_tier support. | [Pydantic, Pydantic AI v2.69.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0) |
+| 2026-11-17 | [Pydantic AI v2.70.0](https://deployedbyai.com/log/b8ac6dec096f/pydantic-ai-v2-70-0/?k=repo) | Pydantic AI v2.70.0 adds service tier forwarding, HuggingFace logprobs, skill file reading, and more. | [Pydantic, Pydantic AI v2.70.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0) |
 | 2026-11-12 | [Pydantic AI v2.68.0](https://deployedbyai.com/log/d37044503f65/pydantic-ai-v2-68-0/?k=repo) | Pydantic AI v2.68.0 released with conversation store, streamed cost for Google and Bedrock models, durable sub-agent delegations, and RefineOutput harness capability. | [Pydantic, Pydantic AI v2.68.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.68.0) |
 | 2026-11-10 | [Pydantic AI v2.67.0](https://deployedbyai.com/log/f9e9028e19c8/pydantic-ai-v2-67-0/?k=repo) | Pydantic AI v2.67.0 adds durable execution subagents, instruction file loading, and provider settings changes. | [Pydantic, Pydantic AI v2.67.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.67.0) |
 | 2026-11-04 | [Pydantic AI v1.107.10](https://deployedbyai.com/log/bd61a86a072c/pydantic-ai-v1-107-10/?k=repo) | Pydantic AI v1.107.10 raises the remaining web\_fetch timing bounds to 60 seconds. | [Pydantic, Pydantic AI v1.107.10](https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.10) |

@@ -1,6 +1,6 @@
 # Docker in The Deploy Log
 
-11 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to November 12, 2026.
+12 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to November 18, 2026.
 
 The same rows are on [the Docker page of the record](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Docker page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Docker Agent v1.162.0](https://deployedbyai.com/log/374af3b04152/docker-agent-v1-162-0/?k=repo) | Adds PopNow as a built-in OpenAI-compatible provider and a models.&lt;name&gt;.context\_window config field. | [Docker, Docker Agent v1.162.0](https://github.com/docker/docker-agent/releases/tag/v1.162.0) |
 | 2026-11-12 | [docker-agent v1.161.0](https://deployedbyai.com/log/d536acf2c43e/docker-agent-v1-161-0/?k=repo) | Adds .worktreeinclude support, configurable model stream idle timeouts, HopBase provider catalog entry, and multiple bug fixes. | [Docker, docker-agent v1.161.0](https://github.com/docker/docker-agent/releases/tag/v1.161.0) |
 | 2026-11-10 | [Docker Agent v1.159.0](https://deployedbyai.com/log/ea6bb3d4fa68/docker-agent-v1-159-0/?k=repo) | Adds Obscurify.ai provider, Anthropic fast mode, Claude Fable 5.2 and Mythos 5.2 on Bedrock, and built-in agents. | [Docker, Docker Agent v1.159.0](https://github.com/docker/docker-agent/releases/tag/v1.159.0) |
 | 2026-11-09 | [Docker Agent v1.158.0](https://deployedbyai.com/log/7ecb032de82d/docker-agent-v1-158-0/?k=repo) | Optional config history and model catalog support, tool duration footers, and compaction overflow fix. | [Docker, Docker Agent v1.158.0](https://github.com/docker/docker-agent/releases/tag/v1.158.0) |

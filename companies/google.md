@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-67 rows in The Deploy Log are filed under Google. 58 carry a publisher's date, from September 23, 2026 to November 16, 2026, and 9 are placed by their edition.
+76 rows in The Deploy Log are filed under Google. 67 carry a publisher's date, from September 23, 2026 to November 18, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,15 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [ADK Java v1.15.0](https://deployedbyai.com/log/a342c3235b03/adk-java-v1-15-0/?k=repo) | ADK Java v1.15.0 adds FunctionNode, ClassifierNode, LlmClassifier, and workflow routing features. | [Google, ADK Java v1.15.0](https://github.com/google/adk-java/releases/tag/v1.15.0) |
+| 2026-11-18 | [Google js-genai v3.5.0](https://deployedbyai.com/log/96d5d530b71f/google-js-genai-v3-5-0/?k=repo) | Google js-genai v3.5.0 adds self-hosted BYOS mode, system\_instruction, custom\_config, and Live Interactions SDK support. | [Google, Google js-genai v3.5.0](https://github.com/googleapis/js-genai/releases/tag/v3.5.0) |
+| 2026-11-18 | [Google js-genai v3.6.0](https://deployedbyai.com/log/1b0744dd478b/google-js-genai-v3-6-0/?k=repo) | Google js-genai v3.6.0 adds tool retrieval and function result schemas in the public SDK. | [Google, Google js-genai v3.6.0](https://github.com/googleapis/js-genai/releases/tag/v3.6.0) |
+| 2026-11-18 | [java-genai v2.5.0](https://deployedbyai.com/log/dcc540fbc8ad/java-genai-v2-5-0/?k=repo) | Adds history parameter to Chats.create, self-hosted BYOS mode, tool retrieval and function result schemas. | [Google, java-genai v2.5.0](https://github.com/googleapis/java-genai/releases/tag/v2.5.0) |
+| 2026-11-18 | [python-genai v3.5.0](https://deployedbyai.com/log/f2c73bc831d4/python-genai-v3-5-0/?k=repo) | python-genai v3.5.0 adds self-hosted BYOS mode, system\_instruction, custom\_config, environment\_key, and experimental Live Interactions SDK support. | [Google, python-genai v3.5.0](https://github.com/googleapis/python-genai/releases/tag/v3.5.0) |
+| 2026-11-18 | [python-genai v3.6.0](https://deployedbyai.com/log/880f696754f4/python-genai-v3-6-0/?k=repo) | Tool retrieval and function result schemas added to the public SDK. | [Google, python-genai v3.6.0](https://github.com/googleapis/python-genai/releases/tag/v3.6.0) |
+| 2026-11-17 | [@google/genai v3.0.0](https://deployedbyai.com/log/91928adeef33/google-genai-v3-0-0/?k=repo) | Google released @google/genai v3.0.0, defaulting Gemini Developer API to v1 and requiring Node.js 22. | [Google, @google/genai v3.0.0](https://github.com/googleapis/js-genai/releases/tag/v3.0.0) |
+| 2026-11-17 | [Personal avatars in Google Vids](https://deployedbyai.com/log/682b7f0b727b/personal-avatars-in-google-vids/?k=repo) | Personal avatars in Google Vids are available to everyone with a personal Google account at no cost. | [Google, Personal avatars in Google Vids](https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/) |
+| 2026-11-17 | [Temporary threads in AI Mode](https://deployedbyai.com/log/178aceaa8f75/temporary-threads-in-ai-mode/?k=repo) | Temporary threads are rolling out globally on desktop and mobile browsers across all languages supported in AI Mode. | [Google, Temporary threads in AI Mode](https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/) |
 | 2026-11-16 | [java-genai v2.4.0](https://deployedbyai.com/log/53b7931f3b4e/java-genai-v2-4-0/?k=repo) | Adds tool search types, static file processing options, and batch inputs for Gemini embedding models. | [Google, java-genai v2.4.0](https://github.com/googleapis/java-genai/releases/tag/v2.4.0) |
 | 2026-11-16 | [js-genai v3.4.0](https://deployedbyai.com/log/ba1774374358/js-genai-v3-4-0/?k=repo) | js-genai v3.4.0 adds tool search types, static file processing options, and batch inputs with usage metadata for Gemini embedding models. | [Google, js-genai v3.4.0](https://github.com/googleapis/js-genai/releases/tag/v3.4.0) |
 | 2026-11-16 | [python-genai v3.4.0](https://deployedbyai.com/log/0419b4bff620/python-genai-v3-4-0/?k=repo) | python-genai v3.4.0 released with tool search types, batch inputs for Gemini embeddings, and bug fixes. | [Google, python-genai v3.4.0](https://github.com/googleapis/python-genai/releases/tag/v3.4.0) |

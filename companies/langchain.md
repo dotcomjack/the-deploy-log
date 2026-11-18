@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-94 rows in The Deploy Log are filed under LangChain. 93 carry a publisher's date, from September 20, 2026 to November 15, 2026, and 1 is placed by its edition.
+99 rows in The Deploy Log are filed under LangChain. 98 carry a publisher's date, from September 20, 2026 to November 17, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [deepagents-code 0.2.10](https://deployedbyai.com/log/3f3cd58c9f09/deepagents-code-0-2-10/?k=repo) | deepagents-code 0.2.10 adds OSC 7501 agent status reporting and MCP trust list loading fixes. | [LangChain, deepagents-code 0.2.10](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.10) |
+| 2026-11-17 | [langchain-core 1.8.2](https://deployedbyai.com/log/dc488e3a776d/langchain-core-1-8-2/?k=repo) | langchain-core 1.8.2 adds headers to langsmith\_gateway and ignores proxies. | [LangChain, langchain-core 1.8.2](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2) |
+| 2026-11-17 | [langchain-openai 1.8.1](https://deployedbyai.com/log/fcd1659fe02f/langchain-openai-1-8-1/?k=repo) | langchain-openai 1.8.1 recovers function call args from done events. | [LangChain, langchain-openai 1.8.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1) |
+| 2026-11-16 | [deepagents 0.7.39](https://deployedbyai.com/log/cd713cfa8479/deepagents-0-7-39/?k=repo) | Fixed streaming of asynchronous subagent runs and NUL-byte uploads, limited editable-install scans to deepagents records. | [LangChain, deepagents 0.7.39](https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.39) |
+| 2026-11-16 | [deepagents-code 0.2.9](https://deployedbyai.com/log/6afd8ec3f5ca/deepagents-code-0-2-9/?k=repo) | Updated stable model recommendations and limited editable-SDK scanning to deepagents records. | [LangChain, deepagents-code 0.2.9](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.9) |
 | 2026-11-15 | [langchain-core 1.8.1](https://deployedbyai.com/log/e5e0fdd77152/langchain-core-1-8-1/?k=repo) | langchain-core 1.8.1 adds per-context LangSmith gateway override via langsmith\_gateway. | [LangChain, langchain-core 1.8.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1) |
 | 2026-11-15 | [langchain-deepseek 1.2.0](https://deployedbyai.com/log/73ba1c3daf14/langchain-deepseek-1-2-0/?k=repo) | langchain-deepseek 1.2.0 routes ChatDeepSeek through LangSmith gateway and drops Python 3.10. | [LangChain, langchain-deepseek 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0) |
 | 2026-11-15 | [langchain-groq 1.2.0](https://deployedbyai.com/log/9c3e1602928d/langchain-groq-1-2-0/?k=repo) | langchain-groq 1.2.0 routes ChatGroq through LangSmith gateway and drops Python 3.10. | [LangChain, langchain-groq 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0) |

@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-123 rows in The Deploy Log are filed under GitHub. 113 carry a publisher's date, from September 17, 2026 to November 17, 2026, and 10 are placed by their edition.
+124 rows in The Deploy Log are filed under GitHub. 114 carry a publisher's date, from September 17, 2026 to November 17, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -10,6 +10,7 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 |---|---|---|---|
 | 2026-11-17 | [Copilot CLI v1.0.113](https://deployedbyai.com/log/fd8036217d55/copilot-cli-v1-0-113/?k=repo) | Administrators can disable built-in Browser Use with the managed setting features.browserUse, including in running sessions. | [GitHub, Copilot CLI v1.0.113](https://github.com/github/copilot-cli/releases/tag/v1.0.113) |
 | 2026-11-17 | [Copilot activity in Microsoft Agent 365](https://deployedbyai.com/log/9c311966e20d/copilot-activity-in-microsoft-agent-365/?k=repo) | GitHub Enterprise Cloud customers with Enterprise Managed Users can stream GitHub Copilot agent activity into Microsoft Agent 365. | [GitHub, Copilot activity in Microsoft Agent 365](https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365) |
+| 2026-11-17 | [GPT-6.2 Astra and Sol in Copilot](https://deployedbyai.com/log/1fd3c34b4410/gpt-6-2-astra-and-sol-in-copilot/?k=repo) | OpenAI's GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot for Pro+, Max, Business, and Enterprise users. | [GitHub, GPT-6.2 Astra and Sol in Copilot](https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available) |
 | 2026-11-17 | [GitHub Copilot app releases](https://deployedbyai.com/log/187d1aff2d51/github-copilot-app-releases/?k=repo) | GitHub Copilot app adds Azure DevOps integration, browser use, and GHES support. | [GitHub, GitHub Copilot app releases](https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases) |
 | 2026-11-17 | [GitHub Copilot in JetBrains](https://deployedbyai.com/log/e59e4059a3c3/github-copilot-in-jetbrains/?k=repo) | GitHub Copilot in JetBrains adds remote access, on-device voice dictation, browser use controls, and split mode remote development, with several features in public preview. | [GitHub, GitHub Copilot in JetBrains](https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases) |
 | 2026-11-17 | [MAI Code 2 and MAI Code 2 Flash](https://deployedbyai.com/log/b020c1dbda0c/mai-code-2-and-mai-code-2-flash/?k=repo) | MAI Code 2 and MAI Code 2 Flash are available in GitHub Copilot across Free, Student, Pro, Pro+, Max, Business, and Enterprise plans. | [GitHub, MAI Code 2 and MAI Code 2 Flash](https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot) |

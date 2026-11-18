@@ -1,8 +1,15 @@
 # Apple in The Deploy Log
 
-12 rows in The Deploy Log are filed under Apple. 8 carry a publisher's date, from July 23, 2026 to October 28, 2026, and 4 are placed by their edition.
+14 rows in The Deploy Log are filed under Apple. 10 carry a publisher's date, from July 23, 2026 to November 16, 2026, and 4 are placed by their edition.
 
 The same rows are on [the Apple page of the record](https://deployedbyai.com/log/company/ecedc9023fa1/apple/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-16 | [FastFrames-L](https://deployedbyai.com/log/15050566b391/fastframes-l/?k=repo) | FastFrames-L (14B), a two-step video diffusion model generating 480p video at interactive latency, released on Hugging Face. | [Apple, FastFrames-L](https://huggingface.co/apple/FastFrames-L) |
+| 2026-11-16 | [FastFrames-S](https://deployedbyai.com/log/612a5b7d9415/fastframes-s/?k=repo) | FastFrames-S (1.3B), a two-step video diffusion model generating 480p video at interactive latency, released on Hugging Face. | [Apple, FastFrames-S](https://huggingface.co/apple/FastFrames-S) |
 
 ## October 2026
 

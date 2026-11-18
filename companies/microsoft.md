@@ -1,6 +1,6 @@
 # Microsoft in The Deploy Log
 
-42 rows in The Deploy Log are filed under Microsoft. 40 carry a publisher's date, from September 28, 2026 to November 17, 2026, and 2 are placed by their edition.
+44 rows in The Deploy Log are filed under Microsoft. 42 carry a publisher's date, from September 28, 2026 to November 18, 2026, and 2 are placed by their edition.
 
 The same rows are on [the Microsoft page of the record](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Microsoft page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [SPFx Dev Skills v1.1.2](https://deployedbyai.com/log/35501fdbfbc8/spfx-dev-skills-v1-1-2/?k=repo) | SPFx Dev Skills v1.1.2 released with support for SharePoint Framework v1.24.1 and React 18 migration. | [Microsoft, SPFx Dev Skills v1.1.2](https://devblogs.microsoft.com/microsoft365dev/spfx-dev-skills-for-spfx-1-24-1-tested-across-agents-and-models/) |
+| 2026-11-17 | [Starter Pack for Work IQ](https://deployedbyai.com/log/c25f3ba6c37e/starter-pack-for-work-iq/?k=repo) | Open source PowerShell scripts that provision demo users, content and business data for Work IQ. | [Microsoft, Starter Pack for Work IQ](https://devblogs.microsoft.com/microsoft365dev/introducing-the-starter-pack-for-work-iq/) |
 | 2026-11-17 | [Teams Digital Teammates](https://deployedbyai.com/log/9822a40bfd55/teams-digital-teammates/?k=repo) | Streaming in group chats and channels, and extended Markdown with tables, code, checklists, and citations are available now. | [Microsoft, Teams Digital Teammates](https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams/) |
 | 2026-11-16 | [ONNX Runtime WebGPU Plugin EP v0.6.0](https://deployedbyai.com/log/9e543db9511c/onnx-runtime-webgpu-plugin-ep-v0-6-0/?k=repo) | ONNX Runtime WebGPU Plugin EP v0.6.0 adds new kernels, FP16 GRU/LSTM, MatMulBlockQuantizedFp8Weight, and shader-cache controls. | [Microsoft, ONNX Runtime WebGPU Plugin EP v0.6.0](https://github.com/microsoft/onnxruntime/releases/tag/plugin-ep-webgpu%2Fv0.6.0) |
 | 2026-11-14 | [ONNX Runtime CUDA Plugin EP 0.4.0](https://deployedbyai.com/log/870f3c826dd7/onnx-runtime-cuda-plugin-ep-0-4-0/?k=repo) | CPU/GPU hybrid expert offloading, native GGUF/block-packed weight execution, Tensor-Core INT2/INT3/INT4 and offline K-packed NVFP4 QMoE kernels, long-context and speculative-decoding acceleration. | [Microsoft, ONNX Runtime CUDA Plugin EP 0.4.0](https://github.com/microsoft/onnxruntime/releases/tag/plugin-ep-cuda%2Fv0.4.0) |

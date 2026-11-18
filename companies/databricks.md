@@ -1,6 +1,6 @@
 # Databricks in The Deploy Log
 
-90 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 16, 2026.
+93 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 18, 2026.
 
 The same rows are on [the Databricks page of the record](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Genie Code CLI](https://deployedbyai.com/log/2200a590df60/genie-code-cli/?k=repo) | Genie Code CLI is generally available with shared budget management across CLI and workspace. | [Databricks, Genie Code CLI](https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-code-cli-is-now-generally-available) |
+| 2026-11-18 | [Smart Routing external models](https://deployedbyai.com/log/023691898172/smart-routing-external-models/?k=repo) | Smart Routing can route coding-agent subagents to external models behind a model provider service in Beta. | [Databricks, Smart Routing external models](https://docs.databricks.com/aws/en/release-notes/product/2026/november#smart-routing-now-supports-external-models-for-coding-agents-beta) |
+| 2026-11-17 | [Unity Gateway Insights](https://deployedbyai.com/log/dd6a8475c64b/unity-gateway-insights/?k=repo) | Unity Gateway Insights reports show agent usage and wasted tokens, now in Beta. | [Databricks, Unity Gateway Insights](https://docs.databricks.com/aws/en/release-notes/product/2026/november#analyze-agent-usage-and-find-wasted-tokens-with-unity-gateway-insights-beta) |
 | 2026-11-16 | [Unity Catalog agent skills sharing](https://deployedbyai.com/log/dff4f1f547f1/unity-catalog-agent-skills-sharing/?k=repo) | Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings. | [Databricks, Unity Catalog agent skills sharing](https://docs.databricks.com/aws/en/release-notes/product/2026/november#share-unity-catalog-agent-skills-with-opensharing-and-databricks-marketplace-beta) |
 | 2026-11-13 | [AI Function task support in Declarative Automation Bundles](https://deployedbyai.com/log/be6b4ade3be4/ai-function-task-support-in-declarative-automation-bundles/?k=repo) | Support for AI Function tasks in Declarative Automation Bundles is now in Beta. | [Databricks, AI Function task support in Declarative Automation Bundles](https://docs.databricks.com/aws/en/release-notes/product/2026/november#ai-function-task-support-in-declarative-automation-bundles-beta) |
 | 2026-11-12 | [Gemini 3.6 Flash retirement](https://deployedbyai.com/log/2efb3f62a67b/gemini-3-6-flash-retirement/?k=repo) | Gemini 3.6 Flash will be retired on November 19, 2026, with API calls redirected to Gemini 3.8 Flash at the same price. | [Databricks, Gemini 3.6 Flash retirement](https://docs.databricks.com/aws/en/release-notes/product/2026/november#gemini-36-flash-will-be-retired-on-november-19-2026) |

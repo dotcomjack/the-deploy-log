@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-327 rows in The Deploy Log are filed under Vercel. 130 carry a publisher's date, from September 18, 2025 to November 17, 2026, and 197 are placed by their edition.
+328 rows in The Deploy Log are filed under Vercel. 131 carry a publisher's date, from September 18, 2025 to November 17, 2026, and 197 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -15,6 +15,7 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 | 2026-11-16 | [AI Gateway Private Inference](https://deployedbyai.com/log/746b28d47107/ai-gateway-private-inference/?k=repo) | Private Inference connects your own model endpoints to AI Gateway with the same authentication, SDKs, APIs, and observability as catalog models. | [Vercel, AI Gateway Private Inference](https://vercel.com/changelog/ai-gateway-now-supports-private-inference) |
 | 2026-11-16 | [Hy4 Flash on AI Gateway](https://deployedbyai.com/log/34f78c7b765e/hy4-flash-on-ai-gateway/?k=repo) | Tencent's Hy4 Flash model is available on AI Gateway with 50% off tokens through November 29, 2026. | [Vercel, Hy4 Flash on AI Gateway](https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off) |
 | 2026-11-16 | [Seedance 2.5 Flash](https://deployedbyai.com/log/5a1ed5b6292b/seedance-2-5-flash/?k=repo) | ByteDance's Seedance 2.5 Flash is available on AI Gateway, generating videos with synchronized audio from text or references. | [Vercel, Seedance 2.5 Flash](https://vercel.com/changelog/seedance-2-5-flash-now-available-on-ai-gateway) |
+| 2026-11-16 | [Vercel Sandbox Python SDK 1.0](https://deployedbyai.com/log/79840fc3271d/vercel-sandbox-python-sdk-1-0/?k=repo) | Vercel Sandbox Python SDK 1.0 is available with a stabilized API and TypeScript parity. | [Vercel, Vercel Sandbox Python SDK 1.0](https://vercel.com/changelog/vercel-sandbox-python-sdk-1-0-is-now-available) |
 | 2026-11-15 | [Qwen4-Max on AI Gateway](https://deployedbyai.com/log/5f1eb859f2a8/qwen4-max-on-ai-gateway/?k=repo) | Qwen4-Max is available on AI Gateway with a 1M-token context window and native vision. | [Vercel, Qwen4-Max on AI Gateway](https://vercel.com/changelog/qwen4-max-now-available-on-ai-gateway) |
 | 2026-11-13 | [Parallel Decisions Fast](https://deployedbyai.com/log/3ad4502179df/parallel-decisions-fast/?k=repo) | Parallel Decisions Fast from Parallel is now available on AI Gateway and is free through November 23, 2026, searching the live web to answer typed questions with probabilities and cited evidence. | [Vercel, Parallel Decisions Fast now available on AI Gateway](https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free) |
 | 2026-11-13 | [Vercel Daemon Tracing](https://deployedbyai.com/log/d9c0f1c03f44/vercel-daemon-tracing/?k=repo) | Vercel Daemons can now send OpenTelemetry traces to Vercel Tracing via a Unix socket, with automatic export in @vercel/otel 2.3.0. | [Vercel, Vercel Daemon Tracing](https://vercel.com/changelog/vercel-daemons-can-now-send-traces-to-vercel-tracing) |

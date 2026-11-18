@@ -1,6 +1,6 @@
 # NVIDIA in The Deploy Log
 
-57 rows in The Deploy Log are filed under NVIDIA. 51 carry a publisher's date, from August 20, 2026 to November 16, 2026, and 6 are placed by their edition.
+58 rows in The Deploy Log are filed under NVIDIA. 52 carry a publisher's date, from August 20, 2026 to November 17, 2026, and 6 are placed by their edition.
 
 The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-17 | [NVIDIA Q3 FY27 Results](https://deployedbyai.com/log/03b1ee81547a/nvidia-q3-fy27-results/?k=repo) | Revenue of <span>$</span>115.8B, Data Center revenue of <span>$</span>107.6B, and Vera Rubin NVL72 has shipped. | [NVIDIA, NVIDIA Q3 FY27 Results](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm) |
 | 2026-11-16 | [CUDA-X libraries for scientific discovery](https://deployedbyai.com/log/49e487e26f35/cuda-x-libraries-for-scientific-discovery/?k=repo) | New CUDA-X libraries cuPhoton, cuPotential and cuSpa are available, with cuPhoton.xBeam cutting black hole correlation from over a month to eight minutes. | [NVIDIA, CUDA-X libraries for scientific discovery](https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/) |
 | 2026-11-16 | [NVIDIA Vera CPU platform](https://deployedbyai.com/log/4fba3ff2eb05/nvidia-vera-cpu-platform/?k=repo) | The Vera CPU rack-scale platform combines 192 Vera CPUs with Quantum-X800 InfiniBand, delivering over 200TB/s aggregate peak memory bandwidth. | [NVIDIA, NVIDIA Vera CPU platform](https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery) |
 | 2026-11-16 | [Nemotron for Science](https://deployedbyai.com/log/37982fc25bfa/nemotron-for-science/?k=repo) | Nemotron for Science brings Nemotron 3.5 Super VL, LitmusBench v0.2 with nearly 50,000 chemistry questions, and post-training recipes for science agents. | [NVIDIA, Nemotron for Science](https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents) |
