@@ -1,8 +1,14 @@
 # GitLab in The Deploy Log
 
-6 rows in The Deploy Log are filed under GitLab. Every one carries a publisher's date, from October 2, 2026 to October 29, 2026.
+7 rows in The Deploy Log are filed under GitLab. Every one carries a publisher's date, from October 2, 2026 to November 19, 2026.
 
 The same rows are on [the GitLab page of the record](https://deployedbyai.com/log/company/3f8bdd05fc0e/gitlab/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-19 | [GitLab 19.6](https://deployedbyai.com/log/c2827afbe5ed/gitlab-19-6/?k=repo) | GitLab 19.6 adds MCP server audit events, GitLab Duo in Slack limited availability, and MCP tool governance. | [GitLab, GitLab 19.6](https://docs.gitlab.com/releases/19/gitlab-19-6-released/) |
 
 ## October 2026
 

@@ -1,6 +1,6 @@
 # Databricks in The Deploy Log
 
-95 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 18, 2026.
+96 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 19, 2026.
 
 The same rows are on [the Databricks page of the record](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [AI/BI Bulk Migration](https://deployedbyai.com/log/baad5b74ca58/ai-bi-bulk-migration/?k=repo) | Bulk migrate Tableau and Power BI reports to AI/BI Dashboards with a single /importBI command. | [Databricks, AI/BI Bulk Migration](https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code) |
 | 2026-11-18 | [Genie Code CLI](https://deployedbyai.com/log/2200a590df60/genie-code-cli/?k=repo) | Genie Code CLI is generally available with shared budget management across CLI and workspace. | [Databricks, Genie Code CLI](https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-code-cli-is-now-generally-available) |
 | 2026-11-18 | [Genie in Microsoft Teams](https://deployedbyai.com/log/4155f69167e9/genie-in-microsoft-teams/?k=repo) | Genie in Microsoft Teams is generally available, and the Azure Databricks Genie plugin connects Genie One to Microsoft Copilot and Copilot Cowork. | [Databricks, Genie in Microsoft Teams](https://www.databricks.com/blog/whats-new-genie-microsoft-copilot-cowork-and-chat-microsoft-teams-and-excel) |
 | 2026-11-18 | [Smart Routing external models](https://deployedbyai.com/log/023691898172/smart-routing-external-models/?k=repo) | Smart Routing can route coding-agent subagents to external models behind a model provider service in Beta. | [Databricks, Smart Routing external models](https://docs.databricks.com/aws/en/release-notes/product/2026/november#smart-routing-now-supports-external-models-for-coding-agents-beta) |

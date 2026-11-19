@@ -1,6 +1,6 @@
 # Hugging Face in The Deploy Log
 
-106 rows in The Deploy Log are filed under Hugging Face. 56 carry a publisher's date, from September 17, 2025 to November 18, 2026, and 50 are placed by their edition.
+108 rows in The Deploy Log are filed under Hugging Face. 58 carry a publisher's date, from September 17, 2025 to November 19, 2026, and 50 are placed by their edition.
 
 The same rows are on [the Hugging Face page of the record](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Hugging Face page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [PEFT v0.22.0](https://deployedbyai.com/log/df8d99f4c9fd/peft-v0-22-0/?k=repo) | PEFT v0.22.0 adds PaCA, Astra and NoRA initialization, plus Tensor Parallelism and FSDP2 support. | [Hugging Face, PEFT v0.22.0](https://github.com/huggingface/peft/releases/tag/v0.22.0) |
+| 2026-11-19 | [TRL v1.18.2](https://deployedbyai.com/log/5d450f1f19d6/trl-v1-18-2/?k=repo) | Fix BEMACallback when some parameters are frozen and recognize Muse Glimmer chat template revision. | [Hugging Face, TRL v1.18.2](https://github.com/huggingface/trl/releases/tag/v1.18.2) |
 | 2026-11-18 | [IBM Time-Series Models on Confluent](https://deployedbyai.com/log/57b236af5ecb/ibm-time-series-models-on-confluent/?k=repo) | IBM time-series foundation models with over 50 million downloads are now available natively on Confluent, in the cloud and on premises, running on CPUs. | [Hugging Face, IBM Time-Series Models on Confluent](https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse) |
 | 2026-11-17 | [TRL v1.18.1](https://deployedbyai.com/log/46dd390f3b5c/trl-v1-18-1/?k=repo) | TRL v1.18.1 fixes CLI parsing on Python 3.15, recognizes SmolVLM2 chat templates, and grades accuracy rewards in a separate process. | [Hugging Face, TRL v1.18.1](https://github.com/huggingface/trl/releases/tag/v1.18.1) |
 | 2026-11-13 | [PEFT v0.21.3](https://deployedbyai.com/log/06e246482c5b/peft-v0-21-3/?k=repo) | PEFT v0.21.3 released, fixing adapter weight gathering for DTensor TP models. | [Hugging Face, PEFT v0.21.3](https://github.com/huggingface/peft/releases/tag/v0.21.3) |

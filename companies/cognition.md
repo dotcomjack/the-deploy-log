@@ -1,6 +1,6 @@
 # Cognition in The Deploy Log
 
-13 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to November 17, 2026.
+14 rows in The Deploy Log are filed under Cognition. Every one carries a publisher's date, from September 28, 2026 to November 19, 2026.
 
 The same rows are on [the Cognition page of the record](https://deployedbyai.com/log/company/a3079d818e00/cognition/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Cognition page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [Devin for Databricks Migrations](https://deployedbyai.com/log/cb0369b89a02/devin-for-databricks-migrations/?k=repo) | Devin for Databricks Migrations launched, moving enterprises off legacy data platforms onto Databricks; one company migrated 142 objects in eight days. | [Cognition, Devin for Databricks Migrations](https://devin.ai/blog/devin-for-databricks-migrations) |
 | 2026-11-17 | [Devin Bots](https://deployedbyai.com/log/b2ae2d61d7ab/devin-bots/?k=repo) | Devin Bots launched as persistent agents that own goals and lead teams of Devins to deliver outcomes. | [Cognition, Devin Bots](https://devin.ai/blog/introducing-devin-bots) |
 | 2026-11-13 | [Devin Apps](https://deployedbyai.com/log/583cf2b1e589/devin-apps/?k=repo) | Devin Apps are live, private web applications hosted directly on Devin's cloud computer, built by describing the tool your team needs. | [Cognition, Devin Apps](https://devin.ai/blog/devin-apps) |
 | 2026-11-11 | [Claude Mythos 5.2 in Devin Security](https://deployedbyai.com/log/8e0c7a228284/claude-mythos-5-2-in-devin-security/?k=repo) | Claude Mythos 5.2 is available in Devin Security for eligible enterprise customers, with $100M+ in credits offered. | [Cognition, Claude Mythos 5.2 in Devin Security](https://devin.ai/blog/claude-mythos-5-2-security) |

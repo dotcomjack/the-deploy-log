@@ -1,6 +1,6 @@
 # Cohere in The Deploy Log
 
-5 rows in The Deploy Log are filed under Cohere. Every one carries a publisher's date, from October 21, 2026 to November 18, 2026.
+6 rows in The Deploy Log are filed under Cohere. Every one carries a publisher's date, from October 21, 2026 to November 19, 2026.
 
 The same rows are on [the Cohere page of the record](https://deployedbyai.com/log/company/28c9fa52f6c5/cohere/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Cohere page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [cohere-python 7.0.7](https://deployedbyai.com/log/86ec95d519b0/cohere-python-7-0-7/?k=repo) | Default keepalive settings for long-lived HTTP requests and safer SSE decoding. | [Cohere, cohere-python 7.0.7](https://github.com/cohere-ai/cohere-python/releases/tag/7.07) |
 | 2026-11-18 | [cohere-python 7.3.3](https://deployedbyai.com/log/059b64e7ddc7/cohere-python-7-3-3/?k=repo) | ClientV2 gets its own embed\_stream with v2 parameters. | [Cohere, cohere-python 7.3.3](https://github.com/cohere-ai/cohere-python/releases/tag/7.3.3) |
 | 2026-11-04 | [Embed 5 and Rerank 5 on OpenRouter](https://deployedbyai.com/log/1fc89ef3ad32/embed-5-and-rerank-5-on-openrouter/?k=repo) | Cohere's Embed 5 and Rerank 5 models are now available on OpenRouter, including Pro and Fast variants. | [Cohere, Embed 5 and Rerank 5 on OpenRouter](https://docs.cohere.com/changelog/embed-rerank-v5-openrouter) |
 | 2026-11-04 | [cohere-python 7.3.1](https://deployedbyai.com/log/3b9be2b762b5/cohere-python-7-3-1/?k=repo) | cohere-python 7.3.1 regenerates the SDK via Fern CLI. | [Cohere, cohere-python 7.3.1](https://github.com/cohere-ai/cohere-python/releases/tag/7.3.1) |

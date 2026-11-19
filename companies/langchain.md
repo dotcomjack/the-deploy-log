@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-113 rows in The Deploy Log are filed under LangChain. 112 carry a publisher's date, from September 20, 2026 to November 19, 2026, and 1 is placed by its edition.
+115 rows in The Deploy Log are filed under LangChain. 114 carry a publisher's date, from September 20, 2026 to November 19, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,7 +8,9 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [LangSmith Tool Gateway](https://deployedbyai.com/log/6e920d54a36e/langsmith-tool-gateway/?k=repo) | LangSmith Tool Gateway launched in Public Beta, managing credentials, identity, and access for agent tool calls. | [LangChain, LangSmith Tool Gateway](https://www.langchain.com/blog/langsmith-tool-gateway) |
 | 2026-11-19 | [langchain-openai 1.8.3](https://deployedbyai.com/log/84960b5f1bdc/langchain-openai-1-8-3/?k=repo) | langchain-openai 1.8.3 enables Codex prompt caching on GPT-6.2. | [LangChain, langchain-openai 1.8.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3) |
+| 2026-11-19 | [langchain-openrouter 0.3.0](https://deployedbyai.com/log/7406f7cb1660/langchain-openrouter-0-3-0/?k=repo) | langchain-openrouter 0.3.0 drops Python 3.10 support; minimum is now Python 3.11 and langchain-core 1.8.3. | [LangChain, langchain-openrouter 0.3.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0) |
 | 2026-11-19 | [langgraph 1.2.23](https://deployedbyai.com/log/29bbcd9554dc/langgraph-1-2-23/?k=repo) | langgraph 1.2.23 released with fixes for Send-dispatched tool calls and dynamic schema warning races. | [LangChain, langgraph 1.2.23](https://github.com/langchain-ai/langgraph/releases/tag/1.2.23) |
 | 2026-11-19 | [langgraph-prebuilt 1.1.3](https://deployedbyai.com/log/31dfa512495e/langgraph-prebuilt-1-1-3/?k=repo) | langgraph-prebuilt 1.1.3 released with fixes for Send-dispatched tool calls and wrap\_tool\_call state overrides. | [LangChain, langgraph-prebuilt 1.1.3](https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3) |
 | 2026-11-18 | [LangSmith Alerts](https://deployedbyai.com/log/53cb91eb84f6/langsmith-alerts/?k=repo) | LangSmith Alerts launched with alerting on error rate, run latency, and feedback scores. | [LangChain, LangSmith Alerts](https://www.langchain.com/blog/langsmith-alerts) |

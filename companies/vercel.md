@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-331 rows in The Deploy Log are filed under Vercel. 134 carry a publisher's date, from September 18, 2025 to November 18, 2026, and 197 are placed by their edition.
+332 rows in The Deploy Log are filed under Vercel. 135 carry a publisher's date, from September 18, 2025 to November 19, 2026, and 197 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [Liquid AI d1.2 and d1.2-ultra](https://deployedbyai.com/log/d1291bcb62a3/liquid-ai-d1-2-and-d1-2-ultra/?k=repo) | Liquid AI's d1.2 and d1.2-ultra decision models are now available on AI Gateway with audio input and bounding box support. | [Vercel, Liquid AI d1.2 and d1.2-ultra](https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway) |
 | 2026-11-18 | [Gemini 4 Neon on AI Gateway](https://deployedbyai.com/log/3cc7695dcdf7/gemini-4-neon-on-ai-gateway/?k=repo) | Google's Gemini 4 Neon model is now available on Vercel AI Gateway with a 1M-token context window. | [Vercel, Gemini 4 Neon on AI Gateway](https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway) |
 | 2026-11-18 | [Parallel web search on AI Gateway](https://deployedbyai.com/log/2d1afa691aeb/parallel-web-search-on-ai-gateway/?k=repo) | Parallel fast mode web search is free on AI Gateway through January 31, 2027, and is now the default for eve agents. | [Vercel, Parallel web search on AI Gateway](https://vercel.com/changelog/parallel-web-search-is-free-on-ai-gateway-and-eve-through-january-31) |
 | 2026-11-18 | [Vercel Board](https://deployedbyai.com/log/608b25b349a2/vercel-board/?k=repo) | Vercel Board, an experimental agentic primitive for coordinating agent fleets, launched with CLI and JavaScript SDK. | [Vercel, Vercel Board](https://vercel.com/blog/introducing-vercel-board) |
