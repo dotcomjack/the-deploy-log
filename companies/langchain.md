@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-110 rows in The Deploy Log are filed under LangChain. 109 carry a publisher's date, from September 20, 2026 to November 18, 2026, and 1 is placed by its edition. 1 of those dates has not yet come in New York.
+113 rows in The Deploy Log are filed under LangChain. 112 carry a publisher's date, from September 20, 2026 to November 19, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [langchain-openai 1.8.3](https://deployedbyai.com/log/84960b5f1bdc/langchain-openai-1-8-3/?k=repo) | langchain-openai 1.8.3 enables Codex prompt caching on GPT-6.2. | [LangChain, langchain-openai 1.8.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3) |
+| 2026-11-19 | [langgraph 1.2.23](https://deployedbyai.com/log/29bbcd9554dc/langgraph-1-2-23/?k=repo) | langgraph 1.2.23 released with fixes for Send-dispatched tool calls and dynamic schema warning races. | [LangChain, langgraph 1.2.23](https://github.com/langchain-ai/langgraph/releases/tag/1.2.23) |
+| 2026-11-19 | [langgraph-prebuilt 1.1.3](https://deployedbyai.com/log/31dfa512495e/langgraph-prebuilt-1-1-3/?k=repo) | langgraph-prebuilt 1.1.3 released with fixes for Send-dispatched tool calls and wrap\_tool\_call state overrides. | [LangChain, langgraph-prebuilt 1.1.3](https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.3) |
+| 2026-11-18 | [LangSmith Alerts](https://deployedbyai.com/log/53cb91eb84f6/langsmith-alerts/?k=repo) | LangSmith Alerts launched with alerting on error rate, run latency, and feedback scores. | [LangChain, LangSmith Alerts](https://www.langchain.com/blog/langsmith-alerts) |
 | 2026-11-18 | [deepagents 0.7.40](https://deployedbyai.com/log/e28fb4419fed/deepagents-0-7-40/?k=repo) | deepagents 0.7.40 fixes timed-out shell command output, cancelled command cleanup, and warning-filter races, and speeds up plugin discovery. | [LangChain, deepagents 0.7.40](https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.40) |
 | 2026-11-18 | [deepagents-code 0.2.11](https://deployedbyai.com/log/d8e819d690cb/deepagents-code-0-2-11/?k=repo) | deepagents-code 0.2.11 honors MCP hook approval policies and waits for background worker cleanup on shutdown. | [LangChain, deepagents-code 0.2.11](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.11) |
 | 2026-11-18 | [langchain 1.5.1](https://deployedbyai.com/log/8636e9c0fcd1/langchain-1-5-1/?k=repo) | langchain 1.5.1 released with warning-filter race fixes. | [LangChain, langchain 1.5.1](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1) |
@@ -126,14 +130,6 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 | 2026-09-21 | [langchain-core 1.6.4](https://deployedbyai.com/log/c18cb99967ce/langchain-core-1-6-4/?k=repo) | langchain-core 1.6.4 released with deprecation of chat message history. | [LangChain, langchain-core 1.6.4](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4) |
 | 2026-09-21 | [langchain-openai 1.6.3](https://deployedbyai.com/log/b7b4939c9234/langchain-openai-1-6-3/?k=repo) | langchain-openai 1.6.3 released with support for GPT-6 request constraints. | [LangChain, langchain-openai 1.6.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3) |
 | 2026-09-20 | [langchain-typesafe](https://deployedbyai.com/log/f33b8699cf1f/langchain-typesafe/?k=repo) | langchain-typesafe 0.0.1a3 released with TypeSafeClassifier and experimental middleware. | [LangChain, langchain-typesafe](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3) |
-
-## Undated until its day
-
-1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
-
-| Row | What shipped | Source |
-|---|---|---|
-| [langchain-openai 1.8.3](https://deployedbyai.com/log/84960b5f1bdc/langchain-openai-1-8-3/?k=repo) | langchain-openai 1.8.3 enables Codex prompt caching on GPT-6.2. | [LangChain, langchain-openai 1.8.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3) |
 
 ## Placed by their edition
 

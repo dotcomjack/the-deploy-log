@@ -1,6 +1,6 @@
 # inclusionAI in The Deploy Log
 
-10 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to November 13, 2026.
+12 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to November 19, 2026.
 
 The same rows are on [the inclusionAI page of the record](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the inclusionAI page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [DeepSeek-V4.1-Flash-1017-singprobe](https://deployedbyai.com/log/b5f31d4b43ac/deepseek-v4-1-flash-1017-singprobe/?k=repo) | SingProbe streaming guardrail for DeepSeek-V4.1-Flash-1017 released on Hugging Face with 10.10M parameters. | [inclusionAI, DeepSeek-V4.1-Flash-1017-singprobe](https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe) |
+| 2026-11-19 | [Ling-3.1-flash-1019-singprobe](https://deployedbyai.com/log/59439624927c/ling-3-1-flash-1019-singprobe/?k=repo) | SingProbe streaming guardrail for Ling-3.1-flash-1019 released on Hugging Face with 8.13M parameters. | [inclusionAI, Ling-3.1-flash-1019-singprobe](https://huggingface.co/inclusionAI/Ling-3.1-flash-1019-singprobe) |
 | 2026-11-13 | [Duo-1.0-distill-quant](https://deployedbyai.com/log/be139d626adc/duo-1-0-distill-quant/?k=repo) | inclusionAI released Duo-1.0-distill-quant, an FP8-quantized four-step distilled Realization model for full-duplex audio-visual interaction. | [inclusionAI, Duo-1.0-distill-quant](https://huggingface.co/inclusionAI/Duo-1.0-distill-quant) |
 | 2026-11-12 | [Duo-1.0-causal-base](https://deployedbyai.com/log/918701bb7955/duo-1-0-causal-base/?k=repo) | Duo 1.0 causal-base model weights, a full-duplex multimodal world model, available on Hugging Face. | [inclusionAI, Duo-1.0-causal-base](https://huggingface.co/inclusionAI/Duo-1.0-causal-base) |
 | 2026-11-12 | [Duo-1.0-distill](https://deployedbyai.com/log/ef9b49a38645/duo-1-0-distill/?k=repo) | Duo 1.0 four-step distilled Realization weights, overlay on causal-base, available on Hugging Face. | [inclusionAI, Duo-1.0-distill](https://huggingface.co/inclusionAI/Duo-1.0-distill) |

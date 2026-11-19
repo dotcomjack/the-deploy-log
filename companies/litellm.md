@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-32 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 18, 2026.
+36 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 19, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [LiteLLM v1.106.11](https://deployedbyai.com/log/2b0ce4fb24fd/litellm-v1-106-11/?k=repo) | LiteLLM v1.106.11 released with fixes for Responses system prompts and GPT-6.2 prompt caching. | [LiteLLM, LiteLLM v1.106.11](https://github.com/BerriAI/litellm/releases/tag/v1.106.11) |
+| 2026-11-19 | [LiteLLM v1.108.12](https://deployedbyai.com/log/79e58ed652d4/litellm-v1-108-12/?k=repo) | LiteLLM v1.108.12 released with fixes for Anthropic, Azure AI, Responses, guardrails, and Vertex AI. | [LiteLLM, LiteLLM v1.108.12](https://github.com/BerriAI/litellm/releases/tag/v1.108.12) |
+| 2026-11-19 | [LiteLLM v1.109.2](https://deployedbyai.com/log/0e60b0deaa45/litellm-v1-109-2/?k=repo) | LiteLLM v1.109.2 released with 16 merged fixes backported to stable. | [LiteLLM, LiteLLM v1.109.2](https://github.com/BerriAI/litellm/releases/tag/v1.109.2) |
+| 2026-11-19 | [LiteLLM v1.110.1](https://deployedbyai.com/log/fed4dba7300e/litellm-v1-110-1/?k=repo) | LiteLLM v1.110.1 restores GPT-6.2 prompt caching on the 1.110 stable branch. | [LiteLLM, LiteLLM v1.110.1](https://github.com/BerriAI/litellm/releases/tag/v1.110.1) |
 | 2026-11-18 | [LiteLLM v1.110.0](https://deployedbyai.com/log/5cbf77bbb643/litellm-v1-110-0/?k=repo) | LiteLLM v1.110.0 ships fixes for Gemini, Anthropic, Bedrock, proxy, and MCP handling. | [LiteLLM, LiteLLM v1.110.0](https://github.com/BerriAI/litellm/releases/tag/v1.110.0) |
 | 2026-11-17 | [LiteLLM 1.108.11 (LTS)](https://deployedbyai.com/log/708e580b0944/litellm-1-108-11-lts/?k=repo) | LiteLLM 1.108.11 LTS released with 22 PRs: 1 added, 14 fixed, 2 changed. | [LiteLLM, LiteLLM 1.108.11 (LTS)](https://github.com/BerriAI/litellm/releases/tag/v1.108.11) |
 | 2026-11-16 | [LiteLLM v1.108.10](https://deployedbyai.com/log/d4ebdc6ff56b/litellm-v1-108-10/?k=repo) | LiteLLM v1.108.10 released with backported fixes for OpenAI, Vertex AI, and cost tracking. | [LiteLLM, LiteLLM v1.108.10](https://github.com/BerriAI/litellm/releases/tag/v1.108.10) |

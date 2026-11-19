@@ -1,6 +1,6 @@
 # Pydantic in The Deploy Log
 
-21 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 17, 2026.
+22 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 19, 2026.
 
 The same rows are on [the Pydantic page of the record](https://deployedbyai.com/log/company/49425b50f21d/pydantic/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Pydantic page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [Pydantic AI v2.71.0](https://deployedbyai.com/log/fc7058abef38/pydantic-ai-v2-71-0/?k=repo) | Pydantic AI v2.71.0 released with new providers, features, and compatibility changes. | [Pydantic, Pydantic AI v2.71.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.71.0) |
 | 2026-11-17 | [Pydantic AI v2.69.0](https://deployedbyai.com/log/a7dce0520c66/pydantic-ai-v2-69-0/?k=repo) | Pydantic AI v2.69.0 adds Gemini 4 Hydrogen support on GoogleModel and GroqModel service\_tier support. | [Pydantic, Pydantic AI v2.69.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0) |
 | 2026-11-17 | [Pydantic AI v2.70.0](https://deployedbyai.com/log/b8ac6dec096f/pydantic-ai-v2-70-0/?k=repo) | Pydantic AI v2.70.0 adds service tier forwarding, HuggingFace logprobs, skill file reading, and more. | [Pydantic, Pydantic AI v2.70.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0) |
 | 2026-11-12 | [Pydantic AI v2.68.0](https://deployedbyai.com/log/d37044503f65/pydantic-ai-v2-68-0/?k=repo) | Pydantic AI v2.68.0 released with conversation store, streamed cost for Google and Bedrock models, durable sub-agent delegations, and RefineOutput harness capability. | [Pydantic, Pydantic AI v2.68.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.68.0) |

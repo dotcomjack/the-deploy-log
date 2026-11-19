@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-226 rows in The Deploy Log are filed under Amazon Web Services. 220 carry a publisher's date, from September 16, 2026 to November 18, 2026, and 6 are placed by their edition. 1 of those dates has not yet come in New York.
+227 rows in The Deploy Log are filed under Amazon Web Services. 221 carry a publisher's date, from September 16, 2026 to November 19, 2026, and 6 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [AWS Transform source actions](https://deployedbyai.com/log/f441dfbcb0ef/aws-transform-source-actions/?k=repo) | AWS Transform now automates source preparation and post-launch actions for migrations, available in all AWS Regions where AWS Transform for migrations is available. | [Amazon Web Services, AWS Transform source actions](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-automates-source-actions/) |
+| 2026-11-19 | [SageMaker AI Serverless FFT](https://deployedbyai.com/log/e681a18d9d95/sagemaker-ai-serverless-fft/?k=repo) | Full Fine-Tuning is now supported on SageMaker AI Serverless Model Customization with no GPU provisioning or cluster setup. | [Amazon Web Services, SageMaker AI Serverless FFT](https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/) |
 | 2026-11-18 | [AgentCore Identity private CA support](https://deployedbyai.com/log/05e662fbf26d/agentcore-identity-private-ca-support/?k=repo) | AgentCore Identity now supports private CA certificates for private identity providers, stored in Secrets Manager or S3. | [Amazon Web Services, AgentCore Identity private CA support](https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity/) |
 | 2026-11-18 | [Amazon OpenSearch Memory](https://deployedbyai.com/log/8390448e948e/amazon-opensearch-memory/?k=repo) | Amazon OpenSearch Memory is generally available for adding persistent memory to AI agents. | [Amazon Web Services, Amazon OpenSearch Memory](https://aws.amazon.com/blogs/big-data/introducing-amazon-opensearch-memory-persistent-memory-for-ai-agents/) |
 | 2026-11-18 | [CloudFront Functions network calls](https://deployedbyai.com/log/82004961ca72/cloudfront-functions-network-calls/?k=repo) | CloudFront Functions adds cf.fetch() and cf.beacon() for edge network calls, including authorizing MCP requests against permissions and budget. | [Amazon Web Services, CloudFront Functions network calls](https://aws.amazon.com/blogs/networking-and-content-delivery/introducing-network-calls-in-amazon-cloudfront-functions/) |
@@ -237,14 +239,6 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 | 2026-09-17 | [Amazon Corretto 27](https://deployedbyai.com/log/61c08117ce04/amazon-corretto-27/?k=repo) | Amazon Corretto 27 is now generally available, a new long-term support JDK distribution. | [Amazon Web Services, Amazon Corretto 27](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/) |
 | 2026-09-16 | [AWS Client VPN](https://deployedbyai.com/log/e89925de23ef/aws-client-vpn/?k=repo) | AWS Client VPN now supports MacOS 27 Golden Gate. | [Amazon Web Services, AWS Client VPN](https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/) |
 | 2026-09-16 | [Amazon SageMaker AI](https://deployedbyai.com/log/9a44e7ac9b21/amazon-sagemaker-ai/?k=repo) | Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3.5 Lightning. | [Amazon Web Services, Amazon SageMaker AI](https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/) |
-
-## Undated until its day
-
-1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
-
-| Row | What shipped | Source |
-|---|---|---|
-| [SageMaker AI Serverless FFT](https://deployedbyai.com/log/e681a18d9d95/sagemaker-ai-serverless-fft/?k=repo) | Full Fine-Tuning is now supported on SageMaker AI Serverless Model Customization with no GPU provisioning or cluster setup. | [Amazon Web Services, SageMaker AI Serverless FFT](https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/) |
 
 ## Placed by their edition
 

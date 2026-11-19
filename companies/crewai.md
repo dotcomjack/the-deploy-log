@@ -1,6 +1,6 @@
 # CrewAI in The Deploy Log
 
-11 rows in The Deploy Log are filed under CrewAI. Every one carries a publisher's date, from September 28, 2026 to November 18, 2026.
+12 rows in The Deploy Log are filed under CrewAI. Every one carries a publisher's date, from September 28, 2026 to November 19, 2026.
 
 The same rows are on [the CrewAI page of the record](https://deployedbyai.com/log/company/ba61ca23a00b/crewai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the CrewAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [CrewAI 1.15.43](https://deployedbyai.com/log/9681c878f3b1/crewai-1-15-43/?k=repo) | CrewAI 1.15.43 fixes detection of multimodal support for Claude 5. | [CrewAI, CrewAI 1.15.43](https://github.com/crewAIInc/crewAI/releases/tag/1.15.43) |
 | 2026-11-18 | [CrewAI 1.15.42](https://deployedbyai.com/log/485cd3c6dc6b/crewai-1-15-42/?k=repo) | CrewAI 1.15.42 makes ChromaDB optional, defaults knowledge to local Qdrant, and lets standalone agents pick tools later. | [CrewAI, CrewAI 1.15.42](https://github.com/crewAIInc/crewAI/releases/tag/1.15.42) |
 | 2026-11-12 | [CrewAI 1.15.41](https://deployedbyai.com/log/e28cf43c2c82/crewai-1-15-41/?k=repo) | CrewAI 1.15.41 allows approved private URL hosts and fixes PyMuPDF 2.x dependency. | [CrewAI, CrewAI 1.15.41](https://github.com/crewAIInc/crewAI/releases/tag/1.15.41) |
 | 2026-11-11 | [CrewAI 1.15.40](https://deployedbyai.com/log/d01779be7696/crewai-1-15-40/?k=repo) | CrewAI 1.15.40 removes chromadb from the embedding function layer and adds exact historical state lookup by row id. | [CrewAI, CrewAI 1.15.40](https://github.com/crewAIInc/crewAI/releases/tag/1.15.40) |

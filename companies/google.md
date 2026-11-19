@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-80 rows in The Deploy Log are filed under Google. 71 carry a publisher's date, from September 23, 2026 to November 18, 2026, and 9 are placed by their edition. 1 of those dates has not yet come in New York.
+80 rows in The Deploy Log are filed under Google. 71 carry a publisher's date, from September 23, 2026 to November 19, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [Gemini CLI v0.69.0](https://deployedbyai.com/log/8211e4d812c9/gemini-cli-v0-69-0/?k=repo) | Adds /stats heatmap subcommand for daily token usage and standalone theme.json configuration for custom themes. | [Google, Gemini CLI v0.69.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0) |
 | 2026-11-18 | [ADK Java v1.15.0](https://deployedbyai.com/log/a342c3235b03/adk-java-v1-15-0/?k=repo) | ADK Java v1.15.0 adds FunctionNode, ClassifierNode, LlmClassifier, and workflow routing features. | [Google, ADK Java v1.15.0](https://github.com/google/adk-java/releases/tag/v1.15.0) |
 | 2026-11-18 | [Gemini app on lower-memory Android](https://deployedbyai.com/log/4a3155e8e63b/gemini-app-on-lower-memory-android/?k=repo) | Gemini app now available on eligible Android (Go edition) devices, with Gemini Live in 45+ languages and Nano Banana image creation. | [Google, Gemini app on lower-memory Android](https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/) |
 | 2026-11-18 | [Google js-genai v3.5.0](https://deployedbyai.com/log/96d5d530b71f/google-js-genai-v3-5-0/?k=repo) | Google js-genai v3.5.0 adds self-hosted BYOS mode, system\_instruction, custom\_config, and Live Interactions SDK support. | [Google, Google js-genai v3.5.0](https://github.com/googleapis/js-genai/releases/tag/v3.5.0) |
@@ -88,14 +89,6 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 | 2026-09-30 | [js-genai v2.25.0](https://deployedbyai.com/log/9616f0163eee/js-genai-v2-25-0/?k=repo) | Adds Gemini 3.8 Flash TTS and Gemini 3.8 Flash Lite TTS models to SDKs. | [Google, js-genai v2.25.0](https://github.com/googleapis/js-genai/releases/tag/v2.25.0) |
 | 2026-09-24 | [Android Studio BYOA](https://deployedbyai.com/log/853db9d924da/android-studio-byoa/?k=repo) | Android Studio Canary now supports Bring Your Own Agent with Claude Agent, OpenAI Codex, and Google Antigravity. | [Google, Android Studio BYOA](https://android-developers.googleblog.com/2026/09/build-your-way-use-any-ai-agent-in-android-studio.html) |
 | 2026-09-23 | [Gemini Connected Apps](https://deployedbyai.com/log/908486a914a8/gemini-connected-apps/?k=repo) | A new wave of Connected Apps is rolling out to Gemini. | [Google, Gemini Connected Apps](https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/) |
-
-## Undated until its day
-
-1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
-
-| Row | What shipped | Source |
-|---|---|---|
-| [Gemini CLI v0.69.0](https://deployedbyai.com/log/8211e4d812c9/gemini-cli-v0-69-0/?k=repo) | Adds /stats heatmap subcommand for daily token usage and standalone theme.json configuration for custom themes. | [Google, Gemini CLI v0.69.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0) |
 
 ## Placed by their edition
 
