@@ -1,6 +1,6 @@
 # Snowflake in The Deploy Log
 
-11 rows in The Deploy Log are filed under Snowflake. Every one carries a publisher's date, from October 2, 2026 to November 18, 2026.
+12 rows in The Deploy Log are filed under Snowflake. Every one carries a publisher's date, from October 2, 2026 to November 18, 2026.
 
 The same rows are on [the Snowflake page of the record](https://deployedbyai.com/log/company/2aea06ccb0d8/snowflake/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Snowflake page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Cortex AI Functions Optimization](https://deployedbyai.com/log/8f1e26ffcc22/cortex-ai-functions-optimization/?k=repo) | Snowflake released AI\_FUNCTION\_EVALUATION and AI\_FUNCTION\_OPTIMIZATION to measure quality and reduce inference costs for Cortex AI Functions. | [Snowflake, Cortex AI Functions Optimization](https://www.snowflake.com/content/snowflake-site/global/en/blog/ai-functions-optimization) |
 | 2026-11-18 | [Video AI on Snowflake](https://deployedbyai.com/log/1d871002013f/video-ai-on-snowflake/?k=repo) | Snowflake Cortex AI Functions now include TwelveLabs video-native AI for searching and analyzing video with SQL. | [Snowflake, Video AI on Snowflake](https://www.snowflake.com/content/snowflake-site/global/en/blog/cortex-watch-hear-understand-video-twelvelabs) |
 | 2026-11-16 | [Snowflake Open Data Sharing](https://deployedbyai.com/log/d22c69e5d7c7/snowflake-open-data-sharing/?k=repo) | Snowflake AI &amp; Data Sharing now lets providers share Apache Iceberg tables with any consumers using Iceberg REST Catalog-compatible clients. | [Snowflake, Snowflake Open Data Sharing](https://www.snowflake.com/content/snowflake-site/global/en/blog/open-data-sharing-iceberg-rest-catalog) |
 | 2026-11-12 | [Inkling 2 Small in Cortex Training](https://deployedbyai.com/log/67c0be315177/inkling-2-small-in-cortex-training/?k=repo) | Inkling 2 Small, a 594B-parameter MoE model, is available in Snowflake Cortex Training public preview for post-training and inference. | [Snowflake, Inkling 2 Small in Cortex Training](https://www.snowflake.com/content/snowflake-site/global/en/blog/inkling-2-small-snowflake-cortex-training) |

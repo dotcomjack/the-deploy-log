@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-125 rows in The Deploy Log are filed under GitHub. 115 carry a publisher's date, from September 17, 2026 to November 18, 2026, and 10 are placed by their edition.
+127 rows in The Deploy Log are filed under GitHub. 117 carry a publisher's date, from September 17, 2026 to November 18, 2026, and 10 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Copilot MCP connectors](https://deployedbyai.com/log/c98c70e6db3c/copilot-mcp-connectors/?k=repo) | Eight new GitHub-verified MCP connectors for Copilot are available in public preview. | [GitHub, Copilot MCP connectors](https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot) |
+| 2026-11-18 | [Gemini 4 Neon](https://deployedbyai.com/log/c9f2f9dfb260/gemini-4-neon/?k=repo) | Gemini 4 Neon is generally available in GitHub Copilot for Pro+, Max, Business, and Enterprise users. | [GitHub, Gemini 4 Neon](https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot) |
 | 2026-11-18 | [GitHub Copilot team plugin defaults](https://deployedbyai.com/log/fc063eca0dc7/github-copilot-team-plugin-defaults/?k=repo) | Team customizations for GitHub Copilot plugins are generally available for organization teams. | [GitHub, GitHub Copilot team plugin defaults](https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team) |
 | 2026-11-17 | [Copilot CLI v1.0.113](https://deployedbyai.com/log/fd8036217d55/copilot-cli-v1-0-113/?k=repo) | Administrators can disable built-in Browser Use with the managed setting features.browserUse, including in running sessions. | [GitHub, Copilot CLI v1.0.113](https://github.com/github/copilot-cli/releases/tag/v1.0.113) |
 | 2026-11-17 | [Copilot activity in Microsoft Agent 365](https://deployedbyai.com/log/9c311966e20d/copilot-activity-in-microsoft-agent-365/?k=repo) | GitHub Enterprise Cloud customers with Enterprise Managed Users can stream GitHub Copilot agent activity into Microsoft Agent 365. | [GitHub, Copilot activity in Microsoft Agent 365](https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365) |

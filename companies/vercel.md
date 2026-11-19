@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-328 rows in The Deploy Log are filed under Vercel. 131 carry a publisher's date, from September 18, 2025 to November 17, 2026, and 197 are placed by their edition.
+331 rows in The Deploy Log are filed under Vercel. 134 carry a publisher's date, from September 18, 2025 to November 18, 2026, and 197 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Gemini 4 Neon on AI Gateway](https://deployedbyai.com/log/3cc7695dcdf7/gemini-4-neon-on-ai-gateway/?k=repo) | Google's Gemini 4 Neon model is now available on Vercel AI Gateway with a 1M-token context window. | [Vercel, Gemini 4 Neon on AI Gateway](https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway) |
+| 2026-11-18 | [Parallel web search on AI Gateway](https://deployedbyai.com/log/2d1afa691aeb/parallel-web-search-on-ai-gateway/?k=repo) | Parallel fast mode web search is free on AI Gateway through January 31, 2027, and is now the default for eve agents. | [Vercel, Parallel web search on AI Gateway](https://vercel.com/changelog/parallel-web-search-is-free-on-ai-gateway-and-eve-through-january-31) |
+| 2026-11-18 | [Vercel Board](https://deployedbyai.com/log/608b25b349a2/vercel-board/?k=repo) | Vercel Board, an experimental agentic primitive for coordinating agent fleets, launched with CLI and JavaScript SDK. | [Vercel, Vercel Board](https://vercel.com/blog/introducing-vercel-board) |
 | 2026-11-17 | [Decision-1.1](https://deployedbyai.com/log/b99385b19c60/decision-1-1/?k=repo) | Decision-1.1 from Microsoft AI is now available on AI Gateway, returning structured answers for routing, workflow steps, and grading. | [Vercel, Decision-1.1](https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway) |
 | 2026-11-17 | [GPT-6.2 Astra and Sol](https://deployedbyai.com/log/a51b68d45ebd/gpt-6-2-astra-and-sol/?k=repo) | GPT-6.2 Astra and GPT-6.2 Sol from OpenAI are now available on AI Gateway, with Astra's Ultrafast output-token price 60% lower than GPT-6 Astra's. | [Vercel, GPT-6.2 Astra and Sol](https://vercel.com/changelog/gpt-6-2-astra-and-sol-now-available-on-ai-gateway) |
 | 2026-11-17 | [MAI-Image-2.7 and MAI-Image-2.7-Flash](https://deployedbyai.com/log/993ce60b1016/mai-image-2-7-and-mai-image-2-7-flash/?k=repo) | Microsoft's MAI-Image-2.7 and MAI-Image-2.7-Flash are now available in public preview on AI Gateway, with 2048 x 2048 output and transparent backgrounds. | [Vercel, MAI-Image-2.7 and MAI-Image-2.7-Flash](https://vercel.com/changelog/mai-image-2-7-and-mai-image-2-7-flash-now-available-on-ai-gateway) |

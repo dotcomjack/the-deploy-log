@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-77 rows in The Deploy Log are filed under Google. 68 carry a publisher's date, from September 23, 2026 to November 18, 2026, and 9 are placed by their edition.
+80 rows in The Deploy Log are filed under Google. 71 carry a publisher's date, from September 23, 2026 to November 18, 2026, and 9 are placed by their edition. 1 of those dates has not yet come in New York.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -13,8 +13,10 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 | 2026-11-18 | [Google js-genai v3.5.0](https://deployedbyai.com/log/96d5d530b71f/google-js-genai-v3-5-0/?k=repo) | Google js-genai v3.5.0 adds self-hosted BYOS mode, system\_instruction, custom\_config, and Live Interactions SDK support. | [Google, Google js-genai v3.5.0](https://github.com/googleapis/js-genai/releases/tag/v3.5.0) |
 | 2026-11-18 | [Google js-genai v3.6.0](https://deployedbyai.com/log/1b0744dd478b/google-js-genai-v3-6-0/?k=repo) | Google js-genai v3.6.0 adds tool retrieval and function result schemas in the public SDK. | [Google, Google js-genai v3.6.0](https://github.com/googleapis/js-genai/releases/tag/v3.6.0) |
 | 2026-11-18 | [java-genai v2.5.0](https://deployedbyai.com/log/dcc540fbc8ad/java-genai-v2-5-0/?k=repo) | Adds history parameter to Chats.create, self-hosted BYOS mode, tool retrieval and function result schemas. | [Google, java-genai v2.5.0](https://github.com/googleapis/java-genai/releases/tag/v2.5.0) |
+| 2026-11-18 | [js-genai v3.6.1](https://deployedbyai.com/log/d843f26f7d1e/js-genai-v3-6-1/?k=repo) | Google's js-genai SDK v3.6.1 fixes an SDK enum update. | [Google, js-genai v3.6.1](https://github.com/googleapis/js-genai/releases/tag/v3.6.1) |
 | 2026-11-18 | [python-genai v3.5.0](https://deployedbyai.com/log/f2c73bc831d4/python-genai-v3-5-0/?k=repo) | python-genai v3.5.0 adds self-hosted BYOS mode, system\_instruction, custom\_config, environment\_key, and experimental Live Interactions SDK support. | [Google, python-genai v3.5.0](https://github.com/googleapis/python-genai/releases/tag/v3.5.0) |
 | 2026-11-18 | [python-genai v3.6.0](https://deployedbyai.com/log/880f696754f4/python-genai-v3-6-0/?k=repo) | Tool retrieval and function result schemas added to the public SDK. | [Google, python-genai v3.6.0](https://github.com/googleapis/python-genai/releases/tag/v3.6.0) |
+| 2026-11-18 | [python-genai v3.6.1](https://deployedbyai.com/log/72eba4cee37c/python-genai-v3-6-1/?k=repo) | python-genai v3.6.1 fixes an SDK enum update. | [Google, python-genai v3.6.1](https://github.com/googleapis/python-genai/releases/tag/v3.6.1) |
 | 2026-11-17 | [@google/genai v3.0.0](https://deployedbyai.com/log/91928adeef33/google-genai-v3-0-0/?k=repo) | Google released @google/genai v3.0.0, defaulting Gemini Developer API to v1 and requiring Node.js 22. | [Google, @google/genai v3.0.0](https://github.com/googleapis/js-genai/releases/tag/v3.0.0) |
 | 2026-11-17 | [Personal avatars in Google Vids](https://deployedbyai.com/log/682b7f0b727b/personal-avatars-in-google-vids/?k=repo) | Personal avatars in Google Vids are available to everyone with a personal Google account at no cost. | [Google, Personal avatars in Google Vids](https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/) |
 | 2026-11-17 | [Temporary threads in AI Mode](https://deployedbyai.com/log/178aceaa8f75/temporary-threads-in-ai-mode/?k=repo) | Temporary threads are rolling out globally on desktop and mobile browsers across all languages supported in AI Mode. | [Google, Temporary threads in AI Mode](https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/) |
@@ -86,6 +88,14 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 | 2026-09-30 | [js-genai v2.25.0](https://deployedbyai.com/log/9616f0163eee/js-genai-v2-25-0/?k=repo) | Adds Gemini 3.8 Flash TTS and Gemini 3.8 Flash Lite TTS models to SDKs. | [Google, js-genai v2.25.0](https://github.com/googleapis/js-genai/releases/tag/v2.25.0) |
 | 2026-09-24 | [Android Studio BYOA](https://deployedbyai.com/log/853db9d924da/android-studio-byoa/?k=repo) | Android Studio Canary now supports Bring Your Own Agent with Claude Agent, OpenAI Codex, and Google Antigravity. | [Google, Android Studio BYOA](https://android-developers.googleblog.com/2026/09/build-your-way-use-any-ai-agent-in-android-studio.html) |
 | 2026-09-23 | [Gemini Connected Apps](https://deployedbyai.com/log/908486a914a8/gemini-connected-apps/?k=repo) | A new wave of Connected Apps is rolling out to Gemini. | [Google, Gemini Connected Apps](https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/) |
+
+## Undated until its day
+
+1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [Gemini CLI v0.69.0](https://deployedbyai.com/log/8211e4d812c9/gemini-cli-v0-69-0/?k=repo) | Adds /stats heatmap subcommand for daily token usage and standalone theme.json configuration for custom themes. | [Google, Gemini CLI v0.69.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0) |
 
 ## Placed by their edition
 

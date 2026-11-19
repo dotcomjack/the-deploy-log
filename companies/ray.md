@@ -1,6 +1,6 @@
 # Ray in The Deploy Log
 
-4 rows in The Deploy Log are filed under Ray. Every one carries a publisher's date, from October 2, 2026 to November 4, 2026.
+5 rows in The Deploy Log are filed under Ray. Every one carries a publisher's date, from October 2, 2026 to November 18, 2026.
 
 The same rows are on [the Ray page of the record](https://deployedbyai.com/log/company/d4a327ffd86a/ray/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Ray page of the record](https://deployedbyai.com/log/c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Ray 2.58.2](https://deployedbyai.com/log/ba2dc898e4ab/ray-2-58-2/?k=repo) | Ray 2.58.2 with security fixes for eMudhra CA compromise, aiohttp, Brotli, and idna vulnerabilities. | [Ray, Ray 2.58.2](https://github.com/ray-project/ray/releases/tag/ray-2.58.2) |
 | 2026-11-04 | [Ray 2.60.0](https://deployedbyai.com/log/8b639ae29a82/ray-2-60-0/?k=repo) | Ray 2.60.0 makes shuffle v2 default for joins and aggregations, sizes Parquet read tasks from row-group metadata, and adds max\_surge\_percent for Ray Serve rolling updates. | [Ray, Ray 2.60.0](https://github.com/ray-project/ray/releases/tag/ray-2.60.0) |
 
 ## October 2026

@@ -1,6 +1,6 @@
 # OpenRouter in The Deploy Log
 
-47 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 17, 2026.
+48 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 18, 2026.
 
 The same rows are on [the OpenRouter page of the record](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the OpenRouter page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Gemini 4 Neon on OpenRouter](https://deployedbyai.com/log/346305d71f5a/gemini-4-neon-on-openrouter/?k=repo) | Gemini 4 Neon is available on OpenRouter at <span>$</span>3/<span>$</span>15 per 1M tokens with 1M context. | [OpenRouter, Gemini 4 Neon on OpenRouter](https://openrouter.ai/google/gemini-4-neon) |
 | 2026-11-17 | [GPT-6.2 Astra](https://deployedbyai.com/log/2e70d4163d4b/gpt-6-2-astra/?k=repo) | GPT-6.2 Astra is available on OpenRouter at <span>$</span>8 per 1M input and <span>$</span>40 per 1M output with 1.1M context. | [OpenRouter, GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra) |
 | 2026-11-17 | [GPT-6.2 Astra Pro](https://deployedbyai.com/log/2e5c6e7eb5fc/gpt-6-2-astra-pro/?k=repo) | GPT-6.2 Astra Pro is available on OpenRouter at <span>$</span>8 per 1M input and <span>$</span>40 per 1M output with 1.1M context. | [OpenRouter, GPT-6.2 Astra Pro](https://openrouter.ai/openai/gpt-6.2-astra-pro) |
 | 2026-11-17 | [GPT-6.2 Sol Pro](https://deployedbyai.com/log/37726ce3a0e0/gpt-6-2-sol-pro/?k=repo) | GPT-6.2 Sol Pro is available on OpenRouter at <span>$</span>2 per 1M input and <span>$</span>10 per 1M output with 1.1M context. | [OpenRouter, GPT-6.2 Sol Pro](https://openrouter.ai/openai/gpt-6.2-sol-pro) |

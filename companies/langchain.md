@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-108 rows in The Deploy Log are filed under LangChain. 107 carry a publisher's date, from September 20, 2026 to November 18, 2026, and 1 is placed by its edition.
+110 rows in The Deploy Log are filed under LangChain. 109 carry a publisher's date, from September 20, 2026 to November 18, 2026, and 1 is placed by its edition. 1 of those dates has not yet come in New York.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -11,6 +11,7 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 | 2026-11-18 | [deepagents 0.7.40](https://deployedbyai.com/log/e28fb4419fed/deepagents-0-7-40/?k=repo) | deepagents 0.7.40 fixes timed-out shell command output, cancelled command cleanup, and warning-filter races, and speeds up plugin discovery. | [LangChain, deepagents 0.7.40](https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.40) |
 | 2026-11-18 | [deepagents-code 0.2.11](https://deployedbyai.com/log/d8e819d690cb/deepagents-code-0-2-11/?k=repo) | deepagents-code 0.2.11 honors MCP hook approval policies and waits for background worker cleanup on shutdown. | [LangChain, deepagents-code 0.2.11](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.11) |
 | 2026-11-18 | [langchain 1.5.1](https://deployedbyai.com/log/8636e9c0fcd1/langchain-1-5-1/?k=repo) | langchain 1.5.1 released with warning-filter race fixes. | [LangChain, langchain 1.5.1](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1) |
+| 2026-11-18 | [langchain 1.5.2](https://deployedbyai.com/log/8a48351c3669/langchain-1-5-2/?k=repo) | langchain 1.5.2 released with synthetic HITL tool messages tagged with source metadata. | [LangChain, langchain 1.5.2](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.2) |
 | 2026-11-18 | [langchain-anthropic 1.7.11](https://deployedbyai.com/log/a1c8aef18e72/langchain-anthropic-1-7-11/?k=repo) | langchain-anthropic 1.7.11 released with Claude Fable and Mythos 5.2 support. | [LangChain, langchain-anthropic 1.7.11](https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11) |
 | 2026-11-18 | [langchain-core 1.8.3](https://deployedbyai.com/log/41cc2d3b61d1/langchain-core-1-8-3/?k=repo) | langchain-core 1.8.3 released with warning suppression context-local fix. | [LangChain, langchain-core 1.8.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.3) |
 | 2026-11-18 | [langchain-deepseek 1.2.1](https://deployedbyai.com/log/f11fde67fb76/langchain-deepseek-1-2-1/?k=repo) | langchain-deepseek 1.2.1 sends langsmith\_gateway headers from the client. | [LangChain, langchain-deepseek 1.2.1](https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.1) |
@@ -125,6 +126,14 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 | 2026-09-21 | [langchain-core 1.6.4](https://deployedbyai.com/log/c18cb99967ce/langchain-core-1-6-4/?k=repo) | langchain-core 1.6.4 released with deprecation of chat message history. | [LangChain, langchain-core 1.6.4](https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.4) |
 | 2026-09-21 | [langchain-openai 1.6.3](https://deployedbyai.com/log/b7b4939c9234/langchain-openai-1-6-3/?k=repo) | langchain-openai 1.6.3 released with support for GPT-6 request constraints. | [LangChain, langchain-openai 1.6.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.3) |
 | 2026-09-20 | [langchain-typesafe](https://deployedbyai.com/log/f33b8699cf1f/langchain-typesafe/?k=repo) | langchain-typesafe 0.0.1a3 released with TypeSafeClassifier and experimental middleware. | [LangChain, langchain-typesafe](https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1a3) |
+
+## Undated until its day
+
+1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [langchain-openai 1.8.3](https://deployedbyai.com/log/84960b5f1bdc/langchain-openai-1-8-3/?k=repo) | langchain-openai 1.8.3 enables Codex prompt caching on GPT-6.2. | [LangChain, langchain-openai 1.8.3](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3) |
 
 ## Placed by their edition
 

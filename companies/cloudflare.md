@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-73 rows in The Deploy Log are filed under Cloudflare. 64 carry a publisher's date, from August 13, 2026 to November 17, 2026, and 9 are placed by their edition.
+75 rows in The Deploy Log are filed under Cloudflare. 66 carry a publisher's date, from August 13, 2026 to November 18, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [Agent Lee file attachments](https://deployedbyai.com/log/2246272080f7/agent-lee-file-attachments/?k=repo) | Agent Lee now accepts PNG, JPEG, WebP, PDF, and text files up to 100 MiB, four per message. | [Cloudflare, Agent Lee file attachments](https://developers.cloudflare.com/changelog/post/2026-11-18-agent-lee-attachments/) |
+| 2026-11-18 | [Clairic and Clairic-flash open-weight](https://deployedbyai.com/log/560beee73cbe/clairic-and-clairic-flash-open-weight/?k=repo) | Updated Clairic and Clairic-flash models are now open-weight from the Workers AI Superintelligence team. | [Cloudflare, Clairic and Clairic-flash open-weight](https://blog.cloudflare.com/open-clairic/) |
 | 2026-11-17 | [AI Search file summaries](https://deployedbyai.com/log/c4a62b7445ec/ai-search-file-summaries/?k=repo) | AI Search can now generate file summaries, topics, and keywords during indexing, with LLM costs billed to the account. | [Cloudflare, AI Search file summaries](https://developers.cloudflare.com/changelog/post/2026-11-17-file-summaries/) |
 | 2026-11-13 | [Browser Run Quick Actions](https://deployedbyai.com/log/e3d69186694b/browser-run-quick-actions/?k=repo) | Browser Run Quick Actions now work locally under npx wrangler dev, with json emulated and Kitesurf unsupported. | [Cloudflare, Browser Run Quick Actions](https://developers.cloudflare.com/changelog/post/2026-11-13-quick-actions-local-dev/) |
 | 2026-11-13 | [Cloudflare AI Search Terraform](https://deployedbyai.com/log/15b2eb92d767/cloudflare-ai-search-terraform/?k=repo) | Cloudflare Terraform provider v5.29.0 adds a namespace argument to manage AI Search instances in any namespace. | [Cloudflare, Cloudflare AI Search Terraform](https://developers.cloudflare.com/changelog/post/2026-11-13-terraform-namespaces/) |

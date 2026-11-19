@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-231 rows in The Deploy Log are filed under Anthropic. 186 carry a publisher's date, from October 16, 2025 to November 18, 2026, and 45 are placed by their edition.
+233 rows in The Deploy Log are filed under Anthropic. 188 carry a publisher's date, from October 16, 2025 to November 18, 2026, and 45 are placed by their edition. 2 of those dates have not yet come in New York.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -239,6 +239,15 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 |---|---|---|---|
 | 2025-10-27 | [Claude for Financial Services](https://deployedbyai.com/log/e1c9c05198a6/claude-for-financial-services/?k=repo) | Anthropic expanded Claude for Financial Services with an Excel add-in, new connectors, and 6 Agent Skills, topping the Finance Agent benchmark at 55.3% accuracy. | [Anthropic, Advancing Claude for Financial Services](https://www.anthropic.com/news/advancing-claude-for-financial-services) |
 | 2025-10-16 | [Agent Skills](https://deployedbyai.com/log/0a88c001a119/agent-skills/?k=repo) | Agent Skills are folders with instructions, scripts, and resources that Claude loads when relevant, available across Claude apps, Claude Code, and API, with a new /v1/skills endpoint for versioning. | [Anthropic, Introducing Agent Skills](https://www.anthropic.com/news/skills) |
+
+## Undated until its day
+
+2 rows carry a publisher's date that has not yet come in New York. The record prints no date for them until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [Claude Agent SDK v0.3.328](https://deployedbyai.com/log/56014116ab8e/claude-agent-sdk-v0-3-328/?k=repo) | Adds onFailure to mcp\_tool hooks and updates to parity with Claude Code v2.1.328. | [Anthropic, Claude Agent SDK v0.3.328](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.328) |
+| [Claude Code v2.1.328](https://deployedbyai.com/log/bcf4f2d0e3ea/claude-code-v2-1-328/?k=repo) | Auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, and Claude apps gateway. | [Anthropic, Claude Code v2.1.328](https://github.com/anthropics/claude-code/releases/tag/v2.1.328) |
 
 ## Placed by their edition
 

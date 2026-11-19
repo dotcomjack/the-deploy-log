@@ -1,6 +1,6 @@
 # Roboflow in The Deploy Log
 
-11 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 13, 2026.
+12 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 18, 2026.
 
 The same rows are on [the Roboflow page of the record](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Roboflow page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-18 | [supervision 0.32.0](https://deployedbyai.com/log/08c9257bc569/supervision-0-32-0/?k=repo) | supervision 0.32.0 adds zone entry/exit counting, dwell time, and semantic segmentation loading. | [Roboflow, supervision 0.32.0](https://github.com/roboflow/supervision/releases/tag/0.32.0) |
 | 2026-11-13 | [Roboflow Inference v1.8.5](https://deployedbyai.com/log/f64f30b77458/roboflow-inference-v1-8-5/?k=repo) | Roboflow Inference v1.8.5 released with ONNX dtype fixes, OpenAI Decisions block, Databricks SQL image source, and Python 3.12 images. | [Roboflow, Roboflow Inference v1.8.5](https://github.com/roboflow/inference/releases/tag/v1.8.5) |
 | 2026-11-11 | [supervision-0.31.7](https://deployedbyai.com/log/85a8ff1992e5/supervision-0-31-7/?k=repo) | supervision 0.31.7 fixes mAP matching, key point and CSV inputs, and zone and export edge cases. | [Roboflow, supervision-0.31.7](https://github.com/roboflow/supervision/releases/tag/0.31.7) |
 | 2026-11-10 | [supervision-0.31.6](https://deployedbyai.com/log/00ec0964de10/supervision-0-31-6/?k=repo) | supervision 0.31.6 fixes empty-frame keypoints, loads more Transformers models, and draws on grayscale and palette scenes. | [Roboflow, supervision-0.31.6](https://github.com/roboflow/supervision/releases/tag/0.31.6) |
