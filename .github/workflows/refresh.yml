@@ -13,6 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 build.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: commit if changed
         run: |
           git add data.csv data.json README.md CITATION.cff

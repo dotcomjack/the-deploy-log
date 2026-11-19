@@ -17,6 +17,7 @@ import posixpath
 import re
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.request
 import zoneinfo
@@ -272,17 +273,60 @@ def example_answer(call, args, tools, rows):
     return shown, len(items) - 1, len(lines) - kept
 
 
-def latest_release():
-    """The newest dated release of this repository and the names of its files, or None when GitHub does not answer
-    (the line is then left out)."""
-    req = urllib.request.Request("https://api.github.com/repos/dotcomjack/the-deploy-log/releases/latest",
-                                 headers={"User-Agent": UA, "Accept": "application/vnd.github+json"})
+def release_line(tag, url):
+    """The README's sentence about the newest dated release. kept_release() reads the same sentence back."""
+    return (f"The newest dated release, [{tag}]({url}), carries `data.csv` and `data.json` as "
+            f"files; every release is at {REPO}/releases")
+
+
+def kept_release(text):
+    """The release a README already names, read back out of its own sentence, or None when it carries none. A tag
+    and a URL count only when they print that sentence again byte for byte, so a kept line never moves."""
+    for m in re.finditer(r"^The newest dated release, \[([^\]\n]+)\]\(([^)\s]+)\), .*$", text, flags=re.M):
+        if release_line(*m.groups()) == m.group(0):
+            return m.group(1), m.group(2), {"data.csv", "data.json"}
+    return None
+
+
+def latest_release(opener=urllib.request.urlopen, pause=time.sleep, readme_path="README.md", token=None):
+    """The newest dated release of this repository and the names of its files. The request carries the token the
+    environment holds (GITHUB_TOKEN, or GH_TOKEN) when it holds one, and is tried twice; a token GitHub refuses (401)
+    is left off the second try, since the endpoint is public. A 404 is an answer, not an outage: the repository has no
+    release, and the line is left out. When GitHub does not answer at all, the release the README on disk already
+    names is kept, so one failed request never takes its sentence out (the README is read where the build writes it,
+    the working directory). None only when there is no release or no such sentence to keep. A release that was not
+    read is said in one ::warning:: line and never stops the build: a stopped run would skip the day's data."""
+    if token is None:
+        token = (os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or "").strip()
+    why = ""
+    for attempt in (1, 2):
+        req = urllib.request.Request("https://api.github.com/repos/dotcomjack/the-deploy-log/releases/latest",
+                                     headers={"User-Agent": UA, "Accept": "application/vnd.github+json"})
+        if token:
+            req.add_unredirected_header("Authorization", f"Bearer {token}")  # never carried on to a redirect
+        try:
+            with opener(req, timeout=30) as r:
+                rel = json.loads(r.read().decode("utf-8"))
+            return rel["tag_name"], rel["html_url"], {a["name"] for a in rel.get("assets") or []}
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None
+            why = " ".join(repr(e).split())
+            if e.code == 401:
+                token = ""
+        except (urllib.error.URLError, ConnectionError, TimeoutError, KeyError, TypeError, ValueError) as e:
+            why = " ".join(repr(e).split())
+        if attempt == 1:
+            pause(3)
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            rel = json.loads(r.read().decode("utf-8"))
-        return rel["tag_name"], rel["html_url"], {a["name"] for a in rel.get("assets") or []}
-    except (urllib.error.URLError, ConnectionError, TimeoutError, KeyError, TypeError, ValueError):
-        return None
+        with open(readme_path, encoding="utf-8") as f:
+            kept = kept_release(f.read())
+    except (OSError, ValueError):
+        kept = None
+    print(f"::warning::the newest release was not read from GitHub ({why}); "
+          + (f"the README keeps the release line it had, naming {kept[0]}" if kept
+             else "the README had no release line to keep, so it carries none"))
+    return kept
 
 
 def arguments(tool):
@@ -1158,7 +1202,57 @@ def selftest():
     tied = company_lead(Counter({"A": 2, "B": 2}))
     many = company_lead(Counter({"A": 5, "B": 1, "C": 1, "D": 1, "E": 1}))
     top2 = company_lead(Counter({"A": 3, "B": 3, "C": 1}))
+    line = release_line("2026-11-18", f"{REPO}/releases/tag/2026-11-18")
+    kept = kept_release(f"## Load it\n\n{line}\n\n## API\n")
+    other = [kept_release(t) for t in ("## Load it\n", line.replace("carries", "holds"), line + " and more")]
+    # latest_release against a GitHub made here, no network: what it answers, what it is sent, what is kept.
+    import contextlib
+    api = "https://api.github.com/repos/dotcomjack/the-deploy-log/releases/latest"
+    good = json.dumps({"tag_name": "2026-11-19", "html_url": f"{REPO}/releases/tag/2026-11-19",
+                       "assets": [{"name": "data.csv"}, {"name": "data.json"}]}).encode()
+    def github(*answers):
+        """An opener that gives each answer in turn (bytes, or an exception to raise) and keeps what it was sent."""
+        sent, left = [], list(answers)
+        @contextlib.contextmanager
+        def opener(req, timeout=None):
+            sent.append(req.get_header("Authorization"))
+            ans = left.pop(0)
+            if isinstance(ans, Exception):
+                raise ans
+            yield io.BytesIO(ans)
+        return opener, sent
+    def asked(*answers, token="", text=None):
+        """(what latest_release returned, the Authorization header of each request, seconds paused, what it printed)."""
+        opener, sent = github(*answers)
+        naps, said = [], io.StringIO()
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, "README.md")
+            if text is not None:
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(text)
+            with contextlib.redirect_stdout(said):
+                got = latest_release(opener, naps.append, path, token)
+        return got, sent, naps, said.getvalue()
+    http = lambda code: urllib.error.HTTPError(api, code, "x", {}, None)
+    had = f"## Load it\n\n{line}\n"
+    gone = asked(http(404), token="t0", text=had)
+    refused = asked(http(401), good, token="t0", text=had)
+    down = asked(urllib.error.URLError("no route"), http(502), token="t0", text=had)
+    bare = asked(urllib.error.URLError("no route"), urllib.error.URLError("no route"), text="## Load it\n")
     checks = [
+        ("a README's release line is read back as the release that prints it again, byte for byte",
+         kept is not None and release_line(*kept[:2]) == line and kept[2] == {"data.csv", "data.json"}, kept),
+        ("a README with no release line, or with one in other words, keeps none", other == [None] * 3, other),
+        ("a 404 is an answer: no release, no line, one request, no pause and no warning, whatever the README held",
+         gone == (None, ["Bearer t0"], [], ""), gone),
+        ("a token GitHub refuses is left off the second request, which is then read",
+         refused[0] is not None and refused[0][0] == "2026-11-19" and refused[1] == ["Bearer t0", None]
+         and refused[2] == [3] and refused[3] == "", refused),
+        ("GitHub down twice keeps the release the README names, token on both requests, one pause, one warning",
+         down[0] is not None and down[0][0] == "2026-11-18" and down[1] == ["Bearer t0", "Bearer t0"] and down[2] == [3]
+         and down[3].count("::warning::") == 1 and "naming 2026-11-18" in down[3] and "t0" not in down[3], down),
+        ("GitHub down with no line to keep leaves the line out and says so, sending no header without a token",
+         bare[0] is None and bare[1] == [None, None] and "no release line to keep" in bare[3], bare),
         ("a one row week reads 'is listed', 'shipped it' and 'carries'", one == want, one),
         ("one company with several rows shipped all of them", company_lead(Counter({"NVIDIA": 3})) == "NVIDIA shipped all 3.", company_lead(Counter({"NVIDIA": 3}))),
         ("the full week reads as the week page does", full == "OpenAI shipped the most, 25 rows, then Amazon Web Services with 21.", full),
@@ -1222,8 +1316,7 @@ def readme(d, served, today, paged, locs, lanes, companies, tools, release, refu
             "```python", "import pandas as pd", "",
             f'rows = pd.read_csv("{url + "data.csv" if refused is False else raw}")', "```", ""]
     if release and {"data.csv", "data.json"} <= release[2]:
-        out += [f"The newest dated release, [{release[0]}]({release[1]}), carries `data.csv` and `data.json` as "
-                f"files; every release is at {REPO}/releases", ""]
+        out += [release_line(release[0], release[1]), ""]
     out += api(d, served, refused, today)
 
     # The example asks for this week's leading company, a name the record holds, never one typed here.
