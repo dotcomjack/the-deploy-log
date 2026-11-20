@@ -1,6 +1,6 @@
 # Retool in The Deploy Log
 
-14 rows in The Deploy Log are filed under Retool. Every one carries a publisher's date, from September 30, 2026 to November 17, 2026.
+15 rows in The Deploy Log are filed under Retool. Every one carries a publisher's date, from September 30, 2026 to November 19, 2026.
 
 The same rows are on [the Retool page of the record](https://deployedbyai.com/log/company/07a5ddfe307f/retool/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Retool page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [Gemini 4 Hydrogen in Retool](https://deployedbyai.com/log/bf5c7f07af89/gemini-4-hydrogen-in-retool/?k=repo) | Gemini 4 Hydrogen is available in Retool via Google and Google Vertex AI for AI resource queries, for Enterprise organizations that bring their own key. | [Retool, Gemini 4 Hydrogen in Retool](https://docs.retool.com/changelog/gemini-4-hydrogen) |
 | 2026-11-17 | [Gemini 4 Carbon and Claude Opus 5 in Retool](https://deployedbyai.com/log/57fa98f89975/gemini-4-carbon-and-claude-opus-5-in-retool/?k=repo) | Retool now supports Gemini 4 Carbon and Claude Opus 5 (Bedrock) for AI resource queries, Retool Agents, and building apps. | [Retool, Gemini 4 Carbon and Claude Opus 5 in Retool](https://docs.retool.com/changelog/2026/11/17/new-ai-models-) |
 | 2026-11-11 | [Claude Fable 5.2 in Retool](https://deployedbyai.com/log/d31ecb4b6cc4/claude-fable-5-2-in-retool/?k=repo) | Claude Fable 5.2 is available in Retool through Anthropic and Amazon Bedrock. | [Retool, Claude Fable 5.2 in Retool](https://docs.retool.com/changelog/claude-fable-5-2) |
 | 2026-11-03 | [Retool on Google Cloud Marketplace](https://deployedbyai.com/log/9df356db3c04/retool-on-google-cloud-marketplace/?k=repo) | Retool is now available on Google Cloud Marketplace, joining its existing AWS Marketplace listing. | [Retool, Retool on Google Cloud Marketplace](https://retool.com/blog/retool-google-cloud-marketplace-announcement) |

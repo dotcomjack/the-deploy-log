@@ -1,6 +1,6 @@
 # Mistral in The Deploy Log
 
-32 rows in The Deploy Log are filed under Mistral. 20 carry a publisher's date, from March 31, 2026 to November 18, 2026, and 12 are placed by their edition.
+33 rows in The Deploy Log are filed under Mistral. 21 carry a publisher's date, from March 31, 2026 to November 20, 2026, and 12 are placed by their edition.
 
 The same rows are on [the Mistral page of the record](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Mistral page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [Mistral Vibe v3.1.4](https://deployedbyai.com/log/62df2f33ee8b/mistral-vibe-v3-1-4/?k=repo) | Vibe v3.1.4 adds /mcp tool search, /thinking levels, a status rail, and a desktop app download. | [Mistral, Mistral Vibe v3.1.4](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.4) |
 | 2026-11-18 | [Mistral Vibe v3.1.3](https://deployedbyai.com/log/57f2e478341c/mistral-vibe-v3-1-3/?k=repo) | Mistral Vibe v3.1.3 adds goals, thinking levels, raw Markdown, hooks, loop manager, and trusted folders. | [Mistral, Mistral Vibe v3.1.3](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.3) |
 | 2026-11-10 | [mistral-vibe v3.1.2](https://deployedbyai.com/log/ffa3b2cdbe13/mistral-vibe-v3-1-2/?k=repo) | Plugin disable/enable settings and /skills listing with search, toggles, and registry skill pinning. | [Mistral, mistral-vibe v3.1.2](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.2) |
 | 2026-11-09 | [Mistral Vibe v3.1.1](https://deployedbyai.com/log/c1122837815c/mistral-vibe-v3-1-1/?k=repo) | Mistral Vibe v3.1.1 adds vibe-acp, Vim modes, sticky prompt, and pre-agent, notification, and session-start hooks. | [Mistral, Mistral Vibe v3.1.1](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.1) |

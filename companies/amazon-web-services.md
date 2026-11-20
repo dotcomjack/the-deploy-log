@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-256 rows in The Deploy Log are filed under Amazon Web Services. 250 carry a publisher's date, from September 16, 2026 to November 19, 2026, and 6 are placed by their edition.
+257 rows in The Deploy Log are filed under Amazon Web Services. 251 carry a publisher's date, from September 16, 2026 to November 20, 2026, and 6 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [AWS Transform .NET 11](https://deployedbyai.com/log/8c91b300281b/aws-transform-net-11/?k=repo) | .NET 11 support in AWS Transform for .NET is generally available, along with VB.NET, desktop and mobile project types, in eight AWS Regions at no additional cost. | [Amazon Web Services, AWS Transform .NET 11](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-windows-dotnet-11/) |
 | 2026-11-19 | [AWS AppConfig AI Configuration](https://deployedbyai.com/log/d2cfcc55409e/aws-appconfig-ai-configuration/?k=repo) | AWS AppConfig adds AI model invocation and AI prompt configuration profiles, available today in all AWS Regions where AppConfig is available. | [Amazon Web Services, AWS AppConfig AI Configuration](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-appconfig-native-ai-model-invocation-prompt-configurations/) |
 | 2026-11-19 | [AWS DevOps Agent Slack/Teams](https://deployedbyai.com/log/3ea52ad5b413/aws-devops-agent-slack-teams/?k=repo) | AWS DevOps Agent added dedicated Slack code channels and two-way Microsoft Teams conversations, available in all commercial AWS Regions where the agent is supported. | [Amazon Web Services, AWS DevOps Agent Slack/Teams](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/) |
 | 2026-11-19 | [AWS Lambda Durable Execution SDK for Rust](https://deployedbyai.com/log/38038ab824c6/aws-lambda-durable-execution-sdk-for-rust/?k=repo) | AWS Lambda Durable Execution SDK for Rust is now generally available for building long-running workflows that call AI models. | [Amazon Web Services, AWS Lambda Durable Execution SDK for Rust](https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-execution-sdk-rust/) |

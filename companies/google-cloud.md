@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-91 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 19, 2026.
+92 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 20, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [Managed Airflow agents](https://deployedbyai.com/log/8e88a9e53a0d/managed-airflow-agents/?k=repo) | Managed Service for Apache Airflow now offers Managed Airflow Agent in the console to investigate failed tasks and check DAG version readiness, plus Data Agent Kit in the IDE. | [Google Cloud, Managed Airflow agents](https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/) |
 | 2026-11-19 | [BigQuery gemini-4-neon support](https://deployedbyai.com/log/79363ad11098/bigquery-gemini-4-neon-support/?k=repo) | BigQuery generative AI functions now support the gemini-4-neon model, generally available. | [Google Cloud, BigQuery gemini-4-neon support](https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026) |
 | 2026-11-18 | [Gemini Enterprise Canvas web apps](https://deployedbyai.com/log/cc05aa672107/gemini-enterprise-canvas-web-apps/?k=repo) | Gemini Enterprise Canvas can create interactive single-page HTML web apps, generally available. | [Google Cloud, Gemini Enterprise Canvas web apps](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_18_2026) |
 | 2026-11-18 | [OKF v0.3](https://deployedbyai.com/log/1442cc78ab77/okf-v0-3/?k=repo) | OKF v0.3 adds conformance rules, trust tiers, licensing, retirement, extension model, and versioning policy. | [Google Cloud, OKF v0.3](https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/) |

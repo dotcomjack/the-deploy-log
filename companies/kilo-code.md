@@ -1,8 +1,14 @@
 # Kilo Code in The Deploy Log
 
-10 rows in The Deploy Log are filed under Kilo Code. Every one carries a publisher's date, from September 25, 2026 to October 26, 2026.
+11 rows in The Deploy Log are filed under Kilo Code. Every one carries a publisher's date, from September 25, 2026 to November 20, 2026.
 
 The same rows are on [the Kilo Code page of the record](https://deployedbyai.com/log/company/37f4d5aefb1a/kilo-code/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-20 | [Kilo Code v7.8.32](https://deployedbyai.com/log/274256a2f9ab/kilo-code-v7-8-32/?k=repo) | Kilo Code 7.8.32 ships a fix preventing held keys and repeated close commands from confirming worktree deletion in Agent Manager. | [Kilo Code, Kilo Code v7.8.32](https://github.com/Kilo-Org/kilocode/releases/tag/v7.8.32) |
 
 ## October 2026
 

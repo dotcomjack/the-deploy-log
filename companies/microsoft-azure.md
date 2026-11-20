@@ -1,6 +1,6 @@
 # Microsoft Azure in The Deploy Log
 
-44 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 19, 2026.
+45 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 20, 2026.
 
 The same rows are on [the Microsoft Azure page of the record](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Microsoft Azure page of the record](https://deployedby
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [Foundry Managed Compute](https://deployedbyai.com/log/913fb6483282/foundry-managed-compute/?k=repo) | Managed Compute in Microsoft Foundry is generally available for serving 150+ open models on dedicated NVIDIA A100, H100, H200 or AMD MI300X GPUs, including US and EU Data Zones. | [Microsoft Azure, Foundry Managed Compute](https://devblogs.microsoft.com/foundry/managed-compute-ga/) |
 | 2026-11-19 | [Microsoft Foundry autonomous agents](https://deployedbyai.com/log/e45270ca47a3/microsoft-foundry-autonomous-agents/?k=repo) | Microsoft Foundry now lets you build autonomous agents that work in multi-user spaces like Teams group chats. | [Microsoft Azure, Microsoft Foundry autonomous agents](https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/) |
 | 2026-11-18 | [Foundry Agent Service hosted agents](https://deployedbyai.com/log/d30bcad3f38d/foundry-agent-service-hosted-agents/?k=repo) | Shared subnet IPs, network egress controls, long-running resilient execution, and configurable idle timeout are generally available for hosted agents in Foundry Agent Service. | [Microsoft Azure, Foundry Agent Service hosted agents](https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/) |
 | 2026-11-18 | [Foundry Dev Pack](https://deployedbyai.com/log/d853589ada66/foundry-dev-pack/?k=repo) | Foundry Dev Pack is generally available, bundling Foundry CLI, Skill, VS Code Toolkit, and GitHub Copilot plugin. | [Microsoft Azure, Foundry Dev Pack](https://devblogs.microsoft.com/foundry/the-foundry-dev-pack-is-here-build-foundry-agents-your-way/) |
