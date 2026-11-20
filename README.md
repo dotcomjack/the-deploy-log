@@ -4,7 +4,7 @@ Every deployment deployedbyai has carried. Every item sourced to the publisher's
 
 ## [What shipped in AI, week of November 16, 2026](https://deployedbyai.com/log/week/2026-W47/)
 
-357 rows are listed for November 16 to 22, 2026 in The Deploy Log, from 75 companies. Amazon Web Services shipped the most, 64 rows, then Anthropic and OpenAI with 30 each. 357 carry a publisher's date and 0 are placed by their edition. The week runs to Sunday, November 22, 2026, and was still in progress when this file was built on November 19, 2026 (ET).
+383 rows are listed for November 16 to 22, 2026 in The Deploy Log, from 76 companies. Amazon Web Services shipped the most, 66 rows, then OpenAI with 35. 383 carry a publisher's date and 0 are placed by their edition. The week runs to Sunday, November 22, 2026, and was still in progress when this file was built on November 20, 2026 (ET).
 
 Every row of this week, with its source: [weeks/2026-W47.md](weeks/2026-W47.md). The record [week by week](weeks/README.md) and [company by company](companies/README.md).
 
@@ -31,7 +31,7 @@ Two GET endpoints return the whole record, every row in one response. A row's fi
 | Method | URL | Content-Type | Returns |
 |---|---|---|---|
 | GET | https://deployedbyai.com/log/data.json | `application/json; charset=utf-8` | One JSON object, with the keys below |
-| GET | https://deployedbyai.com/log/data.csv | `text/csv; charset=utf-8` | The 3,236 rows as CSV, under a header line of the field names |
+| GET | https://deployedbyai.com/log/data.csv | `text/csv; charset=utf-8` | The 3,262 rows as CSV, under a header line of the field names |
 
 - Auth: none. A GET that carries no key, token or cookie answers 200.
 - HTTPS: yes.
@@ -49,29 +49,29 @@ Two GET endpoints return the whole record, every row in one response. A row's fi
 | `license` | object | Keys `name`, `url`, `attribution` |
 | `fields` | array | The 17 field names, in the order of `data.csv`'s header |
 | `dictionary` | array | 17 objects, a `name` and a `description` per field: the [Data dictionary](#data-dictionary) |
-| `count` | number | 3,236, the number of objects in `rows` |
-| `rows` | array | 3,236 objects, one per row, each keyed by the names in `fields`, in that order |
+| `count` | number | 3,262, the number of objects in `rows` |
+| `rows` | array | 3,262 objects, one per row, each keyed by the names in `fields`, in that order |
 
-Example: the first object in `rows` whose publisher's date has come in New York, as `data.json` served it when this file was built on November 19, 2026 (ET):
+Example: the first object in `rows`, as `data.json` served it when this file was built on November 20, 2026 (ET):
 
 ```json
 {
-  "row_key": "baad5b74ca58",
-  "company": "Databricks",
-  "subject": "AI/BI Bulk Migration",
-  "what_shipped": "Bulk migrate Tableau and Power BI reports to AI/BI Dashboards with a single /importBI command.",
+  "row_key": "97841d965dfd",
+  "company": "OpenAI",
+  "subject": "Codex CLI 0.171.0",
+  "what_shipped": "Codex CLI 0.171.0 adds GPT-6.2 Sol and Astra to model catalogs with Sol as the default selection, and enables the TUI workspace by default.",
   "lane": "Tools and products",
   "edition_n": null,
   "edition_date": null,
-  "published_date": "2026-11-19",
-  "date_label": "Published Thursday 19 Nov 2026",
-  "source": "Databricks, AI/BI Bulk Migration",
-  "source_url": "https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code",
-  "record_url": "https://deployedbyai.com/log/baad5b74ca58/ai-bi-bulk-migration/?k=data",
-  "added_at": "2026-11-19T17:13:36.861Z",
+  "published_date": "2026-11-20",
+  "date_label": "Published Friday 20 Nov 2026",
+  "source": "OpenAI, Codex CLI 0.171.0",
+  "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+  "record_url": "https://deployedbyai.com/log/97841d965dfd/codex-cli-0-171-0/?k=data",
+  "added_at": "2026-11-20T01:12:59.405Z",
   "models": [],
   "platforms": [],
-  "updated": "2026-11-19T17:13:36.861Z",
+  "updated": "2026-11-20T01:12:59.405Z",
   "kind": "backfill"
 }
 ```
@@ -94,7 +94,7 @@ curl -s https://deployedbyai.com/log/mcp -H 'content-type: application/json' \
   -d '{"jsonrpc": "2.0", "id": 1, "method": "tools/call", "params": {"name": "search_deployments", "arguments": {"query": "Amazon Web Services", "limit": 3}}}'
 ```
 
-The response, as the server answered it when this file was built on November 19, 2026 (ET), cut to its first row: left out are 2 more objects in `structuredContent.items` and 2 more lines of `content[0].text`:
+The response, as the server answered it when this file was built on November 20, 2026 (ET), cut to its first row: left out are 2 more objects in `structuredContent.items` and 2 more lines of `content[0].text`:
 
 ```json
 {
@@ -105,21 +105,21 @@ The response, as the server answered it when this file was built on November 19,
     "content": [
       {
         "type": "text",
-        "text": "3 row(s) matching the words given.\nAmazon Web Services: Cognito dynamic client registration. Amazon Cognito now supports OAuth dynamic client registration (RFC 7591), letting MCP clients and AI agents register at runtime on Essentials and Plus plans in all AWS Regions. Published Thursday 19 Nov 2026. Source: https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-dynamic-client-registration/ Record: https://deployedbyai.com/log/a0571e2fc269/cognito-dynamic-client-registration/?k=mcp"
+        "text": "3 row(s) matching the words given.\nAmazon Web Services: AWS DevOps Agent Slack/Teams. AWS DevOps Agent added dedicated Slack code channels and two-way Microsoft Teams conversations, available in all commercial AWS Regions where the agent is supported. Published Thursday 19 Nov 2026. Source: https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/ Record: https://deployedbyai.com/log/3ea52ad5b413/aws-devops-agent-slack-teams/?k=mcp"
       }
     ],
     "structuredContent": {
       "items": [
         {
-          "id": "a0571e2fc269",
+          "id": "3ea52ad5b413",
           "company": "Amazon Web Services",
-          "subject": "Cognito dynamic client registration",
-          "what_shipped": "Amazon Cognito now supports OAuth dynamic client registration (RFC 7591), letting MCP clients and AI agents register at runtime on Essentials and Plus plans in all AWS Regions.",
+          "subject": "AWS DevOps Agent Slack/Teams",
+          "what_shipped": "AWS DevOps Agent added dedicated Slack code channels and two-way Microsoft Teams conversations, available in all commercial AWS Regions where the agent is supported.",
           "shipped": "Published Thursday 19 Nov 2026",
           "lane": "Tools and products",
-          "source": "Amazon Web Services, Cognito dynamic client registration",
-          "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-dynamic-client-registration/",
-          "record_url": "https://deployedbyai.com/log/a0571e2fc269/cognito-dynamic-client-registration/?k=mcp"
+          "source": "Amazon Web Services, AWS DevOps Agent Slack/Teams",
+          "source_url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/",
+          "record_url": "https://deployedbyai.com/log/3ea52ad5b413/aws-devops-agent-slack-teams/?k=mcp"
         }
       ]
     }
@@ -129,7 +129,7 @@ The response, as the server answered it when this file was built on November 19,
 
 ## The record
 
-The record holds 3,236 rows, 2,677 with a publisher's date, 559 placed by their edition, from 161 companies. Rows are listed from September 17, 2025 to November 19, 2026, each by its publisher's date or, where the record carries none, its edition's date. 1 row carries a publisher's date that has not yet come in New York, and is listed from that day. The newest row entered the record on November 19, 2026 (ET). Every row carries `source_url`, the publisher's own page, and `record_url`, its page in the record at https://deployedbyai.com/log/
+The record holds 3,262 rows, 2,703 with a publisher's date, 559 placed by their edition, from 161 companies. Rows are listed from September 17, 2025 to November 20, 2026, each by its publisher's date or, where the record carries none, its edition's date. The newest row entered the record on November 20, 2026 (ET). Every row carries `source_url`, the publisher's own page, and `record_url`, its page in the record at https://deployedbyai.com/log/
 
 ## Indexes
 
@@ -139,9 +139,10 @@ The record holds 3,236 rows, 2,677 with a publisher's date, 559 placed by their 
 - [Platforms](https://deployedbyai.com/log/platform/): 5 pages listed in the record's sitemap
 - [Week by week](https://deployedbyai.com/log/week/): 61 pages listed in the record's sitemap
 - [Month by month](https://deployedbyai.com/log/month/): 15 pages listed in the record's sitemap
-- [AI tools, version by version](https://deployedbyai.com/log/product/): 105 pages listed in the record's sitemap
+- [AI tools, version by version](https://deployedbyai.com/log/product/): 108 pages listed in the record's sitemap
 - [AI coding tools](https://deployedbyai.com/log/ai-coding-tools/)
 - [AI news today](https://deployedbyai.com/log/today/)
+- [LLM inference engines](https://deployedbyai.com/log/llm-inference-engines/)
 
 ## Rows by lane
 
@@ -149,13 +150,13 @@ Each row is filed in one of 5 lanes, except an edition's lead, which is filed in
 
 | Lane | Rows | With a publisher's date | Placed by their edition |
 |---|---:|---:|---:|
-| [Tools and products](https://deployedbyai.com/log/lane/tools_products/) | 2,472 | 2,228 | 244 |
-| [Models and APIs](https://deployedbyai.com/log/lane/models_apis/) | 494 | 349 | 145 |
+| [Tools and products](https://deployedbyai.com/log/lane/tools_products/) | 2,492 | 2,248 | 244 |
+| [Models and APIs](https://deployedbyai.com/log/lane/models_apis/) | 500 | 355 | 145 |
 | [Robotics, hardware and chips](https://deployedbyai.com/log/lane/robotics_hardware_chips/) | 56 | 41 | 15 |
 | [Breakthroughs](https://deployedbyai.com/log/lane/breakthroughs/) | 45 | 24 | 21 |
 | [Funding and acquisitions](https://deployedbyai.com/log/lane/funding_acquisitions/) | 30 | 30 | 0 |
 | Leads (filed in no lane) | 139 | 5 | 134 |
-| Total | 3,236 | 2,677 | 559 |
+| Total | 3,262 | 2,703 | 559 |
 
 ## The 15 companies with the most rows
 
@@ -163,21 +164,21 @@ Ordered by rows, then by name. First and latest are the earliest and newest publ
 
 | Company | Rows | With a publisher's date | First | Latest |
 |---|---:|---:|---|---|
-| [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | 339 | 229 | 2025-09-25 | 2026-11-19 |
+| [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | 344 | 234 | 2025-09-25 | 2026-11-20 |
 | [Vercel](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/) | 333 | 136 | 2025-09-18 | 2026-11-19 |
-| [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | 254 | 248 | 2026-09-16 | 2026-11-19 |
+| [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | 256 | 250 | 2026-09-16 | 2026-11-19 |
 | [Anthropic](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/) | 244 | 199 | 2025-10-16 | 2026-11-19 |
 | [GitHub](https://deployedbyai.com/log/company/057e2e5f0d0b/github/) | 127 | 117 | 2026-09-17 | 2026-11-18 |
-| [LangChain](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/) | 120 | 119 | 2026-09-20 | 2026-11-19 |
+| [LangChain](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/) | 124 | 123 | 2026-09-20 | 2026-11-20 |
 | [Hugging Face](https://deployedbyai.com/log/company/45f89a539985/hugging-face/) | 108 | 58 | 2025-09-17 | 2026-11-19 |
 | [Databricks](https://deployedbyai.com/log/company/9def70023d9f/databricks/) | 97 | 97 | 2026-09-22 | 2026-11-19 |
 | [Google Cloud](https://deployedbyai.com/log/company/0cea73712411/google-cloud/) | 91 | 91 | 2026-09-17 | 2026-11-19 |
 | [Google](https://deployedbyai.com/log/company/4b181d6cc893/google/) | 86 | 77 | 2026-09-23 | 2026-11-19 |
 | [Cloudflare](https://deployedbyai.com/log/company/a248aed96312/cloudflare/) | 76 | 67 | 2026-08-13 | 2026-11-19 |
-| [NVIDIA](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/) | 58 | 52 | 2026-08-20 | 2026-11-17 |
+| [NVIDIA](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/) | 59 | 53 | 2026-08-20 | 2026-11-20 |
 | [Google Workspace](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/) | 55 | 43 | 2026-08-28 | 2026-11-18 |
 | [Microsoft](https://deployedbyai.com/log/company/28257922d62c/microsoft/) | 49 | 47 | 2026-09-28 | 2026-11-18 |
-| [OpenRouter](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/) | 48 | 48 | 2026-09-25 | 2026-11-18 |
+| [OpenRouter](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/) | 49 | 49 | 2026-09-25 | 2026-11-20 |
 
 ## Rows per week, the 8 newest ISO weeks
 
@@ -185,7 +186,7 @@ A row counts in the Monday to Sunday week of its listed date: its publisher's da
 
 | Week | Monday to Sunday | Rows | With a publisher's date | Placed by their edition |
 |---|---|---:|---:|---:|
-| [2026-W47](https://deployedbyai.com/log/week/2026-W47/) (in progress) | 2026-11-16 to 2026-11-22 | 357 | 357 | 0 |
+| [2026-W47](https://deployedbyai.com/log/week/2026-W47/) (in progress) | 2026-11-16 to 2026-11-22 | 383 | 383 | 0 |
 | [2026-W46](https://deployedbyai.com/log/week/2026-W46/) | 2026-11-09 to 2026-11-15 | 361 | 355 | 6 |
 | [2026-W45](https://deployedbyai.com/log/week/2026-W45/) | 2026-11-02 to 2026-11-08 | 267 | 262 | 5 |
 | [2026-W44](https://deployedbyai.com/log/week/2026-W44/) | 2026-10-26 to 2026-11-01 | 246 | 239 | 7 |
@@ -200,7 +201,7 @@ A row counts in the month of its listed date, as above.
 
 | Month | Rows | With a publisher's date | Placed by their edition |
 |---|---:|---:|---:|
-| [November 2026](https://deployedbyai.com/log/month/2026-11/) | 991 | 980 | 11 |
+| [November 2026](https://deployedbyai.com/log/month/2026-11/) | 1,017 | 1,006 | 11 |
 | [October 2026](https://deployedbyai.com/log/month/2026-10/) | 1,262 | 1,199 | 63 |
 | [September 2026](https://deployedbyai.com/log/month/2026-09/) | 372 | 324 | 48 |
 | [August 2026](https://deployedbyai.com/log/month/2026-08/) | 60 | 18 | 42 |
@@ -215,7 +216,7 @@ A row counts in the month of its listed date, as above.
 | [November 2025](https://deployedbyai.com/log/month/2025-11/) | 68 | 14 | 54 |
 | [October 2025](https://deployedbyai.com/log/month/2025-10/) | 49 | 19 | 30 |
 | [September 2025](https://deployedbyai.com/log/month/2025-09/) | 21 | 8 | 13 |
-| Total | 3,236 | 2,677 | 559 |
+| Total | 3,262 | 2,703 | 559 |
 
 ## The 10 rows added most recently
 
@@ -223,16 +224,16 @@ Added is the day the row entered the record, on Eastern Time, not the day the th
 
 | Added (ET) | Company | Row | Source |
 |---|---|---|---|
-| 2026-11-19 | [LangChain](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/) | [langchain-quickjs 0.4.0](https://deployedbyai.com/log/0922a9f912cf/langchain-quickjs-0-4-0/?k=data) | [LangChain, langchain-quickjs 0.4.0](https://github.com/langchain-ai/deepagents/releases/tag/langchain-quickjs%3D%3D0.4.0) |
-| 2026-11-19 | [Snowflake](https://deployedbyai.com/log/company/2aea06ccb0d8/snowflake/) | [Iceberg Spark APIs in Snowpark Connect](https://deployedbyai.com/log/fcdc77e9b9dd/iceberg-spark-apis-in-snowpark-connect/?k=data) | [Snowflake, Iceberg Spark APIs in Snowpark Connect](https://www.snowflake.com/content/snowflake-site/global/en/blog/spark-iceberg-write-audit-publish) |
-| 2026-11-19 | [Apple](https://deployedbyai.com/log/company/ecedc9023fa1/apple/) | [DepthPro2-focal](https://deployedbyai.com/log/1e9f4711f526/depthpro2-focal/?k=data) | [Apple, DepthPro2-focal](https://huggingface.co/apple/DepthPro2-focal) |
-| 2026-11-19 | [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | [Cognito dynamic client registration](https://deployedbyai.com/log/a0571e2fc269/cognito-dynamic-client-registration/?k=data) | [Amazon Web Services, Cognito dynamic client registration](https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-dynamic-client-registration/) |
-| 2026-11-19 | [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | [Continuum for Penetration Testing](https://deployedbyai.com/log/9759e34bf5ad/continuum-for-penetration-testing/?k=data) | [Amazon Web Services, Continuum for Penetration Testing](https://aws.amazon.com/about-aws/whats-new/2026/11/continuum-pentest-pause-resume/) |
-| 2026-11-19 | [LangChain](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/) | [langchain-openai 1.8.5](https://deployedbyai.com/log/42c89a6a0205/langchain-openai-1-8-5/?k=data) | [LangChain, langchain-openai 1.8.5](https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5) |
-| 2026-11-19 | [Vercel](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/) | [GPT-Live 1.1 on AI Gateway](https://deployedbyai.com/log/c571acae4106/gpt-live-1-1-on-ai-gateway/?k=data) | [Vercel, GPT-Live 1.1 on AI Gateway](https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway) |
-| 2026-11-19 | [OpenAI](https://deployedbyai.com/log/company/8e31fcb84155/openai/) | [Codex CLI 0.171.0](https://deployedbyai.com/log/97841d965dfd/codex-cli-0-171-0/?k=data) | [OpenAI, Codex CLI 0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) |
-| 2026-11-19 | [Anthropic](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/) | [Claude Fable 5.2 / Mythos 5.2](https://deployedbyai.com/log/0a7dbc7c0c8c/claude-fable-5-2-mythos-5-2/?k=data) | [Anthropic, Claude Fable 5.2 / Mythos 5.2](https://www.anthropic.com/news/claude-fable-and-mythos-5-2) |
-| 2026-11-19 | [Cognition](https://deployedbyai.com/log/company/a3079d818e00/cognition/) | [Gemini 4 Neon in Devin](https://deployedbyai.com/log/95c8c4f19e71/gemini-4-neon-in-devin/?k=data) | [Cognition, Gemini 4 Neon in Devin](https://devin.ai/blog/gemini-4-neon) |
+| 2026-11-20 | [Sentry](https://deployedbyai.com/log/company/da9aabd85ea4/sentry/) | [Sentry Bedrock tracing](https://deployedbyai.com/log/9787ddb4d2a7/sentry-bedrock-tracing/?k=data) | [Sentry, Sentry Bedrock tracing](https://sentry.io/changelog/bedrock-tracing-python-javascript) |
+| 2026-11-20 | [inclusionAI](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/) | [LingSante-Pulse-1.0](https://deployedbyai.com/log/c86a3247596b/lingsante-pulse-1-0/?k=data) | [inclusionAI, LingSante-Pulse-1.0](https://huggingface.co/inclusionAI/LingSante-Pulse-1.0) |
+| 2026-11-20 | [Amazon Web Services](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/) | [AWS DevOps Agent Slack/Teams](https://deployedbyai.com/log/3ea52ad5b413/aws-devops-agent-slack-teams/?k=data) | [Amazon Web Services, AWS DevOps Agent Slack/Teams](https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-slack-code-channels-teams-two-way/) |
+| 2026-11-20 | [Tencent](https://deployedbyai.com/log/company/ea750d3cf789/tencent/) | [WeMM-Video-35B-A3B](https://deployedbyai.com/log/969064487542/wemm-video-35b-a3b/?k=data) | [Tencent, WeMM-Video-35B-A3B](https://huggingface.co/tencent/WeMM-Video-35BA3B) |
+| 2026-11-20 | [Block](https://deployedbyai.com/log/company/e8b074e16397/block/) | [goose v1.60.2](https://deployedbyai.com/log/d7b969a6a4d5/goose-v1-60-2/?k=data) | [Block, goose v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2) |
+| 2026-11-20 | [Tencent](https://deployedbyai.com/log/company/ea750d3cf789/tencent/) | [WeMM-Video](https://deployedbyai.com/log/db77de6a2a26/wemm-video/?k=data) | [Tencent, WeMM-Video](https://huggingface.co/tencent/WeMM-Video-9B) |
+| 2026-11-20 | [LiteLLM](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/) | [LiteLLM v1.106.12](https://deployedbyai.com/log/b29bae15203e/litellm-v1-106-12/?k=data) | [LiteLLM, LiteLLM v1.106.12](https://github.com/BerriAI/litellm/releases/tag/v1.106.12) |
+| 2026-11-20 | [Tencent](https://deployedbyai.com/log/company/ea750d3cf789/tencent/) | [WeMM-Video-4B/2B](https://deployedbyai.com/log/94ce3933664b/wemm-video-4b-2b/?k=data) | [Tencent, WeMM-Video-4B/2B](https://huggingface.co/tencent/WeMM-Video-4B) |
+| 2026-11-20 | [LangChain](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/) | [deepagents-code 0.2.12](https://deployedbyai.com/log/0a865355cf49/deepagents-code-0-2-12/?k=data) | [LangChain, deepagents-code 0.2.12](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.12) |
+| 2026-11-20 | [FastMCP](https://deployedbyai.com/log/company/11b827318913/fastmcp/) | [FastMCP 4.2.3](https://deployedbyai.com/log/7f6c1bc660a2/fastmcp-4-2-3/?k=data) | [FastMCP, FastMCP 4.2.3](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.3) |
 
 ## Files
 
@@ -250,23 +251,23 @@ Each field, in the order of `data.csv`'s header, with the number of rows where i
 
 | Field | Rows with a value | What it holds |
 |---|---:|---|
-| `row_key` | 3,236 | The row's key: 12 lowercase hexadecimal characters, drawn at random when the row enters the record and kept for the life of the row. |
-| `company` | 3,236 | The name of the company the row is filed under, as its company page names it. |
-| `subject` | 3,236 | What the row is about, in a few words: the heading of the row's own page. |
-| `what_shipped` | 3,236 | The row's one sentence on what shipped, as its own page prints it. |
-| `lane` | 3,097 | The lane the row is filed in: Models and APIs; Tools and products; Robotics, hardware and chips; Breakthroughs; Funding and acquisitions. Null for an edition's lead, which is filed in no lane. |
+| `row_key` | 3,262 | The row's key: 12 lowercase hexadecimal characters, drawn at random when the row enters the record and kept for the life of the row. |
+| `company` | 3,262 | The name of the company the row is filed under, as its company page names it. |
+| `subject` | 3,262 | What the row is about, in a few words: the heading of the row's own page. |
+| `what_shipped` | 3,262 | The row's one sentence on what shipped, as its own page prints it. |
+| `lane` | 3,123 | The lane the row is filed in: Models and APIs; Tools and products; Robotics, hardware and chips; Breakthroughs; Funding and acquisitions. Null for an edition's lead, which is filed in no lane. |
 | `edition_n` | 587 | The number of the edition that carried the row. Null for a row no edition has carried. |
 | `edition_date` | 587 | The date of the edition that carried the row, as YYYY-MM-DD. Null for a row no edition has carried. |
-| `published_date` | 2,677 | The date the publisher's own page gives, as YYYY-MM-DD, kept when an edition later carries the row. Null where the row has none, as on a row that entered the record with an edition, which is dated by its edition. |
-| `date_label` | 3,236 | The row's date in words: Published and the publisher's date on a row no edition has carried; otherwise Edition, the edition's number, a comma and the edition's date. A row whose publisher's date has not yet come in New York carries, in place of that date, the words its own page prints for it until that day. |
-| `source` | 3,236 | The source the row cites, in words: the publisher and its page, as the row's source line prints it. |
-| `source_url` | 3,236 | The URL of the publisher's own page the row is sourced to. |
-| `record_url` | 3,236 | The row's own page on The Deploy Log, with ?k=data, the key that marks a visit as coming from this file. |
-| `added_at` | 3,236 | When the row entered the record, an ISO 8601 timestamp in UTC. It is not the day the thing shipped. |
+| `published_date` | 2,703 | The date the publisher's own page gives, as YYYY-MM-DD, kept when an edition later carries the row. Null where the row has none, as on a row that entered the record with an edition, which is dated by its edition. |
+| `date_label` | 3,262 | The row's date in words: Published and the publisher's date on a row no edition has carried; otherwise Edition, the edition's number, a comma and the edition's date. A row whose publisher's date has not yet come in New York carries, in place of that date, the words its own page prints for it until that day. |
+| `source` | 3,262 | The source the row cites, in words: the publisher and its page, as the row's source line prints it. |
+| `source_url` | 3,262 | The URL of the publisher's own page the row is sourced to. |
+| `record_url` | 3,262 | The row's own page on The Deploy Log, with ?k=data, the key that marks a visit as coming from this file. |
+| `added_at` | 3,262 | When the row entered the record, an ISO 8601 timestamp in UTC. It is not the day the thing shipped. |
 | `models` | 263 | The ids of the AI models the row's subject names, read by the matcher the model pages use, in the order the subject names them: each is the 12 lowercase hexadecimal characters of the model's page, the page at /log/model/ followed by that id. A model has a page only when rows from 2 or more companies name it; one below that still carries its id here, and the week and month pages count it among the models seen for the first time. Empty when the subject names none. In the CSV, the ids joined by semicolons. |
-| `platforms` | 489 | The ids of the platforms the row's subject or what_shipped names (the subject alone for MCP servers), or whose own source is a model's page on the platform whose file list held weight files when last read (read when the row is admitted and again every day), read by the matcher the platform pages use, in the order of the record's list of platforms: each is the 12 lowercase hexadecimal characters of the platform's page, the page at /log/platform/ followed by that id. A platform has a page only when 10 or more rows from 2 or more companies name it, 10 or more of them from companies other than its owners; one below that still carries its id here. A row that names a platform did not necessarily ship on it. Empty when the row names none. In the CSV, the ids joined by semicolons. |
-| `updated` | 3,236 | When the row was last written, an ISO 8601 timestamp in UTC: the instant it entered the record, or the instant it was last written again, as when an edition that carries it enters the record. Null where the record holds only a day for it. Each page that lists rows gives, as the day it last changed, New York's day of the newest of these among its rows; a row's own page gives that day or the day the row is dated, whichever is later. It is not the day the thing shipped. |
-| `kind` | 3,236 | How the row entered the record: backfill, a release read from the publisher's own page and dated by the publisher's date; edition_lead or edition_row, an item a Saturday edition carried, dated by the edition, including a publisher's row an edition later carried, which keeps its published_date. |
+| `platforms` | 497 | The ids of the platforms the row's subject or what_shipped names (the subject alone for MCP servers), or whose own source is a model's page on the platform whose file list held weight files when last read (read when the row is admitted and again every day), read by the matcher the platform pages use, in the order of the record's list of platforms: each is the 12 lowercase hexadecimal characters of the platform's page, the page at /log/platform/ followed by that id. A platform has a page only when 10 or more rows from 2 or more companies name it, 10 or more of them from companies other than its owners; one below that still carries its id here. A row that names a platform did not necessarily ship on it. Empty when the row names none. In the CSV, the ids joined by semicolons. |
+| `updated` | 3,262 | When the row was last written, an ISO 8601 timestamp in UTC: the instant it entered the record, or the instant it was last written again, as when an edition that carries it enters the record. Null where the record holds only a day for it. Each page that lists rows gives, as the day it last changed, New York's day of the newest of these among its rows; a row's own page gives that day or the day the row is dated, whichever is later. It is not the day the thing shipped. |
+| `kind` | 3,262 | How the row entered the record: backfill, a release read from the publisher's own page and dated by the publisher's date; edition_lead or edition_row, an item a Saturday edition carried, dated by the edition, including a publisher's row an edition later carried, which keeps its published_date. |
 
 ## Cite this
 

@@ -1,8 +1,14 @@
 # Sentry in The Deploy Log
 
-6 rows in The Deploy Log are filed under Sentry. Every one carries a publisher's date, from September 29, 2026 to October 16, 2026.
+7 rows in The Deploy Log are filed under Sentry. Every one carries a publisher's date, from September 29, 2026 to November 20, 2026.
 
 The same rows are on [the Sentry page of the record](https://deployedbyai.com/log/company/da9aabd85ea4/sentry/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-20 | [Sentry Bedrock tracing](https://deployedbyai.com/log/9787ddb4d2a7/sentry-bedrock-tracing/?k=repo) | Sentry Python SDK 2.75.0 and JavaScript SDK 11.13.0 now trace Amazon Bedrock calls, creating gen\_ai spans with model, token usage, inputs and outputs. | [Sentry, Sentry Bedrock tracing](https://sentry.io/changelog/bedrock-tracing-python-javascript) |
 
 ## October 2026
 

@@ -1,6 +1,6 @@
 # inclusionAI in The Deploy Log
 
-12 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to November 19, 2026.
+13 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to November 20, 2026.
 
 The same rows are on [the inclusionAI page of the record](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the inclusionAI page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [LingSante-Pulse-1.0](https://deployedbyai.com/log/c86a3247596b/lingsante-pulse-1-0/?k=repo) | A 16.7M-parameter MIT-licensed physiological signal encoder returning CLS and patch-mean features at 256 dimensions per channel, with a separate inference-code package. | [inclusionAI, LingSante-Pulse-1.0](https://huggingface.co/inclusionAI/LingSante-Pulse-1.0) |
 | 2026-11-19 | [DeepSeek-V4.1-Flash-1017-singprobe](https://deployedbyai.com/log/b5f31d4b43ac/deepseek-v4-1-flash-1017-singprobe/?k=repo) | SingProbe streaming guardrail for DeepSeek-V4.1-Flash-1017 released on Hugging Face with 10.10M parameters. | [inclusionAI, DeepSeek-V4.1-Flash-1017-singprobe](https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe) |
 | 2026-11-19 | [Ling-3.1-flash-1019-singprobe](https://deployedbyai.com/log/59439624927c/ling-3-1-flash-1019-singprobe/?k=repo) | SingProbe streaming guardrail for Ling-3.1-flash-1019 released on Hugging Face with 8.13M parameters. | [inclusionAI, Ling-3.1-flash-1019-singprobe](https://huggingface.co/inclusionAI/Ling-3.1-flash-1019-singprobe) |
 | 2026-11-13 | [Duo-1.0-distill-quant](https://deployedbyai.com/log/be139d626adc/duo-1-0-distill-quant/?k=repo) | inclusionAI released Duo-1.0-distill-quant, an FP8-quantized four-step distilled Realization model for full-duplex audio-visual interaction. | [inclusionAI, Duo-1.0-distill-quant](https://huggingface.co/inclusionAI/Duo-1.0-distill-quant) |

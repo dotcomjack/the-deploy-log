@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-36 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 19, 2026.
+40 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 20, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [LiteLLM v1.106.12](https://deployedbyai.com/log/b29bae15203e/litellm-v1-106-12/?k=repo) | LiteLLM v1.106.12 fixes GPT-6.2 system prompts missing the prompt cache on /v1/chat/completions and /v1/messages unless store: false, and fixes /key/info key leakage. | [LiteLLM, LiteLLM v1.106.12](https://github.com/BerriAI/litellm/releases/tag/v1.106.12) |
+| 2026-11-20 | [LiteLLM v1.108.13](https://deployedbyai.com/log/421afc6440d4/litellm-v1-108-13/?k=repo) | LTS 1.108.13 backports key-management fixes, keeps Claude Code billing metadata out of prompts, and caches bridged system prompts on stored GPT-6.2 requests. | [LiteLLM, LiteLLM v1.108.13](https://github.com/BerriAI/litellm/releases/tag/v1.108.13) |
+| 2026-11-20 | [LiteLLM v1.109.3](https://deployedbyai.com/log/f24f048bfabf/litellm-v1-109-3/?k=repo) | Stable 1.109.3 backports key-management fixes, caches bridged system prompts on stored GPT-6.2 requests, and refreshes the Wolfi base image digest. | [LiteLLM, LiteLLM v1.109.3](https://github.com/BerriAI/litellm/releases/tag/v1.109.3) |
+| 2026-11-20 | [LiteLLM v1.110.2](https://deployedbyai.com/log/2edbd0070637/litellm-v1-110-2/?k=repo) | Stable 1.110.2 backports the Rust router memory fix, stops Responses stream restarts after non-text output, and caches bridged system prompts on stored GPT-6.2 requests. | [LiteLLM, LiteLLM v1.110.2](https://github.com/BerriAI/litellm/releases/tag/v1.110.2) |
 | 2026-11-19 | [LiteLLM v1.106.11](https://deployedbyai.com/log/2b0ce4fb24fd/litellm-v1-106-11/?k=repo) | LiteLLM v1.106.11 released with fixes for Responses system prompts and GPT-6.2 prompt caching. | [LiteLLM, LiteLLM v1.106.11](https://github.com/BerriAI/litellm/releases/tag/v1.106.11) |
 | 2026-11-19 | [LiteLLM v1.108.12](https://deployedbyai.com/log/79e58ed652d4/litellm-v1-108-12/?k=repo) | LiteLLM v1.108.12 released with fixes for Anthropic, Azure AI, Responses, guardrails, and Vertex AI. | [LiteLLM, LiteLLM v1.108.12](https://github.com/BerriAI/litellm/releases/tag/v1.108.12) |
 | 2026-11-19 | [LiteLLM v1.109.2](https://deployedbyai.com/log/0e60b0deaa45/litellm-v1-109-2/?k=repo) | LiteLLM v1.109.2 released with 16 merged fixes backported to stable. | [LiteLLM, LiteLLM v1.109.2](https://github.com/BerriAI/litellm/releases/tag/v1.109.2) |
