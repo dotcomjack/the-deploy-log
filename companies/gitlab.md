@@ -1,6 +1,6 @@
 # GitLab in The Deploy Log
 
-7 rows in The Deploy Log are filed under GitLab. Every one carries a publisher's date, from October 2, 2026 to November 19, 2026.
+8 rows in The Deploy Log are filed under GitLab. Every one carries a publisher's date, from October 2, 2026 to November 19, 2026.
 
 The same rows are on [the GitLab page of the record](https://deployedbyai.com/log/company/3f8bdd05fc0e/gitlab/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the GitLab page of the record](https://deployedbyai.com/lo
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-19 | [GitLab 19.6](https://deployedbyai.com/log/c2827afbe5ed/gitlab-19-6/?k=repo) | GitLab 19.6 adds MCP server audit events, GitLab Duo in Slack limited availability, and MCP tool governance. | [GitLab, GitLab 19.6](https://docs.gitlab.com/releases/19/gitlab-19-6-released/) |
+| 2026-11-19 | [GitLab Duo leaked token remediation](https://deployedbyai.com/log/ab60e5b576e0/gitlab-duo-leaked-token-remediation/?k=repo) | GitLab 19.6 beta lets Ultimate users rotate a leaked PAT and get an AI-generated fix MR. | [GitLab, GitLab Duo leaked token remediation](https://about.gitlab.com/blog/secret-detection-token-rotate-and-fix/) |
 
 ## October 2026
 

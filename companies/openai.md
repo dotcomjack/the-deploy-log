@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-333 rows in The Deploy Log are filed under OpenAI. 223 carry a publisher's date, from September 25, 2025 to November 18, 2026, and 110 are placed by their edition.
+339 rows in The Deploy Log are filed under OpenAI. 229 carry a publisher's date, from September 25, 2025 to November 19, 2026, and 110 are placed by their edition. 1 of those dates has not yet come in New York.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [OpenAI Java SDK v4.110.0](https://deployedbyai.com/log/f739183c6254/openai-java-sdk-v4-110-0/?k=repo) | OpenAI Java SDK v4.110.0 adds gpt-live-1.1 to Live model choices. | [OpenAI, OpenAI Java SDK v4.110.0](https://github.com/openai/openai-java/releases/tag/v4.110.0) |
+| 2026-11-19 | [openai-go v3.104.0](https://deployedbyai.com/log/be7f6984fbb8/openai-go-v3-104-0/?k=repo) | openai-go v3.104.0 adds gpt-live-1.1 to Live model choices. | [OpenAI, openai-go v3.104.0](https://github.com/openai/openai-go/releases/tag/v3.104.0) |
+| 2026-11-19 | [openai-node v7.61.0](https://deployedbyai.com/log/e4efe7b1d7af/openai-node-v7-61-0/?k=repo) | openai-node v7.61.0 adds gpt-live-1.1 to Live model choices. | [OpenAI, openai-node v7.61.0](https://github.com/openai/openai-node/releases/tag/v7.61.0) |
+| 2026-11-19 | [openai-python v3.56.0](https://deployedbyai.com/log/1aa47a1dfebb/openai-python-v3-56-0/?k=repo) | openai-python v3.56.0 adds gpt-live-1.1 to Live model choices. | [OpenAI, openai-python v3.56.0](https://github.com/openai/openai-python/releases/tag/v3.56.0) |
+| 2026-11-19 | [openai-ruby v0.129.0](https://deployedbyai.com/log/dcf15a4b381d/openai-ruby-v0-129-0/?k=repo) | Adds gpt-live-1.1 to Live model choices in the openai-ruby SDK. | [OpenAI, openai-ruby v0.129.0](https://github.com/openai/openai-ruby/releases/tag/v0.129.0) |
 | 2026-11-18 | [Codex 0.170.0](https://deployedbyai.com/log/2cb137e3b530/codex-0-170-0/?k=repo) | Codex 0.170.0 adds WebRTC negotiation for realtime voice calls in the TUI. | [OpenAI, Codex 0.170.0](https://github.com/openai/codex/releases/tag/rust-v0.170.0) |
 | 2026-11-18 | [OpenAI Java SDK v4.109.0](https://deployedbyai.com/log/001884c7aaa2/openai-java-sdk-v4-109-0/?k=repo) | Standalone CSAM moderation models added to the OpenAI Java SDK. | [OpenAI, OpenAI Java SDK v4.109.0](https://github.com/openai/openai-java/releases/tag/v4.109.0) |
 | 2026-11-18 | [OpenAI Node SDK v7.60.0](https://deployedbyai.com/log/2235423e034e/openai-node-sdk-v7-60-0/?k=repo) | OpenAI Node SDK v7.60.0 adds Live MCP server configuration and standalone CSAM moderation types. | [OpenAI, OpenAI Node SDK v7.60.0](https://github.com/openai/openai-node/releases/tag/v7.60.0) |
@@ -296,6 +301,14 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 | 2025-09-29 | [Parental controls](https://deployedbyai.com/log/99c15a9dab73/parental-controls/?k=repo) | OpenAI launched parental controls for ChatGPT, letting parents link accounts, set quiet hours, disable voice, memory, image generation, and opt out of training. | [OpenAI, Introducing parental controls](https://openai.com/index/introducing-parental-controls) |
 | 2025-09-25 | [GDPval](https://deployedbyai.com/log/d20cf09a9ca7/gdpval/?k=repo) | GDPval evaluates models on 1,320 tasks across 44 occupations, finding frontier models approach expert quality and complete tasks 100x faster and cheaper. | [OpenAI, Measuring the performance of our models on real-world tasks](https://openai.com/index/gdpval) |
 | 2025-09-25 | [Shared projects and connectors](https://deployedbyai.com/log/9d3d37aa19c3/shared-projects-and-connectors/?k=repo) | Shared projects for Business, Enterprise, Edu plans; new connectors to Gmail, Calendar, Outlook, Teams, SharePoint, GitHub, Dropbox, Box; ISO 27001/27017/27018/27701 certifications; SOC 2 expanded. | [OpenAI, More ways to work with your team and tools in ChatGPT](https://openai.com/index/more-ways-to-work-with-your-team) |
+
+## Undated until its day
+
+1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [Codex CLI 0.171.0](https://deployedbyai.com/log/97841d965dfd/codex-cli-0-171-0/?k=repo) | Codex CLI 0.171.0 adds GPT-6.2 Sol and Astra to model catalogs with Sol as the default selection, and enables the TUI workspace by default. | [OpenAI, Codex CLI 0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) |
 
 ## Placed by their edition
 
