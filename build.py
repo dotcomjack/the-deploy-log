@@ -31,7 +31,14 @@ UA = "deployedbyai the-deploy-log-refresh (+https://github.com/dotcomjack/the-de
 MCP_UA = UA
 REPO = "https://github.com/dotcomjack/the-deploy-log"
 INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models"),
-           ("platform/", "Platforms"), ("week/", "Week by week"), ("month/", "Month by month"))
+           ("platform/", "Platforms"), ("week/", "Week by week"), ("month/", "Month by month"),
+           ("product/", "AI tools, version by version"), ("ai-coding-tools/", "AI coding tools"),
+           ("today/", "AI news today"))
+# These three are named in the record's own words. Where the record's front page links one, the README prints that
+# link's text, read at build time (index_names); where it does not, the name typed above stands: the page's own
+# heading, or for today's page, whose heading goes on to name the day, the front page's link text on 2026-11-19.
+# The other six keep the names typed above: the front page words them differently, and their lines would move.
+FRONT_NAMED = ("product/", "ai-coding-tools/", "today/")
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
 ET = zoneinfo.ZoneInfo("America/New_York")
 TOP = 15
@@ -179,14 +186,29 @@ def anchors(page, kind, locs):
     return found
 
 
+def index_names(front):
+    """The name the record's front page links each FRONT_NAMED index page by, keyed by URL. A page it does not link
+    is left out, and so is link text that is empty or carries a dash, which would stop the README: the name typed in
+    INDEXES stands for those, so the front page's wording never stops the daily refresh."""
+    found = {}
+    for p in FRONT_NAMED:
+        m = re.search(r'<a[^>]+href="/log/' + re.escape(p) + r'"[^>]*>(.*?)</a>', front, flags=re.S)
+        name = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", m.group(1)))).strip() if m else ""
+        if name and not any(d in name for d in DASHES):
+            found[BASE + p] = name
+    return found
+
+
 def hubs():
-    """What the live sitemap lists, plus lane and company hub URLs keyed by the name the record links them by."""
+    """What the live sitemap lists, plus lane and company hub URLs keyed by the name the record links them by, and
+    the names its front page links index pages by."""
     locs = set(re.findall(r"<loc>([^<]+)</loc>", fetch("sitemap.xml").decode("utf-8")))
     if BASE not in locs:
         sys.exit("sitemap.xml does not list the record itself")
-    lanes = anchors(fetch("").decode("utf-8"), "lane", locs)
+    front = fetch("").decode("utf-8")
+    lanes = anchors(front, "lane", locs)
     companies = anchors(fetch("company/").decode("utf-8"), "company", locs) if BASE + "company/" in locs else {}
-    return locs, lanes, companies
+    return locs, lanes, companies, index_names(front)
 
 
 def mcp_post(body, what):
@@ -570,6 +592,20 @@ def files_lines(paged):
     weeks = [f"- `weeks/`: one page per week the record lists, {how}"] if "weeks/README.md" in paged else []
     return weeks + ([f"- `companies/`: one page per company the record lists, {'the same way' if weeks else how}"]
                     if "companies/README.md" in paged else [])
+
+
+def indexes(locs, names):
+    """The README's Indexes section: a line for each index page the live sitemap lists and none for one it does not,
+    with the number of pages the sitemap lists under that index's own URL where there is one. names is what
+    index_names read off the record's front page; an index it holds no name for carries the one typed in INDEXES."""
+    idx = [(BASE + p, names.get(BASE + p) or label) for p, label in INDEXES if BASE + p in locs]
+    if not idx:
+        return []
+    out = ["## Indexes", ""]
+    for u, label in idx:
+        n = sum(1 for x in locs if x.startswith(u) and x != u and u != BASE)
+        out.append(f"- {link(label, u)}" + (f": {num(n)} pages listed in the record's sitemap" if n else ""))
+    return out + [""]
 
 
 def week_days(wk):
@@ -1239,7 +1275,45 @@ def selftest():
     refused = asked(http(401), good, token="t0", text=had)
     down = asked(urllib.error.URLError("no route"), http(502), token="t0", text=had)
     bare = asked(urllib.error.URLError("no route"), urllib.error.URLError("no route"), text="## Load it\n")
+    # The Indexes section, from a sitemap made here: three tool pages under product/, two day pages beside today/ and
+    # not under it, and under model/ one model page and the newest models page.
+    counted = ": {} pages listed in the record's sitemap".format
+    sitemap = {BASE, BASE + "model/", BASE + "model/aaaaaaaaaaaa/one/", BASE + "model/newest/", BASE + "product/",
+               *(f"{BASE}product/{n:012x}/tool/" for n in (1, 2, 3)), BASE + "today/", BASE + "day/2026-11-18/",
+               BASE + "day/2026-11-19/", BASE + "ai-coding-tools/"}
+    named = indexes(sitemap, {})
+    unlisted = indexes(sitemap - {BASE + "product/"}, {})
+    # A front page made here: it links today's page in other words and with markup, the tools index in words that
+    # carry a dash, the model index, which is not read, and not the coding tools page.
+    front = ('<p><a class="x" href="/log/today/">AI news\n <b>today</b> by day</a>: every row.</p>'
+             f'<a href="/log/product/">Tools {DASHES[1]} versions</a>'
+             '<a href="/log/model/">AI models, platform by platform</a>')
+    read = index_names(front)
+    renamed = indexes(sitemap, read)
     checks = [
+        ("an index the sitemap lists is named in the page's own words, with the count of the pages listed under it",
+         f"- [AI tools, version by version]({BASE}product/){counted(3)}" in named, named),
+        ("an index the sitemap does not list gets no line, though its pages are listed, and no other line moves",
+         not any("product/" in s for s in unlisted) and len(unlisted) == len(named) - 1
+         and set(unlisted) <= set(named), unlisted),
+        ("today's page is named with no count: the day pages are listed beside it, not under it, and so is the "
+         "coding tools page", f"- [AI news today]({BASE}today/)" in named
+         and f"- [AI coding tools]({BASE}ai-coding-tools/)" in named, named),
+        ("the model index still counts every page listed under it, the newest models page among them",
+         f"- [Models]({BASE}model/){counted(2)}" in named, named),
+        ("the record itself is named first with no count, and a sitemap that lists no index gets no section",
+         named[:3] == ["## Indexes", "", f"- [The Deploy Log]({BASE})"] and named[-1] == ""
+         and indexes(set(), {}) == [], (named[:3], indexes(set(), {}))),
+        ("the front page's own link text names an index page, its markup dropped and its white space closed up; "
+         "text that carries a dash, a page it does not link and an index named here are not read",
+         read == {BASE + "today/": "AI news today by day"}, read),
+        ("the README prints the name read off the front page, and every other line stands as typed",
+         f"- [AI news today by day]({BASE}today/)" in renamed
+         and [s for s in renamed if "today/" not in s] == [s for s in named if "today/" not in s]
+         and len(renamed) == len(named), renamed),
+        ("a front page that links none of them, or links one with no text, leaves every name as typed",
+         index_names('<a href="/log/">The Deploy Log</a><a href="/log/today/"><img src="x"></a>') == {}
+         and indexes(sitemap, {}) == named, index_names('<a href="/log/today/"><img src="x"></a>')),
         ("a README's release line is read back as the release that prints it again, byte for byte",
          kept is not None and release_line(*kept[:2]) == line and kept[2] == {"data.csv", "data.json"}, kept),
         ("a README with no release line, or with one in other words, keeps none", other == [None] * 3, other),
@@ -1267,7 +1341,7 @@ def selftest():
     return 1 if bad else 0
 
 
-def readme(d, served, today, paged, locs, lanes, companies, tools, release, refused):
+def readme(d, served, today, paged, locs, lanes, companies, names, tools, release, refused):
     validate(d, today)
     check_tools(tools)
     rows = d["rows"]
@@ -1345,13 +1419,7 @@ def readme(d, served, today, paged, locs, lanes, companies, tools, release, refu
             "", "```json", json.dumps(shown, indent=2, ensure_ascii=False), "```", ""]
     out += record
 
-    idx = [(BASE + p, label) for p, label in INDEXES if BASE + p in locs]
-    if idx:
-        out += ["## Indexes", ""]
-        for u, label in idx:
-            n = sum(1 for x in locs if x.startswith(u) and x != u and u != BASE)
-            out.append(f"- [{label}]({u})" + (f": {num(n)} pages listed in the record's sitemap" if n else ""))
-        out.append("")
+    out += indexes(locs, names)
 
     lane_rows = Counter(r.get("lane") for r in rows)
     lane_pub = Counter(r.get("lane") for r in pub)
