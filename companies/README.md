@@ -52,10 +52,10 @@ Of the 161 companies the record files a row under, 105 have a page there, and ea
 | [inclusionAI](inclusionai.md) | 13 | 13 | 2026-10-13 | 2026-11-20 | [page](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/?k=repo) |
 | [Roboflow](roboflow.md) | 13 | 13 | 2026-10-02 | 2026-11-21 | [page](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo) |
 | [Snowflake](snowflake.md) | 13 | 13 | 2026-10-02 | 2026-11-19 | [page](https://deployedbyai.com/log/company/2aea06ccb0d8/snowflake/?k=repo) |
+| [Together AI](together-ai.md) | 13 | 13 | 2026-09-29 | 2026-11-20 | [page](https://deployedbyai.com/log/company/e4dcca255aac/together-ai/?k=repo) |
 | [Agno](agno.md) | 12 | 12 | 2026-10-01 | 2026-11-17 | [page](https://deployedbyai.com/log/company/18c156da0579/agno/?k=repo) |
 | [Open WebUI](open-webui.md) | 12 | 12 | 2026-09-21 | 2026-11-17 | [page](https://deployedbyai.com/log/company/d493030271cb/open-webui/?k=repo) |
 | [Red Hat](red-hat.md) | 12 | 12 | 2026-10-08 | 2026-11-16 | [page](https://deployedbyai.com/log/company/f3385ce24af8/red-hat/?k=repo) |
-| [Together AI](together-ai.md) | 12 | 12 | 2026-09-29 | 2026-11-20 | [page](https://deployedbyai.com/log/company/e4dcca255aac/together-ai/?k=repo) |
 | [Kilo Code](kilo-code.md) | 11 | 11 | 2026-09-25 | 2026-11-20 | [page](https://deployedbyai.com/log/company/37f4d5aefb1a/kilo-code/?k=repo) |
 | [Deepgram](deepgram.md) | 10 | 10 | 2026-09-30 | 2026-11-17 | [page](https://deployedbyai.com/log/company/d875bddf276c/deepgram/?k=repo) |
 | [Tencent](tencent.md) | 10 | 10 | 2026-10-15 | 2026-11-18 | [page](https://deployedbyai.com/log/company/ea750d3cf789/tencent/?k=repo) |
