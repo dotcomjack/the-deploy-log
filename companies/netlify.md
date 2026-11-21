@@ -1,6 +1,6 @@
 # Netlify in The Deploy Log
 
-24 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 17, 2026.
+26 rows in The Deploy Log are filed under Netlify. Every one carries a publisher's date, from September 28, 2026 to November 20, 2026.
 
 The same rows are on [the Netlify page of the record](https://deployedbyai.com/log/company/7adffd5ee2c8/netlify/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Netlify page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [Netlify Agent Runners context](https://deployedbyai.com/log/d0842e4d5663/netlify-agent-runners-context/?k=repo) | Agent Runners can now check domains and DNS, investigate failed deploys, read form submissions, look up Identity users and review function and edge function logs, with no setup. | [Netlify, Netlify Agent Runners context](https://www.netlify.com/changelog/2026-11-20-agent-runners-improved-context/) |
+| 2026-11-18 | [Gemini 4 Neon on AI Gateway](https://deployedbyai.com/log/f198a055e357/gemini-4-neon-on-ai-gateway/?k=repo) | Google's Gemini 4 Neon model is available through Netlify's AI Gateway and Agent Runners with zero configuration, usable in Functions, Scheduled, Background and Edge Functions. | [Netlify, Gemini 4 Neon on AI Gateway](https://www.netlify.com/changelog/gemini-4-neon-ai-gateway-agent-runners/) |
 | 2026-11-17 | [Connectors for Agent Runners](https://deployedbyai.com/log/b102a2ef6d68/connectors-for-agent-runners/?k=repo) | Agent Runners can now work with over 150 third-party services including Linear, Notion, Snowflake, and Stripe. | [Netlify, Connectors for Agent Runners](https://www.netlify.com/changelog/2026-11-17-connectors-agent-runners/) |
 | 2026-11-17 | [GPT-6.2 Astra and Sol on Netlify](https://deployedbyai.com/log/09ceac64fa31/gpt-6-2-astra-and-sol-on-netlify/?k=repo) | GPT-6.2 Astra and GPT-6.2 Sol are available through Netlify AI Gateway and Agent Runners with zero configuration. | [Netlify, GPT-6.2 Astra and Sol on Netlify](https://www.netlify.com/changelog/gpt-6-2-astra-sol-ai-gateway-agent-runners/) |
 | 2026-11-13 | [Agent Runners PR comments](https://deployedbyai.com/log/9463145d47d1/agent-runners-pr-comments/?k=repo) | Agent Runners can now read comments on pull requests they created, using review feedback as context for changes. | [Netlify, Agent Runners PR comments](https://www.netlify.com/changelog/2026-11-13-agent-runners-pr-review-comments/) |

@@ -1,8 +1,14 @@
 # Google Research in The Deploy Log
 
-33 rows in The Deploy Log are filed under Google Research. 20 carry a publisher's date, from October 16, 2025 to July 9, 2026, and 13 are placed by their edition.
+34 rows in The Deploy Log are filed under Google Research. 21 carry a publisher's date, from October 16, 2025 to November 20, 2026, and 13 are placed by their edition.
 
 The same rows are on [the Google Research page of the record](https://deployedbyai.com/log/company/de1f4bdca32b/google-research/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-20 | [Duplex in Tasks in Gemini](https://deployedbyai.com/log/7cfffa5bad7f/duplex-in-tasks-in-gemini/?k=repo) | Duplex launched in Tasks in the Gemini app, calling businesses to handle real-world requests like reservations and appointments on the user's behalf. | [Google Research, Duplex in Tasks in Gemini](https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/) |
 
 ## July 2026
 

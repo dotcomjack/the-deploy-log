@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-333 rows in The Deploy Log are filed under Vercel. 136 carry a publisher's date, from September 18, 2025 to November 19, 2026, and 197 are placed by their edition.
+336 rows in The Deploy Log are filed under Vercel. 137 carry a publisher's date, from September 18, 2025 to November 19, 2026, and 199 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,8 +8,9 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
-| 2026-11-19 | [GPT-Live 1.1 on AI Gateway](https://deployedbyai.com/log/c571acae4106/gpt-live-1-1-on-ai-gateway/?k=repo) | OpenAI's GPT-Live 1.1 full-duplex voice model is available on AI Gateway, using the same Live endpoint and client delegation so existing integrations only need the new model ID. | [Vercel, GPT-Live 1.1 on AI Gateway](https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway) |
-| 2026-11-19 | [Liquid AI d1.2 and d1.2-ultra](https://deployedbyai.com/log/d1291bcb62a3/liquid-ai-d1-2-and-d1-2-ultra/?k=repo) | Liquid AI's d1.2 and d1.2-ultra decision models are now available on AI Gateway with audio input and bounding box support. | [Vercel, Liquid AI d1.2 and d1.2-ultra](https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway) |
+| 2026-11-19 | [GPT-Live 1.1](https://deployedbyai.com/log/c571acae4106/gpt-live-1-1/?k=repo) | GPT-Live 1.1 is on AI Gateway as a full-duplex voice model, and an existing GPT-Live integration needs only the new model ID. | [Vercel, GPT-Live 1.1 from OpenAI is now available on AI Gateway](https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway) |
+| 2026-11-19 | [Liquid d1.2](https://deployedbyai.com/log/d1291bcb62a3/liquid-d1-2/?k=repo) | Liquid AI's d1.2 and d1.2-ultra are on AI Gateway with audio input and bounding box support, returning structured answers to Boolean, Choice and Score questions. | [Vercel, Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway](https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway) |
+| 2026-11-19 | [Vercel CLI help search](https://deployedbyai.com/log/39946c712bf7/vercel-cli-help-search/?k=repo) | vercel help search finds CLI commands from a plain-language task, with --with-help, --json, and API endpoint matches, available by running vercel upgrade. | [Vercel, Vercel CLI help search](https://vercel.com/changelog/agents-can-now-find-vercel-cli-commands-by-describing-the-task) |
 | 2026-11-18 | [Gemini 4 Neon on AI Gateway](https://deployedbyai.com/log/3cc7695dcdf7/gemini-4-neon-on-ai-gateway/?k=repo) | Google's Gemini 4 Neon model is now available on Vercel AI Gateway with a 1M-token context window. | [Vercel, Gemini 4 Neon on AI Gateway](https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway) |
 | 2026-11-18 | [Parallel web search on AI Gateway](https://deployedbyai.com/log/2d1afa691aeb/parallel-web-search-on-ai-gateway/?k=repo) | Parallel fast mode web search is free on AI Gateway through January 31, 2027, and is now the default for eve agents. | [Vercel, Parallel web search on AI Gateway](https://vercel.com/changelog/parallel-web-search-is-free-on-ai-gateway-and-eve-through-january-31) |
 | 2026-11-18 | [Vercel Board](https://deployedbyai.com/log/608b25b349a2/vercel-board/?k=repo) | Vercel Board, an experimental agentic primitive for coordinating agent fleets, launched with CLI and JavaScript SDK. | [Vercel, Vercel Board](https://vercel.com/blog/introducing-vercel-board) |
@@ -217,10 +218,12 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 ## Placed by their edition
 
-197 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+199 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 61, 2026-11-21 | [Priority Projects](https://deployedbyai.com/log/e5df70e66cde/priority-projects/?k=repo) | Priority Projects are in public beta for Pro and Enterprise teams at $200 per project per month, raising Pro custom rules from 40 to 100 and IP blocks from 40 to 100. | [Vercel, Priority Projects are now in public beta](https://vercel.com/changelog/priority-projects-now-in-public-beta) |
+| Edition 61, 2026-11-21 | [Vercel billing CLI](https://deployedbyai.com/log/52aa79e2d0a3/vercel-billing-cli/?k=repo) | Vercel CLI now groups billing commands under vercel billing, covering overview, invoice list, inspect, download and upcoming charges, with invoice details in CLI 65.17.0 and later. | [Vercel, Vercel billing CLI is now available](https://vercel.com/changelog/vercel-billing-cli-is-now-available) |
 | Edition 60, 2026-11-14 | [Build cache size limit](https://deployedbyai.com/log/7d36ad4da61a/build-cache-size-limit/?k=repo) | The build cache size limit on all Vercel build machines has been increased to 5 GB, allowing projects to save more installed dependencies and framework files for reuse between deployments. | [Vercel, Build cache size limit on Vercel increased to 5 GB](https://vercel.com/changelog/build-cache-size-limit-on-vercel-increased-to-five-gb) |
 | Edition 59, 2026-11-07 | [Vercel Schedules](https://deployedbyai.com/log/aa9958749ff7/vercel-schedules/?k=repo) | Vercel Schedules is in public beta on all plans, running tasks on a recurring cadence or at a single point in time, billed at <span>$</span>5 per 1M runs and <span>$</span>10 per 1M creations on Pro and Enterprise. | [Vercel, Vercel Schedules is now in public beta](https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta) |
 | Edition 59, 2026-11-07 | [Vercel Tracing](https://deployedbyai.com/log/31b56e3102cf/vercel-tracing/?k=repo) | Vercel Tracing is generally available on all plans, with a new Traces page, CLI search, automatic tracing for new Next.js projects, and retention of 3 days on Hobby, 14 days on Pro and Enterprise. | [Vercel, Vercel Tracing is now generally available](https://vercel.com/changelog/vercel-tracing-is-now-generally-available) |

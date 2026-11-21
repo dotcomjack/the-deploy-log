@@ -1,6 +1,6 @@
 # Roboflow in The Deploy Log
 
-12 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 18, 2026.
+13 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 21, 2026.
 
 The same rows are on [the Roboflow page of the record](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Roboflow page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-21 | [Roboflow Inference 1.8.6](https://deployedbyai.com/log/888b915babd0/roboflow-inference-1-8-6/?k=repo) | Inference 1.8.6 adds RF-DETR Atto, Femto and Pico models, ConvNeXt classifier and embedding serving, and keypoint detection in Gemini v6 and OpenAI v7 blocks. | [Roboflow, Roboflow Inference 1.8.6](https://github.com/roboflow/inference/releases/tag/v1.8.6) |
 | 2026-11-18 | [supervision 0.32.0](https://deployedbyai.com/log/08c9257bc569/supervision-0-32-0/?k=repo) | supervision 0.32.0 adds zone entry/exit counting, dwell time, and semantic segmentation loading. | [Roboflow, supervision 0.32.0](https://github.com/roboflow/supervision/releases/tag/0.32.0) |
 | 2026-11-13 | [Roboflow Inference v1.8.5](https://deployedbyai.com/log/f64f30b77458/roboflow-inference-v1-8-5/?k=repo) | Roboflow Inference v1.8.5 released with ONNX dtype fixes, OpenAI Decisions block, Databricks SQL image source, and Python 3.12 images. | [Roboflow, Roboflow Inference v1.8.5](https://github.com/roboflow/inference/releases/tag/v1.8.5) |
 | 2026-11-11 | [supervision-0.31.7](https://deployedbyai.com/log/85a8ff1992e5/supervision-0-31-7/?k=repo) | supervision 0.31.7 fixes mAP matching, key point and CSV inputs, and zone and export edge cases. | [Roboflow, supervision-0.31.7](https://github.com/roboflow/supervision/releases/tag/0.31.7) |

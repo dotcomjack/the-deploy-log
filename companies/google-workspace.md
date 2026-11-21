@@ -1,6 +1,6 @@
 # Google Workspace in The Deploy Log
 
-55 rows in The Deploy Log are filed under Google Workspace. 43 carry a publisher's date, from August 28, 2026 to November 18, 2026, and 12 are placed by their edition.
+56 rows in The Deploy Log are filed under Google Workspace. 43 carry a publisher's date, from August 28, 2026 to November 18, 2026, and 13 are placed by their edition.
 
 The same rows are on [the Google Workspace page of the record](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo).
 
@@ -69,10 +69,11 @@ The same rows are on [the Google Workspace page of the record](https://deployedb
 
 ## Placed by their edition
 
-12 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+13 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 61, 2026-11-21 | [Vids Assets section](https://deployedbyai.com/log/aa6196813f79/vids-assets-section/?k=repo) | Google Vids with Gemini Omni now stores generated media in an Assets section for reuse within the same project, rolling out gradually from November 17, 2026. | [Google Workspace, Google Vids now lets you reuse your media in video generation](https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html) |
 | Edition 56, 2026-10-17 | [Gmail AI Inbox](https://deployedbyai.com/log/d3972ee3326e/gmail-ai-inbox/?k=repo) | Gmail's AI Inbox is expanding to paid Google Workspace users starting October 12, 2026, extracting action items and deadlines into suggested to-dos and summarizing priority topics. | [Google Workspace, Gmail's AI Inbox is rolling out to paid Workspace users](https://workspaceupdates.googleblog.com/2026/10/gmails-ai-inbox-is-rolling-out-to-paid-Workspace-users.html) |
 | Edition 56, 2026-10-17 | [Gmail Live](https://deployedbyai.com/log/e112570be3cd/gmail-live/?k=repo) | Gmail Live is rolling out to paid Workspace users on Android and iOS starting October 15, 2026, with low-latency voice search and synthesized answers from the inbox. | [Google Workspace, Gmail Live is rolling out to paid Workspace users](https://workspaceupdates.googleblog.com/2026/10/gmail-live-is-rolling-out-to-paid-Workspace-users.html) |
 | Edition 55, 2026-10-10 | [Google Voice Carrier Link](https://deployedbyai.com/log/294e6fc679ed/google-voice-carrier-link/?k=repo) | Google made Carrier Link available in 14 additional countries including the US, Canada and much of Europe, letting Workspace customers add phone numbers and calling plans from certified local carriers through partners Southlight Services, Gamma Communications, Tata Communications and Telefonica Global Solutions. | [Google Workspace, Carrier Link for Google Voice available in 14 additional countries](https://workspaceupdates.googleblog.com/2026/10/carrier-link-for-google-voice-available-in-14-additional-countries.html) |

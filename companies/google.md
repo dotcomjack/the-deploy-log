@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-86 rows in The Deploy Log are filed under Google. 77 carry a publisher's date, from September 23, 2026 to November 19, 2026, and 9 are placed by their edition.
+87 rows in The Deploy Log are filed under Google. 78 carry a publisher's date, from September 23, 2026 to November 20, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,9 +8,10 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [MCP Toolbox for Databases v1.18.0](https://deployedbyai.com/log/a247002c842a/mcp-toolbox-for-databases-v1-18-0/?k=repo) | v1.18.0 of the MCP Toolbox adds server-side query parameter binding for ClickHouse SQL and fixes auth, parameter, and SQLite precision issues. | [Google, MCP Toolbox for Databases v1.18.0](https://github.com/googleapis/mcp-toolbox/releases/tag/v1.18.0) |
 | 2026-11-19 | [Gemini CLI v0.69.0](https://deployedbyai.com/log/8211e4d812c9/gemini-cli-v0-69-0/?k=repo) | Adds /stats heatmap subcommand for daily token usage and standalone theme.json configuration for custom themes. | [Google, Gemini CLI v0.69.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0) |
 | 2026-11-19 | [Gemini computer use for Mac](https://deployedbyai.com/log/8adbb4ca963f/gemini-computer-use-for-mac/?k=repo) | Gemini app for Mac can now navigate apps and websites in the background to complete complex tasks. | [Google, Gemini computer use for Mac](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/) |
-| 2026-11-19 | [Genie 4](https://deployedbyai.com/log/d8ed087bf104/genie-4/?k=repo) | Genie 4 is now available on the Gemini API and Google AI Studio, generating 720p worlds at 24fps with synchronized native audio. | [Google, Genie 4](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/) |
+| 2026-11-19 | [Genie 4](https://deployedbyai.com/log/d8ed087bf104/genie-4/?k=repo) | Genie 4 is available on the Gemini API through the Interactions API and in Google AI Studio. It generates continuous 720p worlds at 24fps with synchronized native audio from a text prompt, a reference image, or both. | [Google, Genie 4 is now available on the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/) |
 | 2026-11-19 | [Google ADK Python v2.15.0](https://deployedbyai.com/log/c64d888803df/google-adk-python-v2-15-0/?k=repo) | Google ADK Python v2.15.0 adds Google Maps and BigQuery tooling, sandbox isolation, and up to 6x faster RAG memory search. | [Google, Google ADK Python v2.15.0](https://github.com/google/adk-python/releases/tag/v2.15.0) |
 | 2026-11-19 | [gemini-cli v0.70.0](https://deployedbyai.com/log/69a00f691f47/gemini-cli-v0-70-0/?k=repo) | gemini-cli v0.70.0 released with fixes for Unicode prompts, authentication restarts, model output token limits, and MCP server permissions. | [Google, gemini-cli v0.70.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0) |
 | 2026-11-18 | [ADK Java v1.15.0](https://deployedbyai.com/log/a342c3235b03/adk-java-v1-15-0/?k=repo) | ADK Java v1.15.0 adds FunctionNode, ClassifierNode, LlmClassifier, and workflow routing features. | [Google, ADK Java v1.15.0](https://github.com/google/adk-java/releases/tag/v1.15.0) |

@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-78 rows in The Deploy Log are filed under Cloudflare. 69 carry a publisher's date, from August 13, 2026 to November 20, 2026, and 9 are placed by their edition.
+79 rows in The Deploy Log are filed under Cloudflare. 70 carry a publisher's date, from August 13, 2026 to November 20, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-20 | [@cloudflare/ai-chat 0.12.3](https://deployedbyai.com/log/6c76880d91ab/cloudflare-ai-chat-0-12-3/?k=repo) | ai-chat 0.12.3 fixes chat races across tabs and during recovery so stop, clear, regenerate and resume hold, and a request cancelled in the queue no longer runs. | [Cloudflare, @cloudflare/ai-chat 0.12.3](https://github.com/cloudflare/agents/releases/tag/%40cloudflare%2Fai-chat%400.12.3) |
+| 2026-11-20 | [Agents SDK v0.34.0 / Pi 1.6](https://deployedbyai.com/log/3aea6d2185f0/agents-sdk-v0-34-0-pi-1-6/?k=repo) | Agents SDK v0.34.0 upgrades PiHarness to Pi 1.6, adding tools that park until a signal or deadline without keeping the Durable Object awake. | [Cloudflare, Agents SDK v0.34.0 / Pi 1.6](https://developers.cloudflare.com/changelog/post/2026-11-20-pi-harness-pi-1-6/) |
 | 2026-11-20 | [agents 0.34.0](https://deployedbyai.com/log/a20a9238b8c3/agents-0-34-0/?k=repo) | agents 0.34.0 adds Pi 1.6 support with tools that park until a signal or deadline, session seeding from existing history, MCPAuthorizationRequiredError with a link, and FLUX.2 image models in ai.image(). | [Cloudflare, agents 0.34.0](https://github.com/cloudflare/agents/releases/tag/agents%400.34.0) |
 | 2026-11-19 | [Browser Run /snapshot formats](https://deployedbyai.com/log/ad341a988853/browser-run-snapshot-formats/?k=repo) | Browser Run's /snapshot endpoint now returns pdf, links, scrape, and json formats from a single page load. | [Cloudflare, Browser Run /snapshot formats](https://developers.cloudflare.com/changelog/post/2026-11-19-snapshot-all-formats/) |
 | 2026-11-18 | [Agent Lee file attachments](https://deployedbyai.com/log/2246272080f7/agent-lee-file-attachments/?k=repo) | Agent Lee now accepts PNG, JPEG, WebP, PDF, and text files up to 100 MiB, four per message. | [Cloudflare, Agent Lee file attachments](https://developers.cloudflare.com/changelog/post/2026-11-18-agent-lee-attachments/) |

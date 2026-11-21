@@ -1,6 +1,6 @@
 # Allen Institute for AI in The Deploy Log
 
-8 rows in The Deploy Log are filed under Allen Institute for AI. 3 carry a publisher's date, from May 8, 2026 to November 5, 2026, and 5 are placed by their edition.
+9 rows in The Deploy Log are filed under Allen Institute for AI. 4 carry a publisher's date, from May 8, 2026 to November 19, 2026, and 5 are placed by their edition.
 
 The same rows are on [the Allen Institute for AI page of the record](https://deployedbyai.com/log/company/0094e3ea82f8/allen-institute-for-ai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Allen Institute for AI page of the record](https://dep
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-19 | [ACE2.5-ERA5](https://deployedbyai.com/log/56702dc5fb46/ace2-5-era5/?k=repo) | Three ERA5-trained checkpoints released: 1-degree daily 46M parameters, 4-degree daily 14M at 5x throughput, and 1-degree 6-hourly 46M, with seeds 1-3 and ablations. | [Allen Institute for AI, ACE2.5-ERA5](https://huggingface.co/allenai/ACE2.5-ERA5) |
 | 2026-11-05 | [ManiFlow-TB](https://deployedbyai.com/log/e091030d0b78/maniflow-tb/?k=repo) | Allen Institute for AI released ManiFlow-TB, a 322.5M parameter robot action model, on Hugging Face. | [Allen Institute for AI, ManiFlow-TB](https://huggingface.co/allenai/maniflow-tb) |
 | 2026-11-05 | [Molmo2-4B-tb](https://deployedbyai.com/log/82a892aed571/molmo2-4b-tb/?k=repo) | Allen Institute for AI released Molmo2-4B-tb, a 4.5B parameter vision-language model fine-tuned for robot block-stacking, on Hugging Face. | [Allen Institute for AI, Molmo2-4B-tb](https://huggingface.co/allenai/Molmo2-4B-tb) |
 

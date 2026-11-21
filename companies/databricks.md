@@ -1,6 +1,6 @@
 # Databricks in The Deploy Log
 
-97 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 19, 2026.
+98 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 20, 2026.
 
 The same rows are on [the Databricks page of the record](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [MCP tools in Genie Agents](https://deployedbyai.com/log/776d88b55779/mcp-tools-in-genie-agents/?k=repo) | MCP tools in Genie Agents are generally available, letting authors attach external MCP servers registered in Unity Gateway alongside Databricks connectors, with Agent mode APIs supporting MCP tools. | [Databricks, MCP tools in Genie Agents](https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#mcp-tools-in-genie-agents-are-generally-available) |
 | 2026-11-19 | [AI/BI Bulk Migration](https://deployedbyai.com/log/baad5b74ca58/ai-bi-bulk-migration/?k=repo) | Bulk migrate Tableau and Power BI reports to AI/BI Dashboards with a single /importBI command. | [Databricks, AI/BI Bulk Migration](https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code) |
 | 2026-11-19 | [Genie ZeroOps](https://deployedbyai.com/log/2fd308c68e79/genie-zeroops/?k=repo) | Genie ZeroOps is available in Public Beta, with inbox sharing, notifications, one-click PR creation, and custom business instructions. | [Databricks, Genie ZeroOps](https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer) |
 | 2026-11-18 | [Genie Code CLI](https://deployedbyai.com/log/2200a590df60/genie-code-cli/?k=repo) | Genie Code CLI is generally available with shared budget management across CLI and workspace. | [Databricks, Genie Code CLI](https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-code-cli-is-now-generally-available) |

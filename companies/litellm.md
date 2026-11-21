@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-40 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 20, 2026.
+41 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 20, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-20 | [LiteLLM 1.108.14 LTS](https://deployedbyai.com/log/a1dd8f26195c/litellm-1-108-14-lts/?k=repo) | LiteLLM 1.108.14 LTS fixes Claude tool search missing on /v1/responses follow-up turns and adds OpenAI input\_json content parts on /v1/decisions. | [LiteLLM, LiteLLM 1.108.14 LTS](https://github.com/BerriAI/litellm/releases/tag/v1.108.14) |
 | 2026-11-20 | [LiteLLM v1.106.12](https://deployedbyai.com/log/b29bae15203e/litellm-v1-106-12/?k=repo) | LiteLLM v1.106.12 fixes GPT-6.2 system prompts missing the prompt cache on /v1/chat/completions and /v1/messages unless store: false, and fixes /key/info key leakage. | [LiteLLM, LiteLLM v1.106.12](https://github.com/BerriAI/litellm/releases/tag/v1.106.12) |
 | 2026-11-20 | [LiteLLM v1.108.13](https://deployedbyai.com/log/421afc6440d4/litellm-v1-108-13/?k=repo) | LTS 1.108.13 backports key-management fixes, keeps Claude Code billing metadata out of prompts, and caches bridged system prompts on stored GPT-6.2 requests. | [LiteLLM, LiteLLM v1.108.13](https://github.com/BerriAI/litellm/releases/tag/v1.108.13) |
 | 2026-11-20 | [LiteLLM v1.109.3](https://deployedbyai.com/log/f24f048bfabf/litellm-v1-109-3/?k=repo) | Stable 1.109.3 backports key-management fixes, caches bridged system prompts on stored GPT-6.2 requests, and refreshes the Wolfi base image digest. | [LiteLLM, LiteLLM v1.109.3](https://github.com/BerriAI/litellm/releases/tag/v1.109.3) |

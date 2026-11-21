@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-127 rows in The Deploy Log are filed under GitHub. 117 carry a publisher's date, from September 17, 2026 to November 18, 2026, and 10 are placed by their edition.
+130 rows in The Deploy Log are filed under GitHub. 117 carry a publisher's date, from September 17, 2026 to November 18, 2026, and 13 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -138,10 +138,13 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 ## Placed by their edition
 
-10 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
+13 rows carry no publisher's date in the record and are listed by the date of the edition that carried them, which is not the day they shipped.
 
 | Edition | Row | What shipped | Source |
 |---|---|---|---|
+| Edition 61, 2026-11-21 | [GitHub Desktop 3.7.0](https://deployedbyai.com/log/af045374aae9/github-desktop-3-7-0/?k=repo) | GitHub Desktop 3.7.0 signs in with more than one account per host, with no fixed limit, and ties each repository to a specific account. | [GitHub, GitHub Desktop now supports multiple accounts per host](https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host) |
+| Edition 61, 2026-11-21 | [RHEL runner images](https://deployedbyai.com/log/c3b622e8d396/rhel-runner-images/?k=repo) | Red Hat Enterprise Linux 9 and RHEL 10 images for GitHub-hosted larger runners are generally available for GitHub Team and GitHub Enterprise Cloud plans. | [GitHub, Red Hat Enterprise Linux runner images now generally available](https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available) |
+| Edition 61, 2026-11-21 | [gh event listen](https://deployedbyai.com/log/2927aa927c69/gh-event-listen/?k=repo) | GitHub CLI v2.105.0 adds gh event listen, which waits for pull request events in one command instead of polling and exits after the first event by default. | [GitHub, Wait for pull request events with GitHub CLI](https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli) |
 | Edition 59, 2026-11-07 | [Secret scanning](https://deployedbyai.com/log/47855d2cebf4/secret-scanning/?k=repo) | GitHub secret scanning adds SpaceX as a partner, detects starlink\_public\_api\_v2\_secret, and upgrades Alibaba, AWS, Google, OpenVSX, Pydantic Services, and Tencent detectors with additional false-positive filtering. | [GitHub, Secret scanning upgrades detectors, adds SpaceX as partner](https://github.blog/changelog/2026-11-05-secret-scanning-upgrades-detectors-adds-spacex-as-partner) |
 | Edition 58, 2026-10-31 | [GitHub webhook IP ranges](https://deployedbyai.com/log/39ffdc861313/github-webhook-ip-ranges/?k=repo) | GitHub added three webhook delivery IP ranges to the Meta API hooks field: 9.234.98.160/28, 9.234.98.176/28, and 9.234.106.48/28, for github.com across all plans including GitHub Enterprise Cloud. | [GitHub, Webhook IP ranges added to the Meta API](https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api) |
 | Edition 57, 2026-10-24 | [Copilot global default policy](https://deployedbyai.com/log/d58b497416df/copilot-global-default-policy/?k=repo) | GitHub is gradually rolling out enforcement of a global default policy for generally available Copilot features through October 26, setting eligible unconfigured features to Enabled, Disabled, or Let organizations decide. | [GitHub, Global default for Copilot features generally available](https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available) |

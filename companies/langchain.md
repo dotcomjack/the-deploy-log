@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-124 rows in The Deploy Log are filed under LangChain. 123 carry a publisher's date, from September 20, 2026 to November 20, 2026, and 1 is placed by its edition.
+126 rows in The Deploy Log are filed under LangChain. 125 carry a publisher's date, from September 20, 2026 to November 20, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -9,7 +9,9 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-20 | [deepagents 0.7.41](https://deployedbyai.com/log/d32b979b81c7/deepagents-0-7-41/?k=repo) | deepagents 0.7.41 fixes message-channel handling with LangGraph's \_messages\_delta\_reducer and corrects two tool description and error claims. | [LangChain, deepagents 0.7.41](https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.41) |
+| 2026-11-20 | [deepagents-acp 0.1.0](https://deployedbyai.com/log/5bed91ed18e2/deepagents-acp-0-1-0/?k=repo) | deepagents-acp 0.1.0 requires agent-client-protocol&gt;=1.0.0,&lt;2.0.0 and fixes a crash when running dcode --acp with agent-client-protocol 1.0. | [LangChain, deepagents-acp 0.1.0](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-acp%3D%3D0.1.0) |
 | 2026-11-20 | [deepagents-code 0.2.12](https://deployedbyai.com/log/0a865355cf49/deepagents-code-0-2-12/?k=repo) | deepagents-code 0.2.12 adds Gemini 4 Neon and GPT-6.2 Astra and Sol to the model picker and shares OpenAI prompt\_cache\_key across threads in a local profile. | [LangChain, deepagents-code 0.2.12](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.12) |
+| 2026-11-20 | [deepagents-code 0.2.13](https://deployedbyai.com/log/2983d2034b80/deepagents-code-0-2-13/?k=repo) | deepagents-code 0.2.13 fixes reporting of unapproved MCP servers disabled via F2, reports project MCP servers skipped for missing approval, and shows the source file in the MCP trust prompt. | [LangChain, deepagents-code 0.2.13](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.13) |
 | 2026-11-20 | [deepagents-talon 0.1.1](https://deployedbyai.com/log/88afe3fcc519/deepagents-talon-0-1-1/?k=repo) | deepagents-talon 0.1.1 adds structured clarifying questions in chat, background subagent inspection, MCP server toggles, command hooks and DeepSeek reasoning levels. | [LangChain, deepagents-talon 0.1.1](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.1.1) |
 | 2026-11-20 | [langgraph 1.2.24](https://deployedbyai.com/log/f1a8021ed647/langgraph-1-2-24/?k=repo) | langgraph 1.2.24 handles REMOVE\_ALL\_MESSAGES in the messages delta reducer and None checkpoints in DeltaChannel. | [LangChain, langgraph 1.2.24](https://github.com/langchain-ai/langgraph/releases/tag/1.2.24) |
 | 2026-11-19 | [LangSmith Tool Gateway](https://deployedbyai.com/log/6e920d54a36e/langsmith-tool-gateway/?k=repo) | LangSmith Tool Gateway launched in Public Beta, managing credentials, identity, and access for agent tool calls. | [LangChain, LangSmith Tool Gateway](https://www.langchain.com/blog/langsmith-tool-gateway) |

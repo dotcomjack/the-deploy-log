@@ -1,6 +1,6 @@
 # OpenRouter in The Deploy Log
 
-49 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 20, 2026.
+51 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 21, 2026.
 
 The same rows are on [the OpenRouter page of the record](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the OpenRouter page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-21 | [DaisyRose 27B on OpenRouter](https://deployedbyai.com/log/8dc337668b24/daisyrose-27b-on-openrouter/?k=repo) | RadixArk DaisyRose 27B, a 27.8B-parameter multimodal reasoning model with a 262K-token context window, is available on OpenRouter via DeepInfra at <span>$</span>0.15/<span>$</span>1.875 per 1M tokens. | [OpenRouter, DaisyRose 27B on OpenRouter](https://openrouter.ai/radixark/daisyrose-27b) |
+| 2026-11-21 | [Inkling 2 Mini on OpenRouter](https://deployedbyai.com/log/37be398db83e/inkling-2-mini-on-openrouter/?k=repo) | Thinking Machines' Inkling 2 Mini, a 26.4B-total open-weight MoE with 3.4B active parameters and 1.0M context, is served on OpenRouter at <span>$</span>0.10/<span>$</span>0.40 per 1M tokens. | [OpenRouter, Inkling 2 Mini on OpenRouter](https://openrouter.ai/thinkingmachines/inkling-2-mini) |
 | 2026-11-20 | [Pixtral Large 2502](https://deployedbyai.com/log/a3143eaeda74/pixtral-large-2502/?k=repo) | Mistral's Pixtral Large 2502 multimodal model is available on OpenRouter via Amazon Bedrock at <span>$</span>2/<span>$</span>6 per 1M tokens with a 128K context window. | [OpenRouter, Pixtral Large 2502](https://openrouter.ai/mistralai/pixtral-large-2502) |
 | 2026-11-18 | [Gemini 4 Neon on OpenRouter](https://deployedbyai.com/log/346305d71f5a/gemini-4-neon-on-openrouter/?k=repo) | Gemini 4 Neon is available on OpenRouter at <span>$</span>3/<span>$</span>15 per 1M tokens with 1M context. | [OpenRouter, Gemini 4 Neon on OpenRouter](https://openrouter.ai/google/gemini-4-neon) |
 | 2026-11-17 | [GPT-6.2 Astra](https://deployedbyai.com/log/2e70d4163d4b/gpt-6-2-astra/?k=repo) | GPT-6.2 Astra is available on OpenRouter at <span>$</span>8 per 1M input and <span>$</span>40 per 1M output with 1.1M context. | [OpenRouter, GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra) |

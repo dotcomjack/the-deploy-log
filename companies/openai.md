@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-344 rows in The Deploy Log are filed under OpenAI. 234 carry a publisher's date, from September 25, 2025 to November 20, 2026, and 110 are placed by their edition.
+345 rows in The Deploy Log are filed under OpenAI. 235 carry a publisher's date, from September 25, 2025 to November 21, 2026, and 110 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,7 +8,8 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
-| 2026-11-20 | [Codex CLI 0.171.0](https://deployedbyai.com/log/97841d965dfd/codex-cli-0-171-0/?k=repo) | Codex CLI 0.171.0 adds GPT-6.2 Sol and Astra to model catalogs with Sol as the default selection, and enables the TUI workspace by default. | [OpenAI, Codex CLI 0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) |
+| 2026-11-21 | [openai-ruby v1.0.0](https://deployedbyai.com/log/579196aa0645/openai-ruby-v1-0-0/?k=repo) | Ruby SDK 1.0 requires Ruby 3.3.0 or later and removes Assistants, Threads, videos, and retired Chat Completions model constants. | [OpenAI, openai-ruby v1.0.0](https://github.com/openai/openai-ruby/releases/tag/v1.0.0) |
+| 2026-11-20 | [Codex 0.171.0](https://deployedbyai.com/log/97841d965dfd/codex-0-171-0/?k=repo) | Codex rust-v0.171.0 adds GPT-6.2 Sol and Astra to model catalogs with Sol as the default, and turns the TUI workspace on by default across 173 commits. | [OpenAI, rust-v0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) |
 | 2026-11-20 | [openai-go 3.105.0](https://deployedbyai.com/log/9ab04035e91a/openai-go-3-105-0/?k=repo) | openai-go 3.105.0 adds API support for Live WebRTC standby. | [OpenAI, openai-go 3.105.0](https://github.com/openai/openai-go/releases/tag/v3.105.0) |
 | 2026-11-20 | [openai-java v4.111.0](https://deployedbyai.com/log/5e8af0a99f3e/openai-java-v4-111-0/?k=repo) | openai-java 4.111.0 adds API support for Live WebRTC standby. | [OpenAI, openai-java v4.111.0](https://github.com/openai/openai-java/releases/tag/v4.111.0) |
 | 2026-11-20 | [openai-node 7.62.0](https://deployedbyai.com/log/41c1637fcfac/openai-node-7-62-0/?k=repo) | openai-node 7.62.0 adds API support for Live WebRTC standby. | [OpenAI, openai-node 7.62.0](https://github.com/openai/openai-node/releases/tag/v7.62.0) |

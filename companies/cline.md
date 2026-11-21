@@ -1,8 +1,17 @@
 # Cline in The Deploy Log
 
-25 rows in The Deploy Log are filed under Cline. Every one carries a publisher's date, from September 25, 2026 to October 26, 2026.
+29 rows in The Deploy Log are filed under Cline. Every one carries a publisher's date, from September 25, 2026 to November 21, 2026.
 
 The same rows are on [the Cline page of the record](https://deployedbyai.com/log/company/eb2499072dab/cline/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-21 | [Cline CLI v3.0.75](https://deployedbyai.com/log/0b6181e3da95/cline-cli-v3-0-75/?k=repo) | Cline CLI v3.0.75 starts one-shot runs in yolo mode and adds an experimental CLINE\_CLOUD\_SESSIONS=1 flag to run tasks in Cline Cloud from the TUI. | [Cline, Cline CLI v3.0.75](https://github.com/cline/cline/releases/tag/cli-v3.0.75) |
+| 2026-11-21 | [Cline Desktop v0.0.50](https://deployedbyai.com/log/a5e782e11c52/cline-desktop-v0-0-50/?k=repo) | Cline Desktop v0.0.50 adds a Max reasoning effort option, a stoppable manual /compact, and a refreshed catalog adding 94 providers from models.dev. | [Cline, Cline Desktop v0.0.50](https://github.com/cline/cline/releases/tag/desktop-v0.0.50) |
+| 2026-11-21 | [Cline SDK v0.2.1](https://deployedbyai.com/log/eafa5a1d0664/cline-sdk-v0-2-1/?k=repo) | Cline SDK v0.2.1 raises read\_files results to the 50k file-content cap and adds opt-in report\_ux\_verification and publish\_artifacts tools. | [Cline, Cline SDK v0.2.1](https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.1) |
+| 2026-11-21 | [Cline v4.1.27](https://deployedbyai.com/log/51688214217a/cline-v4-1-27/?k=repo) | Cline v4.1.27 adds an LM Studio API key field, MCP read-only tool badges, and a refreshed catalog adding 94 providers from models.dev. | [Cline, Cline v4.1.27](https://github.com/cline/cline/releases/tag/v4.1.27) |
 
 ## October 2026
 
