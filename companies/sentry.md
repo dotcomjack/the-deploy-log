@@ -1,6 +1,6 @@
 # Sentry in The Deploy Log
 
-7 rows in The Deploy Log are filed under Sentry. Every one carries a publisher's date, from September 29, 2026 to November 20, 2026.
+8 rows in The Deploy Log are filed under Sentry. Every one carries a publisher's date, from September 29, 2026 to November 20, 2026.
 
 The same rows are on [the Sentry page of the record](https://deployedbyai.com/log/company/da9aabd85ea4/sentry/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the Sentry page of the record](https://deployedbyai.com/lo
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-20 | [Sentry Bedrock tracing](https://deployedbyai.com/log/9787ddb4d2a7/sentry-bedrock-tracing/?k=repo) | Sentry Python SDK 2.75.0 and JavaScript SDK 11.13.0 now trace Amazon Bedrock calls, creating gen\_ai spans with model, token usage, inputs and outputs. | [Sentry, Sentry Bedrock tracing](https://sentry.io/changelog/bedrock-tracing-python-javascript) |
+| 2026-11-20 | [Sentry Python SDK 2.75.0](https://deployedbyai.com/log/db64d165caa4/sentry-python-sdk-2-75-0/?k=repo) | Version 2.75.0 of the Sentry Python SDK traces Amazon Bedrock Converse and ConverseStream calls made with boto3, generating a gen\_ai.chat span with model, token usage, inputs and outputs. | [Sentry, Sentry Python SDK 2.75.0](https://sentry.io/changelog/python-sdk-2750-bedrock-tracing) |
 
 ## October 2026
 

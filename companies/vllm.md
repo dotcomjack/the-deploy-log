@@ -1,6 +1,6 @@
 # vLLM in The Deploy Log
 
-8 rows in The Deploy Log are filed under vLLM. 6 carry a publisher's date, from September 22, 2026 to November 16, 2026, and 2 are placed by their edition.
+9 rows in The Deploy Log are filed under vLLM. 7 carry a publisher's date, from September 22, 2026 to November 22, 2026, and 2 are placed by their edition.
 
 The same rows are on [the vLLM page of the record](https://deployedbyai.com/log/company/c69431b9c427/vllm/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the vLLM page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-22 | [vLLM-Omni v0.34.0](https://deployedbyai.com/log/b12e6146d6e3/vllm-omni-v0-34-0/?k=repo) | vLLM-Omni v0.34.0 rebases onto vLLM 0.34.0 with 776 merged pull requests, adding MiniMax-H3-Image, FLUX.3 (Klein), PAN2, Haru-4B and Ming-3.0 models plus distributed duplex serving. | [vLLM, vLLM-Omni v0.34.0](https://github.com/vllm-project/vllm-omni/releases/tag/v0.34.0) |
 | 2026-11-16 | [vLLM v0.34.0](https://deployedbyai.com/log/7099293c90b6/vllm-v0-34-0/?k=repo) | vLLM v0.34.0 ships 10 new models, extensible KV cache on by default, and Model Runner V2 as the only GPU runner. | [vLLM, vLLM v0.34.0](https://github.com/vllm-project/vllm/releases/tag/v0.34.0) |
 | 2026-11-11 | [vLLM v0.34.0rc1](https://deployedbyai.com/log/4f41cef93370/vllm-v0-34-0rc1/?k=repo) | vLLM v0.34.0rc1 is tagged, a release candidate with a bugfix for greedy\_argmax on XPU. Correction, 14 Nov 2026: this row first said it was released; its source is a GitHub tag with no published release, and none is published as of 14 Nov 2026. | [vLLM, vLLM v0.34.0rc1](https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1) |
 

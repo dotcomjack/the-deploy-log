@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-45 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 17, 2026.
+46 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 22, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-22 | [Qwen Code Desktop v0.28.4](https://deployedbyai.com/log/11884dd117cc/qwen-code-desktop-v0-28-4/?k=repo) | Qwen Code Desktop v0.28.4 adds GitHub as a third managed channel adapter, generic outbound webhook delivery, and a /send command to send to another session. | [Qwen, Qwen Code Desktop v0.28.4](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4) |
 | 2026-11-17 | [Qwen Code Desktop v0.28.0](https://deployedbyai.com/log/9839c9081e33/qwen-code-desktop-v0-28-0/?k=repo) | Qwen Code Desktop v0.28.0 adds a sidebar workspace filter, DingTalk adapter, and various fixes. | [Qwen, Qwen Code Desktop v0.28.0](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.0) |
 | 2026-11-17 | [Qwen Code SDK v0.1.35](https://deployedbyai.com/log/5847c2cf6a37/qwen-code-sdk-v0-1-35/?k=repo) | Qwen Code TypeScript SDK v0.1.35 bundles CLI version 0.28.0. | [Qwen, Qwen Code SDK v0.1.35](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.35) |
 | 2026-11-17 | [Qwen Code v0.28.0](https://deployedbyai.com/log/bd97757c742e/qwen-code-v0-28-0/?k=repo) | Qwen Code v0.28.0 adds workspace filtering, DingTalk adapter, shared agent loop defaults, and web-shell session features. | [Qwen, Qwen Code v0.28.0](https://github.com/QwenLM/qwen-code/releases/tag/v0.28.0) |
