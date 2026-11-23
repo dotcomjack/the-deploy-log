@@ -1,6 +1,6 @@
 # Google Workspace in The Deploy Log
 
-56 rows in The Deploy Log are filed under Google Workspace. 43 carry a publisher's date, from August 28, 2026 to November 18, 2026, and 13 are placed by their edition.
+57 rows in The Deploy Log are filed under Google Workspace. 44 carry a publisher's date, from August 28, 2026 to November 23, 2026, and 13 are placed by their edition.
 
 The same rows are on [the Google Workspace page of the record](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google Workspace page of the record](https://deployedb
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [Google Chat tables and headings](https://deployedbyai.com/log/ddf5a2431213/google-chat-tables-and-headings/?k=repo) | Agents and apps in Google Chat can send messages with Markdown tables and three levels of headings via the Chat API, available now. | [Google Workspace, Google Chat tables and headings](http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html) |
 | 2026-11-18 | [Google Chat starter prompts](https://deployedbyai.com/log/45e66954df1a/google-chat-starter-prompts/?k=repo) | Developers can now add starter prompts and descriptions to Google Chat apps and agents, configurable in the Google Cloud console. | [Google Workspace, Google Chat starter prompts](http://workspaceupdates.googleblog.com/2026/11/starter-prompts-and-descriptions-for-Google-Chat-apps-and-agents.html) |
 | 2026-11-17 | [Gemini data classification in Drive](https://deployedbyai.com/log/c22557a1b510/gemini-data-classification-in-drive/?k=repo) | Gemini-powered data classification in Google Drive is generally available, with test instructions and real-time reporting. | [Google Workspace, Gemini data classification in Drive](http://workspaceupdates.googleblog.com/2026/11/gemini-powered-data-classification-in-Google-Drive-is-now-generally-available.html) |
 | 2026-11-16 | [Gemini app shareable skills](https://deployedbyai.com/log/9ebe1b946cc3/gemini-app-shareable-skills/?k=repo) | Gemini app skills can now be shared with View or Edit permissions and include files from Google Drive, Gemini Notebook, and Google Photos. | [Google Workspace, Gemini app shareable skills](http://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html) |

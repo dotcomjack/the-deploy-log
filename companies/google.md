@@ -1,6 +1,6 @@
 # Google in The Deploy Log
 
-87 rows in The Deploy Log are filed under Google. 78 carry a publisher's date, from September 23, 2026 to November 20, 2026, and 9 are placed by their edition.
+88 rows in The Deploy Log are filed under Google. 79 carry a publisher's date, from September 23, 2026 to November 23, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Google page of the record](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [Gemini API file slicing](https://deployedbyai.com/log/4f7c4e4eeebb/gemini-api-file-slicing/?k=repo) | File slicing controls in the Gemini API across Google AI Studio and the Gemini platform, plus native upload for Office and OpenDocument formats, billing tokens only for inspected parts. | [Google, Gemini API file slicing](https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/) |
 | 2026-11-20 | [MCP Toolbox for Databases v1.18.0](https://deployedbyai.com/log/a247002c842a/mcp-toolbox-for-databases-v1-18-0/?k=repo) | v1.18.0 of the MCP Toolbox adds server-side query parameter binding for ClickHouse SQL and fixes auth, parameter, and SQLite precision issues. | [Google, MCP Toolbox for Databases v1.18.0](https://github.com/googleapis/mcp-toolbox/releases/tag/v1.18.0) |
 | 2026-11-19 | [Gemini CLI v0.69.0](https://deployedbyai.com/log/8211e4d812c9/gemini-cli-v0-69-0/?k=repo) | Adds /stats heatmap subcommand for daily token usage and standalone theme.json configuration for custom themes. | [Google, Gemini CLI v0.69.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0) |
 | 2026-11-19 | [Gemini computer use for Mac](https://deployedbyai.com/log/8adbb4ca963f/gemini-computer-use-for-mac/?k=repo) | Gemini app for Mac can now navigate apps and websites in the background to complete complex tasks. | [Google, Gemini computer use for Mac](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/) |

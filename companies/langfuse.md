@@ -1,6 +1,6 @@
 # Langfuse in The Deploy Log
 
-33 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 19, 2026.
+34 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 23, 2026.
 
 The same rows are on [the Langfuse page of the record](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Langfuse page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [Langfuse v4.84.0](https://deployedbyai.com/log/82882333e0ef/langfuse-v4-84-0/?k=repo) | Langfuse v4.84.0 adds an MCP batchCreateAnnotationQueueItems tool, organization-wide AI gateway spend budgets with warning thresholds, and organization-scoped model definitions. | [Langfuse, Langfuse v4.84.0](https://github.com/langfuse/langfuse/releases/tag/v4.84.0) |
 | 2026-11-19 | [Langfuse v4.83.0](https://deployedbyai.com/log/793bc6fc8c38/langfuse-v4-83-0/?k=repo) | AI gateway per-key spend limits, a Budgets page with per-user spend budgets, and default spend budgets for keys and users. | [Langfuse, Langfuse v4.83.0](https://github.com/langfuse/langfuse/releases/tag/v4.83.0) |
 | 2026-11-17 | [Langfuse v4.82.0](https://deployedbyai.com/log/cbdf2426c7f3/langfuse-v4-82-0/?k=repo) | Langfuse v4.82.0 adds a Developer API key preset, normalizes provider usage and costs, and reads audit logs from ClickHouse. | [Langfuse, Langfuse v4.82.0](https://github.com/langfuse/langfuse/releases/tag/v4.82.0) |
 | 2026-11-16 | [Langfuse v4.81.0](https://deployedbyai.com/log/08e4c9a5883d/langfuse-v4-81-0/?k=repo) | Langfuse v4.81.0 adds Google Vertex AI as a gateway provider and Gemini decision models in evaluators. | [Langfuse, Langfuse v4.81.0](https://github.com/langfuse/langfuse/releases/tag/v4.81.0) |

@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-345 rows in The Deploy Log are filed under OpenAI. 235 carry a publisher's date, from September 25, 2025 to November 21, 2026, and 110 are placed by their edition.
+349 rows in The Deploy Log are filed under OpenAI. 239 carry a publisher's date, from September 25, 2025 to November 23, 2026, and 110 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [openai-go v3.106.0](https://deployedbyai.com/log/7a7b03d4ad7d/openai-go-v3-106-0/?k=repo) | openai-go 3.106.0 adds agent session spending controls and spend limit notification settings to the API client. | [OpenAI, openai-go v3.106.0](https://github.com/openai/openai-go/releases/tag/v3.106.0) |
+| 2026-11-23 | [openai-node v7.63.0](https://deployedbyai.com/log/f7a9cce3018e/openai-node-v7-63-0/?k=repo) | openai-node 7.63.0 adds spending limits to agent sessions and clarifies when to omit completion choice count. | [OpenAI, openai-node v7.63.0](https://github.com/openai/openai-node/releases/tag/v7.63.0) |
+| 2026-11-23 | [openai-python v3.58.0](https://deployedbyai.com/log/d0424a394fa2/openai-python-v3-58-0/?k=repo) | openai-python 3.58.0 adds setting and reading agent session spending limits and clarifies when to omit completion choice count. | [OpenAI, openai-python v3.58.0](https://github.com/openai/openai-python/releases/tag/v3.58.0) |
+| 2026-11-23 | [openai-ruby v1.1.0](https://deployedbyai.com/log/895cd05ccacb/openai-ruby-v1-1-0/?k=repo) | openai-ruby 1.1.0 adds API support for agent session spending limits and budget events. | [OpenAI, openai-ruby v1.1.0](https://github.com/openai/openai-ruby/releases/tag/v1.1.0) |
 | 2026-11-21 | [openai-ruby v1.0.0](https://deployedbyai.com/log/579196aa0645/openai-ruby-v1-0-0/?k=repo) | Ruby SDK 1.0 requires Ruby 3.3.0 or later and removes Assistants, Threads, videos, and retired Chat Completions model constants. | [OpenAI, openai-ruby v1.0.0](https://github.com/openai/openai-ruby/releases/tag/v1.0.0) |
 | 2026-11-20 | [Codex 0.171.0](https://deployedbyai.com/log/97841d965dfd/codex-0-171-0/?k=repo) | Codex rust-v0.171.0 adds GPT-6.2 Sol and Astra to model catalogs with Sol as the default, and turns the TUI workspace on by default across 173 commits. | [OpenAI, rust-v0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) |
 | 2026-11-20 | [openai-go 3.105.0](https://deployedbyai.com/log/9ab04035e91a/openai-go-3-105-0/?k=repo) | openai-go 3.105.0 adds API support for Live WebRTC standby. | [OpenAI, openai-go 3.105.0](https://github.com/openai/openai-go/releases/tag/v3.105.0) |

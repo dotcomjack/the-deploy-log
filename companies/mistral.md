@@ -1,6 +1,6 @@
 # Mistral in The Deploy Log
 
-33 rows in The Deploy Log are filed under Mistral. 21 carry a publisher's date, from March 31, 2026 to November 20, 2026, and 12 are placed by their edition.
+38 rows in The Deploy Log are filed under Mistral. 26 carry a publisher's date, from March 31, 2026 to November 23, 2026, and 12 are placed by their edition.
 
 The same rows are on [the Mistral page of the record](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the Mistral page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [mistralai Python SDK v3.3.0](https://deployedbyai.com/log/e247430ae732/mistralai-python-sdk-v3-3-0/?k=repo) | Python SDK v3.3.0 removes Sessions and UnknownAuthorization from the stable surface and 33 items from the beta surface. | [Mistral, mistralai Python SDK v3.3.0](https://github.com/mistralai/client-python/releases/tag/v3.3.0) |
+| 2026-11-23 | [mistralai Python SDK v3.4.0](https://deployedbyai.com/log/0df6e73a7b04/mistralai-python-sdk-v3-4-0/?k=repo) | Python SDK v3.4.0 adds sdk.responses.create() for stateless text and image responses, and makes configuration required on audio agent creation. | [Mistral, mistralai Python SDK v3.4.0](https://github.com/mistralai/client-python/releases/tag/v3.4.0) |
+| 2026-11-23 | [mistralai Python SDK v3.5.0](https://deployedbyai.com/log/08eb063d6e7f/mistralai-python-sdk-v3-5-0/?k=repo) | Python SDK v3.5.0 adds the response and request enum value max across beta conversations, beta agents, chat and agents operations. | [Mistral, mistralai Python SDK v3.5.0](https://github.com/mistralai/client-python/releases/tag/v3.5.0) |
+| 2026-11-23 | [mistralai client-python v3.6.0](https://deployedbyai.com/log/57e320cc2de0/mistralai-client-python-v3-6-0/?k=repo) | mistralai client-python v3.6.0 published, removing 27 stable API surface items and adding realtime speech connect and speak\_stream operations. | [Mistral, mistralai client-python v3.6.0](https://github.com/mistralai/client-python/releases/tag/v3.6.0) |
+| 2026-11-23 | [mistralai client-python v3.8.0](https://deployedbyai.com/log/51bf1499e9af/mistralai-client-python-v3-8-0/?k=repo) | mistralai client-python v3.8.0 published, removing 7 stable API surface items and changing 21 stable types or signatures. | [Mistral, mistralai client-python v3.8.0](https://github.com/mistralai/client-python/releases/tag/v3.8.0) |
 | 2026-11-20 | [Mistral Vibe v3.1.4](https://deployedbyai.com/log/62df2f33ee8b/mistral-vibe-v3-1-4/?k=repo) | Vibe v3.1.4 adds /mcp tool search, /thinking levels, a status rail, and a desktop app download. | [Mistral, Mistral Vibe v3.1.4](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.4) |
 | 2026-11-18 | [Mistral Vibe v3.1.3](https://deployedbyai.com/log/57f2e478341c/mistral-vibe-v3-1-3/?k=repo) | Mistral Vibe v3.1.3 adds goals, thinking levels, raw Markdown, hooks, loop manager, and trusted folders. | [Mistral, Mistral Vibe v3.1.3](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.3) |
 | 2026-11-10 | [mistral-vibe v3.1.2](https://deployedbyai.com/log/ffa3b2cdbe13/mistral-vibe-v3-1-2/?k=repo) | Plugin disable/enable settings and /skills listing with search, toggles, and registry skill pinning. | [Mistral, mistral-vibe v3.1.2](https://github.com/mistralai/mistral-vibe/releases/tag/v3.1.2) |

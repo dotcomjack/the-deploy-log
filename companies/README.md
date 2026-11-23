@@ -1,35 +1,35 @@
 # The Deploy Log, company by company
 
-Of the 163 companies the record files a row under, 109 have a page there, and each is listed here, by rows, then by name. The rows of the others are in `data.csv`.
+Of the 164 companies the record files a row under, 110 have a page there, and each is listed here, by rows, then by name. The rows of the others are in `data.csv`.
 
 | Company | Rows | With a publisher's date | First | Latest | In the record |
 |---|---:|---:|---|---|---|
-| [OpenAI](openai.md) | 345 | 235 | 2025-09-25 | 2026-11-21 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
+| [OpenAI](openai.md) | 349 | 239 | 2025-09-25 | 2026-11-23 | [page](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo) |
 | [Vercel](vercel.md) | 338 | 139 | 2025-09-18 | 2026-11-23 | [page](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo) |
-| [Amazon Web Services](amazon-web-services.md) | 288 | 280 | 2026-09-16 | 2026-11-22 | [page](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo) |
-| [Anthropic](anthropic.md) | 254 | 209 | 2025-10-16 | 2026-11-20 | [page](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo) |
+| [Amazon Web Services](amazon-web-services.md) | 298 | 290 | 2026-09-16 | 2026-11-23 | [page](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo) |
+| [Anthropic](anthropic.md) | 261 | 216 | 2025-10-16 | 2026-11-23 | [page](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo) |
+| [LangChain](langchain.md) | 134 | 133 | 2026-09-20 | 2026-11-23 | [page](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo) |
 | [GitHub](github.md) | 130 | 117 | 2026-09-17 | 2026-11-18 | [page](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo) |
-| [LangChain](langchain.md) | 126 | 125 | 2026-09-20 | 2026-11-20 | [page](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo) |
 | [Hugging Face](hugging-face.md) | 110 | 60 | 2025-09-17 | 2026-11-23 | [page](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo) |
 | [Databricks](databricks.md) | 98 | 98 | 2026-09-22 | 2026-11-20 | [page](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo) |
-| [Google Cloud](google-cloud.md) | 93 | 93 | 2026-09-17 | 2026-11-20 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
-| [Google](google.md) | 87 | 78 | 2026-09-23 | 2026-11-20 | [page](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo) |
+| [Google Cloud](google-cloud.md) | 94 | 94 | 2026-09-17 | 2026-11-23 | [page](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo) |
+| [Google](google.md) | 88 | 79 | 2026-09-23 | 2026-11-23 | [page](https://deployedbyai.com/log/company/4b181d6cc893/google/?k=repo) |
 | [Cloudflare](cloudflare.md) | 79 | 70 | 2026-08-13 | 2026-11-20 | [page](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo) |
-| [NVIDIA](nvidia.md) | 59 | 53 | 2026-08-20 | 2026-11-20 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
-| [Google Workspace](google-workspace.md) | 56 | 43 | 2026-08-28 | 2026-11-18 | [page](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo) |
+| [NVIDIA](nvidia.md) | 60 | 54 | 2026-08-20 | 2026-11-23 | [page](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo) |
+| [Google Workspace](google-workspace.md) | 57 | 44 | 2026-08-28 | 2026-11-23 | [page](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo) |
 | [OpenRouter](openrouter.md) | 51 | 51 | 2026-09-25 | 2026-11-21 | [page](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo) |
 | [Microsoft](microsoft.md) | 50 | 48 | 2026-09-28 | 2026-11-20 | [page](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo) |
 | [Microsoft Azure](microsoft-azure.md) | 46 | 46 | 2026-09-21 | 2026-11-20 | [page](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo) |
 | [Qwen](qwen.md) | 46 | 46 | 2026-09-29 | 2026-11-22 | [page](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo) |
 | [LiteLLM](litellm.md) | 42 | 42 | 2026-09-22 | 2026-11-21 | [page](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo) |
+| [Mistral](mistral.md) | 38 | 26 | 2026-03-31 | 2026-11-23 | [page](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo) |
 | [Google DeepMind](google-deepmind.md) | 37 | 11 | 2025-10-25 | 2026-11-10 | [page](https://deployedbyai.com/log/company/c98c3052b742/google-deepmind/?k=repo) |
 | [Google Research](google-research.md) | 34 | 21 | 2025-10-16 | 2026-11-20 | [page](https://deployedbyai.com/log/company/de1f4bdca32b/google-research/?k=repo) |
-| [Langfuse](langfuse.md) | 33 | 33 | 2026-09-25 | 2026-11-19 | [page](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo) |
-| [Mistral](mistral.md) | 33 | 21 | 2026-03-31 | 2026-11-20 | [page](https://deployedbyai.com/log/company/72d07fed89b4/mistral/?k=repo) |
+| [Langfuse](langfuse.md) | 34 | 34 | 2026-09-25 | 2026-11-23 | [page](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo) |
 | [Notion](notion.md) | 33 | 21 | 2025-11-10 | 2026-08-07 | [page](https://deployedbyai.com/log/company/4751f64514b9/notion/?k=repo) |
 | [Model Context Protocol](model-context-protocol.md) | 32 | 32 | 2026-09-28 | 2026-11-18 | [page](https://deployedbyai.com/log/company/088b60189c15/model-context-protocol/?k=repo) |
 | [RunPod](runpod.md) | 31 | 31 | 2026-09-25 | 2026-11-10 | [page](https://deployedbyai.com/log/company/3cc5d9cb66ef/runpod/?k=repo) |
-| [Ultralytics](ultralytics.md) | 30 | 30 | 2026-10-01 | 2026-11-20 | [page](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo) |
+| [Ultralytics](ultralytics.md) | 31 | 31 | 2026-10-01 | 2026-11-23 | [page](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo) |
 | [Cline](cline.md) | 29 | 29 | 2026-09-25 | 2026-11-21 | [page](https://deployedbyai.com/log/company/eb2499072dab/cline/?k=repo) |
 | [Netlify](netlify.md) | 26 | 26 | 2026-09-28 | 2026-11-20 | [page](https://deployedbyai.com/log/company/7adffd5ee2c8/netlify/?k=repo) |
 | [Lovable](lovable.md) | 25 | 25 | 2026-09-27 | 2026-11-20 | [page](https://deployedbyai.com/log/company/00260c69b4d7/lovable/?k=repo) |
@@ -38,27 +38,27 @@ Of the 163 companies the record files a row under, 109 have a page there, and ea
 | [DigitalOcean](digitalocean.md) | 19 | 19 | 2026-09-25 | 2026-11-18 | [page](https://deployedbyai.com/log/company/b6b9ec924bad/digitalocean/?k=repo) |
 | [Oracle](oracle.md) | 18 | 18 | 2026-09-25 | 2026-11-17 | [page](https://deployedbyai.com/log/company/20d0d42a1ab9/oracle/?k=repo) |
 | [Shopify](shopify.md) | 18 | 18 | 2026-09-29 | 2026-11-11 | [page](https://deployedbyai.com/log/company/24b3b60d3d0e/shopify/?k=repo) |
+| [OpenHands](openhands.md) | 17 | 17 | 2026-09-25 | 2026-11-23 | [page](https://deployedbyai.com/log/company/3073c3e8ba0d/openhands/?k=repo) |
 | [Ollama](ollama.md) | 16 | 9 | 2026-09-22 | 2026-11-21 | [page](https://deployedbyai.com/log/company/f5b7c084312d/ollama/?k=repo) |
-| [OpenHands](openhands.md) | 16 | 16 | 2026-09-25 | 2026-11-20 | [page](https://deployedbyai.com/log/company/3073c3e8ba0d/openhands/?k=repo) |
 | [PostHog](posthog.md) | 16 | 16 | 2026-09-25 | 2026-11-19 | [page](https://deployedbyai.com/log/company/97fc8c3bb9de/posthog/?k=repo) |
 | [Apple](apple.md) | 15 | 11 | 2026-07-23 | 2026-11-19 | [page](https://deployedbyai.com/log/company/ecedc9023fa1/apple/?k=repo) |
 | [Cognition](cognition.md) | 15 | 15 | 2026-09-28 | 2026-11-19 | [page](https://deployedbyai.com/log/company/a3079d818e00/cognition/?k=repo) |
 | [FastMCP](fastmcp.md) | 15 | 15 | 2026-09-25 | 2026-11-23 | [page](https://deployedbyai.com/log/company/11b827318913/fastmcp/?k=repo) |
 | [llama.cpp](llama-cpp.md) | 15 | 15 | 2026-09-23 | 2026-11-13 | [page](https://deployedbyai.com/log/company/5b11e1c65bdb/llama-cpp/?k=repo) |
 | [Retool](retool.md) | 15 | 15 | 2026-09-30 | 2026-11-19 | [page](https://deployedbyai.com/log/company/07a5ddfe307f/retool/?k=repo) |
+| [Docker](docker.md) | 14 | 14 | 2026-10-05 | 2026-11-23 | [page](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo) |
 | [Gradio](gradio.md) | 14 | 14 | 2026-10-08 | 2026-11-12 | [page](https://deployedbyai.com/log/company/263d01028438/gradio/?k=repo) |
+| [inclusionAI](inclusionai.md) | 14 | 14 | 2026-10-13 | 2026-11-23 | [page](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/?k=repo) |
 | [CrewAI](crewai.md) | 13 | 13 | 2026-09-28 | 2026-11-19 | [page](https://deployedbyai.com/log/company/ba61ca23a00b/crewai/?k=repo) |
-| [Docker](docker.md) | 13 | 13 | 2026-10-05 | 2026-11-19 | [page](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo) |
-| [inclusionAI](inclusionai.md) | 13 | 13 | 2026-10-13 | 2026-11-20 | [page](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/?k=repo) |
 | [Roboflow](roboflow.md) | 13 | 13 | 2026-10-02 | 2026-11-21 | [page](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo) |
 | [Snowflake](snowflake.md) | 13 | 13 | 2026-10-02 | 2026-11-19 | [page](https://deployedbyai.com/log/company/2aea06ccb0d8/snowflake/?k=repo) |
 | [Together AI](together-ai.md) | 13 | 13 | 2026-09-29 | 2026-11-20 | [page](https://deployedbyai.com/log/company/e4dcca255aac/together-ai/?k=repo) |
 | [Agno](agno.md) | 12 | 12 | 2026-10-01 | 2026-11-17 | [page](https://deployedbyai.com/log/company/18c156da0579/agno/?k=repo) |
 | [Open WebUI](open-webui.md) | 12 | 12 | 2026-09-21 | 2026-11-17 | [page](https://deployedbyai.com/log/company/d493030271cb/open-webui/?k=repo) |
 | [Red Hat](red-hat.md) | 12 | 12 | 2026-10-08 | 2026-11-16 | [page](https://deployedbyai.com/log/company/f3385ce24af8/red-hat/?k=repo) |
+| [Deepgram](deepgram.md) | 11 | 11 | 2026-09-30 | 2026-11-23 | [page](https://deployedbyai.com/log/company/d875bddf276c/deepgram/?k=repo) |
 | [Kilo Code](kilo-code.md) | 11 | 11 | 2026-09-25 | 2026-11-20 | [page](https://deployedbyai.com/log/company/37f4d5aefb1a/kilo-code/?k=repo) |
 | [Browser Use](browser-use.md) | 10 | 10 | 2026-10-15 | 2026-11-22 | [page](https://deployedbyai.com/log/company/2dcdec0423ec/browser-use/?k=repo) |
-| [Deepgram](deepgram.md) | 10 | 10 | 2026-09-30 | 2026-11-17 | [page](https://deployedbyai.com/log/company/d875bddf276c/deepgram/?k=repo) |
 | [Tencent](tencent.md) | 10 | 10 | 2026-10-15 | 2026-11-18 | [page](https://deployedbyai.com/log/company/ea750d3cf789/tencent/?k=repo) |
 | [Allen Institute for AI](allen-institute-for-ai.md) | 9 | 4 | 2026-05-08 | 2026-11-19 | [page](https://deployedbyai.com/log/company/0094e3ea82f8/allen-institute-for-ai/?k=repo) |
 | [Amp](amp.md) | 9 | 9 | 2026-09-29 | 2026-11-12 | [page](https://deployedbyai.com/log/company/6da83e085d2b/amp/?k=repo) |
@@ -75,6 +75,7 @@ Of the 163 companies the record files a row under, 109 have a page there, and ea
 | [Meta](meta.md) | 7 | 6 | 2026-10-09 | 2026-11-18 | [page](https://deployedbyai.com/log/company/50c5556ca53b/meta/?k=repo) |
 | [Neon](neon.md) | 7 | 7 | 2026-10-02 | 2026-11-13 | [page](https://deployedbyai.com/log/company/010df784046c/neon/?k=repo) |
 | [Prime Intellect](prime-intellect.md) | 7 | 7 | 2026-10-04 | 2026-10-15 | [page](https://deployedbyai.com/log/company/92993448e2f8/prime-intellect/?k=repo) |
+| [Ray](ray.md) | 7 | 7 | 2026-10-02 | 2026-11-23 | [page](https://deployedbyai.com/log/company/d4a327ffd86a/ray/?k=repo) |
 | [Cohere](cohere.md) | 6 | 6 | 2026-10-21 | 2026-11-19 | [page](https://deployedbyai.com/log/company/28c9fa52f6c5/cohere/?k=repo) |
 | [deepset](deepset.md) | 6 | 6 | 2026-10-01 | 2026-11-10 | [page](https://deployedbyai.com/log/company/e37233297afe/deepset/?k=repo) |
 | [MLX-VLM](mlx-vlm.md) | 6 | 6 | 2026-09-28 | 2026-11-16 | [page](https://deployedbyai.com/log/company/3d4b8352ba97/mlx-vlm/?k=repo) |
@@ -83,7 +84,6 @@ Of the 163 companies the record files a row under, 109 have a page there, and ea
 | [Charm](charm.md) | 5 | 5 | 2026-10-08 | 2026-11-19 | [page](https://deployedbyai.com/log/company/8c7fbb398e28/charm/?k=repo) |
 | [Firebase](firebase.md) | 5 | 5 | 2026-09-28 | 2026-11-17 | [page](https://deployedbyai.com/log/company/447cf9b9cce3/firebase/?k=repo) |
 | [Milvus](milvus.md) | 5 | 5 | 2026-09-28 | 2026-11-23 | [page](https://deployedbyai.com/log/company/5d86d7e2a8a8/milvus/?k=repo) |
-| [Ray](ray.md) | 5 | 5 | 2026-10-02 | 2026-11-18 | [page](https://deployedbyai.com/log/company/d4a327ffd86a/ray/?k=repo) |
 | [Twilio](twilio.md) | 5 | 5 | 2026-10-05 | 2026-11-18 | [page](https://deployedbyai.com/log/company/021668fb8d05/twilio/?k=repo) |
 | [Weaviate](weaviate.md) | 5 | 5 | 2026-10-28 | 2026-11-19 | [page](https://deployedbyai.com/log/company/d55d3deea995/weaviate/?k=repo) |
 | [Zed](zed.md) | 5 | 2 | 2026-11-18 | 2026-11-20 | [page](https://deployedbyai.com/log/company/0a5dec84a039/zed/?k=repo) |
@@ -102,6 +102,7 @@ Of the 163 companies the record files a row under, 109 have a page there, and ea
 | [ByteDance Seed](bytedance-seed.md) | 3 | 3 | 2026-11-05 | 2026-11-06 | [page](https://deployedbyai.com/log/company/3452c4b2a6e3/bytedance-seed/?k=repo) |
 | [Datadog](datadog.md) | 3 | 3 | 2026-11-02 | 2026-11-20 | [page](https://deployedbyai.com/log/company/4125f9a2dbe3/datadog/?k=repo) |
 | [Diffusers](diffusers.md) | 3 | 3 | 2026-10-06 | 2026-11-12 | [page](https://deployedbyai.com/log/company/be06e6d88d80/diffusers/?k=repo) |
+| [Docling](docling.md) | 3 | 3 | 2026-11-19 | 2026-11-23 | [page](https://deployedbyai.com/log/company/efa988105744/docling/?k=repo) |
 | [Microsoft Research](microsoft-research.md) | 3 | 1 | 2026-07-08 | 2026-07-08 | [page](https://deployedbyai.com/log/company/82b2d5074bf0/microsoft-research/?k=repo) |
 | [MLflow](mlflow.md) | 3 | 3 | 2026-10-07 | 2026-10-21 | [page](https://deployedbyai.com/log/company/c2fe27b9863b/mlflow/?k=repo) |
 | [Nebius](nebius.md) | 3 | 3 | 2026-10-22 | 2026-11-12 | [page](https://deployedbyai.com/log/company/b4645b146c2e/nebius/?k=repo) |
