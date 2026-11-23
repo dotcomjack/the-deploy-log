@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-134 rows in The Deploy Log are filed under LangChain. 133 carry a publisher's date, from September 20, 2026 to November 23, 2026, and 1 is placed by its edition.
+135 rows in The Deploy Log are filed under LangChain. 134 carry a publisher's date, from September 20, 2026 to November 23, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -11,6 +11,7 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 | 2026-11-23 | [langchain-chroma 1.2.0](https://deployedbyai.com/log/e8e9bf7e2dec/langchain-chroma-1-2-0/?k=repo) | langchain-chroma 1.2.0 released, dropping EOL'd Python 3.10 and bumping oauthlib, opentelemetry-api and other dependencies. | [LangChain, langchain-chroma 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-chroma%3D%3D1.2.0) |
 | 2026-11-23 | [langchain-classic 1.1.0](https://deployedbyai.com/log/91e926b5a130/langchain-classic-1-1-0/?k=repo) | langchain-classic 1.1.0 released, removing EOL'd Python 3.10 and correcting SQLiteEntityStore install guidance. | [LangChain, langchain-classic 1.1.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.1.0) |
 | 2026-11-23 | [langchain-exa 1.2.0](https://deployedbyai.com/log/82801965f2de/langchain-exa-1-2-0/?k=repo) | langchain-exa 1.2.0 released, dropping EOL Python 3.10 support, relaxing dependency upper bounds, and handling missing optional Exa result metadata. | [LangChain, langchain-exa 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.2.0) |
+| 2026-11-23 | [langchain-huggingface 1.3.0](https://deployedbyai.com/log/ad2150a9da48/langchain-huggingface-1-3-0/?k=repo) | langchain-huggingface 1.3.0 fixes forced tool choice and streaming token counts and drops end-of-life Python 3.10 from partner packages. | [LangChain, langchain-huggingface 1.3.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.3.0) |
 | 2026-11-23 | [langchain-ollama 1.2.0](https://deployedbyai.com/log/812411948464/langchain-ollama-1-2-0/?k=repo) | langchain-ollama 1.2.0 released, raising the ollama floor to 0.6.3 for thinking levels and dropping Python 3.10. | [LangChain, langchain-ollama 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-ollama%3D%3D1.2.0) |
 | 2026-11-23 | [langchain-perplexity 1.5.0](https://deployedbyai.com/log/10dc2259a8c2/langchain-perplexity-1-5-0/?k=repo) | langchain-perplexity 1.5.0 released, dropping EOL'd Python 3.10 support and patching vulnerable integration dependencies. | [LangChain, langchain-perplexity 1.5.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.5.0) |
 | 2026-11-23 | [langchain-qdrant 1.2.0](https://deployedbyai.com/log/a341fb9974b4/langchain-qdrant-1-2-0/?k=repo) | langchain-qdrant 1.2.0 removes end-of-life Python 3.10 from partner packages and bumps fastembed and filelock. | [LangChain, langchain-qdrant 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0) |

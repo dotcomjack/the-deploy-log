@@ -1,6 +1,6 @@
 # MLX-VLM in The Deploy Log
 
-6 rows in The Deploy Log are filed under MLX-VLM. Every one carries a publisher's date, from September 28, 2026 to November 16, 2026.
+7 rows in The Deploy Log are filed under MLX-VLM. Every one carries a publisher's date, from September 28, 2026 to November 23, 2026.
 
 The same rows are on [the MLX-VLM page of the record](https://deployedbyai.com/log/company/3d4b8352ba97/mlx-vlm/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the MLX-VLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [MLX-VLM v0.8.1](https://deployedbyai.com/log/741500b03fc9/mlx-vlm-v0-8-1/?k=repo) | MLX-VLM v0.8.1 adds SenseNova-Loop-9B, Depth Pro 2 and Inkling 2 Mini support, fused kernels for Inkling 2 Mini, and fixes for DeepSeek V4 tool calling and thinking. | [MLX-VLM, MLX-VLM v0.8.1](https://github.com/Neywa-Labs/mlx-vlm/releases/tag/v0.8.1) |
 | 2026-11-16 | [MLX-VLM v0.8.0](https://deployedbyai.com/log/09ea62a9d9af/mlx-vlm-v0-8-0/?k=repo) | MLX-VLM v0.8.0 adds QAT training, distributed streaming and cluster management, and support for MiniMax-H3-Image, Ling 3.1 Flash, Ripple-65B-Preview, DFlash2, DeepSeek V4.1 DSpark, ERNIE 5.5 Flash Base, and Inkling 2. | [MLX-VLM, MLX-VLM v0.8.0](https://github.com/Neywa-Labs/mlx-vlm/releases/tag/v0.8.0) |
 | 2026-11-04 | [MLX-VLM v0.7.12](https://deployedbyai.com/log/0201b9932cd9/mlx-vlm-v0-7-12/?k=repo) | Adds Mistral Large 4, Raon-1 Mini, Mage-VL-Cowork support, speculative thinking budgets, and reasoning-effort control. | [MLX-VLM, MLX-VLM v0.7.12](https://github.com/Neywa-Labs/mlx-vlm/releases/tag/v0.7.12) |
 

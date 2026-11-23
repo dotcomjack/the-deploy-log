@@ -1,6 +1,6 @@
 # Weaviate in The Deploy Log
 
-5 rows in The Deploy Log are filed under Weaviate. Every one carries a publisher's date, from October 28, 2026 to November 19, 2026.
+6 rows in The Deploy Log are filed under Weaviate. Every one carries a publisher's date, from October 28, 2026 to November 23, 2026.
 
 The same rows are on [the Weaviate page of the record](https://deployedbyai.com/log/company/d55d3deea995/weaviate/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Weaviate page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [Weaviate v1.41.0](https://deployedbyai.com/log/e1fb0a9802cd/weaviate-v1-41-0/?k=repo) | Weaviate v1.41.0 adds namespaces with control-plane and data isolation, ContainsAny performance improvements, semi-automatic shard rebalancing and reranking with decision models. | [Weaviate, Weaviate v1.41.0](https://github.com/weaviate/weaviate/releases/tag/v1.41.0) |
 | 2026-11-19 | [Weaviate v1.39.17](https://deployedbyai.com/log/388009a3fafb/weaviate-v1-39-17/?k=repo) | Weaviate v1.39.17 with reindex fixes, aggregate performance improvements, and GraphQL alias resolution fix. | [Weaviate, Weaviate v1.39.17](https://github.com/weaviate/weaviate/releases/tag/v1.39.17) |
 | 2026-11-19 | [Weaviate v1.40.6](https://deployedbyai.com/log/6e4cee4c79d2/weaviate-v1-40-6/?k=repo) | Weaviate v1.40.6 ships reindexing reliability fixes, security fixes, and faster aggregations, including 100k tenants starting in 6s instead of 16min. | [Weaviate, Weaviate v1.40.6](https://github.com/weaviate/weaviate/releases/tag/v1.40.6) |
 | 2026-11-10 | [Weaviate v1.39.16](https://deployedbyai.com/log/934a3fa9e362/weaviate-v1-39-16/?k=repo) | Fixes for schema reindex property improvements and the Weaviate Embeddings module. | [Weaviate, Weaviate v1.39.16](https://github.com/weaviate/weaviate/releases/tag/v1.39.16) |

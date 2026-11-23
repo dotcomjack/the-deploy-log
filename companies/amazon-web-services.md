@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-298 rows in The Deploy Log are filed under Amazon Web Services. 290 carry a publisher's date, from September 16, 2026 to November 23, 2026, and 8 are placed by their edition.
+299 rows in The Deploy Log are filed under Amazon Web Services. 291 carry a publisher's date, from September 16, 2026 to November 23, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [AWS API and AI security](https://deployedbyai.com/log/2a706a9b3fcf/aws-api-and-ai-security/?k=repo) | API Portal in Amazon API Gateway and the API Security and AI Security managed rule groups in AWS WAF are generally available today. | [Amazon Web Services, AWS API and AI security](https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/) |
 | 2026-11-23 | [AgentCore runtime instances](https://deployedbyai.com/log/e7fa19db9e8e/agentcore-runtime-instances/?k=repo) | Amazon Bedrock AgentCore runtime instances are generally available in AWS GovCloud (US-West), with GPU-accelerated, memory-optimized or compute-optimized instance types and agent sessions up to 14 days. | [Amazon Web Services, AgentCore runtime instances](https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud) |
 | 2026-11-23 | [Amazon Connect evaluations](https://deployedbyai.com/log/96d604e2a9ee/amazon-connect-evaluations/?k=repo) | Amazon Connect Customer now uses generative AI to automate agent performance evaluations in 45 additional languages, including Arabic, Dutch, Indonesian and Polish, in all commercial regions. | [Amazon Web Services, Amazon Connect evaluations](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-customer-expands-automated-performance-evaluations-new-languages/) |
 | 2026-11-23 | [Connect Customer AI guides](https://deployedbyai.com/log/1c5e08b410b5/connect-customer-ai-guides/?k=repo) | AI agents in Amazon Connect Customer now populate and suggest updates to step-by-step guide fields during live customer interactions, in nine AWS regions. | [Amazon Web Services, Connect Customer AI guides](https://aws.amazon.com/about-aws/whats-new/2026/11/connect-ai-agents-fill-guides/) |
