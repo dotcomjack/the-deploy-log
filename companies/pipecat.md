@@ -1,6 +1,6 @@
 # Pipecat in The Deploy Log
 
-3 rows in The Deploy Log are filed under Pipecat. Every one carries a publisher's date, from October 24, 2026 to November 12, 2026.
+4 rows in The Deploy Log are filed under Pipecat. Every one carries a publisher's date, from October 24, 2026 to November 22, 2026.
 
 The same rows are on [the Pipecat page of the record](https://deployedbyai.com/log/company/d590fddcfde1/pipecat/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Pipecat page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-22 | [Pipecat v1.17.0](https://deployedbyai.com/log/9d3d7f188c8f/pipecat-v1-17-0/?k=repo) | Pipecat v1.17.0 adds a native SIPTransport on baresip-python, SIP support in the dev runner, and automatic language identification in AWSTranscribeSTTService. | [Pipecat, Pipecat v1.17.0](https://github.com/pipecat-ai/pipecat/releases/tag/v1.17.0) |
 | 2026-11-12 | [Pipecat v1.16.0](https://deployedbyai.com/log/c1309a61ac15/pipecat-v1-16-0/?k=repo) | Pipecat v1.16.0 adds Sarvam HTTP STT, Cartesia text normalization, and new Inworld Realtime settings. | [Pipecat, Pipecat v1.16.0](https://github.com/pipecat-ai/pipecat/releases/tag/v1.16.0) |
 
 ## October 2026

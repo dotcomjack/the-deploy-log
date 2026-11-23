@@ -1,6 +1,6 @@
 # The Deploy Log, company by company
 
-Of the 162 companies the record files a row under, 106 have a page there, and each is listed here, by rows, then by name. The rows of the others are in `data.csv`.
+Of the 162 companies the record files a row under, 107 have a page there, and each is listed here, by rows, then by name. The rows of the others are in `data.csv`.
 
 | Company | Rows | With a publisher's date | First | Latest | In the record |
 |---|---:|---:|---|---|---|
@@ -86,12 +86,14 @@ Of the 162 companies the record files a row under, 106 have a page there, and ea
 | [Twilio](twilio.md) | 5 | 5 | 2026-10-05 | 2026-11-18 | [page](https://deployedbyai.com/log/company/021668fb8d05/twilio/?k=repo) |
 | [Weaviate](weaviate.md) | 5 | 5 | 2026-10-28 | 2026-11-19 | [page](https://deployedbyai.com/log/company/d55d3deea995/weaviate/?k=repo) |
 | [Zed](zed.md) | 5 | 2 | 2026-11-18 | 2026-11-20 | [page](https://deployedbyai.com/log/company/0a5dec84a039/zed/?k=repo) |
+| [Agenta](agenta.md) | 4 | 4 | 2026-11-18 | 2026-11-22 | [page](https://deployedbyai.com/log/company/98739d9246ae/agenta/?k=repo) |
 | [Baseten](baseten.md) | 4 | 4 | 2026-10-02 | 2026-10-16 | [page](https://deployedbyai.com/log/company/7b20ec93ec55/baseten/?k=repo) |
 | [Figma](figma.md) | 4 | 4 | 2026-10-06 | 2026-10-15 | [page](https://deployedbyai.com/log/company/b3374d38c6ff/figma/?k=repo) |
 | [IBM](ibm.md) | 4 | 4 | 2026-10-06 | 2026-11-04 | [page](https://deployedbyai.com/log/company/6551f113f1d3/ibm/?k=repo) |
 | [InternLM](internlm.md) | 4 | 4 | 2026-09-26 | 2026-11-06 | [page](https://deployedbyai.com/log/company/0d32feae2eb7/internlm/?k=repo) |
 | [KoboldCpp](koboldcpp.md) | 4 | 4 | 2026-09-27 | 2026-11-01 | [page](https://deployedbyai.com/log/company/b52dee92279a/koboldcpp/?k=repo) |
 | [Milvus](milvus.md) | 4 | 4 | 2026-09-28 | 2026-11-10 | [page](https://deployedbyai.com/log/company/5d86d7e2a8a8/milvus/?k=repo) |
+| [Pipecat](pipecat.md) | 4 | 4 | 2026-10-24 | 2026-11-22 | [page](https://deployedbyai.com/log/company/d590fddcfde1/pipecat/?k=repo) |
 | [Promptfoo](promptfoo.md) | 4 | 4 | 2026-10-08 | 2026-11-18 | [page](https://deployedbyai.com/log/company/bf654b67c0f3/promptfoo/?k=repo) |
 | [Samsung](samsung.md) | 4 | 4 | 2026-10-05 | 2026-11-03 | [page](https://deployedbyai.com/log/company/ce5bc1c2b116/samsung/?k=repo) |
 | [Stability AI](stability-ai.md) | 4 | 2 | 2025-09-18 | 2026-04-08 | [page](https://deployedbyai.com/log/company/18c00ca74996/stability-ai/?k=repo) |
@@ -104,7 +106,6 @@ Of the 162 companies the record files a row under, 106 have a page there, and ea
 | [MLflow](mlflow.md) | 3 | 3 | 2026-10-07 | 2026-10-21 | [page](https://deployedbyai.com/log/company/c2fe27b9863b/mlflow/?k=repo) |
 | [Nebius](nebius.md) | 3 | 3 | 2026-10-22 | 2026-11-12 | [page](https://deployedbyai.com/log/company/b4645b146c2e/nebius/?k=repo) |
 | [Pinecone](pinecone.md) | 3 | 3 | 2026-10-15 | 2026-10-27 | [page](https://deployedbyai.com/log/company/7b80213d1622/pinecone/?k=repo) |
-| [Pipecat](pipecat.md) | 3 | 3 | 2026-10-24 | 2026-11-12 | [page](https://deployedbyai.com/log/company/d590fddcfde1/pipecat/?k=repo) |
 | [PyTorch](pytorch.md) | 3 | 3 | 2026-09-30 | 2026-11-05 | [page](https://deployedbyai.com/log/company/0a536c7e6253/pytorch/?k=repo) |
 | [Railway](railway.md) | 3 | 3 | 2026-09-25 | 2026-11-20 | [page](https://deployedbyai.com/log/company/1d8bde90a3a4/railway/?k=repo) |
 | [Replit](replit.md) | 3 | 3 | 2026-10-16 | 2026-11-18 | [page](https://deployedbyai.com/log/company/d1f4a7a5104e/replit/?k=repo) |
