@@ -1,6 +1,6 @@
 # Vercel in The Deploy Log
 
-336 rows in The Deploy Log are filed under Vercel. 137 carry a publisher's date, from September 18, 2025 to November 19, 2026, and 199 are placed by their edition.
+338 rows in The Deploy Log are filed under Vercel. 139 carry a publisher's date, from September 18, 2025 to November 23, 2026, and 199 are placed by their edition.
 
 The same rows are on [the Vercel page of the record](https://deployedbyai.com/log/company/0e58b1e76c99/vercel/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Vercel page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [AI Gateway canary ZDR audits](https://deployedbyai.com/log/8a66765c7ce3/ai-gateway-canary-zdr-audits/?k=repo) | AI Gateway runs canary audits that send prompts containing unique URLs through the inference path and record any request to a canary URL, identifying provider, model and run. | [Vercel, AI Gateway canary ZDR audits](https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits) |
+| 2026-11-23 | [AI Gateway provider headquarters](https://deployedbyai.com/log/130ccd30494d/ai-gateway-provider-headquarters/?k=repo) | AI Gateway can restrict requests to providers headquartered in chosen countries via an allowlist or denylist, set per request on any plan or team-wide for Pro and Enterprise. | [Vercel, AI Gateway provider headquarters](https://vercel.com/changelog/choose-ai-gateway-providers-by-headquarters-country) |
 | 2026-11-19 | [GPT-Live 1.1](https://deployedbyai.com/log/c571acae4106/gpt-live-1-1/?k=repo) | GPT-Live 1.1 is on AI Gateway as a full-duplex voice model, and an existing GPT-Live integration needs only the new model ID. | [Vercel, GPT-Live 1.1 from OpenAI is now available on AI Gateway](https://vercel.com/changelog/gpt-live-1-1-now-available-on-ai-gateway) |
 | 2026-11-19 | [Liquid d1.2](https://deployedbyai.com/log/d1291bcb62a3/liquid-d1-2/?k=repo) | Liquid AI's d1.2 and d1.2-ultra are on AI Gateway with audio input and bounding box support, returning structured answers to Boolean, Choice and Score questions. | [Vercel, Liquid AI's d1.2 and d1.2-ultra are now available on AI Gateway](https://vercel.com/changelog/liquid-ais-d1-2-and-d1-2-ultra-are-now-available-on-ai-gateway) |
 | 2026-11-19 | [Vercel CLI help search](https://deployedbyai.com/log/39946c712bf7/vercel-cli-help-search/?k=repo) | vercel help search finds CLI commands from a plain-language task, with --with-help, --json, and API endpoint matches, available by running vercel upgrade. | [Vercel, Vercel CLI help search](https://vercel.com/changelog/agents-can-now-find-vercel-cli-commands-by-describing-the-task) |

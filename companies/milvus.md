@@ -1,6 +1,6 @@
 # Milvus in The Deploy Log
 
-4 rows in The Deploy Log are filed under Milvus. Every one carries a publisher's date, from September 28, 2026 to November 10, 2026.
+5 rows in The Deploy Log are filed under Milvus. Every one carries a publisher's date, from September 28, 2026 to November 23, 2026.
 
 The same rows are on [the Milvus page of the record](https://deployedbyai.com/log/company/5d86d7e2a8a8/milvus/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Milvus page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [Milvus Go SDK v3.0.1](https://deployedbyai.com/log/5930fea919eb/milvus-go-sdk-v3-0-1/?k=repo) | Milvus Go SDK v3.0.1 targets Milvus 3.0.1 with full Row-Level Security surface, element-level nullability and nested Array&lt;T&gt; fields, and WithPathReplace for partial upserts. | [Milvus, Milvus Go SDK v3.0.1](https://github.com/milvus-io/milvus/releases/tag/client%2Fv3.0.1) |
 | 2026-11-10 | [Milvus pkg/v3.0.6](https://deployedbyai.com/log/b99f5c9f128f/milvus-pkg-v3-0-6/?k=repo) | Milvus pkg/v3.0.6 fixes added-field load hints on 3.0. | [Milvus, Milvus pkg/v3.0.6](https://github.com/milvus-io/milvus/releases/tag/pkg%2Fv3.0.6) |
 | 2026-11-10 | [Milvus v3.0.6](https://deployedbyai.com/log/44b87ef8bf51/milvus-v3-0-6/?k=repo) | Milvus v3.0.6 fixes added-field load hints on 3.0. | [Milvus, Milvus v3.0.6](https://github.com/milvus-io/milvus/releases/tag/v3.0.6) |
 

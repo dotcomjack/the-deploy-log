@@ -1,6 +1,6 @@
 # FastMCP in The Deploy Log
 
-14 rows in The Deploy Log are filed under FastMCP. Every one carries a publisher's date, from September 25, 2026 to November 21, 2026.
+15 rows in The Deploy Log are filed under FastMCP. Every one carries a publisher's date, from September 25, 2026 to November 23, 2026.
 
 The same rows are on [the FastMCP page of the record](https://deployedbyai.com/log/company/11b827318913/fastmcp/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the FastMCP page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [FastMCP v4.2.5](https://deployedbyai.com/log/f074815c069c/fastmcp-v4-2-5/?k=repo) | FastMCP v4.2.5 serves subscriptions/listen on 2026-07-28 connections by default, adds opt-in UsageMiddleware recording per-user per-tool OpenTelemetry histograms, and an experimental Events extension. | [FastMCP, FastMCP v4.2.5](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.5) |
 | 2026-11-21 | [FastMCP v4.2.4](https://deployedbyai.com/log/cd520266684f/fastmcp-v4-2-4/?k=repo) | FastMCP v4.2.4 fixes a race where concurrent token requests could redeem one OAuth proxy authorization code or refresh token twice, and hides only the failing tool on a bad transform. | [FastMCP, FastMCP v4.2.4](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.4) |
 | 2026-11-20 | [FastMCP 4.2.3](https://deployedbyai.com/log/7f6c1bc660a2/fastmcp-4-2-3/?k=repo) | FastMCP 4.2.3 adds an opt-in parent\_task\_spans setting nesting background task worker spans inside the submitting tools/call request, plus three output schema conversion fixes. | [FastMCP, FastMCP 4.2.3](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.3) |
 | 2026-11-18 | [FastMCP v4.2.2](https://deployedbyai.com/log/1bd1eb1b1bf0/fastmcp-v4-2-2/?k=repo) | FastMCP 4.2.2 fixes skills discovery for tool-only clients so skills are listed whenever their files are served. | [FastMCP, FastMCP v4.2.2](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.2) |
