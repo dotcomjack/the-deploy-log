@@ -9,7 +9,7 @@ The same rows are on [the Zep page of the record](https://deployedbyai.com/log/c
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-23 | [Graphiti MCP v1.1.4](https://deployedbyai.com/log/c8d9214c5e1a/graphiti-mcp-v1-1-4/?k=repo) | MCP server 1.1.4 sends the selected group to graphiti-core 0.32.0 so a UUID from another group errors, and requires graphiti-core&gt;=0.32.0. | [Zep, Graphiti MCP v1.1.4](https://github.com/getzep/graphiti/releases/tag/mcp-v1.1.4) |
-| 2026-11-23 | [Graphiti v0.32.0](https://deployedbyai.com/log/b47d30fec159/graphiti-v0-32-0/?k=repo) | Graphiti v0.32.0 adds an embedded Relate graph driver and concurrent ingestion for one graph, enforces group isolation on UUID operations, and removes the Kuzu driver. | [Zep, Graphiti v0.32.0](https://github.com/getzep/graphiti/releases/tag/v0.32.0) |
+| 2026-11-23 | [Graphiti v0.32.0](https://deployedbyai.com/log/b47d30fec159/graphiti-v0-32-0/?k=repo) | Graphiti v0.32.0 adds an embedded Relate graph driver and concurrent ingestion for one graph, enforces group isolation on UUID operations, and removes the Kuzu driver. Correction, 24 Nov 2026: Graphiti's GitHub releases no longer list v0.32.0; only its tag remains. | [Zep, Graphiti v0.32.0](https://github.com/getzep/graphiti/releases/tag/v0.32.0) |
 
 ## October 2026
 

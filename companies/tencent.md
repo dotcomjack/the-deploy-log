@@ -1,6 +1,6 @@
 # Tencent in The Deploy Log
 
-10 rows in The Deploy Log are filed under Tencent. Every one carries a publisher's date, from October 15, 2026 to November 18, 2026.
+11 rows in The Deploy Log are filed under Tencent. Every one carries a publisher's date, from October 15, 2026 to November 24, 2026.
 
 The same rows are on [the Tencent page of the record](https://deployedbyai.com/log/company/ea750d3cf789/tencent/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Tencent page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [OmniEVIE-4B](https://deployedbyai.com/log/a220202235f9/omnievie-4b/?k=repo) | Tencent released OmniEVIE-4B, a 4.54B multi-modal retrieval model storing 128x64D int8 vectors at 9,472 bytes per record, searching 1M records in 54.2 ms on one CPU thread. | [Tencent, OmniEVIE-4B](https://huggingface.co/tencent/OmniEVIE-4B) |
 | 2026-11-18 | [Hy4-base](https://deployedbyai.com/log/3d6df2a0c432/hy4-base/?k=repo) | Hy4-base, a 770B-parameter MoE model with 49B activated parameters, 1M context, vision support and a built-in DFly2 speculative decoding drafter, released on Hugging Face. | [Tencent, Hy4-base](https://huggingface.co/tencent/Hy4-base) |
 | 2026-11-17 | [Hy4-flash](https://deployedbyai.com/log/d2daa64a6023/hy4-flash/?k=repo) | Tencent released Hy4-flash and Hy4-flash-base, 220B total parameters with 12B active per token and 1M context. | [Tencent, Hy4-flash](https://huggingface.co/tencent/Hy4-flash) |
 | 2026-11-17 | [WeMM-Video](https://deployedbyai.com/log/db77de6a2a26/wemm-video/?k=repo) | WeMM-Video-9B, 4B and 2B bilingual audio-visual models released on Hugging Face with BF16, FP8, AWQ, GGUF and NVFP4 quantized variants. | [Tencent, WeMM-Video](https://huggingface.co/tencent/WeMM-Video-9B) |

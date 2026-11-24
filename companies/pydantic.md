@@ -1,6 +1,6 @@
 # Pydantic in The Deploy Log
 
-23 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 19, 2026. 1 of those dates has not yet come in New York.
+24 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 24, 2026.
 
 The same rows are on [the Pydantic page of the record](https://deployedbyai.com/log/company/49425b50f21d/pydantic/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Pydantic page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Pydantic AI v2.72.0](https://deployedbyai.com/log/22c99bdfde26/pydantic-ai-v2-72-0/?k=repo) | Pydantic AI v2.72.0 adds DeprecatedModelWarning, Agent.override capabilities, RealtimeSession.append\_voice\_instructions for GPT-Live, and raises the openai floor to 3.50.0. | [Pydantic, Pydantic AI v2.72.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.72.0) |
+| 2026-11-24 | [pydantic-ai 2.73.0](https://deployedbyai.com/log/6540217cb23a/pydantic-ai-2-73-0/?k=repo) | Pydantic AI v2.73.0 adds DeprecatedModelWarning, Agent.override capabilities, RealtimeSession.append\_voice\_instructions, and raises the openai floor to 3.50.0. | [Pydantic, pydantic-ai 2.73.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.73.0) |
 | 2026-11-19 | [Pydantic AI v2.71.0](https://deployedbyai.com/log/fc7058abef38/pydantic-ai-v2-71-0/?k=repo) | Pydantic AI v2.71.0 released with new providers, features, and compatibility changes. | [Pydantic, Pydantic AI v2.71.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.71.0) |
 | 2026-11-17 | [Pydantic AI v2.69.0](https://deployedbyai.com/log/a7dce0520c66/pydantic-ai-v2-69-0/?k=repo) | Pydantic AI v2.69.0 adds Gemini 4 Hydrogen support on GoogleModel and GroqModel service\_tier support. | [Pydantic, Pydantic AI v2.69.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0) |
 | 2026-11-17 | [Pydantic AI v2.70.0](https://deployedbyai.com/log/b8ac6dec096f/pydantic-ai-v2-70-0/?k=repo) | Pydantic AI v2.70.0 adds service tier forwarding, HuggingFace logprobs, skill file reading, and more. | [Pydantic, Pydantic AI v2.70.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0) |
@@ -40,11 +42,3 @@ The same rows are on [the Pydantic page of the record](https://deployedbyai.com/
 |---|---|---|---|
 | 2026-09-25 | [Pydantic AI v2.50.0](https://deployedbyai.com/log/9a3a5c00b82c/pydantic-ai-v2-50-0/?k=repo) | Adds DecisionModel and exposes OpenAI service\_tier in provider details. | [Pydantic, Pydantic AI v2.50.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.50.0) |
 | 2026-09-25 | [Pydantic AI v2.51.0](https://deployedbyai.com/log/1c0806f09be3/pydantic-ai-v2-51-0/?k=repo) | Adds OpenAI GPT-Live support with OpenAILiveModel and exposes context\_window\_used. | [Pydantic, Pydantic AI v2.51.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.51.0) |
-
-## Undated until its day
-
-1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
-
-| Row | What shipped | Source |
-|---|---|---|
-| [Pydantic AI v2.72.0](https://deployedbyai.com/log/22c99bdfde26/pydantic-ai-v2-72-0/?k=repo) | Pydantic AI v2.72.0 adds DeprecatedModelWarning, Agent.override capabilities, RealtimeSession.append\_voice\_instructions for GPT-Live, and raises the openai floor to 3.50.0. | [Pydantic, Pydantic AI v2.72.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.72.0) |

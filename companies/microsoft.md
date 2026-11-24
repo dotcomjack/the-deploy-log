@@ -1,6 +1,6 @@
 # Microsoft in The Deploy Log
 
-50 rows in The Deploy Log are filed under Microsoft. 48 carry a publisher's date, from September 28, 2026 to November 20, 2026, and 2 are placed by their edition.
+51 rows in The Deploy Log are filed under Microsoft. 49 carry a publisher's date, from September 28, 2026 to November 24, 2026, and 2 are placed by their edition.
 
 The same rows are on [the Microsoft page of the record](https://deployedbyai.com/log/company/28257922d62c/microsoft/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Microsoft page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Copilot UX components in Cowork](https://deployedbyai.com/log/fbdb6c66b111/copilot-ux-components-in-cowork/?k=repo) | Copilot UX components are now supported in Copilot Cowork, packaged as plugins with skills and other assets, governed by the same admin tools as other Microsoft 365 apps. | [Microsoft, Copilot UX components in Cowork](https://devblogs.microsoft.com/microsoft365dev/copilot-ux-components-now-available-in-cowork-with-plugins-spfx-roadmap-update-for-november-2026/) |
 | 2026-11-20 | [GPT-6.2 Sol and Astra in Copilot](https://deployedbyai.com/log/032dc4a50363/gpt-6-2-sol-and-astra-in-copilot/?k=repo) | OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are rolling out worldwide to eligible users in Copilot Chat, Copilot Cowork, Copilot Studio and Copilot in Excel, PowerPoint and Word. | [Microsoft, GPT-6.2 Sol and Astra in Copilot](https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229) |
 | 2026-11-18 | [Aion-1.0-Instruct-2.3B](https://deployedbyai.com/log/f78d38399258/aion-1-0-instruct-2-3b/?k=repo) | Microsoft released Aion-1.0-Instruct-2.3B on Hugging Face, a 2.3B parameter on-device SLM with 32K context under MIT license. | [Microsoft, Aion-1.0-Instruct-2.3B](https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B) |
 | 2026-11-18 | [Frontier Tuning](https://deployedbyai.com/log/35fd16373f3b/frontier-tuning/?k=repo) | Frontier Tuning expands private preview with GitHub Copilot plugin, CLI, APIs, and GPT 6 Luna and MAI Code 2 Flash tuning. | [Microsoft, Frontier Tuning](https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-opens-to-more-customers-with-new-tools-for-your-teams/) |

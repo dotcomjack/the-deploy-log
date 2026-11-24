@@ -1,6 +1,6 @@
 # NVIDIA in The Deploy Log
 
-60 rows in The Deploy Log are filed under NVIDIA. 54 carry a publisher's date, from August 20, 2026 to November 23, 2026, and 6 are placed by their edition.
+61 rows in The Deploy Log are filed under NVIDIA. 55 carry a publisher's date, from August 20, 2026 to November 24, 2026, and 6 are placed by their edition.
 
 The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/log/company/c0c1c2efa10a/nvidia/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the NVIDIA page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Dynamo v1.7.0](https://deployedbyai.com/log/bfc895d976b2/dynamo-v1-7-0/?k=repo) | Dynamo v1.7.0 ships cross-pool Global Router routing, Planner batch scheduling and live retuning, deadline-ordered Router queues, and engine updates to SGLang v0.5.23, TensorRT-LLM v1.4.0rc2 and vLLM v0.33.0. | [NVIDIA, Dynamo v1.7.0](https://github.com/ai-dynamo/dynamo/releases/tag/v1.7.0) |
 | 2026-11-23 | [Jensen Huang reinstated CEO](https://deployedbyai.com/log/f976f8e58727/jensen-huang-reinstated-ceo/?k=repo) | NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and board member effective immediately, with Colette Kress ending her interim CEO role. | [NVIDIA, Jensen Huang reinstated CEO](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director) |
 | 2026-11-20 | [TensorRT-LLM v1.3.0](https://deployedbyai.com/log/7dd7690d00cb/tensorrt-llm-v1-3-0/?k=repo) | TensorRT-LLM v1.3.0 adds DeepSeek-V4, Kimi K3, Qwen3.5/3.6/3.8, Gemma 4 and MiniMax-M3 support, KV Cache Manager V2, and disaggregated serving. | [NVIDIA, TensorRT-LLM v1.3.0](https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0) |
 | 2026-11-17 | [NVIDIA Q3 FY27 Results](https://deployedbyai.com/log/03b1ee81547a/nvidia-q3-fy27-results/?k=repo) | Revenue of <span>$</span>115.8B, Data Center revenue of <span>$</span>107.6B, and Vera Rubin NVL72 has shipped. | [NVIDIA, NVIDIA Q3 FY27 Results](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm) |
