@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-349 rows in The Deploy Log are filed under OpenAI. 239 carry a publisher's date, from September 25, 2025 to November 23, 2026, and 110 are placed by their edition.
+351 rows in The Deploy Log are filed under OpenAI. 241 carry a publisher's date, from September 25, 2025 to November 23, 2026, and 110 are placed by their edition. 1 of those dates has not yet come in New York.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-23 | [openai-go v3.106.0](https://deployedbyai.com/log/7a7b03d4ad7d/openai-go-v3-106-0/?k=repo) | openai-go 3.106.0 adds agent session spending controls and spend limit notification settings to the API client. | [OpenAI, openai-go v3.106.0](https://github.com/openai/openai-go/releases/tag/v3.106.0) |
+| 2026-11-23 | [openai-java v4.112.0](https://deployedbyai.com/log/1b8beb605ea8/openai-java-v4-112-0/?k=repo) | openai-java 4.112.0 adds an automatic Chat Completions tool runner, vector-store polling and bulk upload helpers, and spending limits on agent sessions. | [OpenAI, openai-java v4.112.0](https://github.com/openai/openai-java/releases/tag/v4.112.0) |
 | 2026-11-23 | [openai-node v7.63.0](https://deployedbyai.com/log/f7a9cce3018e/openai-node-v7-63-0/?k=repo) | openai-node 7.63.0 adds spending limits to agent sessions and clarifies when to omit completion choice count. | [OpenAI, openai-node v7.63.0](https://github.com/openai/openai-node/releases/tag/v7.63.0) |
 | 2026-11-23 | [openai-python v3.58.0](https://deployedbyai.com/log/d0424a394fa2/openai-python-v3-58-0/?k=repo) | openai-python 3.58.0 adds setting and reading agent session spending limits and clarifies when to omit completion choice count. | [OpenAI, openai-python v3.58.0](https://github.com/openai/openai-python/releases/tag/v3.58.0) |
 | 2026-11-23 | [openai-ruby v1.1.0](https://deployedbyai.com/log/895cd05ccacb/openai-ruby-v1-1-0/?k=repo) | openai-ruby 1.1.0 adds API support for agent session spending limits and budget events. | [OpenAI, openai-ruby v1.1.0](https://github.com/openai/openai-ruby/releases/tag/v1.1.0) |
@@ -312,6 +313,14 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 | 2025-09-29 | [Parental controls](https://deployedbyai.com/log/99c15a9dab73/parental-controls/?k=repo) | OpenAI launched parental controls for ChatGPT, letting parents link accounts, set quiet hours, disable voice, memory, image generation, and opt out of training. | [OpenAI, Introducing parental controls](https://openai.com/index/introducing-parental-controls) |
 | 2025-09-25 | [GDPval](https://deployedbyai.com/log/d20cf09a9ca7/gdpval/?k=repo) | GDPval evaluates models on 1,320 tasks across 44 occupations, finding frontier models approach expert quality and complete tasks 100x faster and cheaper. | [OpenAI, Measuring the performance of our models on real-world tasks](https://openai.com/index/gdpval) |
 | 2025-09-25 | [Shared projects and connectors](https://deployedbyai.com/log/9d3d37aa19c3/shared-projects-and-connectors/?k=repo) | Shared projects for Business, Enterprise, Edu plans; new connectors to Gmail, Calendar, Outlook, Teams, SharePoint, GitHub, Dropbox, Box; ISO 27001/27017/27018/27701 certifications; SOC 2 expanded. | [OpenAI, More ways to work with your team and tools in ChatGPT](https://openai.com/index/more-ways-to-work-with-your-team) |
+
+## Undated until its day
+
+1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [OpenAI Codex CLI 0.172.0](https://deployedbyai.com/log/e08a1f7dfb0e/openai-codex-cli-0-172-0/?k=repo) | Codex CLI 0.172.0 adds thread links from search results, Tab completion for slash command arguments, task group navigation, and Bedrock Runtime selection during setup. | [OpenAI, OpenAI Codex CLI 0.172.0](https://github.com/openai/codex/releases/tag/rust-v0.172.0) |
 
 ## Placed by their edition
 

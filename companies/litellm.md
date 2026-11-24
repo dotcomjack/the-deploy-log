@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-42 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 21, 2026.
+43 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 23, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [LiteLLM v1.108.16](https://deployedbyai.com/log/6af049e422a9/litellm-v1-108-16/?k=repo) | LiteLLM v1.108.16 LTS patch with provider fixes for Anthropic, Bedrock, Gemini, Vertex AI and Azure, plus text-to-speech support for /v1/audio/speech via Gradium. | [LiteLLM, LiteLLM v1.108.16](https://github.com/BerriAI/litellm/releases/tag/v1.108.16) |
 | 2026-11-21 | [LiteLLM v1.108.15](https://deployedbyai.com/log/2dc4d7e03c85/litellm-v1-108-15/?k=repo) | LiteLLM v1.108.15 fixes Cohere tool\_choice, reasoning\_effort and json\_schema mapping on the v2 chat route and backports the keyless JSON provider 401 reset. | [LiteLLM, LiteLLM v1.108.15](https://github.com/BerriAI/litellm/releases/tag/v1.108.15) |
 | 2026-11-20 | [LiteLLM 1.108.14 LTS](https://deployedbyai.com/log/a1dd8f26195c/litellm-1-108-14-lts/?k=repo) | LiteLLM 1.108.14 LTS fixes Claude tool search missing on /v1/responses follow-up turns and adds OpenAI input\_json content parts on /v1/decisions. | [LiteLLM, LiteLLM 1.108.14 LTS](https://github.com/BerriAI/litellm/releases/tag/v1.108.14) |
 | 2026-11-20 | [LiteLLM v1.106.12](https://deployedbyai.com/log/b29bae15203e/litellm-v1-106-12/?k=repo) | LiteLLM v1.106.12 fixes GPT-6.2 system prompts missing the prompt cache on /v1/chat/completions and /v1/messages unless store: false, and fixes /key/info key leakage. | [LiteLLM, LiteLLM v1.106.12](https://github.com/BerriAI/litellm/releases/tag/v1.106.12) |
