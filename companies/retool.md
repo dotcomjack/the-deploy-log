@@ -1,6 +1,6 @@
 # Retool in The Deploy Log
 
-15 rows in The Deploy Log are filed under Retool. Every one carries a publisher's date, from September 30, 2026 to November 19, 2026.
+16 rows in The Deploy Log are filed under Retool. Every one carries a publisher's date, from September 30, 2026 to November 23, 2026.
 
 The same rows are on [the Retool page of the record](https://deployedbyai.com/log/company/07a5ddfe307f/retool/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Retool page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-23 | [GPT 6.2 Astra and Sol in Retool](https://deployedbyai.com/log/6f67d8b3aca5/gpt-6-2-astra-and-sol-in-retool/?k=repo) | Retool added GPT 6.2 Astra and GPT 6.2 Sol through OpenAI for AI resource queries, live on cloud, requiring an Enterprise organization and your own key. | [Retool, GPT 6.2 Astra and Sol in Retool](https://docs.retool.com/changelog/2026/11/23/new-ai-models-) |
 | 2026-11-19 | [Gemini 4 Hydrogen in Retool](https://deployedbyai.com/log/bf5c7f07af89/gemini-4-hydrogen-in-retool/?k=repo) | Gemini 4 Hydrogen is available in Retool via Google and Google Vertex AI for AI resource queries, for Enterprise organizations that bring their own key. | [Retool, Gemini 4 Hydrogen in Retool](https://docs.retool.com/changelog/gemini-4-hydrogen) |
 | 2026-11-17 | [Gemini 4 Carbon and Claude Opus 5 in Retool](https://deployedbyai.com/log/57fa98f89975/gemini-4-carbon-and-claude-opus-5-in-retool/?k=repo) | Retool now supports Gemini 4 Carbon and Claude Opus 5 (Bedrock) for AI resource queries, Retool Agents, and building apps. | [Retool, Gemini 4 Carbon and Claude Opus 5 in Retool](https://docs.retool.com/changelog/2026/11/17/new-ai-models-) |
 | 2026-11-11 | [Claude Fable 5.2 in Retool](https://deployedbyai.com/log/d31ecb4b6cc4/claude-fable-5-2-in-retool/?k=repo) | Claude Fable 5.2 is available in Retool through Anthropic and Amazon Bedrock. | [Retool, Claude Fable 5.2 in Retool](https://docs.retool.com/changelog/claude-fable-5-2) |

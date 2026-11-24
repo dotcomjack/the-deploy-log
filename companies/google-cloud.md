@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-94 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 23, 2026.
+97 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 24, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,7 +8,10 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [embeddinggemma-300m in BigQuery](https://deployedbyai.com/log/82bc19aed7d2/embeddinggemma-300m-in-bigquery/?k=repo) | The built-in text embedding model embeddinggemma-300m in BigQuery's AI.EMBED and AI.SIMILARITY functions is generally available. | [Google Cloud, embeddinggemma-300m in BigQuery](https://docs.cloud.google.com/bigquery/docs/release-notes#November_24_2026) |
 | 2026-11-23 | [AlloyDB Omni local model integration](https://deployedbyai.com/log/aadcfabd64b5/alloydb-omni-local-model-integration/?k=repo) | AlloyDB Omni can now call locally hosted model servers such as Gemma 4 and Qwen3.8 directly from SQL, keeping prompts and data on-premises. | [Google Cloud, AlloyDB Omni local model integration](https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/) |
+| 2026-11-23 | [Gemini 4 Neon for cyber](https://deployedbyai.com/log/213bcf249459/gemini-4-neon-for-cyber/?k=repo) | Gemini 4 Neon for cyber is GA on Gemini Enterprise Agent Platform for allowlisted defensive cybersecurity workloads, with a 1,048,576-token input and output limit. | [Google Cloud, Gemini 4 Neon for cyber](https://docs.cloud.google.com/release-notes#November_23_2026) |
+| 2026-11-23 | [TabFM 1.1 in BigQuery](https://deployedbyai.com/log/ef311d839045/tabfm-1-1-in-bigquery/?k=repo) | Version 1.1 of the TabFM model is now available and is the default model used by the AI.PREDICT and AI.EVALUATE functions, in preview. | [Google Cloud, TabFM 1.1 in BigQuery](https://docs.cloud.google.com/bigquery/docs/release-notes#November_23_2026) |
 | 2026-11-20 | [Managed Airflow agents](https://deployedbyai.com/log/8e88a9e53a0d/managed-airflow-agents/?k=repo) | Managed Service for Apache Airflow now offers Managed Airflow Agent in the console to investigate failed tasks and check DAG version readiness, plus Data Agent Kit in the IDE. | [Google Cloud, Managed Airflow agents](https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/) |
 | 2026-11-19 | [BigQuery gemini-4-neon support](https://deployedbyai.com/log/79363ad11098/bigquery-gemini-4-neon-support/?k=repo) | BigQuery generative AI functions now support the gemini-4-neon model, generally available. | [Google Cloud, BigQuery gemini-4-neon support](https://docs.cloud.google.com/bigquery/docs/release-notes#November_19_2026) |
 | 2026-11-19 | [Gemini 4 Neon in Gemini Enterprise](https://deployedbyai.com/log/c69b144bdeba/gemini-4-neon-in-gemini-enterprise/?k=repo) | Gemini 4 Neon is generally available in the Gemini Enterprise web app, mobile app, Workflow Builder, and AI developer tools. | [Google Cloud, Gemini 4 Neon in Gemini Enterprise](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_19_2026) |

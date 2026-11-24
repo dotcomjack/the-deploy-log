@@ -1,8 +1,14 @@
 # Figma in The Deploy Log
 
-4 rows in The Deploy Log are filed under Figma. Every one carries a publisher's date, from October 6, 2026 to October 15, 2026.
+5 rows in The Deploy Log are filed under Figma. Every one carries a publisher's date, from October 6, 2026 to November 23, 2026.
 
 The same rows are on [the Figma page of the record](https://deployedbyai.com/log/company/b3374d38c6ff/figma/?k=repo).
+
+## November 2026
+
+| Date | Row | What shipped | Source |
+|---|---|---|---|
+| 2026-11-23 | [Figma agent in FigJam and Slides](https://deployedbyai.com/log/dd36009837b3/figma-agent-in-figjam-and-slides/?k=repo) | The Figma agent is now available to all users in FigJam and Slides, with connectors and attachments for design files, transcripts and research notes. | [Figma, Figma agent in FigJam and Slides](https://www.figma.com/blog/introducing-figma-agent-in-figjam-and-slides/) |
 
 ## October 2026
 

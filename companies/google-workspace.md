@@ -1,6 +1,6 @@
 # Google Workspace in The Deploy Log
 
-57 rows in The Deploy Log are filed under Google Workspace. 44 carry a publisher's date, from August 28, 2026 to November 23, 2026, and 13 are placed by their edition.
+58 rows in The Deploy Log are filed under Google Workspace. 45 carry a publisher's date, from August 28, 2026 to November 24, 2026, and 13 are placed by their edition.
 
 The same rows are on [the Google Workspace page of the record](https://deployedbyai.com/log/company/d690a81815c8/google-workspace/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google Workspace page of the record](https://deployedb
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Gemini Notebook Flashcards](https://deployedbyai.com/log/897283bceba5/gemini-notebook-flashcards/?k=repo) | Flashcards in Gemini Notebook now add images from source materials, offer a built-in stopwatch, and support mobile study reminders. | [Google Workspace, Gemini Notebook Flashcards](http://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html) |
 | 2026-11-23 | [Google Chat tables and headings](https://deployedbyai.com/log/ddf5a2431213/google-chat-tables-and-headings/?k=repo) | Agents and apps in Google Chat can send messages with Markdown tables and three levels of headings via the Chat API, available now. | [Google Workspace, Google Chat tables and headings](http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html) |
 | 2026-11-18 | [Google Chat starter prompts](https://deployedbyai.com/log/45e66954df1a/google-chat-starter-prompts/?k=repo) | Developers can now add starter prompts and descriptions to Google Chat apps and agents, configurable in the Google Cloud console. | [Google Workspace, Google Chat starter prompts](http://workspaceupdates.googleblog.com/2026/11/starter-prompts-and-descriptions-for-Google-Chat-apps-and-agents.html) |
 | 2026-11-17 | [Gemini data classification in Drive](https://deployedbyai.com/log/c22557a1b510/gemini-data-classification-in-drive/?k=repo) | Gemini-powered data classification in Google Drive is generally available, with test instructions and real-time reporting. | [Google Workspace, Gemini data classification in Drive](http://workspaceupdates.googleblog.com/2026/11/gemini-powered-data-classification-in-Google-Drive-is-now-generally-available.html) |

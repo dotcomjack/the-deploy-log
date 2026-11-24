@@ -1,6 +1,6 @@
 # ElevenLabs in The Deploy Log
 
-8 rows in The Deploy Log are filed under ElevenLabs. Every one carries a publisher's date, from September 28, 2026 to November 16, 2026.
+9 rows in The Deploy Log are filed under ElevenLabs. Every one carries a publisher's date, from September 28, 2026 to November 24, 2026.
 
 The same rows are on [the ElevenLabs page of the record](https://deployedbyai.com/log/company/e208273cd56a/elevenlabs/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the ElevenLabs page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [elevenlabs-python v2.80.0](https://deployedbyai.com/log/f8f0e6a5a968/elevenlabs-python-v2-80-0/?k=repo) | v2.80.0 adds agents as code with agent builder and push/pull CLI layout, a client\_tool decorator, and diarize and infer\_speaker\_names in the realtime speech-to-text wrapper. | [ElevenLabs, elevenlabs-python v2.80.0](https://github.com/elevenlabs/elevenlabs-python/releases/tag/v2.80.0) |
 | 2026-11-16 | [elevenlabs-python v2.79.0](https://deployedbyai.com/log/91450597b5d7/elevenlabs-python-v2-79-0/?k=repo) | Agent tools as code (tool builder) and unhandled client tool call reporting. | [ElevenLabs, elevenlabs-python v2.79.0](https://github.com/elevenlabs/elevenlabs-python/releases/tag/v2.79.0) |
 | 2026-11-12 | [ElevenLabs Python SDK v2.78.0](https://deployedbyai.com/log/26283dcb53c9/elevenlabs-python-sdk-v2-78-0/?k=repo) | ElevenLabs Python SDK v2.78.0 fixes Gemini answer text preservation in speech engine streams and regenerates the SDK. | [ElevenLabs, ElevenLabs Python SDK v2.78.0](https://github.com/elevenlabs/elevenlabs-python/releases/tag/v2.78.0) |
 | 2026-11-06 | [ElevenLabs Python SDK v2.77.0](https://deployedbyai.com/log/af1d2ca3e611/elevenlabs-python-sdk-v2-77-0/?k=repo) | Adds agent workflows as code and an auth parameter to speech engine create and update. | [ElevenLabs, ElevenLabs Python SDK v2.77.0](https://github.com/elevenlabs/elevenlabs-python/releases/tag/v2.77.0) |

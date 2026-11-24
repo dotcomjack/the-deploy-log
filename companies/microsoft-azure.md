@@ -1,6 +1,6 @@
 # Microsoft Azure in The Deploy Log
 
-47 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 23, 2026.
+48 rows in The Deploy Log are filed under Microsoft Azure. Every one carries a publisher's date, from September 21, 2026 to November 24, 2026.
 
 The same rows are on [the Microsoft Azure page of the record](https://deployedbyai.com/log/company/1d25b33b529f/microsoft-azure/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Microsoft Azure page of the record](https://deployedby
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Azure Storage permissions in AI Search](https://deployedbyai.com/log/7694d8a73f3e/azure-storage-permissions-in-ai-search/?k=repo) | Azure AI Search and Foundry IQ now generally support using Azure Storage permissions for access control. | [Microsoft Azure, Azure Storage permissions in AI Search](https://azure.microsoft.com/updates?id=581303) |
 | 2026-11-23 | [Foundry Toolkit hosted agents](https://deployedbyai.com/log/f61ab35f7e59/foundry-toolkit-hosted-agents/?k=repo) | Generally available: deploy hosted agents from your own container registry in Foundry Toolkit for VS Code. | [Microsoft Azure, Foundry Toolkit hosted agents](https://azure.microsoft.com/updates?id=581478) |
 | 2026-11-20 | [Copilot Code Review for Azure Repos](https://deployedbyai.com/log/43ee2472c9bf/copilot-code-review-for-azure-repos/?k=repo) | Copilot Code Review for Azure Repos is generally available, letting Copilot review pull requests, flag issues and suggest changes, with Lite or Balanced effort levels. | [Microsoft Azure, Copilot Code Review for Azure Repos](https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/) |
 | 2026-11-20 | [Foundry Managed Compute](https://deployedbyai.com/log/913fb6483282/foundry-managed-compute/?k=repo) | Managed Compute in Microsoft Foundry is generally available for serving 150+ open models on dedicated NVIDIA A100, H100, H200 or AMD MI300X GPUs, including US and EU Data Zones. | [Microsoft Azure, Foundry Managed Compute](https://devblogs.microsoft.com/foundry/managed-compute-ga/) |

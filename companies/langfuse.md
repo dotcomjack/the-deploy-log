@@ -1,6 +1,6 @@
 # Langfuse in The Deploy Log
 
-34 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 23, 2026.
+36 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 24, 2026.
 
 The same rows are on [the Langfuse page of the record](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Langfuse page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Langfuse v4.85.0](https://deployedbyai.com/log/f13c8ff76f09/langfuse-v4-85-0/?k=repo) | v4.85.0 adds trace evaluator testing and trace rule management, organization model definitions via tRPC and a settings page, and Topics cost estimation and self-hosted dispatch. | [Langfuse, Langfuse v4.85.0](https://github.com/langfuse/langfuse/releases/tag/v4.85.0) |
+| 2026-11-24 | [Langfuse v4.86.0](https://deployedbyai.com/log/30793fabc020/langfuse-v4-86-0/?k=repo) | Langfuse v4.86.0 renders charts inline as an interactive MCP App served by Next.js and adds a trace-level transcript evals UI. | [Langfuse, Langfuse v4.86.0](https://github.com/langfuse/langfuse/releases/tag/v4.86.0) |
 | 2026-11-23 | [Langfuse v4.84.0](https://deployedbyai.com/log/82882333e0ef/langfuse-v4-84-0/?k=repo) | Langfuse v4.84.0 adds an MCP batchCreateAnnotationQueueItems tool, organization-wide AI gateway spend budgets with warning thresholds, and organization-scoped model definitions. | [Langfuse, Langfuse v4.84.0](https://github.com/langfuse/langfuse/releases/tag/v4.84.0) |
 | 2026-11-19 | [Langfuse v4.83.0](https://deployedbyai.com/log/793bc6fc8c38/langfuse-v4-83-0/?k=repo) | AI gateway per-key spend limits, a Budgets page with per-user spend budgets, and default spend budgets for keys and users. | [Langfuse, Langfuse v4.83.0](https://github.com/langfuse/langfuse/releases/tag/v4.83.0) |
 | 2026-11-17 | [Langfuse v4.82.0](https://deployedbyai.com/log/cbdf2426c7f3/langfuse-v4-82-0/?k=repo) | Langfuse v4.82.0 adds a Developer API key preset, normalizes provider usage and costs, and reads audit logs from ClickHouse. | [Langfuse, Langfuse v4.82.0](https://github.com/langfuse/langfuse/releases/tag/v4.82.0) |

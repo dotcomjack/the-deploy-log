@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-352 rows in The Deploy Log are filed under OpenAI. 242 carry a publisher's date, from September 25, 2025 to November 24, 2026, and 110 are placed by their edition.
+357 rows in The Deploy Log are filed under OpenAI. 247 carry a publisher's date, from September 25, 2025 to November 24, 2026, and 110 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -10,6 +10,11 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 |---|---|---|---|
 | 2026-11-24 | [OpenAI Codex CLI 0.172.0](https://deployedbyai.com/log/e08a1f7dfb0e/openai-codex-cli-0-172-0/?k=repo) | Codex CLI 0.172.0 adds thread links from search results, Tab completion for slash command arguments, task group navigation, and Bedrock Runtime selection during setup. | [OpenAI, OpenAI Codex CLI 0.172.0](https://github.com/openai/codex/releases/tag/rust-v0.172.0) |
 | 2026-11-24 | [openai-agents-python 0.26.0](https://deployedbyai.com/log/b4971df3c8a9/openai-agents-python-0-26-0/?k=repo) | Agents SDK v0.26.0 adds GPT-Live 1.1 demo, per-call MCP metadata priority, Realtime guardrail checks at turn completion, and stricter Docker sandbox mounts. | [OpenAI, openai-agents-python 0.26.0](https://github.com/openai/openai-agents-python/releases/tag/v0.26.0) |
+| 2026-11-24 | [openai-go v3.107.0](https://deployedbyai.com/log/5736cf1e7646/openai-go-v3-107-0/?k=repo) | openai-go 3.107.0 adds healthcare model IDs for the Responses API. | [OpenAI, openai-go v3.107.0](https://github.com/openai/openai-go/releases/tag/v3.107.0) |
+| 2026-11-24 | [openai-java 4.113.0](https://deployedbyai.com/log/07077f79814f/openai-java-4-113-0/?k=repo) | openai-java 4.113.0 adds healthcare model IDs for the Responses API. | [OpenAI, openai-java 4.113.0](https://github.com/openai/openai-java/releases/tag/v4.113.0) |
+| 2026-11-24 | [openai-node v7.64.0](https://deployedbyai.com/log/58e689b81c27/openai-node-v7-64-0/?k=repo) | openai-node 7.64.0 adds healthcare model IDs for the Responses API. | [OpenAI, openai-node v7.64.0](https://github.com/openai/openai-node/releases/tag/v7.64.0) |
+| 2026-11-24 | [openai-python 3.59.0](https://deployedbyai.com/log/4d2d79aa5c41/openai-python-3-59-0/?k=repo) | openai-python 3.59.0 adds healthcare model IDs for Responses and fixes agent upload paths, credential redaction, webhook key checks and Realtime bearer auth. | [OpenAI, openai-python 3.59.0](https://github.com/openai/openai-python/releases/tag/v3.59.0) |
+| 2026-11-24 | [openai-ruby v1.2.0](https://deployedbyai.com/log/3b8e9f65ca47/openai-ruby-v1-2-0/?k=repo) | openai-ruby 1.2.0 adds healthcare model IDs for Responses, alongside dependency and documentation updates. | [OpenAI, openai-ruby v1.2.0](https://github.com/openai/openai-ruby/releases/tag/v1.2.0) |
 | 2026-11-23 | [openai-go v3.106.0](https://deployedbyai.com/log/7a7b03d4ad7d/openai-go-v3-106-0/?k=repo) | openai-go 3.106.0 adds agent session spending controls and spend limit notification settings to the API client. | [OpenAI, openai-go v3.106.0](https://github.com/openai/openai-go/releases/tag/v3.106.0) |
 | 2026-11-23 | [openai-java v4.112.0](https://deployedbyai.com/log/1b8beb605ea8/openai-java-v4-112-0/?k=repo) | openai-java 4.112.0 adds an automatic Chat Completions tool runner, vector-store polling and bulk upload helpers, and spending limits on agent sessions. | [OpenAI, openai-java v4.112.0](https://github.com/openai/openai-java/releases/tag/v4.112.0) |
 | 2026-11-23 | [openai-node v7.63.0](https://deployedbyai.com/log/f7a9cce3018e/openai-node-v7-63-0/?k=repo) | openai-node 7.63.0 adds spending limits to agent sessions and clarifies when to omit completion choice count. | [OpenAI, openai-node v7.63.0](https://github.com/openai/openai-node/releases/tag/v7.63.0) |

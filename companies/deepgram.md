@@ -1,6 +1,6 @@
 # Deepgram in The Deploy Log
 
-11 rows in The Deploy Log are filed under Deepgram. Every one carries a publisher's date, from September 30, 2026 to November 23, 2026.
+12 rows in The Deploy Log are filed under Deepgram. Every one carries a publisher's date, from September 30, 2026 to November 24, 2026.
 
 The same rows are on [the Deepgram page of the record](https://deployedbyai.com/log/company/d875bddf276c/deepgram/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Deepgram page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Nova-3 language expansion](https://deployedbyai.com/log/d435c3b12f28/nova-3-language-expansion/?k=repo) | Nova-3 adds Odia, Santali, Southern Ndebele and Western Frisian for batch and streaming, plus improved models for 22 existing languages, live for all users. | [Deepgram, Nova-3 language expansion](https://developers.deepgram.com/changelog/2026/11/24) |
 | 2026-11-23 | [Deepgram US endpoint](https://deployedbyai.com/log/c0ec476da601/deepgram-us-endpoint/?k=repo) | The Deepgram US endpoint api.us.deepgram.com is generally available for speech-to-text, text-to-speech, Voice Agent and Text Intelligence, keeping storage and inference in the US at global pricing. | [Deepgram, Deepgram US endpoint](https://developers.deepgram.com/changelog/2026/11/23) |
 | 2026-11-17 | [Nova-3 German and Hindi models](https://deployedbyai.com/log/0a74d9867a21/nova-3-german-and-hindi-models/?k=repo) | Improved Nova-3 monolingual models for German and Hindi are live for all users. | [Deepgram, Nova-3 German and Hindi models](https://developers.deepgram.com/changelog/2026/11/17) |
 | 2026-11-16 | [Nova-3 36 new languages](https://deployedbyai.com/log/3ba51b77f9ed/nova-3-36-new-languages/?k=repo) | Nova-3 adds 36 monolingual languages for batch and streaming speech-to-text. | [Deepgram, Nova-3 36 new languages](https://developers.deepgram.com/changelog/2026/11/16) |

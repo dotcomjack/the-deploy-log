@@ -1,6 +1,6 @@
 # Docker in The Deploy Log
 
-14 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to November 23, 2026.
+15 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to November 24, 2026.
 
 The same rows are on [the Docker page of the record](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Docker page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [docker-agent v1.165.0](https://deployedbyai.com/log/27f55c2371d9/docker-agent-v1-165-0/?k=repo) | docker-agent v1.165.0 adds experimental MCP Events push subscriptions behind a per-toolset flag, Gemini 4 thinking and catalog support, and Anthropic in the small browser WASM profile. | [Docker, docker-agent v1.165.0](https://github.com/docker/docker-agent/releases/tag/v1.165.0) |
 | 2026-11-23 | [docker-agent v1.164.0](https://deployedbyai.com/log/af44c79e4b42/docker-agent-v1-164-0/?k=repo) | docker-agent v1.164.0 adds a /btw side-question dialog, auto-hiding scrollbars, a searchable help dialog, and fixes Gemini 4 thinking level support. | [Docker, docker-agent v1.164.0](https://github.com/docker/docker-agent/releases/tag/v1.164.0) |
 | 2026-11-19 | [Docker Agent v1.163.0](https://deployedbyai.com/log/052def75a1d7/docker-agent-v1-163-0/?k=repo) | Docker Agent v1.163.0 adds MCP elicitation and OAuth prompt support to the lean TUI. | [Docker, Docker Agent v1.163.0](https://github.com/docker/docker-agent/releases/tag/v1.163.0) |
 | 2026-11-18 | [Docker Agent v1.162.0](https://deployedbyai.com/log/374af3b04152/docker-agent-v1-162-0/?k=repo) | Adds PopNow as a built-in OpenAI-compatible provider and a models.&lt;name&gt;.context\_window config field. | [Docker, Docker Agent v1.162.0](https://github.com/docker/docker-agent/releases/tag/v1.162.0) |
