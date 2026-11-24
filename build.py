@@ -34,13 +34,15 @@ INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models
            ("platform/", "Platforms"), ("week/", "Week by week"), ("month/", "Month by month"),
            ("product/", "AI tools, version by version"), ("ai-coding-tools/", "AI coding tools"),
            ("today/", "AI news today"), ("llm-inference-engines/", "LLM inference engines"),
-           ("ai-gateways/", "AI gateways"), ("vector-databases/", "Vector databases"))
+           ("ai-gateways/", "AI gateways"), ("vector-databases/", "Vector databases"),
+           ("langchain-vs-langgraph/", "LangChain vs LangGraph"))
 # These three are named in the record's own words. Where the record's front page links one, the README prints that
 # link's text, read at build time (index_names); where it does not, the name typed above stands: the page's own
 # heading, or for today's page, whose heading goes on to name the day, the front page's link text on 2026-11-19.
-# The other nine keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
+# The other ten keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
 # ai-gateways/, its page's own heading "AI gateways", joined on 2026-11-23 with deployedbyai proposal round 63 road B;
-# vector-databases/, the brand's group name "Vector databases", joined the same day with round 64 road B):
+# vector-databases/, the brand's group name "Vector databases", joined the same day with round 64 road B;
+# langchain-vs-langgraph/, its page's own heading "LangChain vs LangGraph", joined the same day with round 65 road A):
 # the front page words them differently, and their lines would move.
 FRONT_NAMED = ("product/", "ai-coding-tools/", "today/")
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
