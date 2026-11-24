@@ -36,16 +36,17 @@ INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models
            ("today/", "AI news today"), ("llm-inference-engines/", "LLM inference engines"),
            ("ai-gateways/", "AI gateways"), ("vector-databases/", "Vector databases"),
            ("langchain-vs-langgraph/", "LangChain vs LangGraph"),
-           ("chatgpt-vs-gemini-vs-copilot/", "ChatGPT vs Gemini vs Copilot"))
+           ("chatgpt-vs-gemini-vs-copilot/", "ChatGPT vs Gemini vs Copilot"),
+           ("openai-vs-anthropic/", "OpenAI vs Anthropic"))
 # These three are named in the record's own words. Where the record's front page links one, the README prints that
 # link's text, read at build time (index_names); where it does not, the name typed above stands: the page's own
 # heading, or for today's page, whose heading goes on to name the day, the front page's link text on 2026-11-19.
-# The other eleven keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
+# The other twelve keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
 # ai-gateways/, its page's own heading "AI gateways", joined on 2026-11-23 with deployedbyai proposal round 63 road B;
 # vector-databases/, the brand's group name "Vector databases", joined the same day with round 64 road B;
 # langchain-vs-langgraph/, its page's own heading "LangChain vs LangGraph", joined the same day with round 65 road A;
 # chatgpt-vs-gemini-vs-copilot/, its page's own heading "ChatGPT vs Gemini vs Copilot", joined on 2026-11-24 with round
-# 66 road B):
+# 66 road B; openai-vs-anthropic/, its page's own heading "OpenAI vs Anthropic", joined the same day with round 67 road B):
 # the front page words them differently, and their lines would move.
 FRONT_NAMED = ("product/", "ai-coding-tools/", "today/")
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
