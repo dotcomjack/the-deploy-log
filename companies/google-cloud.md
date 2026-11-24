@@ -1,6 +1,6 @@
 # Google Cloud in The Deploy Log
 
-97 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 24, 2026.
+98 rows in The Deploy Log are filed under Google Cloud. Every one carries a publisher's date, from September 17, 2026 to November 24, 2026.
 
 The same rows are on [the Google Cloud page of the record](https://deployedbyai.com/log/company/0cea73712411/google-cloud/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Google Cloud page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [BigQuery ML TVFs and embeddinggemma](https://deployedbyai.com/log/5eb0821aa404/bigquery-ml-tvfs-and-embeddinggemma/?k=repo) | BigQuery's ML.TREND, ML.SEASONALITY, ML.DETECT\_CHANGE\_POINTS and ML.CORRELATION table-valued functions and the embeddinggemma-300m text embedding model in AI.EMBED and AI.SIMILARITY are generally available. | [Google Cloud, BigQuery ML TVFs and embeddinggemma](https://docs.cloud.google.com/release-notes#November_24_2026) |
 | 2026-11-24 | [embeddinggemma-300m in BigQuery](https://deployedbyai.com/log/82bc19aed7d2/embeddinggemma-300m-in-bigquery/?k=repo) | The built-in text embedding model embeddinggemma-300m in BigQuery's AI.EMBED and AI.SIMILARITY functions is generally available. | [Google Cloud, embeddinggemma-300m in BigQuery](https://docs.cloud.google.com/bigquery/docs/release-notes#November_24_2026) |
 | 2026-11-23 | [AlloyDB Omni local model integration](https://deployedbyai.com/log/aadcfabd64b5/alloydb-omni-local-model-integration/?k=repo) | AlloyDB Omni can now call locally hosted model servers such as Gemma 4 and Qwen3.8 directly from SQL, keeping prompts and data on-premises. | [Google Cloud, AlloyDB Omni local model integration](https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/) |
 | 2026-11-23 | [Gemini 4 Neon for cyber](https://deployedbyai.com/log/213bcf249459/gemini-4-neon-for-cyber/?k=repo) | Gemini 4 Neon for cyber is GA on Gemini Enterprise Agent Platform for allowlisted defensive cybersecurity workloads, with a 1,048,576-token input and output limit. | [Google Cloud, Gemini 4 Neon for cyber](https://docs.cloud.google.com/release-notes#November_23_2026) |

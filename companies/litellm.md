@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-45 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 24, 2026.
+46 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 24, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [LiteLLM v1.108.17](https://deployedbyai.com/log/0fbb08d0930d/litellm-v1-108-17/?k=repo) | LiteLLM v1.108.17 adds MiniMax-H3-Image support on /v1/images/generations and /v1/images/edits plus provider fixes for Anthropic, Bedrock, Gemini, OpenAI and others. | [LiteLLM, LiteLLM v1.108.17](https://github.com/BerriAI/litellm/releases/tag/v1.108.17) |
 | 2026-11-24 | [LiteLLM v1.109.4](https://deployedbyai.com/log/ca351b45f26e/litellm-v1-109-4/?k=repo) | LiteLLM v1.109.4 backports the MCP gateway DCR opt-in to the stable/1.109.x branch. | [LiteLLM, LiteLLM v1.109.4](https://github.com/BerriAI/litellm/releases/tag/v1.109.4) |
 | 2026-11-24 | [LiteLLM v1.110.3](https://deployedbyai.com/log/dcc04257444a/litellm-v1-110-3/?k=repo) | LiteLLM v1.110.3 backports gateway DCR opt-in for MCP, audit log fixes and a router group fallback to the stable/1.110.x branch. | [LiteLLM, LiteLLM v1.110.3](https://github.com/BerriAI/litellm/releases/tag/v1.110.3) |
 | 2026-11-23 | [LiteLLM v1.108.16](https://deployedbyai.com/log/6af049e422a9/litellm-v1-108-16/?k=repo) | LiteLLM v1.108.16 LTS patch with provider fixes for Anthropic, Bedrock, Gemini, Vertex AI and Azure, plus text-to-speech support for /v1/audio/speech via Gradium. | [LiteLLM, LiteLLM v1.108.16](https://github.com/BerriAI/litellm/releases/tag/v1.108.16) |
