@@ -1,6 +1,6 @@
 # Amazon Web Services in The Deploy Log
 
-311 rows in The Deploy Log are filed under Amazon Web Services. 303 carry a publisher's date, from September 16, 2026 to November 24, 2026, and 8 are placed by their edition.
+312 rows in The Deploy Log are filed under Amazon Web Services. 304 carry a publisher's date, from September 16, 2026 to November 25, 2026, and 8 are placed by their edition.
 
 The same rows are on [the Amazon Web Services page of the record](https://deployedbyai.com/log/company/7bfc964582ce/amazon-web-services/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Amazon Web Services page of the record](https://deploy
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Strands Agents SDK v1.67.0](https://deployedbyai.com/log/752181e9d1d6/strands-agents-sdk-v1-67-0/?k=repo) | Strands Agents python SDK v1.67.0 adds HttpDecisionModel for System One HTTP servers, a per-model cost-estimate plugin, and graduates the context manager out of experimental. | [Amazon Web Services, Strands Agents SDK v1.67.0](https://github.com/strands-agents/harness-sdk/releases/tag/python%2Fv1.67.0) |
 | 2026-11-24 | [OpenSearch Serverless Cape Town](https://deployedbyai.com/log/7f07cbb19d50/opensearch-serverless-cape-town/?k=repo) | Amazon OpenSearch Serverless, a managed search, vector and analytics engine with scale-to-zero, is now available in the AWS Africa (Cape Town) Region. | [Amazon Web Services, OpenSearch Serverless Cape Town](https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/) |
 | 2026-11-23 | [AWS API and AI security](https://deployedbyai.com/log/2a706a9b3fcf/aws-api-and-ai-security/?k=repo) | API Portal in Amazon API Gateway and the API Security and AI Security managed rule groups in AWS WAF are generally available today. | [Amazon Web Services, AWS API and AI security](https://aws.amazon.com/blogs/security/introducing-api-and-ai-security-on-aws-from-discovery-to-protection/) |
 | 2026-11-23 | [AWS DevOps Agent access controls](https://deployedbyai.com/log/fb3eac195ed5/aws-devops-agent-access-controls/?k=repo) | AWS DevOps Agent adds Access Profiles linking IAM Identity Center users in Agent Spaces to permission sets, and AWS Organizations support aligning organization accounts with Agent Spaces. | [Amazon Web Services, AWS DevOps Agent access controls](https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-access-profiles-orgs/) |

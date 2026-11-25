@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-80 rows in The Deploy Log are filed under Cloudflare. 71 carry a publisher's date, from August 13, 2026 to November 24, 2026, and 9 are placed by their edition.
+82 rows in The Deploy Log are filed under Cloudflare. 73 carry a publisher's date, from August 13, 2026 to November 25, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Cloudflare Search for Agents](https://deployedbyai.com/log/f1b511716768/cloudflare-search-for-agents/?k=repo) | A zone toggle that auto-creates an AI Search instance, crawls and indexes the site, and exposes search APIs to agents, available to all customers including Free with limits. | [Cloudflare, Cloudflare Search for Agents](https://blog.cloudflare.com/search-for-agents/) |
+| 2026-11-25 | [Search for Agents](https://deployedbyai.com/log/245068b36c22/search-for-agents/?k=repo) | Search for Agents creates an AI Search instance, indexes the site and exposes a .well-known/search endpoint returning Markdown, available on all plans. | [Cloudflare, Search for Agents](https://developers.cloudflare.com/changelog/post/2026-11-25-search-for-agents/) |
 | 2026-11-24 | [AI Security prompt logging](https://deployedbyai.com/log/4224b8eb5327/ai-security-prompt-logging/?k=repo) | Prompt content for AI Security for Apps is now logged by configuring payload logging with a WAF custom rule referencing a cf.llm.prompt field, replacing the AI Security Log Mode Ruleset. | [Cloudflare, AI Security prompt logging](https://developers.cloudflare.com/changelog/post/2026-11-24-ai-security-prompt-logging/) |
 | 2026-11-20 | [@cloudflare/ai-chat 0.12.3](https://deployedbyai.com/log/6c76880d91ab/cloudflare-ai-chat-0-12-3/?k=repo) | ai-chat 0.12.3 fixes chat races across tabs and during recovery so stop, clear, regenerate and resume hold, and a request cancelled in the queue no longer runs. | [Cloudflare, @cloudflare/ai-chat 0.12.3](https://github.com/cloudflare/agents/releases/tag/%40cloudflare%2Fai-chat%400.12.3) |
 | 2026-11-20 | [Agents SDK v0.34.0 / Pi 1.6](https://deployedbyai.com/log/3aea6d2185f0/agents-sdk-v0-34-0-pi-1-6/?k=repo) | Agents SDK v0.34.0 upgrades PiHarness to Pi 1.6, adding tools that park until a signal or deadline without keeping the Durable Object awake. | [Cloudflare, Agents SDK v0.34.0 / Pi 1.6](https://developers.cloudflare.com/changelog/post/2026-11-20-pi-harness-pi-1-6/) |

@@ -1,6 +1,6 @@
 # Oracle in The Deploy Log
 
-18 rows in The Deploy Log are filed under Oracle. Every one carries a publisher's date, from September 25, 2026 to November 17, 2026.
+19 rows in The Deploy Log are filed under Oracle. Every one carries a publisher's date, from September 25, 2026 to November 24, 2026.
 
 The same rows are on [the Oracle page of the record](https://deployedbyai.com/log/company/20d0d42a1ab9/oracle/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Oracle page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-24 | [Select AI semantic context](https://deployedbyai.com/log/dde5ecb7c044/select-ai-semantic-context/?k=repo) | Select AI can attach catalog, callback, file or MCP semantic sources to an AI profile to supply business definitions and rules for natural-language SQL, with SHOWCONTEXT to review them. | [Oracle, Select AI semantic context](https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-semantic-select-ai.htm) |
 | 2026-11-17 | [Autonomous AI Vector Database](https://deployedbyai.com/log/6059db3da4c0/autonomous-ai-vector-database/?k=repo) | Oracle released Autonomous AI Vector Database for RAG applications, vector similarity search, and embedding model management. | [Oracle, Autonomous AI Vector Database](https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-vec-db.htm) |
 | 2026-11-10 | [A2A and MCP Server Built-in Tools](https://deployedbyai.com/log/2b89ed989f87/a2a-and-mcp-server-built-in-tools/?k=repo) | Enable or disable A2A Server and MCP Server from the Tool configuration page, with server access URL copying. | [Oracle, A2A and MCP Server Built-in Tools](https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-support-mcp-server.htm) |
 | 2026-11-10 | [AI-Assisted Queries for Table Hyperlinks](https://deployedbyai.com/log/9968d751769a/ai-assisted-queries-for-table-hyperlinks/?k=repo) | Select AI generates and runs SQL from natural-language questions on table hyperlinks, with conversation context. | [Oracle, AI-Assisted Queries for Table Hyperlinks](https://docs.oracle.com/iaas/releasenotes/autonomous-database-serverless/2026-11-ai-table-hyperlink.htm) |

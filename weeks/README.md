@@ -4,7 +4,7 @@ Of the 63 ISO weeks that hold a row in the record, 62 have a page there, and eac
 
 | Week | Monday to Sunday | Rows | With a publisher's date | In the record |
 |---|---|---:|---:|---|
-| [2026-W48](2026-W48.md) (in progress) | 2026-11-23 to 2026-11-29 | 152 | 152 | [page](https://deployedbyai.com/log/week/2026-W48/?k=repo) |
+| [2026-W48](2026-W48.md) (in progress) | 2026-11-23 to 2026-11-29 | 162 | 162 | [page](https://deployedbyai.com/log/week/2026-W48/?k=repo) |
 | [2026-W47](2026-W47.md) | 2026-11-16 to 2026-11-22 | 487 | 479 | [page](https://deployedbyai.com/log/week/2026-W47/?k=repo) |
 | [2026-W46](2026-W46.md) | 2026-11-09 to 2026-11-15 | 361 | 355 | [page](https://deployedbyai.com/log/week/2026-W46/?k=repo) |
 | [2026-W45](2026-W45.md) | 2026-11-02 to 2026-11-08 | 267 | 262 | [page](https://deployedbyai.com/log/week/2026-W45/?k=repo) |

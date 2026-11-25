@@ -1,6 +1,6 @@
 # OpenHands in The Deploy Log
 
-18 rows in The Deploy Log are filed under OpenHands. Every one carries a publisher's date, from September 25, 2026 to November 24, 2026.
+19 rows in The Deploy Log are filed under OpenHands. Every one carries a publisher's date, from September 25, 2026 to November 25, 2026.
 
 The same rows are on [the OpenHands page of the record](https://deployedbyai.com/log/company/3073c3e8ba0d/openhands/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the OpenHands page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [OpenHands v1.46.0](https://deployedbyai.com/log/4713d4f4bf69/openhands-v1-46-0/?k=repo) | OpenHands v1.46.0 adds listing and unsharing of team-shared conversations, a feedback button and submission flow, and a Git Sync switch for automations. | [OpenHands, OpenHands v1.46.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.46.0) |
 | 2026-11-24 | [OpenHands v1.45.0](https://deployedbyai.com/log/6e674cb0a91f/openhands-v1-45-0/?k=repo) | OpenHands v1.45.0 adds experimental Projects in Canvas, project conversations in the sidebar with files and PRs beside the chat, and nested sub-agent conversations. | [OpenHands, OpenHands v1.45.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.45.0) |
 | 2026-11-23 | [OpenHands v1.44.0](https://deployedbyai.com/log/7a588a60bd52/openhands-v1-44-0/?k=repo) | OpenHands 1.44.0 adds conversation mentions behind a flag, automation visibility and key-value store editing, and a Factories sidebar. | [OpenHands, OpenHands v1.44.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.44.0) |
 | 2026-11-20 | [OpenHands v1.43.0](https://deployedbyai.com/log/7ad36d43c2a9/openhands-v1-43-0/?k=repo) | OpenHands 1.43.0 adds automations created from the setup wizard, an experimental features page with conversation reactions, and a virtualized conversation message list. | [OpenHands, OpenHands v1.43.0](https://github.com/OpenHands/OpenHands/releases/tag/v1.43.0) |

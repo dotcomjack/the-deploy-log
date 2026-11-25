@@ -1,6 +1,6 @@
 # GitHub in The Deploy Log
 
-132 rows in The Deploy Log are filed under GitHub. 119 carry a publisher's date, from September 17, 2026 to November 24, 2026, and 13 are placed by their edition.
+133 rows in The Deploy Log are filed under GitHub. 120 carry a publisher's date, from September 17, 2026 to November 25, 2026, and 13 are placed by their edition.
 
 The same rows are on [the GitHub page of the record](https://deployedbyai.com/log/company/057e2e5f0d0b/github/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the GitHub page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Copilot CLI 1.0.116](https://deployedbyai.com/log/1e7c582b3eec/copilot-cli-1-0-116/?k=repo) | Copilot CLI 1.0.116 adds an env setting for every process Copilot starts, MCP endpoint conflict warnings, and context size selection in ACP editors. | [GitHub, Copilot CLI 1.0.116](https://github.com/github/copilot-cli/releases/tag/v1.0.116) |
 | 2026-11-24 | [Copilot CLI 1.0.115](https://deployedbyai.com/log/0b7816165887/copilot-cli-1-0-115/?k=repo) | Copilot CLI v1.0.115 adds Gemini 4 Hydrogen and GPT-6.2 Astra to the model picker, MAI-Code-2-Flash under New models, custom provider models in /model, and Windows sandbox queries on by default. | [GitHub, Copilot CLI 1.0.115](https://github.com/github/copilot-cli/releases/tag/v1.0.115) |
 | 2026-11-24 | [GitHub MCP Server 2.3.0](https://deployedbyai.com/log/d91c250b23d6/github-mcp-server-2-3-0/?k=repo) | GitHub MCP Server 2.3.0 adds Dependabot, code scanning and secret scanning alert update tools, experimental pull request artifact tools, and Swift global security advisories. | [GitHub, GitHub MCP Server 2.3.0](https://github.com/github/github-mcp-server/releases/tag/v2.3.0) |
 | 2026-11-18 | [Copilot MCP connectors](https://deployedbyai.com/log/c98c70e6db3c/copilot-mcp-connectors/?k=repo) | Eight new GitHub-verified MCP connectors for Copilot are available in public preview. | [GitHub, Copilot MCP connectors](https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot) |
