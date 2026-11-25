@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-270 rows in The Deploy Log are filed under Anthropic. 225 carry a publisher's date, from October 16, 2025 to November 24, 2026, and 45 are placed by their edition.
+272 rows in The Deploy Log are filed under Anthropic. 227 carry a publisher's date, from October 16, 2025 to November 24, 2026, and 45 are placed by their edition. 2 of those dates have not yet come in New York.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -278,6 +278,15 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 |---|---|---|---|
 | 2025-10-27 | [Claude for Financial Services](https://deployedbyai.com/log/e1c9c05198a6/claude-for-financial-services/?k=repo) | Anthropic expanded Claude for Financial Services with an Excel add-in, new connectors, and 6 Agent Skills, topping the Finance Agent benchmark at 55.3% accuracy. | [Anthropic, Advancing Claude for Financial Services](https://www.anthropic.com/news/advancing-claude-for-financial-services) |
 | 2025-10-16 | [Agent Skills](https://deployedbyai.com/log/0a88c001a119/agent-skills/?k=repo) | Agent Skills are folders with instructions, scripts, and resources that Claude loads when relevant, available across Claude apps, Claude Code, and API, with a new /v1/skills endpoint for versioning. | [Anthropic, Introducing Agent Skills](https://www.anthropic.com/news/skills) |
+
+## Undated until its day
+
+2 rows carry a publisher's date that has not yet come in New York. The record prints no date for them until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [Claude Agent SDK TS v0.3.332](https://deployedbyai.com/log/288a1e312c3a/claude-agent-sdk-ts-v0-3-332/?k=repo) | Claude Agent SDK TypeScript v0.3.332 adds tool\_result\_meta rewritten\_by\_plugin and the PreSkillShellCommand hook, and changes setPermissionMode() to resolve with the mode in effect. | [Anthropic, Claude Agent SDK TS v0.3.332](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.332) |
+| [Claude Code v2.1.332](https://deployedbyai.com/log/c10a3604a17f/claude-code-v2-1-332/?k=repo) | Claude Code v2.1.332 adds skills from MCP servers (beta), a PreSkillShellCommand hook event, and fixes for hangs, compaction and MCP server output floods. | [Anthropic, Claude Code v2.1.332](https://github.com/anthropics/claude-code/releases/tag/v2.1.332) |
 
 ## Placed by their edition
 

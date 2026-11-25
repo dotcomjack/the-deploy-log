@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-46 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 24, 2026.
+47 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 24, 2026. 1 of those dates has not yet come in New York.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -64,3 +64,11 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 | 2026-09-23 | [LiteLLM v1.102.1](https://deployedbyai.com/log/bcfa7e4ee358/litellm-v1-102-1/?k=repo) | LiteLLM v1.102.1 released with 4148 commits since previous release. | [LiteLLM, LiteLLM v1.102.1](https://github.com/BerriAI/litellm/releases/tag/v1.102.1) |
 | 2026-09-23 | [LiteLLM v1.99.3](https://deployedbyai.com/log/167b18e0bf01/litellm-v1-99-3/?k=repo) | LiteLLM released version 1.99.3. | [LiteLLM, LiteLLM v1.99.3](https://github.com/BerriAI/litellm/releases/tag/v1.99.3) |
 | 2026-09-22 | [LiteLLM v1.102.0](https://deployedbyai.com/log/fb9e045036ab/litellm-v1-102-0/?k=repo) | LiteLLM v1.102.0 tagged with no numbered change listed. | [LiteLLM, LiteLLM v1.102.0](https://github.com/BerriAI/litellm/releases/tag/v1.102.0) |
+
+## Undated until its day
+
+1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [LiteLLM v1.111.0](https://deployedbyai.com/log/ff9b1e38790b/litellm-v1-111-0/?k=repo) | LiteLLM v1.111.0 adds claude-fable-5-2 on Anthropic, Azure AI and Vertex AI plus GovCloud Bedrock cost rows, OpenSearch index pass-through and auth access groups. | [LiteLLM, LiteLLM v1.111.0](https://github.com/BerriAI/litellm/releases/tag/v1.111.0) |

@@ -1,6 +1,6 @@
 # FastMCP in The Deploy Log
 
-15 rows in The Deploy Log are filed under FastMCP. Every one carries a publisher's date, from September 25, 2026 to November 23, 2026.
+16 rows in The Deploy Log are filed under FastMCP. Every one carries a publisher's date, from September 25, 2026 to November 23, 2026. 1 of those dates has not yet come in New York.
 
 The same rows are on [the FastMCP page of the record](https://deployedbyai.com/log/company/11b827318913/fastmcp/?k=repo).
 
@@ -33,3 +33,11 @@ The same rows are on [the FastMCP page of the record](https://deployedbyai.com/l
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-09-25 | [FastMCP v4.0.10](https://deployedbyai.com/log/1e7f0a3eeb39/fastmcp-v4-0-10/?k=repo) | Task-enabled tools now work behind search transforms and CodeMode. | [FastMCP, FastMCP v4.0.10](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.0.10) |
+
+## Undated until its day
+
+1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [FastMCP v4.2.6](https://deployedbyai.com/log/39cd94653d20/fastmcp-v4-2-6/?k=repo) | FastMCP 4.2.6 adds an experimental CodeModeClient that runs CodeMode client-side across servers, moves events to the fastmcp-events package as Pydantic models, and drops Authlib. | [FastMCP, FastMCP v4.2.6](https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.6) |
