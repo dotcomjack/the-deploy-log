@@ -37,17 +37,20 @@ INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models
            ("ai-gateways/", "AI gateways"), ("vector-databases/", "Vector databases"),
            ("langchain-vs-langgraph/", "LangChain vs LangGraph"),
            ("chatgpt-vs-gemini-vs-copilot/", "ChatGPT vs Gemini vs Copilot"),
-           ("openai-vs-anthropic/", "OpenAI vs Anthropic"), ("github-vs-gitlab/", "GitHub vs GitLab"))
+           ("openai-vs-anthropic/", "OpenAI vs Anthropic"), ("github-vs-gitlab/", "GitHub vs GitLab"),
+           ("databricks-vs-snowflake/", "Databricks vs Snowflake"), ("nvidia-vs-amd/", "NVIDIA vs AMD"))
 # These three are named in the record's own words. Where the record's front page links one, the README prints that
 # link's text, read at build time (index_names); where it does not, the name typed above stands: the page's own
 # heading, or for today's page, whose heading goes on to name the day, the front page's link text on 2026-11-19.
-# The other thirteen keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
+# The other fifteen keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
 # ai-gateways/, its page's own heading "AI gateways", joined on 2026-11-23 with deployedbyai proposal round 63 road B;
 # vector-databases/, the brand's group name "Vector databases", joined the same day with round 64 road B;
 # langchain-vs-langgraph/, its page's own heading "LangChain vs LangGraph", joined the same day with round 65 road A;
 # chatgpt-vs-gemini-vs-copilot/, its page's own heading "ChatGPT vs Gemini vs Copilot", joined on 2026-11-24 with round
 # 66 road B; openai-vs-anthropic/, its page's own heading "OpenAI vs Anthropic", joined the same day with round 67 road B;
-# github-vs-gitlab/, its page's own heading "GitHub vs GitLab", joined the same day with round 68 road B):
+# github-vs-gitlab/, its page's own heading "GitHub vs GitLab", joined the same day with round 68 road B;
+# databricks-vs-snowflake/ and nvidia-vs-amd/, their pages' own headings "Databricks vs Snowflake" and "NVIDIA vs AMD",
+# joined the same day with round 68's p68-data and p68-chips, road B each):
 # the front page words them differently, and their lines would move.
 FRONT_NAMED = ("product/", "ai-coding-tools/", "today/")
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
