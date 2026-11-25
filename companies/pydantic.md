@@ -1,6 +1,6 @@
 # Pydantic in The Deploy Log
 
-25 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 24, 2026.
+26 rows in The Deploy Log are filed under Pydantic. Every one carries a publisher's date, from September 25, 2026 to November 25, 2026.
 
 The same rows are on [the Pydantic page of the record](https://deployedbyai.com/log/company/49425b50f21d/pydantic/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Pydantic page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Pydantic AI v2.75.0](https://deployedbyai.com/log/9a87eab58cd6/pydantic-ai-v2-75-0/?k=repo) | Pydantic AI v2.75.0 raises ModelEmptyResponseError and ModelInvalidResponseError so FallbackModel falls back, and resolves Pax permissions approvals through a token-taking handler. | [Pydantic, Pydantic AI v2.75.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.75.0) |
 | 2026-11-24 | [Pydantic AI v2.72.0](https://deployedbyai.com/log/22c99bdfde26/pydantic-ai-v2-72-0/?k=repo) | Pydantic AI v2.72.0 adds DeprecatedModelWarning, Agent.override capabilities, RealtimeSession.append\_voice\_instructions for GPT-Live, and raises the openai floor to 3.50.0. | [Pydantic, Pydantic AI v2.72.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.72.0) |
 | 2026-11-24 | [Pydantic AI v2.74.0](https://deployedbyai.com/log/12309c54671a/pydantic-ai-v2-74-0/?k=repo) | Pydantic AI v2.74.0 adds a ComputerTool contract and ComputerUse capability, sending native computer tools on GPT-5.4+, Claude and Gemini, with desktop-enabled Docker, Daytona, E2B, Modal and Kubernetes sandboxes. | [Pydantic, Pydantic AI v2.74.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0) |
 | 2026-11-24 | [pydantic-ai 2.73.0](https://deployedbyai.com/log/6540217cb23a/pydantic-ai-2-73-0/?k=repo) | Pydantic AI v2.73.0 adds DeprecatedModelWarning, Agent.override capabilities, RealtimeSession.append\_voice\_instructions, and raises the openai floor to 3.50.0. | [Pydantic, pydantic-ai 2.73.0](https://github.com/pydantic/pydantic-ai/releases/tag/v2.73.0) |

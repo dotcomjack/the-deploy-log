@@ -1,6 +1,6 @@
 # Zed in The Deploy Log
 
-5 rows in The Deploy Log are filed under Zed. 2 carry a publisher's date, from November 18, 2026 to November 20, 2026, and 3 are placed by their edition.
+6 rows in The Deploy Log are filed under Zed. 3 carry a publisher's date, from November 18, 2026 to November 25, 2026, and 3 are placed by their edition.
 
 The same rows are on [the Zed page of the record](https://deployedbyai.com/log/company/0a5dec84a039/zed/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Zed page of the record](https://deployedbyai.com/log/c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Zed v1.30.2](https://deployedbyai.com/log/0920f0355bf6/zed-v1-30-2/?k=repo) | Zed v1.30.2 adds GPT-6.1 Terra to the OpenAI provider, a model picker for AI commit messages, and an Extra High thinking level for Gemini 4 Hydrogen. | [Zed, Zed v1.30.2](https://github.com/zed-industries/zed/releases/tag/v1.30.2) |
 | 2026-11-20 | [Zed v1.29.3](https://deployedbyai.com/log/856eeda78abc/zed-v1-29-3/?k=repo) | Zed v1.29.3 fixes prompt caching for reusable OpenAI system instructions on GPT-6.2 and later, and fixes Text Finder showing stale results. | [Zed, Zed v1.29.3](https://github.com/zed-industries/zed/releases/tag/v1.29.3) |
 | 2026-11-18 | [Zed v1.29.1](https://deployedbyai.com/log/0a5bcdcf9345/zed-v1-29-1/?k=repo) | Zed v1.29.1 adds support for Claude Fable 5.2 and Claude Mythos 5.2 for Anthropic BYOK users. | [Zed, Zed v1.29.1](https://github.com/zed-industries/zed/releases/tag/v1.29.1) |
 

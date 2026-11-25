@@ -1,6 +1,6 @@
 # Hugging Face in The Deploy Log
 
-111 rows in The Deploy Log are filed under Hugging Face. 61 carry a publisher's date, from September 17, 2025 to November 24, 2026, and 50 are placed by their edition.
+112 rows in The Deploy Log are filed under Hugging Face. 62 carry a publisher's date, from September 17, 2025 to November 25, 2026, and 50 are placed by their edition.
 
 The same rows are on [the Hugging Face page of the record](https://deployedbyai.com/log/company/45f89a539985/hugging-face/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Hugging Face page of the record](https://deployedbyai.
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [TRL v1.19.0](https://deployedbyai.com/log/2ba501322187/trl-v1-19-0/?k=repo) | TRL v1.19.0 adds multi-teacher DistillationTrainer with environment\_factory, async GRPO tree packing, and BFD packed SFT that cuts Qwen3-1.7B SDPA steps from 2.06 to 1.02 on H100. | [Hugging Face, TRL v1.19.0](https://github.com/huggingface/trl/releases/tag/v1.19.0) |
 | 2026-11-24 | [Transformers v5.24.1](https://deployedbyai.com/log/2a27c38fb8a0/transformers-v5-24-1/?k=repo) | Transformers v5.24.1 patches vLLM backward compatibility, restores modeling\_attn\_mask\_utils for remote code, and fixes Llama4 and dory model issues. | [Hugging Face, Transformers v5.24.1](https://github.com/huggingface/transformers/releases/tag/v5.24.1) |
 | 2026-11-23 | [huggingface/kernels v0.19.0](https://deployedbyai.com/log/490d023f6c1e/huggingface-kernels-v0-19-0/?k=repo) | v0.19.0 adds MLX noarch kernels for the metal backend on Apple Silicon, experimental CUDA kernels in Rust via cuda-oxide and cutile-rs, and an opt-in ZIP build layout. | [Hugging Face, huggingface/kernels v0.19.0](https://github.com/huggingface/kernels/releases/tag/v0.19.0) |
 | 2026-11-21 | [Transformers v5.24.0](https://deployedbyai.com/log/b26ce0374453/transformers-v5-24-0/?k=repo) | Transformers v5.24.0 adds Inkling 2 Mini, Apertus 1.5, WavTokenizer and NVIDIA Dory model integrations. | [Hugging Face, Transformers v5.24.0](https://github.com/huggingface/transformers/releases/tag/v5.24.0) |

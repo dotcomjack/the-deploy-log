@@ -1,6 +1,6 @@
 # Cloudflare in The Deploy Log
 
-82 rows in The Deploy Log are filed under Cloudflare. 73 carry a publisher's date, from August 13, 2026 to November 25, 2026, and 9 are placed by their edition.
+83 rows in The Deploy Log are filed under Cloudflare. 74 carry a publisher's date, from August 13, 2026 to November 25, 2026, and 9 are placed by their edition.
 
 The same rows are on [the Cloudflare page of the record](https://deployedbyai.com/log/company/a248aed96312/cloudflare/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the Cloudflare page of the record](https://deployedbyai.co
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-25 | [Cloudflare Search for Agents](https://deployedbyai.com/log/f1b511716768/cloudflare-search-for-agents/?k=repo) | A zone toggle that auto-creates an AI Search instance, crawls and indexes the site, and exposes search APIs to agents, available to all customers including Free with limits. | [Cloudflare, Cloudflare Search for Agents](https://blog.cloudflare.com/search-for-agents/) |
+| 2026-11-25 | [Cloudflare agents SDK 0.34.1](https://deployedbyai.com/log/31ad71c3d9e7/cloudflare-agents-sdk-0-34-1/?k=repo) | agents@0.34.1 adds support for Pi 1.6.1, changing tool parking shape to { kind: "sleep", signals, until } and aligning agents/models/pi-ai with pi-ai 1.6.1. | [Cloudflare, Cloudflare agents SDK 0.34.1](https://github.com/cloudflare/agents/releases/tag/agents%400.34.1) |
 | 2026-11-25 | [Search for Agents](https://deployedbyai.com/log/245068b36c22/search-for-agents/?k=repo) | Search for Agents creates an AI Search instance, indexes the site and exposes a .well-known/search endpoint returning Markdown, available on all plans. | [Cloudflare, Search for Agents](https://developers.cloudflare.com/changelog/post/2026-11-25-search-for-agents/) |
 | 2026-11-24 | [AI Security prompt logging](https://deployedbyai.com/log/4224b8eb5327/ai-security-prompt-logging/?k=repo) | Prompt content for AI Security for Apps is now logged by configuring payload logging with a WAF custom rule referencing a cf.llm.prompt field, replacing the AI Security Log Mode Ruleset. | [Cloudflare, AI Security prompt logging](https://developers.cloudflare.com/changelog/post/2026-11-24-ai-security-prompt-logging/) |
 | 2026-11-20 | [@cloudflare/ai-chat 0.12.3](https://deployedbyai.com/log/6c76880d91ab/cloudflare-ai-chat-0-12-3/?k=repo) | ai-chat 0.12.3 fixes chat races across tabs and during recovery so stop, clear, regenerate and resume hold, and a request cancelled in the queue no longer runs. | [Cloudflare, @cloudflare/ai-chat 0.12.3](https://github.com/cloudflare/agents/releases/tag/%40cloudflare%2Fai-chat%400.12.3) |

@@ -1,6 +1,6 @@
 # LiveKit in The Deploy Log
 
-7 rows in The Deploy Log are filed under LiveKit. Every one carries a publisher's date, from October 1, 2026 to November 18, 2026.
+8 rows in The Deploy Log are filed under LiveKit. Every one carries a publisher's date, from October 1, 2026 to November 25, 2026.
 
 The same rows are on [the LiveKit page of the record](https://deployedbyai.com/log/company/1586f3da8be9/livekit/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the LiveKit page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [livekit-agents 1.9.0](https://deployedbyai.com/log/7722db5df0d4/livekit-agents-1-9-0/?k=repo) | livekit-agents 1.9.0 adds multi-turn answering-machine detection across screeners and IVR, decision-model fallback across providers, and new STT/TTS providers including SILMA AI, ElevenLabs Scribe v3 and Zoom. | [LiveKit, livekit-agents 1.9.0](https://github.com/livekit/agents/releases/tag/livekit-agents%401.9.0) |
 | 2026-11-18 | [livekit-agents 1.8.13](https://deployedbyai.com/log/f6c2959b63d3/livekit-agents-1-8-13/?k=repo) | New VLM Run plugin, AssemblyAI STT 3.7 Realtime Agent, Sarvam saaras:v4, and breaking provider changes. | [LiveKit, livekit-agents 1.8.13](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.13) |
 | 2026-11-13 | [livekit-agents 1.8.12](https://deployedbyai.com/log/8d1575ecc8e5/livekit-agents-1-8-12/?k=repo) | livekit-agents 1.8.12 adds delegation recovery, new providers including xAI, Google Gemini 4, Perplexity, AssemblyAI, and Baseten, plus a turn detector update. | [LiveKit, livekit-agents 1.8.12](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.12) |
 | 2026-11-05 | [livekit-agents 1.8.11](https://deployedbyai.com/log/085b4175ee34/livekit-agents-1-8-11/?k=repo) | Responses API via LiveKit Inference with structured output and web search, plus Zoom, Kalpa, Rime, Fish Audio, and OpenAI providers. | [LiveKit, livekit-agents 1.8.11](https://github.com/livekit/agents/releases/tag/livekit-agents%401.8.11) |

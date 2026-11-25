@@ -1,6 +1,6 @@
 # Together AI in The Deploy Log
 
-14 rows in The Deploy Log are filed under Together AI. Every one carries a publisher's date, from September 29, 2026 to November 24, 2026.
+15 rows in The Deploy Log are filed under Together AI. Every one carries a publisher's date, from September 29, 2026 to November 25, 2026.
 
 The same rows are on [the Together AI page of the record](https://deployedbyai.com/log/company/e4dcca255aac/together-ai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Together AI page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Together Python SDK and CLI 3.5.0](https://deployedbyai.com/log/1d7ac22ef782/together-python-sdk-and-cli-3-5-0/?k=repo) | Together Python SDK and CLI 3.5.0 lets tg endpoints ab and tg endpoints shadow take the same placement flags as deploy, via --placement or inline --placement.regions and --placement.constraint. | [Together AI, Together Python SDK and CLI 3.5.0](https://docs.together.ai/docs/changelog#november-25-2026) |
 | 2026-11-24 | [Together AI preemptible compute](https://deployedbyai.com/log/e5c4f1b697d1/together-ai-preemptible-compute/?k=repo) | Preemptible compute is generally available for Kubernetes and Slurm GPU clusters, usable alongside standard nodes or as a preemptible-only cluster that keeps its shared volumes when Together reclaims every node. | [Together AI, Together AI preemptible compute](https://docs.together.ai/docs/changelog#november-24-2026) |
 | 2026-11-20 | [Hosted Grafana for dedicated endpoints](https://deployedbyai.com/log/fd93e3812139/hosted-grafana-for-dedicated-endpoints/?k=repo) | Every project with an active dedicated endpoint deployment gets a Together AI-hosted Grafana dashboard showing request rates, error ratios, latency by layer, token throughput and KV cache utilization. | [Together AI, Hosted Grafana for dedicated endpoints](https://docs.together.ai/docs/changelog#november-4-2026) |
 | 2026-11-20 | [Nemotron ASR dedicated endpoints](https://deployedbyai.com/log/20dd66ad0b1b/nemotron-asr-dedicated-endpoints/?k=repo) | nvidia/nemotron-3-asr-streaming-0.6b and nvidia/nemotron-3.5-asr-streaming-0.6b speech-to-text models are now available for deployment on dedicated endpoints. | [Together AI, Nemotron ASR dedicated endpoints](https://docs.together.ai/docs/changelog#november-11-2026) |

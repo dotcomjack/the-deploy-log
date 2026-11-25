@@ -1,6 +1,6 @@
 # LangChain in The Deploy Log
 
-137 rows in The Deploy Log are filed under LangChain. 136 carry a publisher's date, from September 20, 2026 to November 24, 2026, and 1 is placed by its edition.
+138 rows in The Deploy Log are filed under LangChain. 137 carry a publisher's date, from September 20, 2026 to November 25, 2026, and 1 is placed by its edition.
 
 The same rows are on [the LangChain page of the record](https://deployedbyai.com/log/company/2de245dc5d3a/langchain/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the LangChain page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [langgraph-cli 0.4.44](https://deployedbyai.com/log/64ce73003760/langgraph-cli-0-4-44/?k=repo) | langgraph-cli 0.4.44 adds a url field to deploy list --json, omits empty secrets lists on deployment updates, and allows deploying to BYOC data planes with only an API key. | [LangChain, langgraph-cli 0.4.44](https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.44) |
 | 2026-11-24 | [deepagents-code 0.2.14](https://deployedbyai.com/log/9022ab350e8f/deepagents-code-0-2-14/?k=repo) | deepagents-code 0.2.14 fixes side-request cost attribution and Windows local context detection, and raises dependency minimums for deepagents-acp, langgraph-runtime-inmem and langsmith. | [LangChain, deepagents-code 0.2.14](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-code%3D%3D0.2.14) |
 | 2026-11-24 | [deepagents-talon 0.1.2](https://deployedbyai.com/log/0f1521535e2f/deepagents-talon-0-1-2/?k=repo) | deepagents-talon 0.1.2 adds on-demand MCP tool discovery, confidential OAuth clients for MCP servers, and messaging to local Claude Code, Codex and dcode sessions. | [LangChain, deepagents-talon 0.1.2](https://github.com/langchain-ai/deepagents/releases/tag/deepagents-talon%3D%3D0.1.2) |
 | 2026-11-23 | [langchain-chroma 1.2.0](https://deployedbyai.com/log/e8e9bf7e2dec/langchain-chroma-1-2-0/?k=repo) | langchain-chroma 1.2.0 released, dropping EOL'd Python 3.10 and bumping oauthlib, opentelemetry-api and other dependencies. | [LangChain, langchain-chroma 1.2.0](https://github.com/langchain-ai/langchain/releases/tag/langchain-chroma%3D%3D1.2.0) |
