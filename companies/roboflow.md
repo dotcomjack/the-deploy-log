@@ -1,6 +1,6 @@
 # Roboflow in The Deploy Log
 
-14 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 24, 2026.
+15 rows in The Deploy Log are filed under Roboflow. Every one carries a publisher's date, from October 2, 2026 to November 25, 2026.
 
 The same rows are on [the Roboflow page of the record](https://deployedbyai.com/log/company/80d681b2d1d5/roboflow/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Roboflow page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [supervision 0.32.2](https://deployedbyai.com/log/19149add4b2f/supervision-0-32-2/?k=repo) | supervision 0.32.2 fixes YOLO class ids from data.yaml, ViTPose joint slots with a new num\_keypoints argument, Qwen and Gemini VLM parsing, and WebM video speed. | [Roboflow, supervision 0.32.2](https://github.com/roboflow/supervision/releases/tag/0.32.2) |
 | 2026-11-24 | [supervision 0.32.1](https://deployedbyai.com/log/7fdc5d7102c4/supervision-0-32-1/?k=repo) | supervision 0.32.1 makes annotators and drawing helpers work on BGRA scenes and fixes ConfusionMatrix normalization, MeanAverageRecall, dataset split and non-ASCII path handling. | [Roboflow, supervision 0.32.1](https://github.com/roboflow/supervision/releases/tag/0.32.1) |
 | 2026-11-21 | [Roboflow Inference 1.8.6](https://deployedbyai.com/log/888b915babd0/roboflow-inference-1-8-6/?k=repo) | Inference 1.8.6 adds RF-DETR Atto, Femto and Pico models, ConvNeXt classifier and embedding serving, and keypoint detection in Gemini v6 and OpenAI v7 blocks. | [Roboflow, Roboflow Inference 1.8.6](https://github.com/roboflow/inference/releases/tag/v1.8.6) |
 | 2026-11-18 | [supervision 0.32.0](https://deployedbyai.com/log/08c9257bc569/supervision-0-32-0/?k=repo) | supervision 0.32.0 adds zone entry/exit counting, dwell time, and semantic segmentation loading. | [Roboflow, supervision 0.32.0](https://github.com/roboflow/supervision/releases/tag/0.32.0) |

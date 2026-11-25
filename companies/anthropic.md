@@ -1,6 +1,6 @@
 # Anthropic in The Deploy Log
 
-272 rows in The Deploy Log are filed under Anthropic. 227 carry a publisher's date, from October 16, 2025 to November 24, 2026, and 45 are placed by their edition. 2 of those dates have not yet come in New York.
+273 rows in The Deploy Log are filed under Anthropic. 228 carry a publisher's date, from October 16, 2025 to November 25, 2026, and 45 are placed by their edition.
 
 The same rows are on [the Anthropic page of the record](https://deployedbyai.com/log/company/38efbad8cd2a/anthropic/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Claude Agent SDK TS v0.3.332](https://deployedbyai.com/log/288a1e312c3a/claude-agent-sdk-ts-v0-3-332/?k=repo) | Claude Agent SDK TypeScript v0.3.332 adds tool\_result\_meta rewritten\_by\_plugin and the PreSkillShellCommand hook, and changes setPermissionMode() to resolve with the mode in effect. | [Anthropic, Claude Agent SDK TS v0.3.332](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.332) |
+| 2026-11-25 | [Claude Code v2.1.332](https://deployedbyai.com/log/c10a3604a17f/claude-code-v2-1-332/?k=repo) | Claude Code v2.1.332 adds skills from MCP servers (beta), a PreSkillShellCommand hook event, and fixes for hangs, compaction and MCP server output floods. | [Anthropic, Claude Code v2.1.332](https://github.com/anthropics/claude-code/releases/tag/v2.1.332) |
+| 2026-11-25 | [claude-agent-sdk-python 0.2.189](https://deployedbyai.com/log/511ca0ca30e4/claude-agent-sdk-python-0-2-189/?k=repo) | Version 0.2.189 of the claude-agent-sdk Python package is published to PyPI, installable with pip install claude-agent-sdk==0.2.189. | [Anthropic, claude-agent-sdk-python 0.2.189](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.189) |
 | 2026-11-24 | [anthropic-sdk-go v2.15.0](https://deployedbyai.com/log/d3d69d7ff05a/anthropic-sdk-go-v2-15-0/?k=repo) | Go SDK v2.15.0 adds Google-managed data controls for Cloud projects and user profiles, compliance review cases, and sends fractional seconds in date-time params. | [Anthropic, anthropic-sdk-go v2.15.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v2.15.0) |
 | 2026-11-24 | [anthropic-sdk-java v3.14.0](https://deployedbyai.com/log/a6f684914eda/anthropic-sdk-java-v3-14-0/?k=repo) | Java SDK v3.14.0 adds a shorthand for a federation rule's service account target, Google-managed data controls for Cloud projects and user profiles, and compliance review cases. | [Anthropic, anthropic-sdk-java v3.14.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v3.14.0) |
 | 2026-11-24 | [anthropic-sdk-php v1.14.0](https://deployedbyai.com/log/76b9405f45e5/anthropic-sdk-php-v1-14-0/?k=repo) | Anthropic PHP SDK v1.14.0 adds Google-managed data controls for Cloud projects and user profiles, compliance review cases, and keeps fractional seconds in date-times. | [Anthropic, anthropic-sdk-php v1.14.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v1.14.0) |
@@ -278,15 +281,6 @@ The same rows are on [the Anthropic page of the record](https://deployedbyai.com
 |---|---|---|---|
 | 2025-10-27 | [Claude for Financial Services](https://deployedbyai.com/log/e1c9c05198a6/claude-for-financial-services/?k=repo) | Anthropic expanded Claude for Financial Services with an Excel add-in, new connectors, and 6 Agent Skills, topping the Finance Agent benchmark at 55.3% accuracy. | [Anthropic, Advancing Claude for Financial Services](https://www.anthropic.com/news/advancing-claude-for-financial-services) |
 | 2025-10-16 | [Agent Skills](https://deployedbyai.com/log/0a88c001a119/agent-skills/?k=repo) | Agent Skills are folders with instructions, scripts, and resources that Claude loads when relevant, available across Claude apps, Claude Code, and API, with a new /v1/skills endpoint for versioning. | [Anthropic, Introducing Agent Skills](https://www.anthropic.com/news/skills) |
-
-## Undated until its day
-
-2 rows carry a publisher's date that has not yet come in New York. The record prints no date for them until that day, and neither does this page.
-
-| Row | What shipped | Source |
-|---|---|---|
-| [Claude Agent SDK TS v0.3.332](https://deployedbyai.com/log/288a1e312c3a/claude-agent-sdk-ts-v0-3-332/?k=repo) | Claude Agent SDK TypeScript v0.3.332 adds tool\_result\_meta rewritten\_by\_plugin and the PreSkillShellCommand hook, and changes setPermissionMode() to resolve with the mode in effect. | [Anthropic, Claude Agent SDK TS v0.3.332](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.332) |
-| [Claude Code v2.1.332](https://deployedbyai.com/log/c10a3604a17f/claude-code-v2-1-332/?k=repo) | Claude Code v2.1.332 adds skills from MCP servers (beta), a PreSkillShellCommand hook event, and fixes for hangs, compaction and MCP server output floods. | [Anthropic, Claude Code v2.1.332](https://github.com/anthropics/claude-code/releases/tag/v2.1.332) |
 
 ## Placed by their edition
 

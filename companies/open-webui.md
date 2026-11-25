@@ -1,6 +1,6 @@
 # Open WebUI in The Deploy Log
 
-12 rows in The Deploy Log are filed under Open WebUI. Every one carries a publisher's date, from September 21, 2026 to November 17, 2026.
+13 rows in The Deploy Log are filed under Open WebUI. Every one carries a publisher's date, from September 21, 2026 to November 25, 2026.
 
 The same rows are on [the Open WebUI page of the record](https://deployedbyai.com/log/company/d493030271cb/open-webui/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Open WebUI page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Open WebUI v0.13.5](https://deployedbyai.com/log/d2a93e84e60b/open-webui-v0-13-5/?k=repo) | Open WebUI v0.13.5 adds folder workspaces, AGENTS.md/CLAUDE.md project instructions, a model router, in-chat citations, and cuts message send time from 10.9s to 0.32s in a 130 MB chat. | [Open WebUI, Open WebUI v0.13.5](https://github.com/open-webui/open-webui/releases/tag/v0.13.5) |
 | 2026-11-17 | [Open WebUI v0.13.4](https://deployedbyai.com/log/1e5a7ab3b152/open-webui-v0-13-4/?k=repo) | Open WebUI v0.13.4 adds Tether for local models, sandboxed agents, local MCP servers, and on-demand sandboxed computers. | [Open WebUI, Open WebUI v0.13.4](https://github.com/open-webui/open-webui/releases/tag/v0.13.4) |
 | 2026-11-08 | [Open WebUI v0.13.1](https://deployedbyai.com/log/02b115d1daca/open-webui-v0-13-1/?k=repo) | Coding agents like Claude Code, Codex and Pi appear in the model picker, and Tether desktop app is introduced. | [Open WebUI, Open WebUI v0.13.1](https://github.com/open-webui/open-webui/releases/tag/v0.13.1) |
 | 2026-11-08 | [Open WebUI v0.13.2](https://deployedbyai.com/log/6512e7e67fe8/open-webui-v0-13-2/?k=repo) | Open WebUI v0.13.2 fixes chat and comment loading over plain HTTP and makes the Side Chat permission switch visible independently. | [Open WebUI, Open WebUI v0.13.2](https://github.com/open-webui/open-webui/releases/tag/v0.13.2) |
