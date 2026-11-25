@@ -39,11 +39,12 @@ INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models
            ("chatgpt-vs-gemini-vs-copilot/", "ChatGPT vs Gemini vs Copilot"),
            ("openai-vs-anthropic/", "OpenAI vs Anthropic"), ("github-vs-gitlab/", "GitHub vs GitLab"),
            ("databricks-vs-snowflake/", "Databricks vs Snowflake"), ("nvidia-vs-amd/", "NVIDIA vs AMD"),
-           ("claude-opus-vs-sonnet/", "Claude Opus vs Sonnet"))
+           ("claude-opus-vs-sonnet/", "Claude Opus vs Sonnet"), ("claude-fable-vs-opus/", "Claude Fable vs Opus"),
+           ("gemini-argon-vs-carbon/", "Gemini Argon vs Carbon"), ("gpt-sol-vs-terra/", "GPT Sol vs Terra"))
 # These three are named in the record's own words. Where the record's front page links one, the README prints that
 # link's text, read at build time (index_names); where it does not, the name typed above stands: the page's own
 # heading, or for today's page, whose heading goes on to name the day, the front page's link text on 2026-11-19.
-# The other sixteen keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
+# The other nineteen keep the names typed above (llm-inference-engines/, its page's own heading, joined on 2026-11-19;
 # ai-gateways/, its page's own heading "AI gateways", joined on 2026-11-23 with deployedbyai proposal round 63 road B;
 # vector-databases/, the brand's group name "Vector databases", joined the same day with round 64 road B;
 # langchain-vs-langgraph/, its page's own heading "LangChain vs LangGraph", joined the same day with round 65 road A;
@@ -52,7 +53,9 @@ INDEXES = (("", "The Deploy Log"), ("company/", "Companies"), ("model/", "Models
 # github-vs-gitlab/, its page's own heading "GitHub vs GitLab", joined the same day with round 68 road B;
 # databricks-vs-snowflake/ and nvidia-vs-amd/, their pages' own headings "Databricks vs Snowflake" and "NVIDIA vs AMD",
 # joined the same day with round 68's p68-data and p68-chips, road B each; claude-opus-vs-sonnet/, its page's own heading
-# "Claude Opus vs Sonnet", joined on 2026-11-25 with round 69's p69-claude, road B):
+# "Claude Opus vs Sonnet", joined on 2026-11-25 with round 69's p69-claude, road B; claude-fable-vs-opus/,
+# gemini-argon-vs-carbon/ and gpt-sol-vs-terra/, their pages' own headings "Claude Fable vs Opus", "Gemini Argon vs
+# Carbon" and "GPT Sol vs Terra", joined the same day with round 70, road B each):
 # the front page words them differently, and their lines would move.
 FRONT_NAMED = ("product/", "ai-coding-tools/", "today/")
 SPDX = {"CC BY 4.0": "CC-BY-4.0"}
