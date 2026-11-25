@@ -148,6 +148,7 @@ The record holds 3,506 rows, 2,939 with a publisher's date, 567 placed by their 
 - [LangChain vs LangGraph](https://deployedbyai.com/log/langchain-vs-langgraph/)
 - [ChatGPT vs Gemini vs Copilot](https://deployedbyai.com/log/chatgpt-vs-gemini-vs-copilot/)
 - [OpenAI vs Anthropic](https://deployedbyai.com/log/openai-vs-anthropic/)
+- [GitHub vs GitLab](https://deployedbyai.com/log/github-vs-gitlab/)
 
 ## Rows by lane
 
