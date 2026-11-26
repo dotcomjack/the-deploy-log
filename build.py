@@ -75,9 +75,10 @@ PAGE_FOLDERS = ("weeks", "companies", "models")
 ENCODED = {"|": "%7C", " ": "%20", "(": "%28", ")": "%29", "<": "%3C", ">": "%3E", "\\": "%5C"}
 HUB = re.compile(re.escape(BASE) + r"company/([0-9a-f]{12})/([a-z0-9][a-z0-9-]*)/")
 MODEL = re.compile(re.escape(BASE) + r"model/([0-9a-f]{12})/([a-z0-9][a-z0-9-]*)/")
-# A model page's first section, in the words of the record's own model pages (log.ts fig_availability, read on
-# production 2026-11-25): each company that names the model, by the first of its rows here.
-AVAILABLE = "Where it is available, company by company"
+# A model page's first section: each company with a row that names the model, by the first of its rows here. It says
+# what is measured, a row naming the model, and nothing more: such a row may be a release, a retirement, a price or a
+# benchmark, so it is never headed as where the model is available (review round 1 of the model pages, 2026-11-25).
+NAMING = "Companies with rows naming it"
 
 
 def get(name):
@@ -595,9 +596,10 @@ def first_listed(mine, today):
 
 
 def available_line(firsts):
-    """What stands over a model page's table of companies: the rule its First listed column is read by, each clause
-    only where a company is listed by it."""
-    text = "First listed is the earliest publisher's date among the company's rows here that has come in New York"
+    """What stands over a model page's table of companies: why a company is in it, and the rule its First listed
+    column is read by, each clause of that rule only where a company is listed by it."""
+    text = ("A company is listed when one of its rows names the model, and each row says what shipped. First listed "
+            "is the earliest publisher's date among the company's rows here that has come in New York")
     if any(when.startswith("Edition ") for _, when, _ in firsts):
         text += ("; a company whose rows carry none is listed by the earliest edition that carried one, which is not "
                  "the day it shipped")
@@ -764,7 +766,7 @@ def reconcile(out, rows, cfile, today, mfile=None):
         printed = table_lines(text)
         if path in own and folder == "models":
             # A model page's first table is a line per company, each with its rows here; the rows follow it.
-            head, _, rest = text.partition(f"\n## {AVAILABLE}\n")
+            head, _, rest = text.partition(f"\n## {NAMING}\n")
             by, _, after = rest.partition("\n## ")
             printed = table_lines(head + ("\n## " + after if after else ""))
             counted = [re.split(r"(?<!\\)\|", s.strip("|"))[-1].strip() for s in table_lines(by)]
@@ -888,7 +890,7 @@ def pages(rows, locs, companies, today, models=None):
         firsts = first_listed([r for r in mine if not dashed(r)], today)
         firm_of = lambda c: plink(c, f"../companies/{cfile[c]}") if c in cfile else prose(c)
         if firsts:
-            text += [f"## {AVAILABLE}", "", available_line(firsts), ""] + table(
+            text += [f"## {NAMING}", "", available_line(firsts), ""] + table(
                 ("Company", "First listed", "Rows"), [f"| {firm_of(c)} | {when} | {num(n)} |" for c, when, n in firsts],
                 (2,))
         for month in sorted({r["published_date"][:7] for r in dated}, reverse=True):
@@ -1438,20 +1440,22 @@ def selftest_models(row, stops, hubs_, locs, today):
                        "`00000000002e`.", "",
                        f"The same rows are on [the Kimi K3 page of the record]({BASE}model/{k}/kimi-k3/?k=repo)."],
          lines[:7]),
-        ("the table of companies lists each by its earliest publisher's date that has come, a publisher's date "
-         "before an earlier edition, an edition where it has no date, the record's words where its date is ahead, "
-         "and counts the rows it prints",
-         "\n".join(available) in kimi and heads[0] == AVAILABLE
-         and "First listed is the earliest publisher's date among the company's rows here that has come in New York; "
+        ("the table of companies is headed by what it measures, says why a company is in it, lists each by its "
+         "earliest publisher's date that has come, a publisher's date before an earlier edition, an edition where it "
+         "has no date, the record's words where its date is ahead, and counts the rows it prints",
+         "\n".join(available) in kimi and heads[0] == "Companies with rows naming it" and "available" not in heads[0]
+         and "A company is listed when one of its rows names the model, and each row says what shipped. First listed "
+             "is the earliest publisher's date among the company's rows here that has come in New York; "
              "a company whose rows carry none is listed by the earliest edition that carried one, which is not the "
              "day it shipped; a company whose only dates have not yet come reads Undated until its day." in lines,
-         kimi.split(f"## {AVAILABLE}")[-1].split("\n## ")[0]),
+         kimi.split(f"## {NAMING}")[-1].split("\n## ")[0]),
         ("the rule over the table names only the clauses a company is listed by",
-         available_line([("A", "2026-11-03", 1)]) == "First listed is the earliest publisher's date among the "
-         "company's rows here that has come in New York.", available_line([("A", "2026-11-03", 1)])),
+         available_line([("A", "2026-11-03", 1)]) == "A company is listed when one of its rows names the model, and "
+         "each row says what shipped. First listed is the earliest publisher's date among the company's rows here "
+         "that has come in New York.", available_line([("A", "2026-11-03", 1)])),
         ("a model page's rows run newest first under their months, then undated until their day, then placed by "
          "their edition, each with its company and its source",
-         heads == [AVAILABLE, "November 2026", "October 2026", "Undated until its day", "Placed by their edition"]
+         heads == [NAMING, "November 2026", "October 2026", "Undated until its day", "Placed by their edition"]
          and f"| 2026-11-03 | RunPod | [Kimi K3 on 8xB300 Pod]({rec(41)}) | Kimi K3 on 8xB300 Pod shipped. | "
              f"{src(41)} |" in lines
          and f"| 2026-10-27 | {aws} | [Kimi K3 and Gamma 2 in Bedrock]({rec(44)}) | Kimi K3 and Gamma 2 in Bedrock "
@@ -1478,9 +1482,9 @@ def selftest_models(row, stops, hubs_, locs, today):
          == "models/kimi-k3.md counts 2, 1, 1, 1 rows by company and prints 4",
          redo("models/kimi-k3.md", "\n".join(s for s in lines if "Kimi K3 on Zeta" not in s or "First" in s))),
         ("a model page whose table of companies is gone stops the build",
-         redo("models/kimi-k3.md", kimi.replace(f"## {AVAILABLE}", "## Elsewhere"))
+         redo("models/kimi-k3.md", kimi.replace(f"## {NAMING}", "## Elsewhere"))
          == "models/kimi-k3.md counts no rows by company and prints 9",
-         redo("models/kimi-k3.md", kimi.replace(f"## {AVAILABLE}", "## Elsewhere"))),
+         redo("models/kimi-k3.md", kimi.replace(f"## {NAMING}", "## Elsewhere"))),
         ("a model index whose Rows cell is not its page's count stops the build",
          redo("models/README.md", index.replace("| 6 | 4 |", "| 7 | 4 |"))
          == "models/README.md and its pages disagree on the rows of 1: models/kimi-k3.md",
