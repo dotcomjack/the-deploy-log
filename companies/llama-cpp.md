@@ -1,6 +1,6 @@
 # llama.cpp in The Deploy Log
 
-15 rows in The Deploy Log are filed under llama.cpp. Every one carries a publisher's date, from September 23, 2026 to November 13, 2026.
+16 rows in The Deploy Log are filed under llama.cpp. Every one carries a publisher's date, from September 23, 2026 to November 26, 2026.
 
 The same rows are on [the llama.cpp page of the record](https://deployedbyai.com/log/company/5b11e1c65bdb/llama-cpp/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the llama.cpp page of the record](https://deployedbyai.com
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [llama.cpp v1.1.0](https://deployedbyai.com/log/9ee643fe6dc2/llama-cpp-v1-1-0/?k=repo) | llama.cpp v1.1.0 adds Inkling 2, Domyn Edge 4B, Zaya1 8B, Hy4 flash and TTS/audio models, splits DFlash speculative decoding, and deprecates the old llama\_batch API for llama\_batch\_ext. | [llama.cpp, llama.cpp v1.1.0](https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0) |
 | 2026-11-13 | [llama.cpp v1.0.0](https://deployedbyai.com/log/bbfa3eb05e2f/llama-cpp-v1-0-0/?k=repo) | llama.cpp v1.0.0 released with ggml 1.0.0 and server, CUDA, Vulkan, and Hexagon updates. | [llama.cpp, llama.cpp v1.0.0](https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0) |
 | 2026-11-11 | [llama.cpp CUDA OCP FP8](https://deployedbyai.com/log/6c6a007a883d/llama-cpp-cuda-ocp-fp8/?k=repo) | llama.cpp b12284 adds CUDA OCP FP8 support. | [llama.cpp, llama.cpp CUDA OCP FP8](https://github.com/ggml-org/llama.cpp/releases/tag/b12284) |
 | 2026-11-08 | [llama.cpp b12210](https://deployedbyai.com/log/ab6136fdcdd2/llama-cpp-b12210/?k=repo) | CPU support for SpacemiT IME2 MXFP4 dense repack. | [llama.cpp, llama.cpp b12210](https://github.com/ggml-org/llama.cpp/releases/tag/b12210) |

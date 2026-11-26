@@ -1,6 +1,6 @@
 # OpenAI in The Deploy Log
 
-357 rows in The Deploy Log are filed under OpenAI. 247 carry a publisher's date, from September 25, 2025 to November 24, 2026, and 110 are placed by their edition.
+362 rows in The Deploy Log are filed under OpenAI. 252 carry a publisher's date, from September 25, 2025 to November 26, 2026, and 110 are placed by their edition.
 
 The same rows are on [the OpenAI page of the record](https://deployedbyai.com/log/company/8e31fcb84155/openai/?k=repo).
 
@@ -8,6 +8,11 @@ The same rows are on [the OpenAI page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [openai-go v3.108.0](https://deployedbyai.com/log/c5adad0bee84/openai-go-v3-108-0/?k=repo) | openai-go 3.108.0 adds conversation safety identifiers and response compaction safety metadata, and documents the increased agent tool configuration limit. | [OpenAI, openai-go v3.108.0](https://github.com/openai/openai-go/releases/tag/v3.108.0) |
+| 2026-11-26 | [openai-java 4.114.0](https://deployedbyai.com/log/db93eeaca281/openai-java-4-114-0/?k=repo) | openai-java 4.114.0 adds spend alerts and response compaction fields to the API and supports updating session vaults. | [OpenAI, openai-java 4.114.0](https://github.com/openai/openai-java/releases/tag/v4.114.0) |
+| 2026-11-26 | [openai-node v7.65.0](https://deployedbyai.com/log/d29cc92a3a29/openai-node-v7-65-0/?k=repo) | openai-node 7.65.0 adds spend alerts and response compaction fields to the API and supports updating session vaults. | [OpenAI, openai-node v7.65.0](https://github.com/openai/openai-node/releases/tag/v7.65.0) |
+| 2026-11-26 | [openai-python v3.60.0](https://deployedbyai.com/log/f9cd4d7c404a/openai-python-v3-60-0/?k=repo) | openai-python 3.60.0 adds spend alerts and response compaction fields to the API and supports updating session vaults. | [OpenAI, openai-python v3.60.0](https://github.com/openai/openai-python/releases/tag/v3.60.0) |
+| 2026-11-26 | [openai-ruby v1.3.0](https://deployedbyai.com/log/2bd31b645392/openai-ruby-v1-3-0/?k=repo) | openai-ruby 1.3.0 adds spend alerts and response compaction fields to the API and support for updating session vaults. | [OpenAI, openai-ruby v1.3.0](https://github.com/openai/openai-ruby/releases/tag/v1.3.0) |
 | 2026-11-24 | [OpenAI Codex CLI 0.172.0](https://deployedbyai.com/log/e08a1f7dfb0e/openai-codex-cli-0-172-0/?k=repo) | Codex CLI 0.172.0 adds thread links from search results, Tab completion for slash command arguments, task group navigation, and Bedrock Runtime selection during setup. | [OpenAI, OpenAI Codex CLI 0.172.0](https://github.com/openai/codex/releases/tag/rust-v0.172.0) |
 | 2026-11-24 | [openai-agents-python 0.26.0](https://deployedbyai.com/log/b4971df3c8a9/openai-agents-python-0-26-0/?k=repo) | Agents SDK v0.26.0 adds GPT-Live 1.1 demo, per-call MCP metadata priority, Realtime guardrail checks at turn completion, and stricter Docker sandbox mounts. | [OpenAI, openai-agents-python 0.26.0](https://github.com/openai/openai-agents-python/releases/tag/v0.26.0) |
 | 2026-11-24 | [openai-go v3.107.0](https://deployedbyai.com/log/5736cf1e7646/openai-go-v3-107-0/?k=repo) | openai-go 3.107.0 adds healthcare model IDs for the Responses API. | [OpenAI, openai-go v3.107.0](https://github.com/openai/openai-go/releases/tag/v3.107.0) |

@@ -1,6 +1,6 @@
 # inclusionAI in The Deploy Log
 
-14 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to November 23, 2026.
+15 rows in The Deploy Log are filed under inclusionAI. Every one carries a publisher's date, from October 13, 2026 to November 25, 2026.
 
 The same rows are on [the inclusionAI page of the record](https://deployedbyai.com/log/company/0bf2ab34cf07/inclusionai/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the inclusionAI page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Ming-Image-0.2-Design](https://deployedbyai.com/log/6c26d16c3005/ming-image-0-2-design/?k=repo) | Ming-Image-0.2-Design is open-sourced on Hugging Face and ModelScope with improved composition, lighting and text rendering, default 2048x2048 output, and vLLM-Omni serving recipes. | [inclusionAI, Ming-Image-0.2-Design](https://huggingface.co/inclusionAI/Ming-Image-0.2-Design) |
 | 2026-11-23 | [Ling-3.2-air](https://deployedbyai.com/log/77e707058084/ling-3-2-air/?k=repo) | Ling-3.2-air, a 124B total / 5.5B active hybrid-linear MoE multimodal model, released open-weight with 256K context and day-0 SGLang support. | [inclusionAI, Ling-3.2-air](https://huggingface.co/inclusionAI/Ling-3.2-air) |
 | 2026-11-20 | [LingSante-Pulse-1.0](https://deployedbyai.com/log/c86a3247596b/lingsante-pulse-1-0/?k=repo) | A 16.7M-parameter MIT-licensed physiological signal encoder returning CLS and patch-mean features at 256 dimensions per channel, with a separate inference-code package. | [inclusionAI, LingSante-Pulse-1.0](https://huggingface.co/inclusionAI/LingSante-Pulse-1.0) |
 | 2026-11-19 | [DeepSeek-V4.1-Flash-1017-singprobe](https://deployedbyai.com/log/b5f31d4b43ac/deepseek-v4-1-flash-1017-singprobe/?k=repo) | SingProbe streaming guardrail for DeepSeek-V4.1-Flash-1017 released on Hugging Face with 10.10M parameters. | [inclusionAI, DeepSeek-V4.1-Flash-1017-singprobe](https://huggingface.co/inclusionAI/DeepSeek-V4.1-Flash-1017-singprobe) |

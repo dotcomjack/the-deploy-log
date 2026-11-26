@@ -1,6 +1,6 @@
 # Langfuse in The Deploy Log
 
-36 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 24, 2026.
+37 rows in The Deploy Log are filed under Langfuse. Every one carries a publisher's date, from September 25, 2026 to November 26, 2026.
 
 The same rows are on [the Langfuse page of the record](https://deployedbyai.com/log/company/52628f607201/langfuse/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Langfuse page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [Langfuse v4.87.0](https://deployedbyai.com/log/3fa49ad5ef41/langfuse-v4-87-0/?k=repo) | Langfuse v4.87.0 adds AI gateway guardrails management UI, a reset budget action for users and API keys, and guardrail matching on the last request turn. | [Langfuse, Langfuse v4.87.0](https://github.com/langfuse/langfuse/releases/tag/v4.87.0) |
 | 2026-11-24 | [Langfuse v4.85.0](https://deployedbyai.com/log/f13c8ff76f09/langfuse-v4-85-0/?k=repo) | v4.85.0 adds trace evaluator testing and trace rule management, organization model definitions via tRPC and a settings page, and Topics cost estimation and self-hosted dispatch. | [Langfuse, Langfuse v4.85.0](https://github.com/langfuse/langfuse/releases/tag/v4.85.0) |
 | 2026-11-24 | [Langfuse v4.86.0](https://deployedbyai.com/log/30793fabc020/langfuse-v4-86-0/?k=repo) | Langfuse v4.86.0 renders charts inline as an interactive MCP App served by Next.js and adds a trace-level transcript evals UI. | [Langfuse, Langfuse v4.86.0](https://github.com/langfuse/langfuse/releases/tag/v4.86.0) |
 | 2026-11-23 | [Langfuse v4.84.0](https://deployedbyai.com/log/82882333e0ef/langfuse-v4-84-0/?k=repo) | Langfuse v4.84.0 adds an MCP batchCreateAnnotationQueueItems tool, organization-wide AI gateway spend budgets with warning thresholds, and organization-scoped model definitions. | [Langfuse, Langfuse v4.84.0](https://github.com/langfuse/langfuse/releases/tag/v4.84.0) |

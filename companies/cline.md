@@ -1,6 +1,6 @@
 # Cline in The Deploy Log
 
-30 rows in The Deploy Log are filed under Cline. Every one carries a publisher's date, from September 25, 2026 to November 21, 2026.
+34 rows in The Deploy Log are filed under Cline. Every one carries a publisher's date, from September 25, 2026 to November 26, 2026.
 
 The same rows are on [the Cline page of the record](https://deployedbyai.com/log/company/eb2499072dab/cline/?k=repo).
 
@@ -8,6 +8,10 @@ The same rows are on [the Cline page of the record](https://deployedbyai.com/log
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [Cline CLI v3.0.76](https://deployedbyai.com/log/848a5536dfbf/cline-cli-v3-0-76/?k=repo) | CLI v3.0.76 ships one THIRD\_PARTY\_NOTICES.txt at the npm package root and refreshes the model catalog, removing deprecated OpenAI ids from the picker. | [Cline, Cline CLI v3.0.76](https://github.com/cline/cline/releases/tag/cli-v3.0.76) |
+| 2026-11-26 | [Cline Desktop v0.0.51](https://deployedbyai.com/log/afbee95818e5/cline-desktop-v0-0-51/?k=repo) | Cline Desktop v0.0.51 refreshes the model catalog, removes deprecated OpenAI ids including gpt-4o, gpt-5 and o3, and adds the Concentrate and Prima Labs providers. | [Cline, Cline Desktop v0.0.51](https://github.com/cline/cline/releases/tag/desktop-v0.0.51) |
+| 2026-11-26 | [Cline SDK v0.2.2](https://deployedbyai.com/log/125a35609ab9/cline-sdk-v0-2-2/?k=repo) | SDK v0.2.2 refreshes the bundled model catalog, adding concentrate and primalabs providers, changing default models for 28 providers, and dropping deprecated OpenAI ids. | [Cline, Cline SDK v0.2.2](https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.2) |
+| 2026-11-26 | [Cline v4.1.28](https://deployedbyai.com/log/b2283bb0a4f4/cline-v4-1-28/?k=repo) | Cline v4.1.28 refreshes the model catalog, removes deprecated OpenAI ids including gpt-4o, gpt-5 and o3, and adds the Concentrate and Prima Labs providers. | [Cline, Cline v4.1.28](https://github.com/cline/cline/releases/tag/v4.1.28) |
 | 2026-11-21 | [Cline CLI v3.0.75](https://deployedbyai.com/log/0b6181e3da95/cline-cli-v3-0-75/?k=repo) | Cline CLI v3.0.75 starts one-shot runs in yolo mode and adds an experimental CLINE\_CLOUD\_SESSIONS=1 flag to run tasks in Cline Cloud from the TUI. | [Cline, Cline CLI v3.0.75](https://github.com/cline/cline/releases/tag/cli-v3.0.75) |
 | 2026-11-21 | [Cline Desktop v0.0.50](https://deployedbyai.com/log/a5e782e11c52/cline-desktop-v0-0-50/?k=repo) | Cline Desktop v0.0.50 adds a Max reasoning effort option, a stoppable manual /compact, and a refreshed catalog adding 94 providers from models.dev. | [Cline, Cline Desktop v0.0.50](https://github.com/cline/cline/releases/tag/desktop-v0.0.50) |
 | 2026-11-21 | [Cline SDK v0.2.1](https://deployedbyai.com/log/eafa5a1d0664/cline-sdk-v0-2-1/?k=repo) | Cline SDK v0.2.1 raises read\_files results to the 50k file-content cap and adds opt-in report\_ux\_verification and publish\_artifacts tools. | [Cline, Cline SDK v0.2.1](https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.2.1) |
