@@ -4,9 +4,9 @@
 
 The same rows are on [the GPT-5.4 page of the record](https://deployedbyai.com/log/model/b40f97a4c756/gpt-5-4/?k=repo).
 
-## Where it is available, company by company
+## Companies with rows naming it
 
-First listed is the earliest publisher's date among the company's rows here that has come in New York; a company whose rows carry none is listed by the earliest edition that carried one, which is not the day it shipped.
+A company is listed when one of its rows names the model, and each row says what shipped. First listed is the earliest publisher's date among the company's rows here that has come in New York; a company whose rows carry none is listed by the earliest edition that carried one, which is not the day it shipped.
 
 | Company | First listed | Rows |
 |---|---|---:|

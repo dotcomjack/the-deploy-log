@@ -4,9 +4,9 @@
 
 The same rows are on [the Claude Haiku 5.5 page of the record](https://deployedbyai.com/log/model/0b47278aeb76/claude-haiku-5-5/?k=repo).
 
-## Where it is available, company by company
+## Companies with rows naming it
 
-First listed is the earliest publisher's date among the company's rows here that has come in New York.
+A company is listed when one of its rows names the model, and each row says what shipped. First listed is the earliest publisher's date among the company's rows here that has come in New York.
 
 | Company | First listed | Rows |
 |---|---|---:|

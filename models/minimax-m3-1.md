@@ -4,9 +4,9 @@
 
 The same rows are on [the MiniMax M3.1 page of the record](https://deployedbyai.com/log/model/a8102f0295b7/minimax-m3-1/?k=repo).
 
-## Where it is available, company by company
+## Companies with rows naming it
 
-First listed is the earliest publisher's date among the company's rows here that has come in New York.
+A company is listed when one of its rows names the model, and each row says what shipped. First listed is the earliest publisher's date among the company's rows here that has come in New York.
 
 | Company | First listed | Rows |
 |---|---|---:|

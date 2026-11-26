@@ -4,9 +4,9 @@
 
 The same rows are on [the GPT-6.1 Sol page of the record](https://deployedbyai.com/log/model/93e8b53bdb07/gpt-6-1-sol/?k=repo).
 
-## Where it is available, company by company
+## Companies with rows naming it
 
-First listed is the earliest publisher's date among the company's rows here that has come in New York.
+A company is listed when one of its rows names the model, and each row says what shipped. First listed is the earliest publisher's date among the company's rows here that has come in New York.
 
 | Company | First listed | Rows |
 |---|---|---:|

@@ -4,9 +4,9 @@
 
 The same rows are on [the Inkling 2 Small page of the record](https://deployedbyai.com/log/model/2334fce5c914/inkling-2-small/?k=repo).
 
-## Where it is available, company by company
+## Companies with rows naming it
 
-First listed is the earliest publisher's date among the company's rows here that has come in New York.
+A company is listed when one of its rows names the model, and each row says what shipped. First listed is the earliest publisher's date among the company's rows here that has come in New York.
 
 | Company | First listed | Rows |
 |---|---|---:|
