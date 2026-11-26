@@ -1851,9 +1851,14 @@ def main():
     missing = [BASE + p for p, _ in INDEXES if BASE + p not in site[0]]
     print(f"{d['count']} rows; sitemap lacks: {', '.join(missing) or 'no index'}")
     count = lambda folder: sum(1 for p in made if p.startswith(folder) and not p.endswith("/README.md"))
+    # Counted off the sitemap itself, not off the model index read above, so a model page with none here is named.
+    paged = set(re.findall(r"\]\((" + re.escape(BASE) + r"model/[0-9a-f]{12}/[^)?]+/)\?k=repo\)",
+                           made.get("models/README.md", "")))
+    unpaged = sorted(u for u in site[0] if MODEL.fullmatch(u) and u not in paged)
+    gap = "none here for: " + ", ".join(unpaged) if unpaged else "each has one here"
     print(f"{count('weeks/')} week pages, {count('companies/')} company pages, {count('models/')} model pages of the "
-          f"{len(models)} the record's model index and sitemap list; left out of them for a dash in their text: "
-          f"{', '.join(left) or 'no row'}")
+          f"{len(paged) + len(unpaged)} the record's sitemap lists ({gap}); left out of them for a dash in their "
+          f"text: {', '.join(left) or 'no row'}")
 
 
 if __name__ == "__main__":
