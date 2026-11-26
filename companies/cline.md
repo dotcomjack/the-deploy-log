@@ -1,6 +1,6 @@
 # Cline in The Deploy Log
 
-29 rows in The Deploy Log are filed under Cline. Every one carries a publisher's date, from September 25, 2026 to November 21, 2026.
+30 rows in The Deploy Log are filed under Cline. Every one carries a publisher's date, from September 25, 2026 to November 21, 2026.
 
 The same rows are on [the Cline page of the record](https://deployedbyai.com/log/company/eb2499072dab/cline/?k=repo).
 
@@ -46,4 +46,5 @@ The same rows are on [the Cline page of the record](https://deployedbyai.com/log
 | 2026-09-30 | [Cline SDK v0.0.88](https://deployedbyai.com/log/661b0dd36503/cline-sdk-v0-0-88/?k=repo) | Anthropic requests now use server-side refusal fallback and provider allow\_fallbacks; Stop during turn preparation no longer dropped. | [Cline, Cline SDK v0.0.88](https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.88) |
 | 2026-09-30 | [Cline v4.1.22](https://deployedbyai.com/log/e1076b926e93/cline-v4-1-22/?k=repo) | Adds Bee and Pareto Inference providers; GPT-6.1 Sol becomes default model for OpenAI and other providers. | [Cline, Cline v4.1.22](https://github.com/cline/cline/releases/tag/v4.1.22) |
 | 2026-09-30 | [SDK v0.0.89](https://deployedbyai.com/log/8b83557abe05/sdk-v0-0-89/?k=repo) | Oversized MCP and Composio tool results can now be recovered in full via a per-session cache with a cline://cache URI. | [Cline, SDK v0.0.89](https://github.com/cline/cline/releases/tag/sdk%2Fsdk%2Fv0.0.89) |
+| 2026-09-26 | [Cline Desktop v0.0.37](https://deployedbyai.com/log/c212fab0b98d/cline-desktop-v0-0-37/?k=repo) | Desktop v0.0.37 adds an About page with update controls and release notes for recent versions. | [Cline, Cline Desktop v0.0.37](https://github.com/cline/cline/releases/tag/desktop-v0.0.37) |
 | 2026-09-25 | [Cline Desktop v0.0.36](https://deployedbyai.com/log/03120f716b44/cline-desktop-v0-0-36/?k=repo) | Desktop v0.0.36 fixes proxy startup failures and window sizing on scaled displays. | [Cline, Cline Desktop v0.0.36](https://github.com/cline/cline/releases/tag/desktop-v0.0.36) |

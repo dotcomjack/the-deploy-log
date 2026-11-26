@@ -1,6 +1,6 @@
 # Block in The Deploy Log
 
-9 rows in The Deploy Log are filed under Block. Every one carries a publisher's date, from October 2, 2026 to November 25, 2026.
+10 rows in The Deploy Log are filed under Block. Every one carries a publisher's date, from October 2, 2026 to November 25, 2026.
 
 The same rows are on [the Block page of the record](https://deployedbyai.com/log/company/e8b074e16397/block/?k=repo).
 
@@ -9,6 +9,7 @@ The same rows are on [the Block page of the record](https://deployedbyai.com/log
 | Date | Row | What shipped | Source |
 |---|---|---|---|
 | 2026-11-25 | [goose v1.61.0](https://deployedbyai.com/log/8f7f1d316510/goose-v1-61-0/?k=repo) | goose v1.61.0 adds Gemini 4 Neon to the model catalog, imports MCP server.json configs, and adds declarative Ollama-compatible and amazee.ai providers. | [Block, goose v1.61.0](https://github.com/aaif-goose/goose/releases/tag/v1.61.0) |
+| 2026-11-25 | [goose v1.61.1](https://deployedbyai.com/log/8d1eba5a0d4a/goose-v1-61-1/?k=repo) | goose v1.61.1 drops tool approval state from imported sessions and imports sessions with local extensions and goose mode. | [Block, goose v1.61.1](https://github.com/aaif-goose/goose/releases/tag/v1.61.1) |
 | 2026-11-20 | [goose v1.60.2](https://deployedbyai.com/log/d7b969a6a4d5/goose-v1-60-2/?k=repo) | goose v1.60.2 adds Gemini 4 Neon to the model catalog. | [Block, goose v1.60.2](https://github.com/aaif-goose/goose/releases/tag/v1.60.2) |
 | 2026-11-18 | [Goose v1.60.1](https://deployedbyai.com/log/39603b14bbad/goose-v1-60-1/?k=repo) | Goose v1.60.1 fixes compaction by dropping the analysis scratchpad that Claude models refuse. | [Block, Goose v1.60.1](https://github.com/aaif-goose/goose/releases/tag/v1.60.1) |
 | 2026-11-16 | [Goose v1.59.2](https://deployedbyai.com/log/5d4459d2b71a/goose-v1-59-2/?k=repo) | Databricks provider drops thinking blocks bound to a different prefix. | [Block, Goose v1.59.2](https://github.com/aaif-goose/goose/releases/tag/v1.59.2) |

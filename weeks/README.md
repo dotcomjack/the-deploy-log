@@ -4,7 +4,7 @@ Of the 63 ISO weeks that hold a row in the record, 62 have a page there, and eac
 
 | Week | Monday to Sunday | Rows | With a publisher's date | In the record |
 |---|---|---:|---:|---|
-| [2026-W48](2026-W48.md) (in progress) | 2026-11-23 to 2026-11-29 | 169 | 169 | [page](https://deployedbyai.com/log/week/2026-W48/?k=repo) |
+| [2026-W48](2026-W48.md) (in progress) | 2026-11-23 to 2026-11-29 | 181 | 181 | [page](https://deployedbyai.com/log/week/2026-W48/?k=repo) |
 | [2026-W47](2026-W47.md) | 2026-11-16 to 2026-11-22 | 487 | 479 | [page](https://deployedbyai.com/log/week/2026-W47/?k=repo) |
 | [2026-W46](2026-W46.md) | 2026-11-09 to 2026-11-15 | 361 | 355 | [page](https://deployedbyai.com/log/week/2026-W46/?k=repo) |
 | [2026-W45](2026-W45.md) | 2026-11-02 to 2026-11-08 | 267 | 262 | [page](https://deployedbyai.com/log/week/2026-W45/?k=repo) |
@@ -13,7 +13,7 @@ Of the 63 ISO weeks that hold a row in the record, 62 have a page there, and eac
 | [2026-W42](2026-W42.md) | 2026-10-12 to 2026-10-18 | 297 | 285 | [page](https://deployedbyai.com/log/week/2026-W42/?k=repo) |
 | [2026-W41](2026-W41.md) | 2026-10-05 to 2026-10-11 | 273 | 253 | [page](https://deployedbyai.com/log/week/2026-W41/?k=repo) |
 | [2026-W40](2026-W40.md) | 2026-09-28 to 2026-10-04 | 310 | 292 | [page](https://deployedbyai.com/log/week/2026-W40/?k=repo) |
-| [2026-W39](2026-W39.md) | 2026-09-21 to 2026-09-27 | 135 | 124 | [page](https://deployedbyai.com/log/week/2026-W39/?k=repo) |
+| [2026-W39](2026-W39.md) | 2026-09-21 to 2026-09-27 | 136 | 125 | [page](https://deployedbyai.com/log/week/2026-W39/?k=repo) |
 | [2026-W38](2026-W38.md) | 2026-09-14 to 2026-09-20 | 39 | 19 | [page](https://deployedbyai.com/log/week/2026-W38/?k=repo) |
 | [2026-W37](2026-W37.md) | 2026-09-07 to 2026-09-13 | 5 | 0 | [page](https://deployedbyai.com/log/week/2026-W37/?k=repo) |
 | [2026-W36](2026-W36.md) | 2026-08-31 to 2026-09-06 | 16 | 4 | [page](https://deployedbyai.com/log/week/2026-W36/?k=repo) |

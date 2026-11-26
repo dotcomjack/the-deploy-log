@@ -1,6 +1,6 @@
 # Databricks in The Deploy Log
 
-98 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 20, 2026.
+102 rows in The Deploy Log are filed under Databricks. Every one carries a publisher's date, from September 22, 2026 to November 25, 2026. 1 of those dates has not yet come in New York.
 
 The same rows are on [the Databricks page of the record](https://deployedbyai.com/log/company/9def70023d9f/databricks/?k=repo).
 
@@ -8,6 +8,9 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-25 | [Kimi K3.1 Pro Fast on Unity](https://deployedbyai.com/log/345eef912e9a/kimi-k3-1-pro-fast-on-unity/?k=repo) | Moonshot AI Kimi K3.1 Pro Fast is available on Unity Gateway pay-per-token endpoints in us-east-1, with native vision and reasoning. | [Databricks, Kimi K3.1 Pro Fast on Unity](https://docs.databricks.com/aws/en/release-notes/product/2026/november#moonshot-ai-kimi-k31-pro-fast-is-now-available-on-unity-gateway) |
+| 2026-11-24 | [Genie Migrate T-SQL to Lakeflow](https://deployedbyai.com/log/24efd7d4a5b6/genie-migrate-t-sql-to-lakeflow/?k=repo) | Genie Migrate conversion of T-SQL scripts from SQL Server and Azure Synapse dedicated SQL pools into serverless Lakeflow pipelines is generally available. | [Databricks, Genie Migrate T-SQL to Lakeflow](https://docs.databricks.com/aws/en/release-notes/product/2026/november#genie-migrate-conversion-to-lakeflow-pipelines-is-generally-available) |
+| 2026-11-24 | [Unity Catalog agent skill sharing](https://deployedbyai.com/log/a00ffd396e17/unity-catalog-agent-skill-sharing/?k=repo) | Providers can add Unity Catalog agent skills to OpenSharing shares and Databricks Marketplace listings, and Databricks recipients can use them. | [Databricks, Unity Catalog agent skill sharing](https://docs.databricks.com/aws/en/release-notes/product/2026/november#sharing-unity-catalog-agent-skills-with-opensharing-and-databricks-marketplace-is-now-generally-available) |
 | 2026-11-20 | [MCP tools in Genie Agents](https://deployedbyai.com/log/776d88b55779/mcp-tools-in-genie-agents/?k=repo) | MCP tools in Genie Agents are generally available, letting authors attach external MCP servers registered in Unity Gateway alongside Databricks connectors, with Agent mode APIs supporting MCP tools. | [Databricks, MCP tools in Genie Agents](https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#mcp-tools-in-genie-agents-are-generally-available) |
 | 2026-11-19 | [AI/BI Bulk Migration](https://deployedbyai.com/log/baad5b74ca58/ai-bi-bulk-migration/?k=repo) | Bulk migrate Tableau and Power BI reports to AI/BI Dashboards with a single /importBI command. | [Databricks, AI/BI Bulk Migration](https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code) |
 | 2026-11-19 | [Genie ZeroOps](https://deployedbyai.com/log/2fd308c68e79/genie-zeroops/?k=repo) | Genie ZeroOps is available in Public Beta, with inbox sharing, notifications, one-click PR creation, and custom business instructions. | [Databricks, Genie ZeroOps](https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer) |
@@ -116,3 +119,11 @@ The same rows are on [the Databricks page of the record](https://deployedbyai.co
 | 2026-09-25 | [Genie One MCP server](https://deployedbyai.com/log/38c3ef8320c1/genie-one-mcp-server/?k=repo) | The Genie One MCP server is now generally available as a Databricks-provided MCP Service in Unity Gateway. | [Databricks, Genie One MCP server](https://docs.databricks.com/aws/en/release-notes/product/2026/september#the-genie-one-mcp-server-is-now-generally-available) |
 | 2026-09-25 | [Tags for Databricks assets](https://deployedbyai.com/log/8814642afe5b/tags-for-databricks-assets/?k=repo) | Tags for dashboards, notebooks, Databricks apps, and Genie Agents are now generally available. | [Databricks, Tags for Databricks assets](https://docs.databricks.com/aws/en/release-notes/product/2026/september#tags-for-dashboards-notebooks-databricks-apps-and-genie-agents-are-now-generally-available) |
 | 2026-09-22 | [Genie One MCP](https://deployedbyai.com/log/972526807c1d/genie-one-mcp/?k=repo) | Genie One MCP is now generally available. | [Databricks, Genie One MCP](https://www.databricks.com/blog/genie-one-mcp-now-generally-available) |
+
+## Undated until its day
+
+1 row carries a publisher's date that has not yet come in New York. The record prints no date for it until that day, and neither does this page.
+
+| Row | What shipped | Source |
+|---|---|---|
+| [Genie One desktop app](https://deployedbyai.com/log/52707f8ab067/genie-one-desktop-app/?k=repo) | The Genie One desktop app for Windows is generally available, with separate x64 and ARM64 installers, matching the web experience plus window controls and automatic updates. | [Databricks, Genie One desktop app](https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-desktop-app-is-generally-available-on-windows) |
