@@ -4,8 +4,9 @@ Run daily by .github/workflows/refresh.yml. The data files are copied byte for b
 number in the README is counted from data.json, never typed. A hub page is linked only when
 its exact URL is in the record's live sitemap.
 
-The same build writes the record as pages a reader opens in the repository: weeks/<ISO week>.md and
-companies/<name>.md, each under an index. Every row on them is printed from data.json, with its source.
+The same build writes the record as pages a reader opens in the repository: weeks/<ISO week>.md,
+companies/<name>.md and models/<name>.md, each under an index. Every row on them is printed from data.json, with its
+source.
 """
 import csv
 import datetime
@@ -70,8 +71,13 @@ DASHES = ("\u2014", "\u2013")
 # What a page under weeks/ or companies/ prints of a row: its text and its two links.
 PRINTED = ("company", "subject", "what_shipped", "source", "source_url", "record_url")
 ROW = ("Row", "What shipped", "Source")
+PAGE_FOLDERS = ("weeks", "companies", "models")
 ENCODED = {"|": "%7C", " ": "%20", "(": "%28", ")": "%29", "<": "%3C", ">": "%3E", "\\": "%5C"}
 HUB = re.compile(re.escape(BASE) + r"company/([0-9a-f]{12})/([a-z0-9][a-z0-9-]*)/")
+MODEL = re.compile(re.escape(BASE) + r"model/([0-9a-f]{12})/([a-z0-9][a-z0-9-]*)/")
+# A model page's first section, in the words of the record's own model pages (log.ts fig_availability, read on
+# production 2026-11-25): each company that names the model, by the first of its rows here.
+AVAILABLE = "Where it is available, company by company"
 
 
 def get(name):
@@ -228,6 +234,21 @@ def hubs():
     lanes = anchors(front, "lane", locs)
     companies = anchors(fetch("company/").decode("utf-8"), "company", locs) if BASE + "company/" in locs else {}
     return locs, lanes, companies, index_names(front)
+
+
+def model_hubs(locs):
+    """The record's model pages as {id: (name, url)}: each page its model index links that the live sitemap lists,
+    keyed by the 12 hexadecimal characters of its URL (the id a row's models field carries) and named by the index's
+    link text. The index is read only when the sitemap lists it; model/newest/, which it links too, is no model's
+    page."""
+    if BASE + "model/" not in locs:
+        return {}
+    found = {}
+    for name, url in anchors(fetch("model/").decode("utf-8"), "model", locs).items():
+        m = MODEL.fullmatch(url)
+        if m and m.group(1) not in found:
+            found[m.group(1)] = (name, url)
+    return found
 
 
 def mcp_post(body, what):
@@ -517,12 +538,13 @@ def week_paragraph(n_rows, n_pub, wc, monday, sunday, built_on):
     return text
 
 
-def company_paragraph(name, n, dates, late=0):
+def company_paragraph(name, n, dates, late=0, lead=None):
     """A company page's opening: every word a count, the company's name or a date. dates are the publisher's dates
     among its n rows that have come in New York, oldest first; late is how many more have not. Those are counted,
-    since the rows carry them, and never printed: a day or a range here is one that has come."""
+    since the rows carry them, and never printed: a day or a range here is one that has come. A model page passes its
+    own first sentence as lead (model_lead), and the dates read the same."""
     k = len(dates) + late
-    text = f"{rows_word(n)} in The Deploy Log {'is' if n == 1 else 'are'} filed under {prose(name)}."
+    text = lead or f"{rows_word(n)} in The Deploy Log {'is' if n == 1 else 'are'} filed under {prose(name)}."
     if not k:
         return text + (" It is placed by its edition." if n == 1 else " Every one is placed by its edition.")
     if n == 1 and late:
@@ -542,6 +564,46 @@ def company_paragraph(name, n, dates, late=0):
     rest = "1 is placed by its edition" if n - k == 1 else f"{num(n - k)} are placed by their edition"
     return (text + f" {num(k)} {'carries' if k == 1 else 'carry'} a publisher's date{when}{',' if when else ''} "
                    f"and {rest}.{tail}")
+
+
+def model_lead(name, n, companies):
+    """A model page's first sentence, in the order of the record's own model pages: its rows, their companies, its
+    name."""
+    return (f"{rows_word(n)} in The Deploy Log from {num(companies)} {'company' if companies == 1 else 'companies'} "
+            f"{'names' if n == 1 else 'name'} {prose(name)}.")
+
+
+def first_listed(mine, today):
+    """Each company among a model page's rows, by the first of them it lists: the earliest publisher's date that has
+    come in New York; where none has, the earliest edition that carried one of them, which dates nothing; where its
+    only dates have not come, the record's own words for them. As (company, cell, rows), dated companies first by day,
+    then those placed by an edition by its day, then the rest, each then by name."""
+    out = []
+    for c in {r["company"] for r in mine}:
+        own = [r for r in mine if r["company"] == c]
+        come = sorted(r["published_date"] for r in own if r.get("published_date") and not ahead(r, today))
+        placed = sorted((r for r in own if not r.get("published_date")),
+                        key=lambda r: (r["edition_date"], r["edition_n"]))
+        if come:
+            out.append(((0, come[0]), c, come[0], len(own)))
+        elif placed:
+            ed = placed[0]
+            out.append(((1, ed["edition_date"]), c, f"Edition {ed['edition_n']}, {ed['edition_date']}", len(own)))
+        else:
+            out.append(((2, ""), c, "Undated until its day", len(own)))
+    return [(c, when, n) for _, c, when, n in sorted(out, key=lambda x: (x[0], x[1].casefold(), x[1]))]
+
+
+def available_line(firsts):
+    """What stands over a model page's table of companies: the rule its First listed column is read by, each clause
+    only where a company is listed by it."""
+    text = "First listed is the earliest publisher's date among the company's rows here that has come in New York"
+    if any(when.startswith("Edition ") for _, when, _ in firsts):
+        text += ("; a company whose rows carry none is listed by the earliest edition that carried one, which is not "
+                 "the day it shipped")
+    if any(when == "Undated until its day" for _, when, _ in firsts):
+        text += "; a company whose only dates have not yet come reads Undated until its day"
+    return text + "."
 
 
 def placed_line(n, where=""):
@@ -597,20 +659,23 @@ def index_lead(n, paged, things, thing, order, rest):
 def pages_line(wk, paged):
     """The README's one paragraph about the pages beside it: each link only when this build wrote its file."""
     here = [f"[{label}]({path})" for label, path in (("week by week", "weeks/README.md"),
-                                                     ("company by company", "companies/README.md")) if path in paged]
+                                                     ("company by company", "companies/README.md"),
+                                                     ("model by model", "models/README.md")) if path in paged]
     if not here:
         return None
     this = f"weeks/{wk}.md"
     return ((f"Every row of this week, with its source: [{this}]({this}). " if this in paged else "")
-            + f"The record {' and '.join(here)}.")
+            + f"The record {and_list(here)}.")
 
 
 def files_lines(paged):
-    """The README's Files bullets for the two folders, each only when this build wrote pages into it."""
+    """The README's Files bullets for the three folders, each only when this build wrote pages into it."""
     how = "every row with its source and its page in the record"
-    weeks = [f"- `weeks/`: one page per week the record lists, {how}"] if "weeks/README.md" in paged else []
-    return weeks + ([f"- `companies/`: one page per company the record lists, {'the same way' if weeks else how}"]
-                    if "companies/README.md" in paged else [])
+    out = []
+    for folder, thing in (("weeks", "week"), ("companies", "company"), ("models", "model")):
+        if f"{folder}/README.md" in paged:
+            out.append(f"- `{folder}/`: one page per {thing} the record lists, {'the same way' if out else how}")
+    return out
 
 
 def indexes(locs, names):
@@ -632,24 +697,24 @@ def week_days(wk):
     return monday, monday + datetime.timedelta(days=6)
 
 
-def company_files(companies, by_company):
+def company_files(companies, by_company, hub=HUB, kind=("company", "companies")):
     """The page each company gets here, named by the last segment of its hub URL, the name the record files it
     under. Two companies with one segment both carry their hub's id too, and so does a segment that would stand
-    in for the folder's index."""
+    in for the folder's index. A model's page is named the same way from its page's URL (hub=MODEL), keyed by id."""
     parts = {}
     for c, url in companies.items():
         # A name that carries a dash has every row left out (dashed), so there is no page for it to head.
         if c in by_company and not any(d in c for d in DASHES):
-            m = HUB.fullmatch(url)
+            m = hub.fullmatch(url)
             if not m:
-                sys.exit(f"{url} is not a company page as the record links them: company/<12 hexadecimal "
+                sys.exit(f"{url} is not a {kind[0]} page as the record links them: {kind[0]}/<12 hexadecimal "
                          f"characters>/<name>/")
             parts[c] = m.groups()
     taken = Counter(slug for _, slug in parts.values())
     files = {c: f"{slug}-{key}.md" if taken[slug] > 1 or slug == "readme" else f"{slug}.md"
              for c, (key, slug) in parts.items()}
     if len(set(files.values())) != len(files):
-        sys.exit("two companies would share one page under companies/")
+        sys.exit(f"two {kind[1]} would share one page under {kind[1]}/")
     return files
 
 
@@ -666,16 +731,18 @@ def table_lines(text):
             if s.startswith("|") and not rule(s) and not (i + 1 < len(lines) and rule(lines[i + 1]))]
 
 
-def reconcile(out, rows, cfile, today):
+def reconcile(out, rows, cfile, today, mfile=None):
     """Every sum the pages print, read back off their text before a file is written: a page prints each of its
-    rows once or names it as left out, an index's Rows cell is its page's count, a link between pages lands on a
-    page this build wrote, nothing carries a dash, and no day that has not come in New York is printed as a day
-    heading, in a date cell or in a company's opening."""
+    rows once or names it as left out, an index's Rows cell is its page's count, a model page's table of companies
+    counts the rows it prints, a link between pages lands on a page this build wrote, nothing carries a dash, and no
+    day that has not come in New York is printed as a day heading, in a date cell or in a company's or a model's
+    opening."""
     for path in out:
-        # main() writes these paths and clears what it did not write, so none may reach outside the two folders.
-        if not re.fullmatch(r"(weeks|companies)/[A-Za-z0-9][A-Za-z0-9-]*\.md", path):
-            sys.exit(f"{path} is not a page under weeks/ or companies/")
+        # main() writes these paths and clears what it did not write, so none may reach outside the three folders.
+        if not re.fullmatch(r"(weeks|companies|models)/[A-Za-z0-9][A-Za-z0-9-]*\.md", path):
+            sys.exit(f"{path} is not a page under weeks/, companies/ or models/")
     own = {f"companies/{f}": [r for r in rows if r["company"] == c] for c, f in cfile.items()}
+    own.update({f"models/{f}": [r for r in rows if i in (r.get("models") or [])] for i, f in (mfile or {}).items()})
     own.update({p: [r for r in rows if iso_week(listed(r)) == p[6:-3]]
                 for p in out if p.startswith("weeks/") and p != "weeks/README.md"})
     late = sorted({r["published_date"] for r in rows if ahead(r, today)})
@@ -687,7 +754,7 @@ def reconcile(out, rows, cfile, today):
             # A week's own range may name such a day (it runs to its Sunday); a heading, a cell or a company's
             # opening that does is a row's date, which the record does not print yet.
             if (any(s.startswith("## ") and long_date(day) in s or s.startswith("|") and f"| {day} |" in s
-                    for s in lines) or path.startswith("companies/") and long_date(day) in lines[2]):
+                    for s in lines) or path.startswith(("companies/", "models/")) and long_date(day) in lines[2]):
                 sys.exit(f"{path} prints {day}, a publisher's date that has not yet come in New York")
         folder = path.split("/")[0]
         # prose() escapes a row's own brackets, so an unescaped link to a .md file is one this build made.
@@ -695,6 +762,15 @@ def reconcile(out, rows, cfile, today):
             if posixpath.normpath(f"{folder}/{target}") not in out:
                 sys.exit(f"{path} links {target}, a page this build did not write")
         printed = table_lines(text)
+        if path in own and folder == "models":
+            # A model page's first table is a line per company, each with its rows here; the rows follow it.
+            head, _, rest = text.partition(f"\n## {AVAILABLE}\n")
+            by, _, after = rest.partition("\n## ")
+            printed = table_lines(head + ("\n## " + after if after else ""))
+            counted = [re.split(r"(?<!\\)\|", s.strip("|"))[-1].strip() for s in table_lines(by)]
+            if not all(re.fullmatch(r"[\d,]+", n) for n in counted) or sum(
+                    int(n.replace(",", "")) for n in counted) != len(printed):
+                sys.exit(f"{path} counts {', '.join(counted) or 'no'} rows by company and prints {len(printed)}")
         if path in own:
             gone = sum(1 for r in own[path] if dashed(r))
             if len(printed) + gone != len(own[path]):
@@ -712,14 +788,20 @@ def reconcile(out, rows, cfile, today):
             sys.exit(f"{path} and its pages disagree on the rows of {len(off)}: {', '.join(off[:5])}")
 
 
-def pages(rows, locs, companies, today):
+def pages(rows, locs, companies, today, models=None):
     """The record as pages a reader opens in the repository, as {path: text}, and the row_keys left out of them.
-    One page per ISO week and one per company, each only where the sitemap lists that page of the record, and an
-    index of each. A row no publisher dated is never listed under a day: it sits under its edition, apart. Nor is
-    a row whose publisher's date has not come in New York: it sits under the record's own words for it, undated."""
+    One page per ISO week, one per company and one per model ({id: (name, url)}, model_hubs), each only where the
+    sitemap lists that page of the record, and an index of each. A row no publisher dated is never listed under a
+    day: it sits under its edition, apart. Nor is a row whose publisher's date has not come in New York: it sits
+    under the record's own words for it, undated."""
+    models = models or {}
     by_company = Counter(r["company"] for r in rows)
     by_week = Counter(iso_week(listed(r)) for r in rows)
+    by_model = Counter(i for r in rows for i in dict.fromkeys(r.get("models") or []))
     cfile = company_files(companies, by_company)
+    # A model whose name carries a dash has no page here, as a company's does not: its heading would carry it.
+    mfile = company_files({i: u for i, (n, u) in models.items() if not any(d in n for d in DASHES)}, by_model, MODEL,
+                          ("model", "models"))
     nameable = lambda r: not any(d in r["company"] for d in DASHES)
     # Zero padded, so this is oldest first. A week with no row whose company can be named has no opening to print.
     weeks = sorted(w for w in {iso_week(listed(r)) for r in rows if nameable(r)} if f"{BASE}week/{w}/" in locs)
@@ -793,6 +875,36 @@ def pages(rows, locs, companies, today):
                 ("Edition",) + ROW, [f"| {edition(r)} | {cells(r)} |" for r in placed])
         out[f"companies/{file}"] = "\n".join(text)
 
+    for i, file in mfile.items():
+        name, url = models[i]
+        mine = [r for r in rows if i in (r.get("models") or [])]
+        dated, late, placed, left = parts(mine)
+        come = sorted(r["published_date"] for r in mine if r.get("published_date") and not ahead(r, today))
+        lead = model_lead(name, len(mine), len({r["company"] for r in mine}))
+        text = [f"# {prose(name)}", "",
+                company_paragraph(name, len(mine), come, sum(1 for r in mine if ahead(r, today)), lead), ""]
+        text += ([left_line(left), ""] if left else []) + [
+            f"The same rows are on {plink(f'the {name} page of the record', keyed(url))}.", ""]
+        firsts = first_listed([r for r in mine if not dashed(r)], today)
+        firm_of = lambda c: plink(c, f"../companies/{cfile[c]}") if c in cfile else prose(c)
+        if firsts:
+            text += [f"## {AVAILABLE}", "", available_line(firsts), ""] + table(
+                ("Company", "First listed", "Rows"), [f"| {firm_of(c)} | {when} | {num(n)} |" for c, when, n in firsts],
+                (2,))
+        for month in sorted({r["published_date"][:7] for r in dated}, reverse=True):
+            text += [f"## {datetime.date.fromisoformat(month + '-01'):%B %Y}", ""] + table(("Date", "Company") + ROW, [
+                f"| {r['published_date']} | {firm(r)} | {cells(r)} |"
+                for r in sorted((r for r in dated if r["published_date"][:7] == month),
+                                key=lambda r: (newest(r["published_date"]),) + by_name(r))])
+        if late:
+            text += ["## Undated until its day", "", ahead_line(len(late), True), ""] + table(
+                ("Company",) + ROW, [f"| {firm(r)} | {cells(r)} |" for r in sorted(late, key=by_name)])
+        if placed:
+            placed.sort(key=lambda r: (newest(r["edition_date"]),) + by_name(r))
+            text += ["## Placed by their edition", "", placed_line(len(placed)), ""] + table(
+                ("Edition", "Company") + ROW, [f"| {edition(r)} | {firm(r)} | {cells(r)} |" for r in placed])
+        out[f"models/{file}"] = "\n".join(text)
+
     if weeks:
         pub_week = Counter(iso_week(r["published_date"]) for r in rows if r.get("published_date"))
         lines = []
@@ -822,20 +934,33 @@ def pages(rows, locs, companies, today):
                         "company the record files a row under", "by rows, then by name", rest), ""]
             + table(("Company", "Rows", "With a publisher's date", "First", "Latest", "In the record"), lines,
                     (1, 2)))
-    reconcile(out, rows, cfile, today)
+    if mfile:
+        firms = {i: len({r["company"] for r in rows if i in (r.get("models") or [])}) for i in mfile}
+        lines = [f"| {plink(models[i][0], mfile[i])} | {num(by_model[i])} | {num(firms[i])} | "
+                 f"{plink('page', keyed(models[i][1]))} |"
+                 for i in sorted(mfile, key=lambda i: (-firms[i], -by_model[i], models[i][0].casefold(),
+                                                       models[i][0], i))]
+        rest = "the other one" if len(by_model) - len(mfile) == 1 else "the others"
+        out["models/README.md"] = "\n".join(
+            ["# The Deploy Log, model by model", "",
+             index_lead(len(by_model), len(mfile), "models the record's rows name", "model the record's rows name",
+                        "by companies, then by rows, then by name", rest), "",
+             f"The record lists its model pages on {plink('its model index', keyed(BASE + 'model/'))}.", ""]
+            + table(("Model", "Rows", "Companies", "In the record"), lines, (1, 2)))
+    reconcile(out, rows, cfile, today, mfile)
     return out, [r["row_key"] for r in rows if dashed(r)]
 
 
 def write_pages(made, root="."):
-    """Writes the pages, then removes each .md in weeks/ and companies/ that this build did not write: a week or a
-    company that left the sitemap has no page here either. Nothing else is removed."""
-    for folder in ("weeks", "companies"):
-        # Made even when empty: the workflow stages both folders by name, and git refuses one that is not there.
+    """Writes the pages, then removes each .md in weeks/, companies/ and models/ that this build did not write: a
+    week, a company or a model that left the sitemap has no page here either. Nothing else is removed."""
+    for folder in PAGE_FOLDERS:
+        # Made even when empty: the workflow stages the folders by name, and git refuses one that is not there.
         os.makedirs(os.path.join(root, folder), exist_ok=True)
     for path, text in made.items():
         with open(os.path.join(root, *path.split("/")), "wb") as f:
             f.write(text.encode("utf-8"))
-    for folder in ("weeks", "companies"):
+    for folder in PAGE_FOLDERS:
         for name in os.listdir(os.path.join(root, folder)):
             full = os.path.join(root, folder, name)
             if name.endswith(".md") and f"{folder}/{name}" not in made and os.path.isfile(full):
@@ -1048,9 +1173,9 @@ def selftest_pages():
          stops(lambda: reconcile({**made, "weeks/2026-W45.md": w45 + DASHES[0]}, rows, cfile, today))
          == "weeks/2026-W45.md would carry an em dash or an en dash",
          stops(lambda: reconcile({**made, "weeks/2026-W45.md": w45 + DASHES[0]}, rows, cfile, today))),
-        ("a path outside weeks/ and companies/ stops the build",
+        ("a path outside weeks/, companies/ and models/ stops the build",
          stops(lambda: reconcile({**made, "weeks/../README.md": "x"}, rows, cfile, today))
-         == "weeks/../README.md is not a page under weeks/ or companies/",
+         == "weeks/../README.md is not a page under weeks/, companies/ or models/",
          stops(lambda: reconcile({**made, "weeks/../README.md": "x"}, rows, cfile, today))),
     ]
 
@@ -1226,7 +1351,8 @@ def selftest_pages():
     ]
 
     with tempfile.TemporaryDirectory() as root:
-        for path in ("weeks/old.md", "weeks/keep.txt", "companies/gone.md", "other/old.md", "notes.md"):
+        for path in ("weeks/old.md", "weeks/keep.txt", "companies/gone.md", "models/gone.md", "other/old.md",
+                     "notes.md"):
             os.makedirs(os.path.dirname(os.path.join(root, path)), exist_ok=True)
             with open(os.path.join(root, path), "w") as f:
                 f.write("stale\n")
@@ -1235,14 +1361,145 @@ def selftest_pages():
                       for at, _, names in os.walk(root) for name in names)
         with open(os.path.join(root, "weeks", "2026-W45.md"), encoding="utf-8") as f:
             wrote = f.read() == w45
-    checks.append(("writing the pages removes a stale .md in the two folders and nothing else",
+    checks.append(("writing the pages removes a stale .md in the three folders and nothing else",
                    wrote and have == ["companies/alpha.md", "notes.md", "other/old.md", "weeks/2026-W45.md",
                                       "weeks/keep.txt"], have))
     with tempfile.TemporaryDirectory() as root:
         write_pages({}, root)
-        checks.append(("a build with no page still leaves both folders, which the workflow stages by name",
-                       sorted(os.listdir(root)) == ["companies", "weeks"], sorted(os.listdir(root))))
-    return checks
+        checks.append(("a build with no page still leaves the three folders, which the workflow stages by name",
+                       sorted(os.listdir(root)) == ["companies", "models", "weeks"], sorted(os.listdir(root))))
+    return checks + selftest_models(row, stops, hubs_, locs, today)
+
+
+def selftest_models(row, stops, hubs_, locs, today):
+    """The pages under models/, from rows made here, no network: which models get a page, the opening, the table of
+    companies and its First listed rule, the rows below it, the index, and each sum reconcile reads back. Today is
+    2026-11-04 in New York. Kimi K3 is named by 6 rows from 4 companies: RunPod on a day that has come and in a row
+    whose text carries a dash, Amazon Web Services in an edition (Saturday 2026-09-19) and on a later publisher's date,
+    Vercel in an edition only, Zeta on a day that has not come. Gamma 2 is named by 2 rows; a model listed with a dash
+    in its name, one listed with no row and one with rows but no listed page get no page."""
+    m = lambda n, ids, **kw: dict(row(n, kw.pop("company"), kw.pop("subject"), **kw), models=ids)
+    k, g, d, z, solo = "aaaaaaaaaaab", "aaaaaaaaaaac", "aaaaaaaaaaad", "aaaaaaaaaaae", "aaaaaaaaaaaf"
+    rows = [m(41, [k], company="RunPod", subject="Kimi K3 on 8xB300 Pod", pub="2026-11-03"),
+            m(42, [k], company="Amazon Web Services", subject="Kimi K3 on Bedrock", ed=(52, "2026-09-19")),
+            m(43, [k], company="Vercel", subject="Kimi K3", ed=(43, "2026-07-18")),
+            m(44, [k, g], company="Amazon Web Services", subject="Kimi K3 and Gamma 2 in Bedrock", pub="2026-10-27"),
+            m(45, [k], company="Zeta", subject="Kimi K3 on Zeta", pub="2026-11-05"),
+            m(46, [k], company="RunPod", subject=f"Kimi K3 {DASHES[0]} pods", pub="2026-11-04"),
+            m(47, [g], company="Alpha", subject="Gamma 2 in Alpha", pub="2026-11-04"),
+            m(48, [d], company="Beta", subject="Delta one", pub="2026-11-04"),
+            m(49, [solo], company="Beta", subject="Solo one", pub="2026-11-04")]
+    hubs_ = dict(hubs_, **{"Amazon Web Services": f"{BASE}company/abababababab/amazon-web-services/"})
+    models = {k: ("Kimi K3", f"{BASE}model/{k}/kimi-k3/"), g: ("Gamma 2", f"{BASE}model/{g}/gamma-2/"),
+              d: (f"Del{DASHES[1]}ta", f"{BASE}model/{d}/delta/"), z: ("Zed 1", f"{BASE}model/{z}/zed-1/")}
+    locs = locs | set(hubs_.values()) | {u for _, u in models.values()}
+    try:
+        made, left = pages(rows, locs, hubs_, today, models)
+    except SystemExit as e:
+        return [("the model pages build from the rows made here and reconcile", False, str(e.code))]
+    if not {"models/kimi-k3.md", "models/gamma-2.md", "models/README.md"} <= set(made):
+        return [("the model pages and their index are written", False, sorted(made))]
+    kimi, index = made["models/kimi-k3.md"], made["models/README.md"]
+    lines = kimi.split("\n")
+    heads = re.findall(r"^## (.+)$", kimi, flags=re.M)
+    rec = lambda n: f"{BASE}{n:012x}/x/?k=repo"
+    src = lambda n: f"[Src](http://example.com/{n})"
+    aws = "[Amazon Web Services](../companies/amazon-web-services.md)"
+    available = [
+        "| Company | First listed | Rows |", "|---|---|---:|",
+        f"| {aws} | 2026-10-27 | 2 |", "| RunPod | 2026-11-03 | 1 |", "| Vercel | Edition 43, 2026-07-18 | 1 |",
+        "| Zeta | Undated until its day | 1 |"]
+    models_index = "\n".join([
+        "# The Deploy Log, model by model", "",
+        "Of the 4 models the record's rows name, 2 have a page there, and each is listed here, by companies, then by "
+        "rows, then by name. The rows of the others are in `data.csv`.", "",
+        f"The record lists its model pages on [its model index]({BASE}model/?k=repo).", "",
+        "| Model | Rows | Companies | In the record |", "|---|---:|---:|---|",
+        f"| [Kimi K3](kimi-k3.md) | 6 | 4 | [page]({BASE}model/{k}/kimi-k3/?k=repo) |",
+        f"| [Gamma 2](gamma-2.md) | 2 | 2 | [page]({BASE}model/{g}/gamma-2/?k=repo) |", ""])
+    mfile = {k: "kimi-k3.md", g: "gamma-2.md"}
+    cfile = company_files(hubs_, Counter(r["company"] for r in rows))
+    redo = lambda path, text: stops(lambda: reconcile({**made, path: text}, rows, cfile, today, mfile))
+    site = [u for text in made.values() for u in re.findall(r"\]\((https://deployedbyai\.com/[^)\s]*)\)", text)
+            if "/model/" in u or text in (kimi, index)]
+    return [
+        ("a model the record lists gets a page named by its URL, and one listed with a dash in its name, one listed "
+         "with no row and one whose rows name it with no page listed get none",
+         sorted(p for p in made if p.startswith("models/")) == ["models/README.md", "models/gamma-2.md",
+                                                                 "models/kimi-k3.md"],
+         sorted(p for p in made if p.startswith("models/"))),
+        ("a model page is headed by the model's name, opens with its rows, companies and days that have come, says "
+         "which row it leaves out, and links its page of the record keyed ?k=repo",
+         lines[:7] == ["# Kimi K3", "",
+                       "6 rows in The Deploy Log from 4 companies name Kimi K3. 4 carry a publisher's date, from "
+                       "October 27, 2026 to November 4, 2026, and 2 are placed by their edition. 1 of those dates has "
+                       "not yet come in New York.", "",
+                       "1 of these rows is left out of this page for a dash in its text, and is in `data.csv` as "
+                       "`00000000002e`.", "",
+                       f"The same rows are on [the Kimi K3 page of the record]({BASE}model/{k}/kimi-k3/?k=repo)."],
+         lines[:7]),
+        ("the table of companies lists each by its earliest publisher's date that has come, a publisher's date "
+         "before an earlier edition, an edition where it has no date, the record's words where its date is ahead, "
+         "and counts the rows it prints",
+         "\n".join(available) in kimi and heads[0] == AVAILABLE
+         and "First listed is the earliest publisher's date among the company's rows here that has come in New York; "
+             "a company whose rows carry none is listed by the earliest edition that carried one, which is not the "
+             "day it shipped; a company whose only dates have not yet come reads Undated until its day." in lines,
+         kimi.split(f"## {AVAILABLE}")[-1].split("\n## ")[0]),
+        ("the rule over the table names only the clauses a company is listed by",
+         available_line([("A", "2026-11-03", 1)]) == "First listed is the earliest publisher's date among the "
+         "company's rows here that has come in New York.", available_line([("A", "2026-11-03", 1)])),
+        ("a model page's rows run newest first under their months, then undated until their day, then placed by "
+         "their edition, each with its company and its source",
+         heads == [AVAILABLE, "November 2026", "October 2026", "Undated until its day", "Placed by their edition"]
+         and f"| 2026-11-03 | RunPod | [Kimi K3 on 8xB300 Pod]({rec(41)}) | Kimi K3 on 8xB300 Pod shipped. | "
+             f"{src(41)} |" in lines
+         and f"| 2026-10-27 | {aws} | [Kimi K3 and Gamma 2 in Bedrock]({rec(44)}) | Kimi K3 and Gamma 2 in Bedrock "
+             f"shipped. | {src(44)} |" in lines
+         and f"| Zeta | [Kimi K3 on Zeta]({rec(45)}) | Kimi K3 on Zeta shipped. | {src(45)} |" in lines
+         and "2026-11-05" not in kimi and "November 5, 2026" not in kimi
+         and kimi.index("Edition 52, 2026-09-19 | " + aws) < kimi.index("Edition 43, 2026-07-18 | Vercel")
+         and placed_line(2) in lines and len(table_lines(kimi)) == 5 + 4, heads),
+        ("the model index counts each model's rows and companies, links the record's model index, and orders by "
+         "companies, then rows, then name", index == models_index, index),
+        ("every link to deployedbyai.com on a model page and the model index ends ?k=repo",
+         site and all(u.endswith("?k=repo") for u in site), site),
+        ("the README names the model index beside the other two, and its Files list the folder",
+         pages_line("2026-W45", {"weeks/README.md", "companies/README.md", "models/README.md"})
+         == "The record [week by week](weeks/README.md), [company by company](companies/README.md) and [model by "
+            "model](models/README.md)."
+         and files_lines({"weeks/README.md", "companies/README.md", "models/README.md"})[-1]
+         == "- `models/`: one page per model the record lists, the same way"
+         and files_lines({"models/README.md"}) == ["- `models/`: one page per model the record lists, every row with "
+                                                   "its source and its page in the record"],
+         pages_line("2026-W45", {"weeks/README.md", "companies/README.md", "models/README.md"})),
+        ("a model page that drops a row below its table of companies stops the build",
+         redo("models/kimi-k3.md", "\n".join(s for s in lines if "Kimi K3 on Zeta" not in s or "First" in s))
+         == "models/kimi-k3.md counts 2, 1, 1, 1 rows by company and prints 4",
+         redo("models/kimi-k3.md", "\n".join(s for s in lines if "Kimi K3 on Zeta" not in s or "First" in s))),
+        ("a model page whose table of companies is gone stops the build",
+         redo("models/kimi-k3.md", kimi.replace(f"## {AVAILABLE}", "## Elsewhere"))
+         == "models/kimi-k3.md counts no rows by company and prints 9",
+         redo("models/kimi-k3.md", kimi.replace(f"## {AVAILABLE}", "## Elsewhere"))),
+        ("a model index whose Rows cell is not its page's count stops the build",
+         redo("models/README.md", index.replace("| 6 | 4 |", "| 7 | 4 |"))
+         == "models/README.md and its pages disagree on the rows of 1: models/kimi-k3.md",
+         redo("models/README.md", index.replace("| 6 | 4 |", "| 7 | 4 |"))),
+        ("a model page that prints a day that has not come, in its table of companies or its opening, stops the build",
+         [redo("models/kimi-k3.md", kimi.replace("| Zeta | Undated until its day |", "| Zeta | 2026-11-05 |")),
+          redo("models/kimi-k3.md", kimi.replace("to November 4, 2026,", "to November 5, 2026,"))]
+         == ["models/kimi-k3.md prints 2026-11-05, a publisher's date that has not yet come in New York"] * 2,
+         [redo("models/kimi-k3.md", kimi.replace("| Zeta | Undated until its day |", "| Zeta | 2026-11-05 |")),
+          redo("models/kimi-k3.md", kimi.replace("to November 4, 2026,", "to November 5, 2026,"))]),
+        ("a dash that reaches a model page stops the build",
+         redo("models/gamma-2.md", made["models/gamma-2.md"] + DASHES[1])
+         == "models/gamma-2.md would carry an em dash or an en dash",
+         redo("models/gamma-2.md", made["models/gamma-2.md"] + DASHES[1])),
+        ("a model page URL of another shape stops the build before a file is named after it",
+         "is not a model page" in stops(lambda: pages(rows, locs, hubs_, today, {k: ("Kimi K3", f"{BASE}model/x/")})),
+         stops(lambda: pages(rows, locs, hubs_, today, {k: ("Kimi K3", f"{BASE}model/x/")}))),
+        ("the rows left out of the model pages are the ones whose text carries a dash", left == ["00000000002e"], left),
+    ]
 
 
 def selftest():
@@ -1562,7 +1819,7 @@ def check_csv(raw, d):
         sys.exit(f"data.csv has {len(table) - 1} rows, data.json says {d['count']}")
 
 
-def snapshot(site):
+def snapshot(site, models):
     raw_json, h_json, u_json = get("data.json")
     raw_csv, h_csv, u_csv = get("data.csv")
     d = json.loads(raw_json.decode("utf-8"))
@@ -1571,7 +1828,7 @@ def snapshot(site):
     # main()'s second snapshot then reads a fresh clock with its fresh pair.
     today = datetime.datetime.now(ET).date()
     validate(d, today)
-    made, left = pages(d["rows"], site[0], site[2], today)
+    made, left = pages(d["rows"], site[0], site[2], today, models)
     text = readme(d, {"data.json": (h_json, u_json), "data.csv": (h_csv, u_csv)}, today, made, *site).encode("utf-8")
     check_csv(raw_csv, d)
     return d, raw_json, raw_csv, text, made, left
@@ -1579,11 +1836,12 @@ def snapshot(site):
 
 def main():
     site = hubs() + (mcp_tools(), latest_release(), default_ua_refused())
+    models = model_hubs(site[0])
     # A row can land between the two fetches; one fresh pair settles it.
     try:
-        d, raw_json, raw_csv, text, made, left = snapshot(site)
+        d, raw_json, raw_csv, text, made, left = snapshot(site, models)
     except SystemExit:
-        d, raw_json, raw_csv, text, made, left = snapshot(site)
+        d, raw_json, raw_csv, text, made, left = snapshot(site, models)
     outputs = (("data.json", raw_json), ("data.csv", raw_csv), ("README.md", text),
                ("CITATION.cff", citation(d).encode("utf-8")))
     for name, data in outputs:
@@ -1593,8 +1851,9 @@ def main():
     missing = [BASE + p for p, _ in INDEXES if BASE + p not in site[0]]
     print(f"{d['count']} rows; sitemap lacks: {', '.join(missing) or 'no index'}")
     count = lambda folder: sum(1 for p in made if p.startswith(folder) and not p.endswith("/README.md"))
-    print(f"{count('weeks/')} week pages, {count('companies/')} company pages; left out of them for a dash in "
-          f"their text: {', '.join(left) or 'no row'}")
+    print(f"{count('weeks/')} week pages, {count('companies/')} company pages, {count('models/')} model pages of the "
+          f"{len(models)} the record's model index and sitemap list; left out of them for a dash in their text: "
+          f"{', '.join(left) or 'no row'}")
 
 
 if __name__ == "__main__":
