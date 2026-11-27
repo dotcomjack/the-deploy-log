@@ -1,6 +1,6 @@
 # OpenRouter in The Deploy Log
 
-52 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 23, 2026.
+53 rows in The Deploy Log are filed under OpenRouter. Every one carries a publisher's date, from September 25, 2026 to November 26, 2026.
 
 The same rows are on [the OpenRouter page of the record](https://deployedbyai.com/log/company/2cc19bb941af/openrouter/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the OpenRouter page of the record](https://deployedbyai.co
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [LingSante 3.1 Air VL](https://deployedbyai.com/log/132624df011e/lingsante-3-1-air-vl/?k=repo) | inclusionAI's LingSante 3.1 Air VL, a 124B total / 5.5B active MoE medical vision-language model with 131K context, is hosted on OpenRouter at <span>$</span>0.06/<span>$</span>0.18 per 1M tokens. | [OpenRouter, LingSante 3.1 Air VL](https://openrouter.ai/inclusionai/lingsante-3.1-air-vl) |
 | 2026-11-23 | [MiMo-V2.6-Flash-MOPD](https://deployedbyai.com/log/14b0dbd1c0c9/mimo-v2-6-flash-mopd/?k=repo) | Xiaomi's MiMo-V2.6-Flash-MOPD, a 309B-total/15B-active MoE with 1M-token context and multimodal input, is hosted on OpenRouter at <span>$</span>0.15/<span>$</span>0.42 per 1M tokens. | [OpenRouter, MiMo-V2.6-Flash-MOPD](https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd) |
 | 2026-11-21 | [DaisyRose 27B on OpenRouter](https://deployedbyai.com/log/8dc337668b24/daisyrose-27b-on-openrouter/?k=repo) | RadixArk DaisyRose 27B, a 27.8B-parameter multimodal reasoning model with a 262K-token context window, is available on OpenRouter via DeepInfra at <span>$</span>0.15/<span>$</span>1.875 per 1M tokens. | [OpenRouter, DaisyRose 27B on OpenRouter](https://openrouter.ai/radixark/daisyrose-27b) |
 | 2026-11-21 | [Inkling 2 Mini on OpenRouter](https://deployedbyai.com/log/37be398db83e/inkling-2-mini-on-openrouter/?k=repo) | Thinking Machines' Inkling 2 Mini, a 26.4B-total open-weight MoE with 3.4B active parameters and 1.0M context, is served on OpenRouter at <span>$</span>0.10/<span>$</span>0.40 per 1M tokens. | [OpenRouter, Inkling 2 Mini on OpenRouter](https://openrouter.ai/thinkingmachines/inkling-2-mini) |

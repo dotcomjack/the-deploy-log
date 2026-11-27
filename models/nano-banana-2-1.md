@@ -1,6 +1,6 @@
 # Nano Banana 2.1
 
-5 rows in The Deploy Log from 5 companies name Nano Banana 2.1. Every one carries a publisher's date, from October 6, 2026 to November 16, 2026.
+6 rows in The Deploy Log from 6 companies name Nano Banana 2.1. Every one carries a publisher's date, from October 6, 2026 to November 24, 2026.
 
 The same rows are on [the Nano Banana 2.1 page of the record](https://deployedbyai.com/log/model/f81c9a91e7d0/nano-banana-2-1/?k=repo).
 
@@ -15,11 +15,13 @@ A company is listed when one of its rows names the model, and each row says what
 | [OpenRouter](../companies/openrouter.md) | 2026-10-06 | 1 |
 | [Vercel](../companies/vercel.md) | 2026-10-06 | 1 |
 | [Google Workspace](../companies/google-workspace.md) | 2026-11-16 | 1 |
+| [Databricks](../companies/databricks.md) | 2026-11-24 | 1 |
 
 ## November 2026
 
 | Date | Company | Row | What shipped | Source |
 |---|---|---|---|---|
+| 2026-11-24 | [Databricks](../companies/databricks.md) | [Gemini Nano Banana 2.1 on Unity Gateway](https://deployedbyai.com/log/5506cf027f48/gemini-nano-banana-2-1-on-unity-gateway/?k=repo) | Google Gemini Nano Banana 2.1 is available on Unity Gateway for generating images from text and image inputs via Foundation Model APIs. | [Databricks, Gemini Nano Banana 2.1 on Unity Gateway](https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-nano-banana-21-is-now-available-on-unity-gateway) |
 | 2026-11-16 | [Google Workspace](../companies/google-workspace.md) | [Nano Banana 2.1 in Google Pics](https://deployedbyai.com/log/f9b513030a15/nano-banana-2-1-in-google-pics/?k=repo) | Google Pics upgraded to Nano Banana 2.1 with higher visual quality, stronger edit fidelity, and sharper text rendering, rolling out from November 16, 2026. | [Google Workspace, Nano Banana 2.1 in Google Pics](http://workspaceupdates.googleblog.com/2026/11/google-pics-upgrades-to-nano-banana-21-for-higher-quality-image-generation-and-editing.html) |
 
 ## October 2026

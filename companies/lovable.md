@@ -1,6 +1,6 @@
 # Lovable in The Deploy Log
 
-25 rows in The Deploy Log are filed under Lovable. Every one carries a publisher's date, from September 27, 2026 to November 20, 2026.
+26 rows in The Deploy Log are filed under Lovable. Every one carries a publisher's date, from September 27, 2026 to November 26, 2026.
 
 The same rows are on [the Lovable page of the record](https://deployedbyai.com/log/company/00260c69b4d7/lovable/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Lovable page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [Claude Haiku 5.5 in Lovable](https://deployedbyai.com/log/156453907b1e/claude-haiku-5-5-in-lovable/?k=repo) | Lovable apps' AI features can now use Claude Haiku 5.5 (anthropic/claude-haiku-5-5) at lower cost than Haiku 4.5, which retires December 2, 2026. | [Lovable, Claude Haiku 5.5 in Lovable](https://docs.lovable.dev/changelog#nov-26-2026) |
 | 2026-11-20 | [GPT-6.2 Astra and Sol on Lovable](https://deployedbyai.com/log/9d955ce4468b/gpt-6-2-astra-and-sol-on-lovable/?k=repo) | Apps built on Lovable can now use openai/gpt-6.2-astra and openai/gpt-6.2-sol, both accepting text and image input and returning text. | [Lovable, GPT-6.2 Astra and Sol on Lovable](https://docs.lovable.dev/changelog#nov-20-2026) |
 | 2026-11-19 | [Lovable draft from AI client](https://deployedbyai.com/log/4bc2a1f4ce16/lovable-draft-from-ai-client/?k=repo) | AI clients connected to the Lovable MCP server can now create a draft of a project and build in it. | [Lovable, Lovable draft from AI client](https://docs.lovable.dev/changelog#nov-17-2026) |
 | 2026-11-12 | [Lovable automations](https://deployedbyai.com/log/6191986a80b7/lovable-automations/?k=repo) | Automations let Lovable handle recurring work and are available on Free, Pro, and Business plans. | [Lovable, Lovable automations](https://docs.lovable.dev/changelog#nov-11-2026) |

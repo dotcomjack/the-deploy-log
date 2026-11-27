@@ -1,6 +1,6 @@
 # Claude Haiku 5.5
 
-10 rows in The Deploy Log from 8 companies name Claude Haiku 5.5. 9 carry a publisher's date, from October 7, 2026 to October 9, 2026, and 1 is placed by its edition.
+11 rows in The Deploy Log from 9 companies name Claude Haiku 5.5. 10 carry a publisher's date, from October 7, 2026 to November 26, 2026, and 1 is placed by its edition.
 
 The same rows are on [the Claude Haiku 5.5 page of the record](https://deployedbyai.com/log/model/0b47278aeb76/claude-haiku-5-5/?k=repo).
 
@@ -18,6 +18,13 @@ A company is listed when one of its rows names the model, and each row says what
 | [OpenRouter](../companies/openrouter.md) | 2026-10-07 | 1 |
 | [Vercel](../companies/vercel.md) | 2026-10-07 | 1 |
 | [DigitalOcean](../companies/digitalocean.md) | 2026-10-09 | 1 |
+| [Lovable](../companies/lovable.md) | 2026-11-26 | 1 |
+
+## November 2026
+
+| Date | Company | Row | What shipped | Source |
+|---|---|---|---|---|
+| 2026-11-26 | [Lovable](../companies/lovable.md) | [Claude Haiku 5.5 in Lovable](https://deployedbyai.com/log/156453907b1e/claude-haiku-5-5-in-lovable/?k=repo) | Lovable apps' AI features can now use Claude Haiku 5.5 (anthropic/claude-haiku-5-5) at lower cost than Haiku 4.5, which retires December 2, 2026. | [Lovable, Claude Haiku 5.5 in Lovable](https://docs.lovable.dev/changelog#nov-26-2026) |
 
 ## October 2026
 

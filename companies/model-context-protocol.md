@@ -1,6 +1,6 @@
 # Model Context Protocol in The Deploy Log
 
-32 rows in The Deploy Log are filed under Model Context Protocol. Every one carries a publisher's date, from September 28, 2026 to November 18, 2026.
+33 rows in The Deploy Log are filed under Model Context Protocol. Every one carries a publisher's date, from September 28, 2026 to November 27, 2026.
 
 The same rows are on [the Model Context Protocol page of the record](https://deployedbyai.com/log/company/088b60189c15/model-context-protocol/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Model Context Protocol page of the record](https://dep
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-27 | [MCP Inspector 2.17.0](https://deployedbyai.com/log/541153be08b8/mcp-inspector-2-17-0/?k=repo) | MCP Inspector 2.17.0 fixes an SSRF guard bypass for NAT64 and IPv4-embedding IPv6 addresses and adds the Events extension. | [Model Context Protocol, MCP Inspector 2.17.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.17.0) |
 | 2026-11-18 | [MCP Inspector 2.16.0](https://deployedbyai.com/log/3f764d8ce856/mcp-inspector-2-16-0/?k=repo) | MCP Inspector 2.16.0 adds per-server HTTP cookie jar, SSE line/event size caps, and schema validation fixes. | [Model Context Protocol, MCP Inspector 2.16.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.16.0) |
 | 2026-11-18 | [MCP Inspector v1.0.6](https://deployedbyai.com/log/027561afcdcb/mcp-inspector-v1-0-6/?k=repo) | MCP Inspector v1.0.6 caps upstream SSE stream buffering at 16 MiB per line or event. | [Model Context Protocol, MCP Inspector v1.0.6](https://github.com/modelcontextprotocol/inspector/releases/tag/1.0.6) |
 | 2026-11-12 | [MCP Inspector 2.15.0](https://deployedbyai.com/log/54cb911fe752/mcp-inspector-2-15-0/?k=repo) | MCP Inspector 2.15.0 fixes four vulnerabilities and adds per-tool run history, session management, and load testing features. | [Model Context Protocol, MCP Inspector 2.15.0](https://github.com/modelcontextprotocol/inspector/releases/tag/2.15.0) |

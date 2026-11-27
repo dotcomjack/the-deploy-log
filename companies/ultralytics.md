@@ -1,6 +1,6 @@
 # Ultralytics in The Deploy Log
 
-32 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 25, 2026.
+33 rows in The Deploy Log are filed under Ultralytics. Every one carries a publisher's date, from October 1, 2026 to November 26, 2026.
 
 The same rows are on [the Ultralytics page of the record](https://deployedbyai.com/log/company/cc7ab7c8cefb/ultralytics/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Ultralytics page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [Ultralytics v8.4.220](https://deployedbyai.com/log/a7f6a79bc54c/ultralytics-v8-4-220/?k=repo) | Ultralytics v8.4.220 aligns native COCO mAP with pycocotools for boxes, masks and keypoints including crowd regions, and adds INT8 segmentation export guidance. | [Ultralytics, Ultralytics v8.4.220](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.220) |
 | 2026-11-25 | [Ultralytics v8.4.219](https://deployedbyai.com/log/2e4e1e5e4b86/ultralytics-v8-4-219/?k=repo) | Native COCO evaluation now matches pycocotools to machine precision, with CPU scoring about 2.6x faster and 76% fewer peak memory allocations. | [Ultralytics, Ultralytics v8.4.219](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.219) |
 | 2026-11-23 | [ultralytics 8.4.217](https://deployedbyai.com/log/2ea1779950ac/ultralytics-8-4-217/?k=repo) | Release 8.4.217 switches TensorRT INT8 calibration to ModelOpt's entropy method with 128 images, improving accuracy up to 30 mAP50-95 for pose, and adds rectangular tile sizes with configurable overlap. | [Ultralytics, ultralytics 8.4.217](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.217) |
 | 2026-11-20 | [Ultralytics ST Edge AI export](https://deployedbyai.com/log/d65f79cdf325/ultralytics-st-edge-ai-export/?k=repo) | Ultralytics 8.4.216 adds format="stedgeai" export producing ONNX models for ST Edge AI Core and STM32 devices including STM32N6, with float and INT8 support. | [Ultralytics, Ultralytics ST Edge AI export](https://github.com/ultralytics/ultralytics/releases/tag/v8.4.216) |

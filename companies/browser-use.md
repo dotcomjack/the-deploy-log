@@ -1,6 +1,6 @@
 # Browser Use in The Deploy Log
 
-10 rows in The Deploy Log are filed under Browser Use. Every one carries a publisher's date, from October 15, 2026 to November 22, 2026.
+11 rows in The Deploy Log are filed under Browser Use. Every one carries a publisher's date, from October 15, 2026 to November 26, 2026.
 
 The same rows are on [the Browser Use page of the record](https://deployedbyai.com/log/company/2dcdec0423ec/browser-use/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Browser Use page of the record](https://deployedbyai.c
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [browser-use 1.0.9](https://deployedbyai.com/log/ff49d94cd5da/browser-use-1-0-9/?k=repo) | browser-use 1.0.9 adds rotate\_proxy() for cloud browsers with country-matched exits and fixes Claude prompt caching across OpenRouter and Bedrock routes. | [Browser Use, browser-use 1.0.9](https://github.com/browser-use/browser-use/releases/tag/1.0.9) |
 | 2026-11-22 | [browser-use 1.0.8](https://deployedbyai.com/log/ecc7613b896f/browser-use-1-0-8/?k=repo) | browser-use 1.0.8 ships device-code approval for headless runs, cached judge verdicts, DeepSeek/Qwen thinking-mode retry, and reserves 16,384 output tokens on gateway calls. | [Browser Use, browser-use 1.0.8](https://github.com/browser-use/browser-use/releases/tag/1.0.8) |
 | 2026-11-20 | [browser-use 1.0.7](https://deployedbyai.com/log/01f1822f8b94/browser-use-1-0-7/?k=repo) | browser-use 1.0.7 makes MCP browser\_exec calls reply within 50 s with partial output instead of timing out at 60 s, installable via pip. | [Browser Use, browser-use 1.0.7](https://github.com/browser-use/browser-use/releases/tag/1.0.7) |
 | 2026-11-16 | [browser-use 1.0.6](https://deployedbyai.com/log/eb645d117d00/browser-use-1-0-6/?k=repo) | browser-use 1.0.6 makes BU 4.0 the default model, with bu-4.0-mini and bu-4.0-pro options, and tokens cost <span>$</span>1.80/<span>$</span>9.00 per 1M input/output. | [Browser Use, browser-use 1.0.6](https://github.com/browser-use/browser-use/releases/tag/1.0.6) |

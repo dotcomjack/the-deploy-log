@@ -1,6 +1,6 @@
 # Gemini 4 Neon
 
-8 rows in The Deploy Log from 7 companies name Gemini 4 Neon. Every one carries a publisher's date, from November 18, 2026 to November 25, 2026.
+9 rows in The Deploy Log from 8 companies name Gemini 4 Neon. Every one carries a publisher's date, from November 18, 2026 to November 25, 2026.
 
 The same rows are on [the Gemini 4 Neon page of the record](https://deployedbyai.com/log/model/4d688e3a3ec1/gemini-4-neon/?k=repo).
 
@@ -16,12 +16,14 @@ A company is listed when one of its rows names the model, and each row says what
 | [OpenRouter](../companies/openrouter.md) | 2026-11-18 | 1 |
 | [Vercel](../companies/vercel.md) | 2026-11-18 | 1 |
 | [Google Cloud](../companies/google-cloud.md) | 2026-11-19 | 2 |
+| [Databricks](../companies/databricks.md) | 2026-11-25 | 1 |
 | [GitLab](../companies/gitlab.md) | 2026-11-25 | 1 |
 
 ## November 2026
 
 | Date | Company | Row | What shipped | Source |
 |---|---|---|---|---|
+| 2026-11-25 | [Databricks](../companies/databricks.md) | [Gemini 4 Neon on Unity Gateway](https://deployedbyai.com/log/041ce213c97a/gemini-4-neon-on-unity-gateway/?k=repo) | Google Gemini 4 Neon is available on Unity Gateway under the model service name system.ai.gemini-4-neon. | [Databricks, Gemini 4 Neon on Unity Gateway](https://docs.databricks.com/aws/en/release-notes/product/2026/november#google-gemini-4-neon-is-now-available-on-unity-gateway) |
 | 2026-11-25 | [GitLab](../companies/gitlab.md) | [Gemini 4 Neon on GitLab Duo](https://deployedbyai.com/log/38f9188dcd9e/gemini-4-neon-on-gitlab-duo/?k=repo) | Google's Gemini 4 Neon is now available on GitLab Duo Agent Platform, joining Argon, Hydrogen and Carbon for agentic coding and multi-file changes. | [GitLab, Gemini 4 Neon on GitLab Duo](https://about.gitlab.com/blog/gemini-4-neon-on-gitlab/) |
 | 2026-11-23 | [Google Cloud](../companies/google-cloud.md) | [Gemini 4 Neon for cyber](https://deployedbyai.com/log/213bcf249459/gemini-4-neon-for-cyber/?k=repo) | Gemini 4 Neon for cyber is GA on Gemini Enterprise Agent Platform for allowlisted defensive cybersecurity workloads, with a 1,048,576-token input and output limit. | [Google Cloud, Gemini 4 Neon for cyber](https://docs.cloud.google.com/release-notes#November_23_2026) |
 | 2026-11-19 | [Google Cloud](../companies/google-cloud.md) | [Gemini 4 Neon in Gemini Enterprise](https://deployedbyai.com/log/c69b144bdeba/gemini-4-neon-in-gemini-enterprise/?k=repo) | Gemini 4 Neon is generally available in the Gemini Enterprise web app, mobile app, Workflow Builder, and AI developer tools. | [Google Cloud, Gemini 4 Neon in Gemini Enterprise](https://docs.cloud.google.com/gemini/enterprise/docs/release-notes#November_19_2026) |

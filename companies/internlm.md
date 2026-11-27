@@ -1,6 +1,6 @@
 # InternLM in The Deploy Log
 
-4 rows in The Deploy Log are filed under InternLM. Every one carries a publisher's date, from September 26, 2026 to November 6, 2026.
+5 rows in The Deploy Log are filed under InternLM. Every one carries a publisher's date, from September 26, 2026 to November 27, 2026.
 
 The same rows are on [the InternLM page of the record](https://deployedbyai.com/log/company/0d32feae2eb7/internlm/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the InternLM page of the record](https://deployedbyai.com/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-27 | [Sage-Med-Preview](https://deployedbyai.com/log/b64449e86bcc/sage-med-preview/?k=repo) | Sage-Med-Preview, a 35B-total/3B-active medical multimodal model, is released on Hugging Face with vLLM inference instructions for a single H200 at 32,768-token context. | [InternLM, Sage-Med-Preview](https://huggingface.co/internlm/Sage-Med-Preview) |
 | 2026-11-06 | [Sage-SciPerception](https://deployedbyai.com/log/67b9acc5ca39/sage-sciperception/?k=repo) | Sage-SciPerception released on Hugging Face, connecting scientific encoders to language models via trainable projectors. | [InternLM, Sage-SciPerception](https://huggingface.co/internlm/Sage-SciPerception) |
 
 ## October 2026

@@ -1,6 +1,6 @@
 # Docker in The Deploy Log
 
-16 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to November 26, 2026.
+17 rows in The Deploy Log are filed under Docker. Every one carries a publisher's date, from October 5, 2026 to November 27, 2026.
 
 The same rows are on [the Docker page of the record](https://deployedbyai.com/log/company/33dab0a853cb/docker/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Docker page of the record](https://deployedbyai.com/lo
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-27 | [docker-agent /btw side questions](https://deployedbyai.com/log/9dc09c4f249a/docker-agent-btw-side-questions/?k=repo) | v1.167.0 adds /btw &lt;question&gt; side queries to the lean TUI and fixes session cleanup, git worktree races and a scrollbar bug. | [Docker, docker-agent /btw side questions](https://github.com/docker/docker-agent/releases/tag/v1.167.0) |
 | 2026-11-26 | [docker-agent v1.166.0](https://deployedbyai.com/log/486095f1e754/docker-agent-v1-166-0/?k=repo) | docker-agent 1.166.0 adds A2A push notifications with SQLite-backed task state, experimental MCP Skills and Tasks extensions, and a Straitly provider. | [Docker, docker-agent v1.166.0](https://github.com/docker/docker-agent/releases/tag/v1.166.0) |
 | 2026-11-24 | [docker-agent v1.165.0](https://deployedbyai.com/log/27f55c2371d9/docker-agent-v1-165-0/?k=repo) | docker-agent v1.165.0 adds experimental MCP Events push subscriptions behind a per-toolset flag, Gemini 4 thinking and catalog support, and Anthropic in the small browser WASM profile. | [Docker, docker-agent v1.165.0](https://github.com/docker/docker-agent/releases/tag/v1.165.0) |
 | 2026-11-23 | [docker-agent v1.164.0](https://deployedbyai.com/log/af44c79e4b42/docker-agent-v1-164-0/?k=repo) | docker-agent v1.164.0 adds a /btw side-question dialog, auto-hiding scrollbars, a searchable help dialog, and fixes Gemini 4 thinking level support. | [Docker, docker-agent v1.164.0](https://github.com/docker/docker-agent/releases/tag/v1.164.0) |

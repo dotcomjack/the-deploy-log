@@ -1,6 +1,6 @@
 # Qwen in The Deploy Log
 
-48 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 26, 2026.
+49 rows in The Deploy Log are filed under Qwen. Every one carries a publisher's date, from September 29, 2026 to November 26, 2026.
 
 The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/company/abb905e81511/qwen/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the Qwen page of the record](https://deployedbyai.com/log/
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [Qwen Code CLI on Harness](https://deployedbyai.com/log/afbee5e0698f/qwen-code-cli-on-harness/?k=repo) | Qwen Code CLI is now available on the Harness kernel, with usage statistics off by default unless privacy.usageStatisticsEnabled is true. | [Qwen, Qwen Code CLI on Harness](https://github.com/QwenLM/qwen-code/releases/tag/v0.28.7) |
 | 2026-11-26 | [Qwen Code SDK TypeScript](https://deployedbyai.com/log/0ff33ea0902f/qwen-code-sdk-typescript/?k=repo) | SDK TypeScript v0.1.36 released, bundling CLI version 0.28.6 built from the same branch as the SDK. | [Qwen, Qwen Code SDK TypeScript](https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.36) |
 | 2026-11-26 | [qwen-code v0.28.6](https://deployedbyai.com/log/5e7d8bed6e85/qwen-code-v0-28-6/?k=repo) | Managed sessions can park while awaiting tool approvals and resume via cold recovery, headless sessions run on the event-bus kernel by default, and a general.displayLanguage setting translates replies. | [Qwen, qwen-code v0.28.6](https://github.com/QwenLM/qwen-code/releases/tag/v0.28.6) |
 | 2026-11-22 | [Qwen Code Desktop v0.28.4](https://deployedbyai.com/log/11884dd117cc/qwen-code-desktop-v0-28-4/?k=repo) | Qwen Code Desktop v0.28.4 adds GitHub as a third managed channel adapter, generic outbound webhook delivery, and a /send command to send to another session. | [Qwen, Qwen Code Desktop v0.28.4](https://github.com/QwenLM/qwen-code/releases/tag/desktop-v0.28.4) |

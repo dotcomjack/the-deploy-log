@@ -1,6 +1,6 @@
 # LiteLLM in The Deploy Log
 
-47 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 25, 2026.
+49 rows in The Deploy Log are filed under LiteLLM. Every one carries a publisher's date, from September 22, 2026 to November 26, 2026.
 
 The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/log/company/e6e88af05f6d/litellm/?k=repo).
 
@@ -8,6 +8,8 @@ The same rows are on [the LiteLLM page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-26 | [LiteLLM v1.108.19](https://deployedbyai.com/log/92ca3c09e78c/litellm-v1-108-19/?k=repo) | LiteLLM v1.108.19 ships streaming, Anthropic, Azure, Gemini and Perplexity fixes plus Volcengine Ark Seedream image generation, editing and pricing. | [LiteLLM, LiteLLM v1.108.19](https://github.com/BerriAI/litellm/releases/tag/v1.108.19) |
+| 2026-11-25 | [LiteLLM v1.108.18](https://deployedbyai.com/log/0a9468c36964/litellm-v1-108-18/?k=repo) | LiteLLM v1.108.18 ships LTS-branch fixes and backports, including ElevenLabs scribe\_v2\_realtime transcription, Meta Muse models on Vertex AI, and Z.ai reasoning\_effort support. | [LiteLLM, LiteLLM v1.108.18](https://github.com/BerriAI/litellm/releases/tag/v1.108.18) |
 | 2026-11-25 | [LiteLLM v1.111.0](https://deployedbyai.com/log/ff9b1e38790b/litellm-v1-111-0/?k=repo) | LiteLLM v1.111.0 adds claude-fable-5-2 on Anthropic, Azure AI and Vertex AI plus GovCloud Bedrock cost rows, OpenSearch index pass-through and auth access groups. | [LiteLLM, LiteLLM v1.111.0](https://github.com/BerriAI/litellm/releases/tag/v1.111.0) |
 | 2026-11-24 | [LiteLLM v1.108.17](https://deployedbyai.com/log/0fbb08d0930d/litellm-v1-108-17/?k=repo) | LiteLLM v1.108.17 adds MiniMax-H3-Image support on /v1/images/generations and /v1/images/edits plus provider fixes for Anthropic, Bedrock, Gemini, OpenAI and others. | [LiteLLM, LiteLLM v1.108.17](https://github.com/BerriAI/litellm/releases/tag/v1.108.17) |
 | 2026-11-24 | [LiteLLM v1.109.4](https://deployedbyai.com/log/ca351b45f26e/litellm-v1-109-4/?k=repo) | LiteLLM v1.109.4 backports the MCP gateway DCR opt-in to the stable/1.109.x branch. | [LiteLLM, LiteLLM v1.109.4](https://github.com/BerriAI/litellm/releases/tag/v1.109.4) |

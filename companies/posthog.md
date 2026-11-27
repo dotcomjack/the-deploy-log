@@ -1,6 +1,6 @@
 # PostHog in The Deploy Log
 
-16 rows in The Deploy Log are filed under PostHog. Every one carries a publisher's date, from September 25, 2026 to November 19, 2026.
+17 rows in The Deploy Log are filed under PostHog. Every one carries a publisher's date, from September 25, 2026 to November 27, 2026.
 
 The same rows are on [the PostHog page of the record](https://deployedbyai.com/log/company/97fc8c3bb9de/posthog/?k=repo).
 
@@ -8,6 +8,7 @@ The same rows are on [the PostHog page of the record](https://deployedbyai.com/l
 
 | Date | Row | What shipped | Source |
 |---|---|---|---|
+| 2026-11-27 | [PostHog mobile SDKs 4.0](https://deployedbyai.com/log/8aebc176d7e7/posthog-mobile-sdks-4-0/?k=repo) | PostHog Android and iOS SDK 4.0, Flutter 6.0 and Kotlin Multiplatform 0.12/1.0 ship with Capture v1, per-event options and AI capture. | [PostHog, PostHog mobile SDKs 4.0](https://posthog.com/changelog?id=3178) |
 | 2026-11-19 | [Manage CDC from MCP](https://deployedbyai.com/log/719bc1dd553a/manage-cdc-from-mcp/?k=repo) | MCP agents can check, enable, disable, resume, and configure CDC for Data Warehouse Postgres sources. | [PostHog, Manage CDC from MCP](https://posthog.com/changelog?id=3164) |
 | 2026-11-19 | [PostHog Server SDKs capture v1](https://deployedbyai.com/log/ffea35d6a64c/posthog-server-sdks-capture-v1/?k=repo) | Node 6, Python 8, Go v2, and Rust 1.0 move capture to the v1 pipeline with separate analytics and AI capture lanes. | [PostHog, PostHog Server SDKs capture v1](https://posthog.com/changelog?id=3168) |
 | 2026-11-09 | [PostHog Firebase Genkit tracing](https://deployedbyai.com/log/0807e2b40fab/posthog-firebase-genkit-tracing/?k=repo) | Firebase Genkit flows can send model, tool, and embedding traces to PostHog AI observability. | [PostHog, PostHog Firebase Genkit tracing](https://posthog.com/changelog?id=3139) |
